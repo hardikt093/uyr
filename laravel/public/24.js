@@ -87,17 +87,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/faq.vue":
-/*!************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/faq.vue ***!
-  \************************************************/
+/***/ "../coreui/src/views/mangeWebsite/contactUs.vue":
+/*!******************************************************!*\
+  !*** ../coreui/src/views/mangeWebsite/contactUs.vue ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _faq_vue_vue_type_template_id_3dc00b54___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./faq.vue?vue&type=template&id=3dc00b54& */ "../coreui/src/views/mangeWebsite/faq.vue?vue&type=template&id=3dc00b54&");
-/* harmony import */ var _faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./faq.vue?vue&type=script&lang=js& */ "../coreui/src/views/mangeWebsite/faq.vue?vue&type=script&lang=js&");
+/* harmony import */ var _contactUs_vue_vue_type_template_id_14ee6e9c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contactUs.vue?vue&type=template&id=14ee6e9c& */ "../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=template&id=14ee6e9c&");
+/* harmony import */ var _contactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contactUs.vue?vue&type=script&lang=js& */ "../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -107,9 +107,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _faq_vue_vue_type_template_id_3dc00b54___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _faq_vue_vue_type_template_id_3dc00b54___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _contactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _contactUs_vue_vue_type_template_id_14ee6e9c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _contactUs_vue_vue_type_template_id_14ee6e9c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -119,38 +119,38 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/mangeWebsite/faq.vue"
+component.options.__file = "coreui/src/views/mangeWebsite/contactUs.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/faq.vue?vue&type=script&lang=js&":
-/*!*************************************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/faq.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************/
+/***/ "../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./faq.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/faq.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./contactUs.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/faq.vue?vue&type=template&id=3dc00b54&":
-/*!*******************************************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/faq.vue?vue&type=template&id=3dc00b54& ***!
-  \*******************************************************************************/
+/***/ "../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=template&id=14ee6e9c&":
+/*!*************************************************************************************!*\
+  !*** ../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=template&id=14ee6e9c& ***!
+  \*************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_faq_vue_vue_type_template_id_3dc00b54___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./faq.vue?vue&type=template&id=3dc00b54& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/faq.vue?vue&type=template&id=3dc00b54&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_faq_vue_vue_type_template_id_3dc00b54___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_template_id_14ee6e9c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./contactUs.vue?vue&type=template&id=14ee6e9c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=template&id=14ee6e9c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_template_id_14ee6e9c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_faq_vue_vue_type_template_id_3dc00b54___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contactUs_vue_vue_type_template_id_14ee6e9c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -223,10 +223,10 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('paginate', vuejs_paginate_
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/faq.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/faq.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -317,6 +317,45 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -334,8 +373,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       label: 'Add',
       formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
         id: "",
-        questions: '',
-        answar: ''
+        email: '',
+        contactno: '',
+        isactive: 0,
+        address: ''
       })
     };
   },
@@ -354,8 +395,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         return Number(page) || 1;
       } else {}
     }
-  }, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("ManageWebsite/FAQs", ["result", "editData", "returnData", "ajax_error", "returnData", "getFaqForm"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("ManageWebsite/FAQs", ["list", "UpdateMultiAction"]), {
+  }, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("ManageWebsite/ContactUsDetails", ["result", "editData", "returnData", "ajax_error", "returnData"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("ManageWebsite/ContactUsDetails", ["list", "edit", "submitForm", "UpdateMultiAction", "getContactUsForm"]), {
     paginateHandle: function paginateHandle(pageNum) {
       this.list({
         page: pageNum,
@@ -385,16 +426,62 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
               vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
                 message: _this.returnData.message,
                 type: _this.returnData.status
-              }); // this.list({ page: this.result.current_page });
+              });
 
               _this.list({
-                page: 1,
-                'keyword': _this.keyword
+                page: _this.result.current_page
               });
             }
           });
         }
       });
+    },
+    submitFormData: function submitFormData() {
+      var _this2 = this;
+
+      if (this.formData.email == '') {
+        vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+          message: "Please Insert ContactUs!",
+          type: 'error',
+          duration: 5000,
+          dismissible: true
+        });
+      } else {
+        this.submitForm(this.formData).then(function () {
+          if (_this2.returnData.status == 'success') {
+            vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+              message: _this2.returnData.message,
+              type: _this2.returnData.status
+            });
+
+            _this2.list({
+              page: 1,
+              keyword: _this2.keyword
+            }); //this.$router.push({name:"master_services"});
+
+
+            _this2.label = 'Add';
+            _this2.formData.email = '';
+            _this2.formData.contactno = '';
+            _this2.formData.isactive = 0;
+            _this2.formData.address = '';
+          }
+        })["catch"](function (error) {
+          window.scrollTo(0, 0);
+        });
+      }
+    },
+    getFormData: function getFormData(id) {
+      var _this3 = this;
+
+      this.user_id = id;
+      this.label = 'Edit';
+      this.edit(id).then(function () {
+        _this3.formData.keys().forEach(function (key) {
+          _this3.formData[key] = _this3.editData[key];
+        });
+      });
+      this.ajax_error.errors = [];
     }
   })
 });
@@ -466,10 +553,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/faq.vue?vue&type=template&id=3dc00b54&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/faq.vue?vue&type=template&id=3dc00b54& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=template&id=14ee6e9c&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/contactUs.vue?vue&type=template&id=14ee6e9c& ***!
+  \*******************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -488,75 +575,68 @@ var render = function() {
         "CRow",
         { staticClass: "m-0" },
         [
-          _c("CCol", { staticClass: "px-2 btn-sticky", attrs: { sm: "12" } }, [
+          _c("CCol", { staticClass: "p-2", attrs: { sm: "12" } }, [
             _c(
               "div",
               {
-                staticClass:
-                  "d-flex justify-content-between py-2 align-items-center"
+                staticClass: "d-flex justify-content-between align-items-center"
               },
               [
                 _c("h5", { staticClass: "mb-0" }, [
-                  _vm._v("FAQ\n              ")
+                  _vm._v("Contact Us Information")
                 ]),
                 _vm._v(" "),
                 _c(
-                  "div",
-                  {},
-                  [
-                    _c(
-                      "router-link",
-                      { attrs: { to: { name: "add_faq" } } },
-                      [
-                        _c(
-                          "CButton",
-                          {
-                            staticClass: "btn_custom btn-flex",
-                            attrs: { size: "sm" }
-                          },
-                          [
-                            _c("vue-fontawesome", {
-                              staticClass: "mr-1",
-                              attrs: { icon: "plus", size: "0.8" }
-                            }),
-                            _vm._v("\n                  Add New FAQ")
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
+                  "CButton",
+                  {
+                    staticClass: "btn_custom",
+                    attrs: { type: "button" },
+                    on: {
+                      click: function($event) {
+                        return _vm.submitFormData()
+                      }
+                    }
+                  },
+                  [_vm._v("Submit")]
                 )
-              ]
+              ],
+              1
             )
-          ]),
-          _vm._v(" "),
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "CRow",
+        { staticClass: "m-0" },
+        [
           _c(
             "CCol",
-            { staticClass: "px-2 pb-2", attrs: { md: "12" } },
+            { staticClass: "px-2 pb-2", attrs: { md: "9" } },
             [
               _c(
                 "CCard",
                 [
                   _c("CCardBody", [
-                    _c("div", { staticClass: "table-responsive" }, [
+                    _c("div", {}, [
                       _c(
                         "table",
                         { staticClass: "table table-striped table-hover" },
                         [
                           _c("thead", [
                             _c("tr", [
-                              _c("th", [_vm._v(" Sr.No. ")]),
+                              _c("th", [_vm._v("ID")]),
                               _vm._v(" "),
-                              _c("th", [_vm._v("Questions")]),
+                              _c("th", [_vm._v("Email")]),
                               _vm._v(" "),
-                              _c("th", [_vm._v("Answer")]),
+                              _c("th", [_vm._v("Contact No")]),
                               _vm._v(" "),
-                              _c("th", { attrs: { width: "100" } }, [
-                                _vm._v("Action")
-                              ])
+                              _c("th", [_vm._v("Address")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Status")]),
+                              _vm._v(" "),
+                              _c("th", [_vm._v("Action")])
                             ])
                           ]),
                           _vm._v(" "),
@@ -582,11 +662,35 @@ var render = function() {
                                             ]),
                                             _vm._v(" "),
                                             _c("td", [
-                                              _vm._v(_vm._s(row.question))
+                                              _vm._v(_vm._s(row.email))
                                             ]),
                                             _vm._v(" "),
                                             _c("td", [
-                                              _vm._v(_vm._s(row.answer))
+                                              _vm._v(_vm._s(row.contactno))
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("td", [
+                                              _vm._v(_vm._s(row.address))
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("td", [
+                                              row.isactive == 1
+                                                ? _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "text-success border-success px-2 d-inline-block"
+                                                    },
+                                                    [_vm._v("Active")]
+                                                  )
+                                                : _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "text-danger border-danger px-2 d-inline-block"
+                                                    },
+                                                    [_vm._v("Inactive")]
+                                                  )
                                             ]),
                                             _vm._v(" "),
                                             _c(
@@ -597,59 +701,46 @@ var render = function() {
                                                   { attrs: { size: "sm" } },
                                                   [
                                                     _c(
-                                                      "router-link",
+                                                      "CButton",
                                                       {
-                                                        attrs: {
-                                                          to: {
-                                                            name: "edit_faq",
-                                                            params: {
-                                                              id: row.id
+                                                        directives: [
+                                                          {
+                                                            name: "c-tooltip",
+                                                            rawName:
+                                                              "v-c-tooltip.hover",
+                                                            value: {
+                                                              content: "Edit"
+                                                            },
+                                                            expression:
+                                                              "{content: `Edit`}",
+                                                            modifiers: {
+                                                              hover: true
                                                             }
+                                                          }
+                                                        ],
+                                                        staticClass:
+                                                          "btn-outline-warning",
+                                                        attrs: {
+                                                          size: "sm",
+                                                          color: ""
+                                                        },
+                                                        on: {
+                                                          click: function(
+                                                            $event
+                                                          ) {
+                                                            return _vm.getFormData(
+                                                              row.id
+                                                            )
                                                           }
                                                         }
                                                       },
                                                       [
-                                                        _c(
-                                                          "CButton",
-                                                          {
-                                                            directives: [
-                                                              {
-                                                                name:
-                                                                  "c-tooltip",
-                                                                rawName:
-                                                                  "v-c-tooltip.hover",
-                                                                value: {
-                                                                  content:
-                                                                    "Edit"
-                                                                },
-                                                                expression:
-                                                                  "{content: `Edit`}",
-                                                                modifiers: {
-                                                                  hover: true
-                                                                }
-                                                              }
-                                                            ],
-                                                            staticClass:
-                                                              "btn-outline-warning",
-                                                            attrs: {
-                                                              size: "sm",
-                                                              color: ""
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "vue-fontawesome",
-                                                              {
-                                                                attrs: {
-                                                                  icon:
-                                                                    "pencil",
-                                                                  size: "0.8"
-                                                                }
-                                                              }
-                                                            )
-                                                          ],
-                                                          1
-                                                        )
+                                                        _c("vue-fontawesome", {
+                                                          attrs: {
+                                                            icon: "pencil",
+                                                            size: "0.8"
+                                                          }
+                                                        })
                                                       ],
                                                       1
                                                     ),
@@ -739,6 +830,185 @@ var render = function() {
                       )
                     ])
                   ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "CCol",
+            { staticClass: "px-2", attrs: { md: "3" } },
+            [
+              _c(
+                "CCard",
+                [
+                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
+                    _c("h6", { staticClass: "mb-0" }, [
+                      _vm._v(_vm._s(_vm.label) + " Contact Us")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "CCardBody",
+                    { staticClass: "p-2" },
+                    [
+                      _c("CForm", { attrs: { method: "POST" } }, [
+                        _c(
+                          "div",
+                          { staticClass: "form-group" },
+                          [
+                            _c("label", [
+                              _vm._v("Email"),
+                              _c("span", { staticClass: "text-danger" }, [
+                                _vm._v("*")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("CInput", {
+                              attrs: { placeholder: "" },
+                              model: {
+                                value: _vm.formData.email,
+                                callback: function($$v) {
+                                  _vm.$set(_vm.formData, "email", $$v)
+                                },
+                                expression: "formData.email"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _vm.ajax_error.errors.email
+                              ? _c("small", { staticClass: "text-danger" }, [
+                                  _vm._v(_vm._s(_vm.ajax_error.errors.email[0]))
+                                ])
+                              : _vm._e()
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "form-group" },
+                          [
+                            _c("label", [
+                              _vm._v("Contact No"),
+                              _c("span", { staticClass: "text-danger" }, [
+                                _vm._v("*")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("CInput", {
+                              attrs: { placeholder: "" },
+                              model: {
+                                value: _vm.formData.contactno,
+                                callback: function($$v) {
+                                  _vm.$set(_vm.formData, "contactno", $$v)
+                                },
+                                expression: "formData.contactno"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _vm.ajax_error.errors.contactno
+                              ? _c("small", { staticClass: "text-danger" }, [
+                                  _vm._v(
+                                    _vm._s(_vm.ajax_error.errors.contactno[0])
+                                  )
+                                ])
+                              : _vm._e()
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c("label", [
+                            _vm._v("Address"),
+                            _c("span", { staticClass: "text-danger" })
+                          ]),
+                          _vm._v(" "),
+                          _c("textarea", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.formData.address,
+                                expression: "formData.address"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            domProps: { value: _vm.formData.address },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.$set(
+                                  _vm.formData,
+                                  "address",
+                                  $event.target.value
+                                )
+                              }
+                            }
+                          }),
+                          _vm._v(" "),
+                          _vm.ajax_error.errors.address
+                            ? _c("small", { staticClass: "text-danger" }, [
+                                _vm._v(_vm._s(_vm.ajax_error.errors.address[0]))
+                              ])
+                            : _vm._e()
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c("label", [_vm._v("Status ")]),
+                          _c("br"),
+                          _vm._v(" "),
+                          _c(
+                            "select",
+                            {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.formData.isactive,
+                                  expression: "formData.isactive"
+                                }
+                              ],
+                              staticClass: "form-control",
+                              on: {
+                                change: function($event) {
+                                  var $$selectedVal = Array.prototype.filter
+                                    .call($event.target.options, function(o) {
+                                      return o.selected
+                                    })
+                                    .map(function(o) {
+                                      var val =
+                                        "_value" in o ? o._value : o.value
+                                      return val
+                                    })
+                                  _vm.$set(
+                                    _vm.formData,
+                                    "isactive",
+                                    $event.target.multiple
+                                      ? $$selectedVal
+                                      : $$selectedVal[0]
+                                  )
+                                }
+                              }
+                            },
+                            [
+                              _c("option", { attrs: { value: "1" } }, [
+                                _vm._v("Active")
+                              ]),
+                              _vm._v(" "),
+                              _c("option", { attrs: { value: "0" } }, [
+                                _vm._v("In-Active")
+                              ])
+                            ]
+                          )
+                        ])
+                      ])
+                    ],
+                    1
+                  )
                 ],
                 1
               )

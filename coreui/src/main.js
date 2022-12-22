@@ -7,6 +7,12 @@ import { iconsSet as icons } from './assets/icons/icons.js'
 import store from './store'
 import "font-awesome/css/font-awesome.min.css";
 import VueWow from 'vue-wow'
+
+import {
+  What3wordsAutosuggest,
+  What3wordsMap,
+} from "@what3words/vue-components";
+
 Vue.use(VueWow)
 Vue.component('VueFontawesome', require('vue-fontawesome-icon/VueFontawesome.vue').default);
 import VueDatetimePickerJs from 'vue-date-time-picker-js';
@@ -30,7 +36,6 @@ Vue.use(VueGoogleMaps, {
   }
 });
 
-
 new Vue({
   el: '#app',
   router,
@@ -38,6 +43,8 @@ new Vue({
   icons,
   template: '<App/>',
   components: {
-    App
+    App,
+    What3wordsAutosuggest,
+    What3wordsMap
   },
 })

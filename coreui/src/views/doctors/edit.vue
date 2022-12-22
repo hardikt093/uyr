@@ -110,15 +110,18 @@
                      <CRow class="m-0">
                         <CCol sm="6" md="3" class="px-2">
                            <label>Search Address<span class="text-danger">*</span></label>
-                           <a @click="getLocation" href="javascript:void(0)" class="font-weight-bold text-danger">
+
+                           <w3wMap :w3words="formData.w3w_address" mapId="w3wMap1" :autoSuggest="true" :mapDiv="false" @getmapdata="getMapData($event)"/>
+
+                           <!-- <a @click="getLocation" href="javascript:void(0)" class="font-weight-bold text-danger">
                                <vue-fontawesome icon="compass" class=" ml-2" size="1"></vue-fontawesome>
-                              Get Current location</a>
+                              Get Current location</a> -->
 
                              <!-- <what3words-autosuggest id="autosuggest" api_key="WZ7WH7VU" @suggestions_changed="setPlaceautosuggest" >
                                 <input type="text" />
                            </what3words-autosuggest> -->
 
-                           <gmap-autocomplete class="form-control" autocomplete="off" id="google_autosearch_address"   @place_changed="setPlace" :options="autocompleteOptions"> </gmap-autocomplete>
+                           <!-- <gmap-autocomplete class="form-control" autocomplete="off" id="google_autosearch_address"   @place_changed="setPlace" :options="autocompleteOptions"> </gmap-autocomplete> -->
 
 
                         </CCol>
@@ -161,21 +164,42 @@
                         </CCol> 
 
 
-                        <CCol sm="6" md="3" class="px-2">
+                        <CCol sm="6" md="3" class="px-2" style="display: none;">
                           <label>latitude<span class="text-danger">*</span></label>
                            <CInput placeholder="" v-model="formData.latitude" />
                           <span class="text-danger" v-if="ajax_error.errors.latitude">{{ ajax_error.errors.latitude[0] }}</span>
                         </CCol>
 
-                        <CCol sm="6" md="3" class="px-2">
+                        <CCol sm="6" md="3" class="px-2" style="display: none;">
                           <label>longitude<span class="text-danger">*</span></label>
                            <CInput placeholder="" v-model="formData.longitude" />
                             <span class="text-danger" v-if="ajax_error.errors.longitude">{{ ajax_error.errors.longitude[0] }}</span>
                         </CCol>
+
+                        <CCol sm="6" md="3" class="px-2" style="display: none;">
+                          <label>w3w latitude<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.w3w_latitude" />
+                            <span class="text-danger" v-if="ajax_error.errors.w3w_latitude">{{ ajax_error.errors.w3w_latitude[0] }}</span>
+                        </CCol>
+
+                        <CCol sm="6" md="3" class="px-2" style="display: none;">
+                          <label>w3w longitude<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.w3w_longitude" />
+                            <span class="text-danger" v-if="ajax_error.errors.w3w_longitude">{{ ajax_error.errors.w3w_longitude[0] }}</span>
+                        </CCol>
+
+                        <CCol sm="6" md="3" class="px-2" >
+                          <label>w3w address<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.w3w_address" readonly/>
+                            <span class="text-danger" v-if="ajax_error.errors.w3w_address">{{ ajax_error.errors.w3w_address[0] }}</span>
+                        </CCol>
+
+
                       </CRow>
 
+                      <w3wMap mapId="w3wMap2" :w3words="formData.w3w_address" :autoSuggest="false" :mapDiv="true" @getmapdata="getMapData($event)"/>
 
-                        <div class="col-md-12" v-if="markers.length>0">
+                        <!-- <div class="col-md-12" v-if="markers.length>0">
                                <gmap-map :center="center"  :zoom="25" style="width:100%;  height: 400px;">
                                  <gmap-marker
                                    :key="index"
@@ -187,7 +211,7 @@
                                    :clickable="true"
                                  ></gmap-marker>
                                </gmap-map>
-                          </div> 
+                          </div>  -->
 
                   </CCardBody>
             </CCard>
@@ -440,13 +464,15 @@ import Form from "vform";
 import Multiselect from 'vue-multiselect'
 import commonHelper from "./../../global_helper/helpers.js";
 
+import w3wMap from "../components/w3wMap.vue";
+
 export default {
    components: {      
-      Multiselect
+      Multiselect,
+      w3wMap
    },
     data() {
    return {
-       
        address         : '',
        autocompleteOptions: {
         componentRestrictions: {
@@ -474,7 +500,7 @@ export default {
       places            : [],
 
      formData :new Form({  id: "",user_id:"",first_name:'',last_name:'',user_name:'',email:'',phone_number:'',age:'',gender:'',certificate_awarding_university:'',speciality_diploma:'',copy_of_registration:'',medical_council_regn:'',current_clinic_hospital:'',medical_license_number:'',medical_license_number:'',registration_no:'',experience:'',willing_to_serve_as:'0',brief_summary:'' ,terms_and_conditions:'',
-      address:'',address2:'',area:'',city:'',country:'',state:'',zip_code:'',date_of_registration:'',type:'',status:0, dr_type: "",latitude:'',longitude:'',type:'',availability_time_from:'',area_of_coverage:'',fees_amount:'',equipment:'',what3wordsjson:'',what3words:'',}),
+      address:'',address2:'',area:'',city:'',country:'',state:'',zip_code:'',date_of_registration:'',type:'',status:0, dr_type: "",latitude:'',longitude:'',type:'',availability_time_from:'',area_of_coverage:'',fees_amount:'',equipment:'',what3wordsjson:'',what3words:'', w3w_latitude: '', w3w_longitude: '', w3w_address: ''}),
       uploadedDoc      : '',
       specialty        : '',
       registration     : '',
@@ -597,7 +623,29 @@ export default {
             reader.readAsDataURL(this.profile_picture);
           },
           
-  
+          getMapData(response) {
+            
+            if(response.country)
+               this.formData.country       = response.country;
+
+               if(response.words)
+               this.formData.what3words    = response.words;
+               this.formData.w3w_address = response.words;
+               if(response.coordinates) {
+                  if(response.coordinates.lat)
+                  this.formData.latitude  = response.coordinates.lat;
+                  if(response.coordinates.lng)
+                  this.formData.longitude = response.coordinates.lng;
+               }
+               
+               if(response.nearestPlace){
+                  this.formData.area          = response.nearestPlace;
+                  this.formData.address       = response.nearestPlace;
+                  var city_state = response.nearestPlace.split(',');
+                  this.formData.city  = city_state[0];
+                  this.formData.state = city_state[1];
+               }
+          },
     submitFormData() {
       let newData  =  new FormData();
       newData.append('cirtificatefile',this.uploadedDoc)
@@ -606,10 +654,12 @@ export default {
       newData.append('profilefile',this.profile_picture)
       this.isActive =  true;
       newData.append('formData',JSON.stringify(this.formData))
+      console.log(newData);
       this.submitDoctorUpdateForm({newData:newData,id:this.$route.params.id}).then(()=> {
          if(this.returnData.status =='success'){
            this.$router.push({name:"doctor"});  
           this.isActive =  false;
+
            Vue.$toast.open({
                    message: this.returnData.message,
                    type: this.returnData.status,
@@ -731,6 +781,7 @@ export default {
            this.formData.latitude  = this.currentPlace.geometry.location.lat();
 
            this.formData.longitude = this.currentPlace.geometry.location.lng();
+
            //End
            this.currentPlace = null;
            var location = this.formData.state+', '+this.formData.city ;

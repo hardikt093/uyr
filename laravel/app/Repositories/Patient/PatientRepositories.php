@@ -243,6 +243,7 @@ class PatientRepositories
         $what3words = isset($formData->what3words) ? $formData->what3words : '';
         $what3wordsjson = isset($formData->what3wordsjson) ? $formData->what3wordsjson : '';
         $nickname = isset($formData->nickname) ? $formData->nickname : '';
+        $w3w_address = isset($formData->w3w_address) ? $formData->w3w_address : '';
         
 
 
@@ -296,6 +297,7 @@ class PatientRepositories
                 'what3wordsjson'=> json_encode($what3wordsjson),
                 'long_org' => abs($longitude),
                 'nickname'=>$nickname,
+                'w3w_address' => $w3w_address
                 //'status'=> 0,
             );
 
@@ -341,6 +343,7 @@ class PatientRepositories
         $full_address = isset($formData->full_address) ? $formData->full_address : '';
         $latitude = isset($formData->latitude) ? $formData->latitude : '';
         $longitude = isset($formData->longitude) ? $formData->longitude : '';
+        $w3w_address = isset($formData->w3w_address) ? $formData->w3w_address : '';
         
         $date_of_birth = isset($formData->date_of_birth) ? $formData->date_of_birth : '';
         $medical_history = isset($formData->medical_history) ? $formData->medical_history : '';
@@ -392,6 +395,7 @@ class PatientRepositories
             'long_org' => abs($longitude),
             'what3wordsjson'=> json_encode($what3wordsjson),
             'nickname'=>$nickname,
+            'w3w_address'=> $w3w_address
             
         );
         $patientData = $this->patient->where('id', $id)->update($updatePatient);

@@ -164,11 +164,14 @@
                      <CRow class="m-0">
                         <CCol sm="6" md="3" class="px-2">
                           <label>Select Address<span class="text-danger">*</span></label>
-                          <a @click="getLocation" href="javascript:void(0)" class="font-weight-bold text-danger">
+
+                          <w3wMap :w3words="formData.w3w_address" mapId="w3wMap1" :autoSuggest="true" :mapDiv="false" @getmapdata="getMapData($event)"/>
+
+                          <!-- <a @click="getLocation" href="javascript:void(0)" class="font-weight-bold text-danger">
                                <vue-fontawesome icon="compass" class=" ml-2" size="1"></vue-fontawesome>
                               Get Current location</a>
                            
-                           <gmap-autocomplete class="form-control" autocomplete="off" id="google_autosearch_address"   @place_changed="setPlace" :options="autocompleteOptions"> </gmap-autocomplete>
+                           <gmap-autocomplete class="form-control" autocomplete="off" id="google_autosearch_address"   @place_changed="setPlace" :options="autocompleteOptions"> </gmap-autocomplete> -->
 
                         </CCol>
                         <CCol sm="6" md="6" class="px-2">
@@ -221,10 +224,17 @@
                            <CInput placeholder="" v-model="formData.longitude" />
                             <span class="text-danger" v-if="ajax_error.errors.longitude">{{ ajax_error.errors.longitude[0] }}</span>
                         </CCol>
+
+                        <CCol sm="6" md="3" class="px-2" >
+                          <label>w3w address<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.w3w_address" readonly/>
+                            <span class="text-danger" v-if="ajax_error.errors.w3w_address">{{ ajax_error.errors.w3w_address[0] }}</span>
+                        </CCol>
+                        
                       </CRow>
 
-
-                         <div class="col-md-12" v-if="markers.length>0">
+                      <w3wMap mapId="w3wMap2" :w3words="formData.w3w_address" :autoSuggest="false" :mapDiv="true" @getmapdata="getMapData($event)"/>
+                         <!-- <div class="col-md-12" v-if="markers.length>0">
                                <gmap-map :center="center"  :zoom="12" style="width:100%;  height: 400px;">
                                  <gmap-marker
                                    :key="index"
@@ -236,7 +246,7 @@
                                    @dragend="updateCoordinates"
                                  ></gmap-marker>
                                </gmap-map>
-                          </div>
+                          </div> -->
 
                   </CCardBody>
             </CCard>
@@ -279,8 +289,12 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import Form from "vform";
 import commonHelper from "./../../global_helper/helpers.js";
+import w3wMap from "../components/w3wMap.vue";
 
 export default {
+   components: {      
+      w3wMap
+   },
     data() {
     return {
        user_id: '',
@@ -307,7 +321,7 @@ export default {
          center          :  {lat: 0,lng: 0},
          markers         :  [],
          places          :  [],
-         formData :new Form({ id:'',first_name:'',last_name:'',email:'',phone_number:'',password:'',password_confirmation :'',gender:'',address:'',address2:'',area:'',city:'',country:'',state:'',zip_code:'',symptoms:'',medical_history:'',date_of_birth:'',full_address:'',status:'',blood_group:'',age:'',nickname:''}),
+         formData :new Form({ id:'',first_name:'',last_name:'',email:'',phone_number:'',password:'',password_confirmation :'',gender:'',address:'',address2:'',area:'',city:'',country:'',state:'',zip_code:'',symptoms:'',medical_history:'',date_of_birth:'',full_address:'',status:'',blood_group:'',age:'',nickname:'', w3w_address: '', latitude: '', longitude: ''}),
         
          profile_picture  : '',
          imageDoc         : [],
@@ -335,6 +349,30 @@ export default {
   },
   methods: {
     ...mapActions("Patient/Index", ["submitPatientsUpdateForm","edit"]),
+
+    getMapData(response) {
+            
+            if(response.country)
+               this.formData.country       = response.country;
+
+               if(response.words)
+               this.formData.what3words    = response.words;
+               this.formData.w3w_address = response.words;
+               if(response.coordinates) {
+                  if(response.coordinates.lat)
+                  this.formData.latitude  = response.coordinates.lat;
+                  if(response.coordinates.lng)
+                  this.formData.longitude = response.coordinates.lng;
+               }
+               
+               if(response.nearestPlace){
+                  this.formData.area          = response.nearestPlace;
+                  this.formData.address       = response.nearestPlace;
+                  var city_state = response.nearestPlace.split(',');
+                  this.formData.city  = city_state[0];
+                  this.formData.state = city_state[1];
+               }
+          },
 
       onlyNumric(evt) {
         return commonHelper.onlyNumric(evt);

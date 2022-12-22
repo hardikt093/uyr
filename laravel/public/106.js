@@ -1,35 +1,93 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[106],{
 
+/***/ "../coreui/node_modules/sweetalert2/dist/sweetalert2.all.js":
+/*!******************************************************************!*\
+  !*** ../coreui/node_modules/sweetalert2/dist/sweetalert2.all.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/html/uyr/coreui/node_modules/sweetalert2/dist/sweetalert2.all.js'");
+
+/***/ }),
+
 /***/ "../coreui/node_modules/vform/dist/vform.es.js":
 /*!*****************************************************!*\
   !*** ../coreui/node_modules/vform/dist/vform.es.js ***!
   \*****************************************************/
 /*! exports provided: default, Errors, Form */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Errors", function() { return y; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Form", function() { return g; });
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../coreui/node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPropertySymbols,r=Object.prototype.propertyIsEnumerable,o=(t,s,r)=>s in t?e(t,s,{enumerable:!0,configurable:!0,writable:!0,value:r}):t[s]=r,i=(e,i)=>{for(var a in i||(i={}))t.call(i,a)&&o(e,a,i[a]);if(s)for(var a of s(i))r.call(i,a)&&o(e,a,i[a]);return e};const n=e=>void 0===e,c=e=>Array.isArray(e),l=e=>e&&"number"==typeof e.size&&"string"==typeof e.type&&"function"==typeof e.slice,u=(e,t,s,r)=>((t=t||{}).indices=!n(t.indices)&&t.indices,t.nullsAsUndefineds=!n(t.nullsAsUndefineds)&&t.nullsAsUndefineds,t.booleansAsIntegers=!n(t.booleansAsIntegers)&&t.booleansAsIntegers,t.allowEmptyArrays=!n(t.allowEmptyArrays)&&t.allowEmptyArrays,s=s||new FormData,n(e)||(null===e?t.nullsAsUndefineds||s.append(r,""):(e=>"boolean"==typeof e)(e)?t.booleansAsIntegers?s.append(r,e?1:0):s.append(r,e):c(e)?e.length?e.forEach(((e,o)=>{const i=r+"["+(t.indices?o:"")+"]";u(e,t,s,i)})):t.allowEmptyArrays&&s.append(r+"[]",""):(e=>e instanceof Date)(e)?s.append(r,e.toISOString()):!(e=>e===Object(e))(e)||(e=>l(e)&&"string"==typeof e.name&&("object"==typeof e.lastModifiedDate||"number"==typeof e.lastModified))(e)||l(e)?s.append(r,e):Object.keys(e).forEach((o=>{const i=e[o];if(c(i))for(;o.length>2&&o.lastIndexOf("[]")===o.length-2;)o=o.substring(0,o.length-2);u(i,t,s,r?r+"["+o+"]":o)}))),s);var h={serialize:u};function d(e){if(null===e||"object"!=typeof e)return e;const t=Array.isArray(e)?[]:{};return Object.keys(e).forEach((s=>{t[s]=d(e[s])})),t}function f(e){return Array.isArray(e)?e:[e]}function p(e){return e instanceof File||e instanceof Blob||e instanceof FileList||"object"==typeof e&&null!==e&&void 0!==Object.values(e).find((e=>p(e)))}class y{constructor(){this.errors={},this.errors={}}set(e,t){"object"==typeof e?this.errors=e:this.set(i(i({},this.errors),{[e]:f(t)}))}all(){return this.errors}has(e){return Object.prototype.hasOwnProperty.call(this.errors,e)}hasAny(...e){return e.some((e=>this.has(e)))}any(){return Object.keys(this.errors).length>0}get(e){if(this.has(e))return this.getAll(e)[0]}getAll(e){return f(this.errors[e]||[])}only(...e){const t=[];return e.forEach((e=>{const s=this.get(e);s&&t.push(s)})),t}flatten(){return Object.values(this.errors).reduce(((e,t)=>e.concat(t)),[])}clear(e){const t={};e&&Object.keys(this.errors).forEach((s=>{s!==e&&(t[s]=this.errors[s])})),this.set(t)}}class g{constructor(e={}){this.originalData={},this.busy=!1,this.successful=!1,this.recentlySuccessful=!1,this.recentlySuccessfulTimeoutId=void 0,this.errors=new y,this.progress=void 0,this.update(e)}static make(e){return new this(e)}update(e){this.originalData=Object.assign({},this.originalData,d(e)),Object.assign(this,e)}fill(e={}){this.keys().forEach((t=>{this[t]=e[t]}))}data(){return this.keys().reduce(((e,t)=>i(i({},e),{[t]:this[t]})),{})}keys(){return Object.keys(this).filter((e=>!g.ignore.includes(e)))}startProcessing(){this.errors.clear(),this.busy=!0,this.successful=!1,this.progress=void 0,this.recentlySuccessful=!1,clearTimeout(this.recentlySuccessfulTimeoutId)}finishProcessing(){this.busy=!1,this.successful=!0,this.progress=void 0,this.recentlySuccessful=!0,this.recentlySuccessfulTimeoutId=setTimeout((()=>{this.recentlySuccessful=!1}),g.recentlySuccessfulTimeout)}clear(){this.errors.clear(),this.successful=!1,this.recentlySuccessful=!1,this.progress=void 0,clearTimeout(this.recentlySuccessfulTimeoutId)}reset(){Object.keys(this).filter((e=>!g.ignore.includes(e))).forEach((e=>{this[e]=d(this.originalData[e])}))}get(e,t={}){return this.submit("get",e,t)}post(e,t={}){return this.submit("post",e,t)}patch(e,t={}){return this.submit("patch",e,t)}put(e,t={}){return this.submit("put",e,t)}delete(e,t={}){return this.submit("delete",e,t)}submit(e,t,s={}){return this.startProcessing(),s=i({data:{},params:{},url:this.route(t),method:e,onUploadProgress:this.handleUploadProgress.bind(this)},s),"get"===e.toLowerCase()?s.params=i(i({},this.data()),s.params):(s.data=i(i({},this.data()),s.data),p(s.data)&&!s.transformRequest&&(s.transformRequest=[e=>h.serialize(e)])),new Promise(((e,t)=>{(g.axios||axios__WEBPACK_IMPORTED_MODULE_0___default.a).request(s).then((t=>{this.finishProcessing(),e(t)})).catch((e=>{this.handleErrors(e),t(e)}))}))}handleErrors(e){this.busy=!1,this.progress=void 0,e.response&&this.errors.set(this.extractErrors(e.response))}extractErrors(e){return e.data&&"object"==typeof e.data?e.data.errors?i({},e.data.errors):e.data.message?{error:e.data.message}:i({},e.data):{error:g.errorMessage}}handleUploadProgress(e){this.progress={total:e.total,loaded:e.loaded,percentage:Math.round(100*e.loaded/e.total)}}route(e,t={}){let s=e;return Object.prototype.hasOwnProperty.call(g.routes,e)&&(s=decodeURI(g.routes[e])),"object"!=typeof t&&(t={id:t}),Object.keys(t).forEach((e=>{s=s.replace(`{${e}}`,t[e])})),s}onKeydown(e){const t=e.target;t.name&&this.errors.clear(t.name)}}g.routes={},g.errorMessage="Something went wrong. Please try again.",g.recentlySuccessfulTimeout=2e3,g.ignore=["busy","successful","errors","progress","originalData","recentlySuccessful","recentlySuccessfulTimeoutId"];/* harmony default export */ __webpack_exports__["default"] = (g);
-
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/html/uyr/coreui/node_modules/vform/dist/vform.es.js'");
 
 /***/ }),
 
-/***/ "../coreui/src/views/components/pagination.vue":
-/*!*****************************************************!*\
-  !*** ../coreui/src/views/components/pagination.vue ***!
-  \*****************************************************/
+/***/ "../coreui/node_modules/vue-nav-tabs/dist/vue-tabs.common.js":
+/*!*******************************************************************!*\
+  !*** ../coreui/node_modules/vue-nav-tabs/dist/vue-tabs.common.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/html/uyr/coreui/node_modules/vue-nav-tabs/dist/vue-tabs.common.js'");
+
+/***/ }),
+
+/***/ "../coreui/node_modules/vue-nav-tabs/themes/vue-tabs.css":
+/*!***************************************************************!*\
+  !*** ../coreui/node_modules/vue-nav-tabs/themes/vue-tabs.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!./vue-tabs.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!../coreui/node_modules/vue-nav-tabs/themes/vue-tabs.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../laravel/node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "../coreui/node_modules/vuejs-paginate/dist/index.js":
+/*!***********************************************************!*\
+  !*** ../coreui/node_modules/vuejs-paginate/dist/index.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/var/www/html/uyr/coreui/node_modules/vuejs-paginate/dist/index.js'");
+
+/***/ }),
+
+/***/ "../coreui/src/views/orders/Orders.vue":
+/*!*********************************************!*\
+  !*** ../coreui/src/views/orders/Orders.vue ***!
+  \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _pagination_vue_vue_type_template_id_c6dbc8ce___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pagination.vue?vue&type=template&id=c6dbc8ce& */ "../coreui/src/views/components/pagination.vue?vue&type=template&id=c6dbc8ce&");
-/* harmony import */ var _pagination_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pagination.vue?vue&type=script&lang=js& */ "../coreui/src/views/components/pagination.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Orders_vue_vue_type_template_id_235e20d5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Orders.vue?vue&type=template&id=235e20d5& */ "../coreui/src/views/orders/Orders.vue?vue&type=template&id=235e20d5&");
+/* harmony import */ var _Orders_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Orders.vue?vue&type=script&lang=js& */ "../coreui/src/views/orders/Orders.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _Orders_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Orders.vue?vue&type=style&index=0&lang=css& */ "../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -37,10 +95,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _pagination_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _pagination_vue_vue_type_template_id_c6dbc8ce___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _pagination_vue_vue_type_template_id_c6dbc8ce___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _Orders_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Orders_vue_vue_type_template_id_235e20d5___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Orders_vue_vue_type_template_id_235e20d5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -50,116 +108,63 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/components/pagination.vue"
+component.options.__file = "coreui/src/views/orders/Orders.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/components/pagination.vue?vue&type=script&lang=js&":
+/***/ "../coreui/src/views/orders/Orders.vue?vue&type=script&lang=js&":
+/*!**********************************************************************!*\
+  !*** ../coreui/src/views/orders/Orders.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./Orders.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/orders/Orders.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css&":
 /*!******************************************************************************!*\
-  !*** ../coreui/src/views/components/pagination.vue?vue&type=script&lang=js& ***!
+  !*** ../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css& ***!
   \******************************************************************************/
-/*! exports provided: default */
+/*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_pagination_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./pagination.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/pagination.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_pagination_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/style-loader!../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./Orders.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
 
 /***/ }),
 
-/***/ "../coreui/src/views/components/pagination.vue?vue&type=template&id=c6dbc8ce&":
-/*!************************************************************************************!*\
-  !*** ../coreui/src/views/components/pagination.vue?vue&type=template&id=c6dbc8ce& ***!
-  \************************************************************************************/
+/***/ "../coreui/src/views/orders/Orders.vue?vue&type=template&id=235e20d5&":
+/*!****************************************************************************!*\
+  !*** ../coreui/src/views/orders/Orders.vue?vue&type=template&id=235e20d5& ***!
+  \****************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_pagination_vue_vue_type_template_id_c6dbc8ce___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./pagination.vue?vue&type=template&id=c6dbc8ce& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/pagination.vue?vue&type=template&id=c6dbc8ce&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_pagination_vue_vue_type_template_id_c6dbc8ce___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_template_id_235e20d5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./Orders.vue?vue&type=template&id=235e20d5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/orders/Orders.vue?vue&type=template&id=235e20d5&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_template_id_235e20d5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_pagination_vue_vue_type_template_id_c6dbc8ce___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "../coreui/src/views/masters/master_types.vue":
-/*!****************************************************!*\
-  !*** ../coreui/src/views/masters/master_types.vue ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./master_types.vue?vue&type=template&id=25f4c4e4& */ "../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4&");
-/* harmony import */ var _master_types_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./master_types.vue?vue&type=script&lang=js& */ "../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _master_types_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "coreui/src/views/masters/master_types.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************!*\
-  !*** ../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./master_types.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4&":
-/*!***********************************************************************************!*\
-  !*** ../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4& ***!
-  \***********************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./master_types.vue?vue&type=template&id=25f4c4e4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Orders_vue_vue_type_template_id_235e20d5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/pagination.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/pagination.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/orders/Orders.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/orders/Orders.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -171,74 +176,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vform */ "../coreui/node_modules/vform/dist/vform.es.js");
 /* harmony import */ var vuejs_paginate__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vuejs-paginate */ "../coreui/node_modules/vuejs-paginate/dist/index.js");
 /* harmony import */ var vuejs_paginate__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vuejs_paginate__WEBPACK_IMPORTED_MODULE_3__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-
-vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('paginate', vuejs_paginate__WEBPACK_IMPORTED_MODULE_3___default.a);
-/* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['result', "page"],
-  data: function data() {
-    return {};
-  },
-  methods: {
-    paginateHandle: function paginateHandle(pageNum) {
-      this.$emit('paginateHandle', pageNum);
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "../coreui/node_modules/vuex/dist/vuex.esm.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "../coreui/node_modules/vue/dist/vue.common.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vform */ "../coreui/node_modules/vform/dist/vform.es.js");
-/* harmony import */ var _components_pagination__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../components/pagination */ "../coreui/src/views/components/pagination.vue");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! sweetalert2 */ "../coreui/node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var vue_nav_tabs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-nav-tabs */ "../coreui/node_modules/vue-nav-tabs/dist/vue-tabs.common.js");
+/* harmony import */ var vue_nav_tabs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(vue_nav_tabs__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var vue_nav_tabs_themes_vue_tabs_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-nav-tabs/themes/vue-tabs.css */ "../coreui/node_modules/vue-nav-tabs/themes/vue-tabs.css");
+/* harmony import */ var vue_nav_tabs_themes_vue_tabs_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(vue_nav_tabs_themes_vue_tabs_css__WEBPACK_IMPORTED_MODULE_6__);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -353,145 +296,667 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
+
+
+vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("paginate", vuejs_paginate__WEBPACK_IMPORTED_MODULE_3___default.a);
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    pagination: _components_pagination__WEBPACK_IMPORTED_MODULE_3__["default"]
+    VueTabs: vue_nav_tabs__WEBPACK_IMPORTED_MODULE_5__["VueTabs"],
+    VTab: vue_nav_tabs__WEBPACK_IMPORTED_MODULE_5__["VTab"]
   },
   data: function data() {
     return {
-      id: 0,
-      keyword: '',
-      label: 'Add',
-      formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
-        id: "",
-        type_name: '',
-        isactive: ''
-      })
+      accordion: false,
+      user_id: "",
+      keyword: "",
+      type: "Completed",
+      disabled: false,
+      position: "right bottom",
+      modal_title: "Add User",
+      tokenData: "",
+      myModal: false,
+      formMyModal: false,
+      formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"](_defineProperty({
+        comment: "",
+        type: '',
+        bookingID: ''
+      }, "type", 'comment')),
+      bookingID: "",
+      tabID: 0
     };
   },
   created: function created() {
-    this.page; //this.EquipmentList();
+    this.page;
   },
   computed: _objectSpread({
     page: function page() {
-      if (this.keyword == '') {
+      if (this.keyword == "") {
         var page = 1;
         if (this.$route.params.page != undefined) page = this.$route.params.page;
-        this.list({
+        this.bookingOrders({
           page: page,
-          keyword: this.keyword
+          keyword: this.keyword,
+          tabID: this.tabID
         });
         return Number(page) || 1;
       } else {}
     }
-  }, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/TypesMaster", ["result", "editData", "returnData", "ajax_error"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/TypesMaster", ["list", "edit", "submitForm", "UpdateMultiAction"]), {
+  }, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Orders/Index", ["result", "returnData", "getPatientCondtionData", "getConsultationData"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("auth", ["user"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Appointment/Index", ["consaltionData"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Orders/Index", ["bookingOrders", "updateStatus", "getPatientCondtion", "getConsultation"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Appointment/Index", ["submitConsultationComment"]), {
     paginateHandle: function paginateHandle(pageNum) {
-      type_name;
-      this.list({
-        page: pageNum,
-        'keyword': this.keyword
-      });
       this.$router.push({
-        name: 'paginate_types',
+        name: "paginate_orders",
         params: {
-          page: page
+          page: pageNum
         }
       });
-    },
-    MultiAction: function MultiAction(id, action) {
-      var _this = this;
-
-      sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire({
-        title: 'Are you sure',
-        text: 'Do you really want to ' + action + ' ' + 'This record',
-        type: 'warning',
-        showCancelButton: true,
-        confirmButtonText: action,
-        confirmButtonColor: '#dd4b39',
-        cancelButtonText: 'Cancel',
-        icon: 'warning',
-        reverseButtons: true
-      }).then(function (result) {
-        if (result.value) {
-          _this.UpdateMultiAction({
-            id: id,
-            action: action
-          }).then(function () {
-            if (_this.returnData.status == 'success') {
-              vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
-                message: _this.returnData.message,
-                type: _this.returnData.status
-              });
-
-              _this.list({
-                page: _this.result.current_page
-              });
-            }
-          });
-        }
+      this.bookingOrders({
+        page: pageNum,
+        keyword: this.keyword,
+        tabID: this.tabID
       });
     },
-    submitFormData: function submitFormData() {
-      var _this2 = this;
-
-      if (this.formData.type_name == '') {
-        vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
-          message: "Please Insert Types name!",
-          type: 'error',
-          duration: 5000,
-          dismissible: true
-        });
-      } else {
-        this.submitForm(this.formData).then(function () {
-          if (_this2.returnData.status == 'success') {
-            vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
-              message: _this2.returnData.message,
-              type: _this2.returnData.status
-            });
-
-            _this2.list({
-              page: 1,
-              keyword: _this2.keyword
-            }); //this.$router.push({name:"master_services"});
-
-
-            _this2.resetForm();
-          }
-        })["catch"](function (error) {
-          window.scrollTo(0, 0);
-        });
-      }
-    },
-    getFormData: function getFormData(id) {
-      var _this3 = this;
-
-      this.user_id = id;
-      this.label = 'Edit';
-      this.edit(id).then(function () {
-        _this3.formData.keys().forEach(function (key) {
-          _this3.formData[key] = _this3.editData[key];
-        });
-      });
-      this.ajax_error.errors = [];
-    },
-    resetForm: function resetForm() {
-      this.keyword = "";
-      this.label = 'Add';
-      this.user_id = '';
-      this.list({
-        page: this.result.current_page
-      });
-      this.formData = new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
-        id: "",
-        type_name: '',
-        isactive: ""
+    handleTabChange: function handleTabChange(tabIndex, newTab, oldTab) {
+      this.tabID = tabIndex;
+      this.bookingOrders({
+        page: 1,
+        keyword: this.keyword,
+        tabID: this.tabID
       });
     },
     searchData: function searchData() {
@@ -499,96 +964,257 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
       if (this.keyword.length >= 3) {
         if (this.$route.params.page != 1) this.$router.push({
-          name: 'types',
+          name: "paginate_orders",
           params: {
             page: page
           }
         });
-        this.list({
+        this.bookingOrders({
           page: page,
-          keyword: this.keyword
+          keyword: this.keyword,
+          tabID: this.tabID
         });
       } else {
-        this.list({
+        this.bookingOrders({
           page: page,
-          keyword: this.keyword
+          keyword: this.keyword,
+          tabID: this.tabID
         });
       }
+    },
+    submitFormData: function submitFormData() {
+      var _this = this;
+
+      this.formData.bookingID = this.bookingID;
+      this.submitConsultationComment(this.formData).then(function () {
+        _this.formMyModal = false;
+
+        _this.bookingOrders({
+          page: 1,
+          keyword: _this.keyword,
+          tabID: _this.tabID
+        });
+      })["catch"](function (error) {
+        window.scrollTo(0, 0);
+        _this.isActive = false;
+      });
+    },
+    getCondtion: function getCondtion(id) {
+      this.getPatientCondtion(id).then(function () {// this.formData.keys().forEach((key) => {
+        //     this.formData[key] = this.editData[key];
+        // });
+      });
+    },
+    getConsultationForm: function getConsultationForm(bookingID, type) {
+      var _this2 = this;
+
+      this.bookingID = bookingID;
+      this.type = type;
+      this.getConsultation(bookingID).then(function () {
+        _this2.type = type; // this.formData.keys().forEach((key) => {
+        //     this.formData[key] = this.editData[key];
+        // });
+      });
+    },
+    MultiAction: function MultiAction(id, action) {
+      var _this3 = this;
+
+      if (action == 'Cancel') {
+        var cancelButtonText = 'Close';
+        var conformbutton = 'Ok';
+      } else {
+        var conformbutton = action;
+        var cancelButtonText = 'Cancel';
+      }
+
+      sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire({
+        title: "Are you sure",
+        text: "Do you really want to " + action + " " + "This Orders!",
+        type: "warning",
+        showCancelButton: true,
+        confirmButtonText: conformbutton,
+        confirmButtonColor: "#dd4b39",
+        cancelButtonText: cancelButtonText,
+        reverseButtons: true,
+        icon: "warning"
+      }).then(function (result) {
+        if (result.value) {
+          _this3.updateStatus({
+            id: id,
+            action: action
+          }).then(function () {
+            if (_this3.returnData.status == "success") {
+              vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+                message: _this3.returnData.message,
+                type: _this3.returnData.status
+              });
+              _this3.myModal = false;
+
+              _this3.bookingOrders({
+                page: _this3.result.current_page,
+                tabID: _this3.tabID
+              });
+            }
+          });
+        }
+      });
     }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/pagination.vue?vue&type=template&id=c6dbc8ce&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/pagination.vue?vue&type=template&id=c6dbc8ce& ***!
-  \******************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!../coreui/node_modules/vue-nav-tabs/themes/vue-tabs.css":
+/*!***********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!../coreui/node_modules/vue-nav-tabs/themes/vue-tabs.css ***!
+  \***********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "row m-0 align-items-center paginationPanel" },
-    [
-      _vm.result.data && _vm.result.data.length > 0 && _vm.result.total > 0
-        ? _c("div", { staticClass: "col px-2" }, [
-            _vm._v(
-              "\n      Showing " +
-                _vm._s(_vm.result.from) +
-                " to " +
-                _vm._s(_vm.result.to) +
-                " of\n      " +
-                _vm._s(_vm.result.total) +
-                " Entries\n   "
-            )
-          ])
-        : _vm._e(),
-      _vm._v(" "),
-      _vm.result.data && _vm.result.data.length > 0 && _vm.result.last_page > 1
-        ? _c(
-            "div",
-            { staticClass: "col-aut px-2" },
-            [
-              _c("paginate", {
-                attrs: {
-                  value: _vm.page,
-                  "page-count": _vm.result.last_page,
-                  "page-range": 3,
-                  "margin-pages": 2,
-                  "click-handler": _vm.paginateHandle,
-                  "prev-text": "←",
-                  "next-text": "→",
-                  "container-class": "pagination",
-                  "page-class": "page-item"
-                }
-              })
-            ],
-            1
-          )
-        : _vm._e()
-    ]
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
+throw new Error("Module build failed (from ./node_modules/postcss-loader/src/index.js):\nError: ENOENT: no such file or directory, open '/var/www/html/uyr/coreui/node_modules/vue-nav-tabs/themes/vue-tabs.css'");
 
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../laravel/node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.medi_his ul{\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-wrap: wrap;\n        flex-wrap: wrap;\n    margin-left: 12px;\n}\n.consultationViewCard ul li{\n    width: 23%;\n    /*display: inline-block;*/\n    margin: 2px 0.5%;\n    list-style: disc;\n}\n.consultationViewCard label{\n    font-weight: 600;\n}\n.consultationViewCard p {\n    margin: 0;\n    text-align: justify;\n}\n.consultationViewCard table tr td {\n  border-color: #8d8d8d !important;\n    padding: 4px 6px !important;\n}\n.consultationViewCard header.card-header h6 {\n    border-bottom: 1px solid #333;\n    margin-bottom: 6px;\n    padding:6px 4px 8px;\n    margin-top: 6px;\n    font-size: 16px;\n}\n.consultationViewCard header.card-header {\n    border-bottom: 0;\n}\n\n\n", ""]);
+
+// exports
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4& ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./Orders.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/orders/Orders.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../laravel/node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/orders/Orders.vue?vue&type=template&id=235e20d5&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/orders/Orders.vue?vue&type=template&id=235e20d5& ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -607,406 +1233,2643 @@ var render = function() {
         "CRow",
         { staticClass: "m-0" },
         [
-          _c(
-            "CCol",
-            { staticClass: "px-2 pb-2", attrs: { md: "9" } },
-            [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "d-flex justify-content-between align-items-center py-2"
-                },
-                [
-                  _c("h5", { staticClass: "mb-0" }, [_vm._v("Types")]),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    { staticClass: "search_box mr-0" },
-                    [
-                      _c("input", {
-                        directives: [
-                          {
-                            name: "model",
-                            rawName: "v-model",
-                            value: _vm.keyword,
-                            expression: "keyword"
-                          }
-                        ],
-                        staticClass: "form-control",
-                        attrs: {
-                          type: "search",
-                          placeholder: "Search...",
-                          name: ""
-                        },
-                        domProps: { value: _vm.keyword },
-                        on: {
-                          keyup: _vm.searchData,
-                          input: function($event) {
-                            if ($event.target.composing) {
-                              return
-                            }
-                            _vm.keyword = $event.target.value
-                          }
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c(
-                        "CButton",
-                        [
-                          _c("vue-fontawesome", {
-                            staticClass: "mr-1",
-                            attrs: { icon: "search", size: "0.9" }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "CCard",
-                [
-                  _c("CCardBody", [
-                    _c("div", {}, [
-                      _c(
-                        "table",
-                        { staticClass: "table table-striped table-hover" },
-                        [
-                          _c("thead", [
-                            _c("tr", [
-                              _c("th", [_vm._v("ID")]),
-                              _vm._v(" "),
-                              _c("th", [_vm._v("Type Name")]),
-                              _vm._v(" "),
-                              _c("th", { staticClass: "text-center" }, [
-                                _vm._v("Status")
-                              ]),
-                              _vm._v(" "),
-                              _c("th", { attrs: { width: "30" } }, [
-                                _vm._v("Action")
-                              ])
-                            ])
-                          ]),
-                          _vm._v(" "),
-                          _vm.result.data &&
-                          _vm.result.data.length > 0 &&
-                          _vm.result.total > 0
-                            ? _c(
-                                "tbody",
-                                _vm._l(_vm.result.data, function(row, index) {
-                                  return _vm.result.data
-                                    ? _c(
-                                        "tr",
+          _c("CCol", { staticClass: "p-2", attrs: { sm: "12" } }, [
+            _c(
+              "div",
+              {
+                staticClass: "d-flex justify-content-between align-items-center"
+              },
+              [_c("h5", { staticClass: "mb-0" }, [_vm._v("Orders List")])]
+            )
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "vue-tabs",
+        {
+          staticClass: "pateint_view_tab",
+          on: { "tab-change": _vm.handleTabChange }
+        },
+        [
+          _c("v-tab", { attrs: { title: "Order All" } }, [
+            _c(
+              "div",
+              {},
+              [
+                _c(
+                  "CCard",
+                  { staticClass: "mb-3" },
+                  [
+                    _c(
+                      "CRow",
+                      { staticClass: "m-0" },
+                      [
+                        _c(
+                          "CCol",
+                          { staticClass: "px-2 pb-2", attrs: { md: "12" } },
+                          [
+                            _c(
+                              "CCard",
+                              [
+                                _c("CCardBody", [
+                                  _c(
+                                    "div",
+                                    { staticClass: "table-responsive" },
+                                    [
+                                      _c(
+                                        "table",
                                         {
-                                          key: "row" + index,
-                                          staticClass: "mb-2 card-shadow"
+                                          staticClass:
+                                            "table table-striped table-hover"
                                         },
                                         [
-                                          _c("td", [
-                                            _vm._v(
-                                              _vm._s(_vm.result.from + index)
-                                            )
+                                          _c("thead", [
+                                            _c("tr", [
+                                              _c("th", [_vm._v("Order ID")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Appointment ID")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Date / Time")]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Doctor Name")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Type of doctor")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { attrs: { width: "10%" } },
+                                                [_vm._v("Action")]
+                                              )
+                                            ])
                                           ]),
                                           _vm._v(" "),
-                                          row.type_name
-                                            ? _c("td", [
-                                                _vm._v(_vm._s(row.type_name))
-                                              ])
-                                            : _c("td"),
-                                          _vm._v(" "),
                                           _c(
-                                            "td",
-                                            {
-                                              staticClass: "text-center",
-                                              attrs: { align: "center" }
-                                            },
-                                            [
-                                              row.isactive == 1
-                                                ? _c(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "text-success border-success px-2 d-inline-block"
-                                                    },
-                                                    [_vm._v("Active")]
-                                                  )
-                                                : _c(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "text-danger border-danger px-2 d-inline-block"
-                                                    },
-                                                    [_vm._v("Inactive")]
-                                                  )
-                                            ]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "td",
-                                            [
-                                              _c(
-                                                "CButtonGroup",
-                                                { attrs: { size: "sm" } },
-                                                [
-                                                  _c(
-                                                    "CButton",
-                                                    {
-                                                      directives: [
-                                                        {
-                                                          name: "c-tooltip",
-                                                          rawName:
-                                                            "v-c-tooltip.hover",
-                                                          value: {
-                                                            content: "Edit"
-                                                          },
-                                                          expression:
-                                                            "{content: `Edit`}",
-                                                          modifiers: {
-                                                            hover: true
-                                                          }
-                                                        }
-                                                      ],
-                                                      staticClass:
-                                                        "btn-outline-warning",
-                                                      attrs: {
-                                                        size: "sm",
-                                                        color: ""
-                                                      },
-                                                      on: {
-                                                        click: function(
-                                                          $event
-                                                        ) {
-                                                          return _vm.getFormData(
-                                                            row.id
+                                            "tbody",
+                                            _vm._l(_vm.result.data, function(
+                                              row,
+                                              index
+                                            ) {
+                                              return _vm.result.data &&
+                                                row.dr_status == "All"
+                                                ? _c("tr", { key: index }, [
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        "#" + _vm._s(index + 1)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(_vm._s(row.id))
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(
+                                                          row.appointment_date
+                                                        ) +
+                                                          " " +
+                                                          _vm._s(
+                                                            row.appointment_time
                                                           )
-                                                        }
-                                                      }
-                                                    },
-                                                    [
-                                                      _c("vue-fontawesome", {
-                                                        attrs: {
-                                                          icon: "pencil",
-                                                          size: "0.8"
-                                                        }
-                                                      })
-                                                    ],
-                                                    1
-                                                  ),
-                                                  _vm._v(" "),
-                                                  _c(
-                                                    "CButton",
-                                                    {
-                                                      directives: [
-                                                        {
-                                                          name: "c-tooltip",
-                                                          rawName:
-                                                            "v-c-tooltip.hover",
-                                                          value: {
-                                                            content: "Remove"
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctorName)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctortype)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      [
+                                                        _c(
+                                                          "CButton",
+                                                          {
+                                                            staticClass:
+                                                              "btn-outline-success d-flex",
+                                                            attrs: {
+                                                              size: "sm"
+                                                            },
+                                                            on: {
+                                                              click: function(
+                                                                $event
+                                                              ) {
+                                                                return _vm.MultiAction(
+                                                                  row.id,
+                                                                  "My Open Order"
+                                                                )
+                                                              }
+                                                            }
                                                           },
-                                                          expression:
-                                                            "{content: `Remove`}",
-                                                          modifiers: {
-                                                            hover: true
-                                                          }
-                                                        }
+                                                          [
+                                                            _c(
+                                                              "vue-fontawesome",
+                                                              {
+                                                                staticClass:
+                                                                  "mr-1",
+                                                                attrs: {
+                                                                  icon: "check",
+                                                                  size: "0.8"
+                                                                }
+                                                              }
+                                                            ),
+                                                            _vm._v(
+                                                              "Select Order "
+                                                            )
+                                                          ],
+                                                          1
+                                                        )
                                                       ],
-                                                      staticClass:
-                                                        "btn-outline-danger",
-                                                      attrs: {
-                                                        size: "sm",
-                                                        color: ""
-                                                      },
-                                                      on: {
-                                                        click: function(
-                                                          $event
-                                                        ) {
-                                                          return _vm.MultiAction(
-                                                            row.id,
-                                                            "Delete"
-                                                          )
-                                                        }
-                                                      }
-                                                    },
-                                                    [
-                                                      _c("vue-fontawesome", {
-                                                        attrs: {
-                                                          icon: "trash",
-                                                          size: "0.8"
-                                                        }
-                                                      })
-                                                    ],
-                                                    1
-                                                  )
-                                                ],
-                                                1
-                                              )
-                                            ],
-                                            1
+                                                      1
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            }),
+                                            0
                                           )
                                         ]
                                       )
-                                    : _vm._e()
-                                }),
-                                0
-                              )
-                            : _c("tbody", [
-                                _c("tr", [
-                                  _c(
-                                    "td",
-                                    {
-                                      staticClass: "p-3",
-                                      attrs: { colspan: "8", align: "center" }
-                                    },
-                                    [
-                                      _c("h6", { staticClass: "m-0" }, [
-                                        _vm._v("Data Not Found !")
-                                      ])
                                     ]
                                   )
                                 ])
-                              ])
-                        ]
-                      )
-                    ])
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c("pagination", {
-                attrs: { page: _vm.page, result: _vm.result },
-                on: { paginateHandle: _vm.paginateHandle }
-              })
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "CCol",
-            { staticClass: "px-2", attrs: { md: "3" } },
-            [
-              _c(
-                "div",
-                { staticClass: "py-2 text-right" },
-                [
-                  _c(
-                    "CButton",
-                    {
-                      staticClass: "btn_custom",
-                      attrs: { type: "button" },
-                      on: {
-                        click: function($event) {
-                          return _vm.submitFormData()
-                        }
-                      }
-                    },
-                    [_vm._v("Submit")]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "CCard",
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("h6", { staticClass: "mb-0" }, [
-                      _vm._v(_vm._s(_vm.label) + " Types")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "p-2" },
-                    [
-                      _c("CForm", { attrs: { method: "POST" } }, [
-                        _c(
-                          "div",
-                          { staticClass: "form-group" },
-                          [
-                            _c("label", [
-                              _vm._v("Types Name"),
-                              _c("span", { staticClass: "text-danger" }, [
-                                _vm._v("*")
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("CInput", {
-                              attrs: { placeholder: "" },
-                              model: {
-                                value: _vm.formData.type_name,
-                                callback: function($$v) {
-                                  _vm.$set(_vm.formData, "type_name", $$v)
-                                },
-                                expression: "formData.type_name"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _vm.ajax_error.errors.type_name
-                              ? _c("small", { staticClass: "text-danger" }, [
-                                  _vm._v(
-                                    _vm._s(_vm.ajax_error.errors.type_name[0])
-                                  )
-                                ])
-                              : _vm._e()
+                              ],
+                              1
+                            )
                           ],
                           1
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "form-group" }, [
-                          _c("label", [_vm._v("Status ")]),
-                          _c("br"),
-                          _vm._v(" "),
-                          _c(
-                            "select",
-                            {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.formData.isactive,
-                                  expression: "formData.isactive"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              on: {
-                                change: function($event) {
-                                  var $$selectedVal = Array.prototype.filter
-                                    .call($event.target.options, function(o) {
-                                      return o.selected
-                                    })
-                                    .map(function(o) {
-                                      var val =
-                                        "_value" in o ? o._value : o.value
-                                      return val
-                                    })
-                                  _vm.$set(
-                                    _vm.formData,
-                                    "isactive",
-                                    $event.target.multiple
-                                      ? $$selectedVal
-                                      : $$selectedVal[0]
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("v-tab", { attrs: { title: "My open Orders " } }, [
+            _c(
+              "div",
+              {},
+              [
+                _c(
+                  "CCard",
+                  { staticClass: "mb-3" },
+                  [
+                    _c(
+                      "CRow",
+                      { staticClass: "m-0" },
+                      [
+                        _c(
+                          "CCol",
+                          { staticClass: "px-2 pb-2", attrs: { md: "12" } },
+                          [
+                            _c(
+                              "CCard",
+                              [
+                                _c("CCardBody", [
+                                  _c(
+                                    "div",
+                                    { staticClass: "table-responsive" },
+                                    [
+                                      _c(
+                                        "table",
+                                        {
+                                          staticClass:
+                                            "table table-striped table-hover order_table"
+                                        },
+                                        [
+                                          _c("thead", [
+                                            _c("tr", [
+                                              _c("th", [_vm._v("Order ID")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Appointment ID")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Date / Time")]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Doctor Name")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Type of doctor")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { staticClass: "text-center" },
+                                                [_vm._v("Status")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { attrs: { width: "150px" } },
+                                                [_vm._v("Action")]
+                                              )
+                                            ])
+                                          ]),
+                                          _vm._v(" "),
+                                          _vm._l(_vm.result.data, function(
+                                            row,
+                                            index
+                                          ) {
+                                            return _vm.user &&
+                                              _vm.user.doctor != "" &&
+                                              _vm.result.data &&
+                                              row.dr_status ==
+                                                "My Open Order" &&
+                                              row.mediator_doctor_id ==
+                                                _vm.user.doctor.id
+                                              ? _c("tbody", { key: index }, [
+                                                  _c("tr", [
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        "#" + _vm._s(index + 1)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(_vm._s(row.id))
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(
+                                                          row.appointment_date
+                                                        ) +
+                                                          " " +
+                                                          _vm._s(
+                                                            row.appointment_time
+                                                          )
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctorName)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctortype)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      {
+                                                        staticClass:
+                                                          "text-center"
+                                                      },
+                                                      [
+                                                        row.status == "Pending"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "warning"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status == "Accept"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "success"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status == "Reject"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "danger"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e()
+                                                      ],
+                                                      1
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      {},
+                                                      [
+                                                        _c(
+                                                          "CButton",
+                                                          {
+                                                            attrs: {
+                                                              size: "sm",
+                                                              color: "info",
+                                                              variant: "outline"
+                                                            },
+                                                            on: {
+                                                              click: function(
+                                                                $event
+                                                              ) {
+                                                                _vm.getCondtion(
+                                                                  row.id
+                                                                )
+                                                                _vm.myModal = true
+                                                              }
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "vue-fontawesome",
+                                                              {
+                                                                attrs: {
+                                                                  icon: "eye",
+                                                                  size: "0.8"
+                                                                }
+                                                              }
+                                                            )
+                                                          ],
+                                                          1
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "CButton",
+                                                          {
+                                                            attrs: {
+                                                              size: "sm",
+                                                              color: "danger",
+                                                              variant: "outline"
+                                                            },
+                                                            on: {
+                                                              click: function(
+                                                                $event
+                                                              ) {
+                                                                return _vm.MultiAction(
+                                                                  row.id,
+                                                                  "Cancel"
+                                                                )
+                                                              }
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "vue-fontawesome",
+                                                              {
+                                                                attrs: {
+                                                                  icon:
+                                                                    "refresh",
+                                                                  size: "0.8"
+                                                                }
+                                                              }
+                                                            )
+                                                          ],
+                                                          1
+                                                        ),
+                                                        _vm._v(" "),
+                                                        row.status == "Accept"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "danger",
+                                                                  variant:
+                                                                    "outline"
+                                                                },
+                                                                on: {
+                                                                  click: function(
+                                                                    $event
+                                                                  ) {
+                                                                    return _vm.MultiAction(
+                                                                      row.id,
+                                                                      "Close"
+                                                                    )
+                                                                  }
+                                                                }
+                                                              },
+                                                              [
+                                                                _c(
+                                                                  "vue-fontawesome",
+                                                                  {
+                                                                    staticClass:
+                                                                      "mr-1",
+                                                                    attrs: {
+                                                                      icon:
+                                                                        "times",
+                                                                      size:
+                                                                        "0.8"
+                                                                    }
+                                                                  }
+                                                                ),
+                                                                _vm._v(
+                                                                  "Close\n                            "
+                                                                )
+                                                              ],
+                                                              1
+                                                            )
+                                                          : _vm._e()
+                                                      ],
+                                                      1
+                                                    )
+                                                  ]),
+                                                  _vm._v(" "),
+                                                  _c("tr", [
+                                                    _c(
+                                                      "td",
+                                                      {
+                                                        staticClass:
+                                                          "p-0 border-0",
+                                                        attrs: { colspan: "7" }
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "CCollapse",
+                                                          {
+                                                            staticClass:
+                                                              "navbar-collapse order_collpase",
+                                                            attrs: {
+                                                              show:
+                                                                _vm.accordion ===
+                                                                row.id
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "CCol",
+                                                              {
+                                                                staticClass:
+                                                                  "px-0 pb-2",
+                                                                attrs: {
+                                                                  md: "12"
+                                                                }
+                                                              },
+                                                              [
+                                                                _c(
+                                                                  "div",
+                                                                  [
+                                                                    _c(
+                                                                      "CCard",
+                                                                      {
+                                                                        staticClass:
+                                                                          "patient_card mb-0"
+                                                                      },
+                                                                      [
+                                                                        _c(
+                                                                          "div",
+                                                                          {
+                                                                            staticClass:
+                                                                              "patient_card_body pb-3"
+                                                                          },
+                                                                          [
+                                                                            _c(
+                                                                              "div",
+                                                                              {
+                                                                                staticClass:
+                                                                                  "d-flex justify-content-between flex-wrap"
+                                                                              },
+                                                                              [
+                                                                                _c(
+                                                                                  "div",
+                                                                                  {
+                                                                                    staticClass:
+                                                                                      "pcard_left w-100 border-0"
+                                                                                  },
+                                                                                  [
+                                                                                    _c(
+                                                                                      "div",
+                                                                                      {
+                                                                                        staticClass:
+                                                                                          "pcard_box"
+                                                                                      },
+                                                                                      [
+                                                                                        _c(
+                                                                                          "h5",
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              "Doctor Information:"
+                                                                                            )
+                                                                                          ]
+                                                                                        ),
+                                                                                        _vm._v(
+                                                                                          " "
+                                                                                        ),
+                                                                                        _c(
+                                                                                          "div",
+                                                                                          {
+                                                                                            staticClass:
+                                                                                              "d-flex flex-wrap ml-4"
+                                                                                          },
+                                                                                          [
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Doctor Name"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.doctorName
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Email"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.doctorEmail
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Phone"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.doctorPhone
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Type"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.doctortype
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Appointment Date/Time"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  "\n                                                " +
+                                                                                                    _vm._s(
+                                                                                                      row.appointment_date
+                                                                                                    ) +
+                                                                                                    " " +
+                                                                                                    _vm._s(
+                                                                                                      row.appointment_time
+                                                                                                    ) +
+                                                                                                    "\n                                                "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span"
+                                                                                                )
+                                                                                              ]
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      ]
+                                                                                    ),
+                                                                                    _vm._v(
+                                                                                      " "
+                                                                                    ),
+                                                                                    _c(
+                                                                                      "div",
+                                                                                      {
+                                                                                        staticClass:
+                                                                                          "pcard_box"
+                                                                                      },
+                                                                                      [
+                                                                                        _c(
+                                                                                          "h5",
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              "Patient Information:"
+                                                                                            )
+                                                                                          ]
+                                                                                        ),
+                                                                                        _vm._v(
+                                                                                          " "
+                                                                                        ),
+                                                                                        _c(
+                                                                                          "div",
+                                                                                          {
+                                                                                            staticClass:
+                                                                                              "d-flex flex-wrap ml-4"
+                                                                                          },
+                                                                                          [
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Patient Name"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patientName
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Email"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patientEmail
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Phone"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patientPhone
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Where to Visit"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.visit_type
+                                                                                                      ) +
+                                                                                                        " "
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Blood group"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patient_blood_group
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Date of birth"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patient_date_of_birth
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      ]
+                                                                                    )
+                                                                                  ]
+                                                                                )
+                                                                              ]
+                                                                            ),
+                                                                            _vm._v(
+                                                                              " "
+                                                                            ),
+                                                                            _c(
+                                                                              "div",
+                                                                              {
+                                                                                staticClass:
+                                                                                  "d-flex justify-content-between pt-2"
+                                                                              },
+                                                                              [
+                                                                                _c(
+                                                                                  "div",
+                                                                                  {},
+                                                                                  [
+                                                                                    _c(
+                                                                                      "label",
+                                                                                      [
+                                                                                        _c(
+                                                                                          "b",
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              "Status : "
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      ]
+                                                                                    ),
+                                                                                    _vm._v(
+                                                                                      " "
+                                                                                    ),
+                                                                                    row.status ==
+                                                                                    "Pending"
+                                                                                      ? _c(
+                                                                                          "CButton",
+                                                                                          {
+                                                                                            attrs: {
+                                                                                              size:
+                                                                                                "sm",
+                                                                                              color:
+                                                                                                "warning"
+                                                                                            }
+                                                                                          },
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              _vm._s(
+                                                                                                row.status
+                                                                                              )
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      : _vm._e(),
+                                                                                    _vm._v(
+                                                                                      " "
+                                                                                    ),
+                                                                                    row.status ==
+                                                                                    "Accept"
+                                                                                      ? _c(
+                                                                                          "CButton",
+                                                                                          {
+                                                                                            attrs: {
+                                                                                              size:
+                                                                                                "sm",
+                                                                                              color:
+                                                                                                "success"
+                                                                                            }
+                                                                                          },
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              "Accepted"
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      : _vm._e(),
+                                                                                    _vm._v(
+                                                                                      " "
+                                                                                    ),
+                                                                                    row.status ==
+                                                                                    "Reject"
+                                                                                      ? _c(
+                                                                                          "CButton",
+                                                                                          {
+                                                                                            attrs: {
+                                                                                              size:
+                                                                                                "sm",
+                                                                                              color:
+                                                                                                "danger"
+                                                                                            }
+                                                                                          },
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              _vm._s(
+                                                                                                row.status
+                                                                                              )
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      : _vm._e()
+                                                                                  ],
+                                                                                  1
+                                                                                )
+                                                                              ]
+                                                                            )
+                                                                          ]
+                                                                        )
+                                                                      ]
+                                                                    )
+                                                                  ],
+                                                                  1
+                                                                )
+                                                              ]
+                                                            )
+                                                          ],
+                                                          1
+                                                        )
+                                                      ],
+                                                      1
+                                                    )
+                                                  ])
+                                                ])
+                                              : _vm._e()
+                                          })
+                                        ],
+                                        2
+                                      )
+                                    ]
                                   )
-                                }
-                              }
-                            },
+                                ])
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("v-tab", { attrs: { title: "Approve Order" } }, [
+            _c(
+              "div",
+              {},
+              [
+                _c(
+                  "CCard",
+                  { staticClass: "mb-3" },
+                  [
+                    _c(
+                      "CRow",
+                      { staticClass: "m-0" },
+                      [
+                        _c(
+                          "CCol",
+                          { staticClass: "px-2 pb-2", attrs: { md: "12" } },
+                          [
+                            _c(
+                              "CCard",
+                              [
+                                _c("CCardBody", [
+                                  _c(
+                                    "div",
+                                    { staticClass: "table-responsive" },
+                                    [
+                                      _c(
+                                        "table",
+                                        {
+                                          staticClass:
+                                            "table table-striped table-hover order_table"
+                                        },
+                                        [
+                                          _c("thead", [
+                                            _c("tr", [
+                                              _c("th", [_vm._v("Order ID")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Appointment ID")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Date / Time")]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Doctor Name")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Type of doctor")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { staticClass: "text-center" },
+                                                [_vm._v("Status")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { attrs: { width: "150px" } },
+                                                [_vm._v("Action")]
+                                              )
+                                            ])
+                                          ]),
+                                          _vm._v(" "),
+                                          _vm._l(_vm.result.data, function(
+                                            row,
+                                            index
+                                          ) {
+                                            return _vm.user &&
+                                              _vm.user.doctor != "" &&
+                                              _vm.result.data &&
+                                              row.dr_status ==
+                                                "Approved mediator" &&
+                                              row.status != "Completed" &&
+                                              row.mediator_doctor_id ==
+                                                _vm.user.doctor.id
+                                              ? _c("tbody", { key: index }, [
+                                                  _c("tr", [
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        "#" + _vm._s(index + 1)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(_vm._s(row.id))
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(
+                                                          row.appointment_date
+                                                        ) +
+                                                          " " +
+                                                          _vm._s(
+                                                            row.appointment_time
+                                                          )
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctorName)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctortype)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      {
+                                                        staticClass:
+                                                          "text-center"
+                                                      },
+                                                      [
+                                                        row.status == "Pending"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "warning"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status == "Accept"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "success"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status == "Reject"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "danger"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status ==
+                                                        "Completed"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "success"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e()
+                                                      ],
+                                                      1
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      {},
+                                                      [
+                                                        row.status == "Accept"
+                                                          ? _c(
+                                                              "CButton",
+                                                              {
+                                                                attrs: {
+                                                                  size: "sm",
+                                                                  color:
+                                                                    "danger",
+                                                                  variant:
+                                                                    "outline"
+                                                                },
+                                                                on: {
+                                                                  click: function(
+                                                                    $event
+                                                                  ) {
+                                                                    return _vm.MultiAction(
+                                                                      row.id,
+                                                                      "Close"
+                                                                    )
+                                                                  }
+                                                                }
+                                                              },
+                                                              [
+                                                                _c(
+                                                                  "vue-fontawesome",
+                                                                  {
+                                                                    staticClass:
+                                                                      "mr-1",
+                                                                    attrs: {
+                                                                      icon:
+                                                                        "times",
+                                                                      size:
+                                                                        "0.8"
+                                                                    }
+                                                                  }
+                                                                ),
+                                                                _vm._v(
+                                                                  "Close\n                            "
+                                                                )
+                                                              ],
+                                                              1
+                                                            )
+                                                          : _vm._e()
+                                                      ],
+                                                      1
+                                                    )
+                                                  ]),
+                                                  _vm._v(" "),
+                                                  _c("tr", [
+                                                    _c(
+                                                      "td",
+                                                      {
+                                                        staticClass:
+                                                          "p-0 border-0",
+                                                        attrs: { colspan: "7" }
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "CCollapse",
+                                                          {
+                                                            staticClass:
+                                                              "navbar-collapse order_collpase",
+                                                            attrs: {
+                                                              show:
+                                                                _vm.accordion ===
+                                                                row.id
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "CCol",
+                                                              {
+                                                                staticClass:
+                                                                  "px-0 pb-2",
+                                                                attrs: {
+                                                                  md: "12"
+                                                                }
+                                                              },
+                                                              [
+                                                                _c(
+                                                                  "div",
+                                                                  [
+                                                                    _c(
+                                                                      "CCard",
+                                                                      {
+                                                                        staticClass:
+                                                                          "patient_card mb-0"
+                                                                      },
+                                                                      [
+                                                                        _c(
+                                                                          "div",
+                                                                          {
+                                                                            staticClass:
+                                                                              "patient_card_body pb-3"
+                                                                          },
+                                                                          [
+                                                                            _c(
+                                                                              "div",
+                                                                              {
+                                                                                staticClass:
+                                                                                  "d-flex justify-content-between flex-wrap"
+                                                                              },
+                                                                              [
+                                                                                _c(
+                                                                                  "div",
+                                                                                  {
+                                                                                    staticClass:
+                                                                                      "pcard_left w-100 border-0"
+                                                                                  },
+                                                                                  [
+                                                                                    _c(
+                                                                                      "div",
+                                                                                      {
+                                                                                        staticClass:
+                                                                                          "pcard_box"
+                                                                                      },
+                                                                                      [
+                                                                                        _c(
+                                                                                          "h5",
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              "Doctor Information:"
+                                                                                            )
+                                                                                          ]
+                                                                                        ),
+                                                                                        _vm._v(
+                                                                                          " "
+                                                                                        ),
+                                                                                        _c(
+                                                                                          "div",
+                                                                                          {
+                                                                                            staticClass:
+                                                                                              "d-flex flex-wrap ml-4"
+                                                                                          },
+                                                                                          [
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Doctor Name"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.doctorName
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Email"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.doctorEmail
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Phone"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.doctorPhone
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Type"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.doctortype
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Appointment Date/Time"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  "\n                                                " +
+                                                                                                    _vm._s(
+                                                                                                      row.appointment_date
+                                                                                                    ) +
+                                                                                                    " " +
+                                                                                                    _vm._s(
+                                                                                                      row.appointment_time
+                                                                                                    ) +
+                                                                                                    "\n                                                "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span"
+                                                                                                )
+                                                                                              ]
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      ]
+                                                                                    ),
+                                                                                    _vm._v(
+                                                                                      " "
+                                                                                    ),
+                                                                                    _c(
+                                                                                      "div",
+                                                                                      {
+                                                                                        staticClass:
+                                                                                          "pcard_box"
+                                                                                      },
+                                                                                      [
+                                                                                        _c(
+                                                                                          "h5",
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              "Patient Information:"
+                                                                                            )
+                                                                                          ]
+                                                                                        ),
+                                                                                        _vm._v(
+                                                                                          " "
+                                                                                        ),
+                                                                                        _c(
+                                                                                          "div",
+                                                                                          {
+                                                                                            staticClass:
+                                                                                              "d-flex flex-wrap ml-4"
+                                                                                          },
+                                                                                          [
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Patient Name"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patientName
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Email"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patientEmail
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Phone"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patientPhone
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Where to Visit"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.visit_type
+                                                                                                      ) +
+                                                                                                        " "
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Blood group"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patient_blood_group
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            ),
+                                                                                            _vm._v(
+                                                                                              " "
+                                                                                            ),
+                                                                                            _c(
+                                                                                              "div",
+                                                                                              {
+                                                                                                staticClass:
+                                                                                                  "inner_info"
+                                                                                              },
+                                                                                              [
+                                                                                                _c(
+                                                                                                  "h6",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      "Date of birth"
+                                                                                                    )
+                                                                                                  ]
+                                                                                                ),
+                                                                                                _vm._v(
+                                                                                                  " "
+                                                                                                ),
+                                                                                                _c(
+                                                                                                  "span",
+                                                                                                  [
+                                                                                                    _vm._v(
+                                                                                                      _vm._s(
+                                                                                                        row.patient_date_of_birth
+                                                                                                      )
+                                                                                                    )
+                                                                                                  ]
+                                                                                                )
+                                                                                              ]
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      ]
+                                                                                    )
+                                                                                  ]
+                                                                                )
+                                                                              ]
+                                                                            ),
+                                                                            _vm._v(
+                                                                              " "
+                                                                            ),
+                                                                            _c(
+                                                                              "div",
+                                                                              {
+                                                                                staticClass:
+                                                                                  "d-flex justify-content-between pt-2"
+                                                                              },
+                                                                              [
+                                                                                _c(
+                                                                                  "div",
+                                                                                  {},
+                                                                                  [
+                                                                                    _c(
+                                                                                      "label",
+                                                                                      [
+                                                                                        _c(
+                                                                                          "b",
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              "Status : "
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      ]
+                                                                                    ),
+                                                                                    _vm._v(
+                                                                                      " "
+                                                                                    ),
+                                                                                    row.status ==
+                                                                                    "Pending"
+                                                                                      ? _c(
+                                                                                          "CButton",
+                                                                                          {
+                                                                                            attrs: {
+                                                                                              size:
+                                                                                                "sm",
+                                                                                              color:
+                                                                                                "warning"
+                                                                                            }
+                                                                                          },
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              _vm._s(
+                                                                                                row.status
+                                                                                              )
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      : _vm._e(),
+                                                                                    _vm._v(
+                                                                                      " "
+                                                                                    ),
+                                                                                    row.status ==
+                                                                                    "Accept"
+                                                                                      ? _c(
+                                                                                          "CButton",
+                                                                                          {
+                                                                                            attrs: {
+                                                                                              size:
+                                                                                                "sm",
+                                                                                              color:
+                                                                                                "success"
+                                                                                            }
+                                                                                          },
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              "Accepted"
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      : _vm._e(),
+                                                                                    _vm._v(
+                                                                                      " "
+                                                                                    ),
+                                                                                    row.status ==
+                                                                                    "Reject"
+                                                                                      ? _c(
+                                                                                          "CButton",
+                                                                                          {
+                                                                                            attrs: {
+                                                                                              size:
+                                                                                                "sm",
+                                                                                              color:
+                                                                                                "danger"
+                                                                                            }
+                                                                                          },
+                                                                                          [
+                                                                                            _vm._v(
+                                                                                              _vm._s(
+                                                                                                row.status
+                                                                                              )
+                                                                                            )
+                                                                                          ]
+                                                                                        )
+                                                                                      : _vm._e()
+                                                                                  ],
+                                                                                  1
+                                                                                )
+                                                                              ]
+                                                                            )
+                                                                          ]
+                                                                        )
+                                                                      ]
+                                                                    )
+                                                                  ],
+                                                                  1
+                                                                )
+                                                              ]
+                                                            )
+                                                          ],
+                                                          1
+                                                        )
+                                                      ],
+                                                      1
+                                                    )
+                                                  ])
+                                                ])
+                                              : _vm._e()
+                                          })
+                                        ],
+                                        2
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("v-tab", { attrs: { title: "Completed Order" } }, [
+            _c(
+              "div",
+              {},
+              [
+                _c(
+                  "CCard",
+                  { staticClass: "mb-3" },
+                  [
+                    _c(
+                      "CRow",
+                      { staticClass: "m-0" },
+                      [
+                        _c(
+                          "CCol",
+                          { staticClass: "px-2 pb-2", attrs: { md: "12" } },
+                          [
+                            _c(
+                              "CCard",
+                              [
+                                _c("CCardBody", [
+                                  _c(
+                                    "div",
+                                    { staticClass: "table-responsive" },
+                                    [
+                                      _c(
+                                        "table",
+                                        {
+                                          staticClass:
+                                            "table table-striped table-hover"
+                                        },
+                                        [
+                                          _c("thead", [
+                                            _c("tr", [
+                                              _c("th", [_vm._v("Order ID")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Appointment ID")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Date / Time")]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Doctor Name")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Type of doctor")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { staticClass: "text-center" },
+                                                [_vm._v("Status")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { staticClass: "text-center" },
+                                                [_vm._v("view")]
+                                              )
+                                            ])
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "tbody",
+                                            _vm._l(_vm.result.data, function(
+                                              row,
+                                              index
+                                            ) {
+                                              return _vm.result.data &&
+                                                row.status == "Completed" &&
+                                                row.dr_status ==
+                                                  "Approved mediator"
+                                                ? _c("tr", [
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        "#" + _vm._s(index + 1)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(_vm._s(row.id))
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(
+                                                          row.appointment_date
+                                                        ) +
+                                                          " " +
+                                                          _vm._s(
+                                                            row.appointment_time
+                                                          )
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctorName)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctortype)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      {
+                                                        staticClass:
+                                                          "text-center"
+                                                      },
+                                                      [
+                                                        row.status == "Pending"
+                                                          ? _c(
+                                                              "CBadge",
+                                                              {
+                                                                attrs: {
+                                                                  color:
+                                                                    "warning"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status == "Accept"
+                                                          ? _c(
+                                                              "CBadge",
+                                                              {
+                                                                attrs: {
+                                                                  color:
+                                                                    "danger"
+                                                                }
+                                                              },
+                                                              [_vm._v("Closed")]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status == "Reject"
+                                                          ? _c(
+                                                              "CBadge",
+                                                              {
+                                                                attrs: {
+                                                                  color:
+                                                                    "danger"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status ==
+                                                        "Completed"
+                                                          ? _c(
+                                                              "CBadge",
+                                                              {
+                                                                attrs: {
+                                                                  color:
+                                                                    "success"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Completed"
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e()
+                                                      ],
+                                                      1
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      [
+                                                        _c(
+                                                          "CButton",
+                                                          {
+                                                            attrs: {
+                                                              color: "info"
+                                                            },
+                                                            on: {
+                                                              click: function(
+                                                                $event
+                                                              ) {
+                                                                _vm.formMyModal = true
+                                                                _vm.getConsultationForm(
+                                                                  row.id,
+                                                                  "Completed"
+                                                                )
+                                                              }
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "vue-fontawesome",
+                                                              {
+                                                                attrs: {
+                                                                  icon: "eye",
+                                                                  size: "1"
+                                                                }
+                                                              }
+                                                            )
+                                                          ],
+                                                          1
+                                                        )
+                                                      ],
+                                                      1
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            }),
+                                            0
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ]),
+          _vm._v(" "),
+          _c("v-tab", { attrs: { title: "Close Order" } }, [
+            _c(
+              "div",
+              {},
+              [
+                _c(
+                  "CCard",
+                  { staticClass: "mb-3" },
+                  [
+                    _c(
+                      "CRow",
+                      { staticClass: "m-0" },
+                      [
+                        _c(
+                          "CCol",
+                          { staticClass: "px-2 pb-2", attrs: { md: "12" } },
+                          [
+                            _c(
+                              "CCard",
+                              [
+                                _c("CCardBody", [
+                                  _c(
+                                    "div",
+                                    { staticClass: "table-responsive" },
+                                    [
+                                      _c(
+                                        "table",
+                                        {
+                                          staticClass:
+                                            "table table-striped table-hover"
+                                        },
+                                        [
+                                          _c("thead", [
+                                            _c("tr", [
+                                              _c("th", [_vm._v("Order ID")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Appointment ID")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Date / Time")]),
+                                              _vm._v(" "),
+                                              _c("th", [_vm._v("Doctor Name")]),
+                                              _vm._v(" "),
+                                              _c("th", [
+                                                _vm._v("Type of doctor")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { staticClass: "text-center" },
+                                                [_vm._v("Status")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "th",
+                                                { staticClass: "text-center" },
+                                                [_vm._v("view")]
+                                              )
+                                            ])
+                                          ]),
+                                          _vm._v(" "),
+                                          _c(
+                                            "tbody",
+                                            _vm._l(_vm.result.data, function(
+                                              row,
+                                              index
+                                            ) {
+                                              return _vm.result.data &&
+                                                row.status == "Completed" &&
+                                                row.dr_status == "Close"
+                                                ? _c("tr", [
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        "#" + _vm._s(index + 1)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(_vm._s(row.id))
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(
+                                                          row.appointment_date
+                                                        ) +
+                                                          " " +
+                                                          _vm._s(
+                                                            row.appointment_time
+                                                          )
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctorName)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        _vm._s(row.doctortype)
+                                                      )
+                                                    ]),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      {
+                                                        staticClass:
+                                                          "text-center"
+                                                      },
+                                                      [
+                                                        row.status == "Pending"
+                                                          ? _c(
+                                                              "CBadge",
+                                                              {
+                                                                attrs: {
+                                                                  color:
+                                                                    "warning"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status == "Accept"
+                                                          ? _c(
+                                                              "CBadge",
+                                                              {
+                                                                attrs: {
+                                                                  color:
+                                                                    "danger"
+                                                                }
+                                                              },
+                                                              [_vm._v("Closed")]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status == "Reject"
+                                                          ? _c(
+                                                              "CBadge",
+                                                              {
+                                                                attrs: {
+                                                                  color:
+                                                                    "danger"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  _vm._s(
+                                                                    row.status
+                                                                  )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        row.status ==
+                                                        "Completed"
+                                                          ? _c(
+                                                              "CBadge",
+                                                              {
+                                                                attrs: {
+                                                                  color:
+                                                                    "success"
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Completed"
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e()
+                                                      ],
+                                                      1
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "td",
+                                                      [
+                                                        _c(
+                                                          "CButton",
+                                                          {
+                                                            attrs: {
+                                                              color: "info"
+                                                            },
+                                                            on: {
+                                                              click: function(
+                                                                $event
+                                                              ) {
+                                                                _vm.formMyModal = true
+                                                                _vm.getConsultationForm(
+                                                                  row.id,
+                                                                  "Close"
+                                                                )
+                                                              }
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "vue-fontawesome",
+                                                              {
+                                                                attrs: {
+                                                                  icon: "eye",
+                                                                  size: "1"
+                                                                }
+                                                              }
+                                                            )
+                                                          ],
+                                                          1
+                                                        )
+                                                      ],
+                                                      1
+                                                    )
+                                                  ])
+                                                : _vm._e()
+                                            }),
+                                            0
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            )
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "CModal",
+        {
+          attrs: {
+            title: "View Order",
+            show: _vm.myModal,
+            closeOnBackdrop: false,
+            addContentClasses: "medical_report_card"
+          },
+          on: {
+            "update:show": function($event) {
+              _vm.myModal = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            { staticClass: "order_modal" },
+            [
+              _c(
+                "CCard",
+                { staticClass: "mb-0 border-0" },
+                [
+                  _c(
+                    "CCardBody",
+                    { staticClass: "p-0" },
+                    [
+                      _c(
+                        "CRow",
+                        { staticClass: "m-0" },
+                        [
+                          _c(
+                            "CCol",
+                            { staticClass: "px-2", attrs: { md: "12" } },
                             [
-                              _c("option", { attrs: { value: "1" } }, [
-                                _vm._v("Active")
-                              ]),
-                              _vm._v(" "),
-                              _c("option", { attrs: { value: "0" } }, [
-                                _vm._v("In-Active")
+                              _c("div", { staticClass: "form-group mb-3" }, [
+                                _c("label", [_vm._v("Patient Condition: ")]),
+                                _vm._v(" "),
+                                _c("h6", [
+                                  _vm._v(
+                                    _vm._s(
+                                      _vm.getPatientCondtionData
+                                        .patient_condtion
+                                    )
+                                  )
+                                ])
                               ])
                             ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "CCol",
+                            { staticClass: "px-2", attrs: { md: "6" } },
+                            [
+                              _c("div", { staticClass: "form-group mb-3" }, [
+                                _c("label", [_vm._v("Doctor Name")]),
+                                _vm._v(" "),
+                                _c("h6", [
+                                  _vm._v(
+                                    _vm._s(_vm.getPatientCondtionData.drFname) +
+                                      " " +
+                                      _vm._s(_vm.getPatientCondtionData.drLname)
+                                  )
+                                ])
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "CCol",
+                            { staticClass: "px-2", attrs: { md: "6" } },
+                            [
+                              _c("div", { staticClass: "form-group mb-3" }, [
+                                _c("label", [_vm._v("Doctor Type")]),
+                                _vm._v(" "),
+                                _c("h6", [
+                                  _vm._v(
+                                    _vm._s(
+                                      _vm.getPatientCondtionData.doctortype
+                                    )
+                                  )
+                                ])
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "CCol",
+                            { staticClass: "px-2", attrs: { md: "12" } },
+                            [
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "mt-2 text-center button_group"
+                                },
+                                [
+                                  _c(
+                                    "CButton",
+                                    {
+                                      attrs: { color: "success" },
+                                      on: {
+                                        click: function($event) {
+                                          return _vm.MultiAction(
+                                            _vm.getPatientCondtionData.id,
+                                            "Approved"
+                                          )
+                                        }
+                                      }
+                                    },
+                                    [_vm._v("Approve")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CButton",
+                                    {
+                                      staticClass: "text-white",
+                                      attrs: { color: "warning" }
+                                    },
+                                    [_vm._v("Ammend")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CButton",
+                                    { attrs: { color: "danger" } },
+                                    [_vm._v("Reject")]
+                                  )
+                                ],
+                                1
+                              )
+                            ]
                           )
-                        ])
-                      ])
+                        ],
+                        1
+                      )
                     ],
                     1
                   )
@@ -1016,9 +3879,561 @@ var render = function() {
             ],
             1
           )
-        ],
-        1
-      )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "CModal",
+        {
+          attrs: {
+            title: "Consultation form",
+            show: _vm.formMyModal,
+            closeOnBackdrop: false,
+            addContentClasses: "medical_report_card",
+            size: "xl"
+          },
+          on: {
+            "update:show": function($event) {
+              _vm.formMyModal = $event
+            }
+          }
+        },
+        [
+          _c(
+            "div",
+            { staticClass: "medical_report" },
+            [
+              _c(
+                "CRow",
+                { staticClass: "m-0" },
+                [
+                  _c(
+                    "CCol",
+                    { staticClass: "p-2", attrs: { sm: "12" } },
+                    [
+                      _c(
+                        "CCard",
+                        {
+                          staticClass:
+                            "mb-0 consultationViewCard border-bottom-0"
+                        },
+                        [
+                          _c("CCardHeader", { staticClass: "px-2" }, [
+                            _c("h6", [_vm._v("Medical History")])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "CCardBody",
+                            { staticClass: "px-1 py-2" },
+                            [
+                              _c(
+                                "CRow",
+                                { staticClass: "m-0" },
+                                [
+                                  _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2",
+                                      attrs: { sm: "12", md: "12" }
+                                    },
+                                    [
+                                      _c(
+                                        "div",
+                                        { staticClass: "form-group medi_his" },
+                                        [
+                                          _c("label", [
+                                            _vm._v(
+                                              "Have you ever had or do you have now a problem with :"
+                                            )
+                                          ]),
+                                          _c("br"),
+                                          _vm._v(" "),
+                                          _c(
+                                            "ul",
+                                            _vm._l(
+                                              _vm.getConsultationData
+                                                .medicalHistory,
+                                              function(medical, index) {
+                                                return _c(
+                                                  "li",
+                                                  { key: index },
+                                                  [_vm._v(_vm._s(medical))]
+                                                )
+                                              }
+                                            ),
+                                            0
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2",
+                                      attrs: { md: "12" }
+                                    },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v(
+                                            " Describe the situation below:"
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("p", [
+                                          _c("span", {
+                                            domProps: {
+                                              innerHTML: _vm._s(
+                                                _vm.getConsultationData
+                                                  .describeSituation
+                                              )
+                                            }
+                                          })
+                                        ])
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2",
+                                      attrs: { md: "12" }
+                                    },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v(
+                                            "Describe answers above with dates: "
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("p", [
+                                          _c("span", {
+                                            domProps: {
+                                              innerHTML: _vm._s(
+                                                _vm.getConsultationData
+                                                  .describeAnswers
+                                              )
+                                            }
+                                          })
+                                        ])
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2",
+                                      attrs: { md: "12" }
+                                    },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v("PAST MEDICAL HISTORY: ")
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("span", {
+                                          domProps: {
+                                            innerHTML: _vm._s(
+                                              _vm.getConsultationData
+                                                .pastHistory
+                                            )
+                                          }
+                                        })
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2 form-group",
+                                      attrs: { md: "12" }
+                                    },
+                                    [
+                                      _c("label", [
+                                        _vm._v("Current Medication List: ")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c(
+                                        "table",
+                                        { staticClass: "table table-bordered" },
+                                        [
+                                          _c(
+                                            "tbody",
+                                            _vm._l(
+                                              _vm.getConsultationData
+                                                .medication,
+                                              function(medication, index) {
+                                                return _c(
+                                                  "tr",
+                                                  { key: index },
+                                                  [
+                                                    _c("td", [
+                                                      _vm._v(
+                                                        "\n                                     " +
+                                                          _vm._s(medication) +
+                                                          "\n                                   "
+                                                      )
+                                                    ])
+                                                  ]
+                                                )
+                                              }
+                                            ),
+                                            0
+                                          )
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "CCard",
+                        {
+                          staticClass: "mb-0 consultationViewCard border-top-0"
+                        },
+                        [
+                          _c("CCardHeader", { staticClass: "px-2" }, [
+                            _c("h6", [_vm._v("SOCIAL HISTORY: ")])
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "CCardBody",
+                            { staticClass: "px-1 py-2" },
+                            [
+                              _c(
+                                "CRow",
+                                { staticClass: "m-0" },
+                                [
+                                  _c(
+                                    "CCol",
+                                    { staticClass: "px-2", attrs: { md: "4" } },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [_vm._v("Occupation")]),
+                                        _vm._v(" "),
+                                        _c("p", [
+                                          _vm._v(
+                                            _vm._s(
+                                              _vm.getConsultationData.occupation
+                                            )
+                                          )
+                                        ])
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    { staticClass: "px-2", attrs: { md: "4" } },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [_vm._v("Marital status")]),
+                                        _c("br"),
+                                        _vm._v(" "),
+                                        _c("p", [
+                                          _vm._v(
+                                            _vm._s(
+                                              _vm.getConsultationData
+                                                .maritalStatus
+                                            )
+                                          )
+                                        ])
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    { staticClass: "px-2", attrs: { md: "4" } },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v("Alcohol "),
+                                          _c("small", [_vm._v(" oz/day/week")])
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("p", [
+                                          _vm._v(
+                                            _vm._s(
+                                              _vm.getConsultationData.alcohol
+                                            )
+                                          )
+                                        ])
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    { staticClass: "px-2", attrs: { md: "4" } },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v("Athletic Activities")
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("p", [
+                                          _vm._v(
+                                            _vm._s(
+                                              _vm.getConsultationData
+                                                .athleticActivities
+                                            )
+                                          )
+                                        ])
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    { staticClass: "px-2", attrs: { md: "4" } },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [_vm._v("Tobacco")]),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "d-flex align-items-center"
+                                          },
+                                          [
+                                            _c("p", [_vm._v("text")]),
+                                            _vm._v(" "),
+                                            _c(
+                                              "span",
+                                              { staticClass: "span_lable" },
+                                              [_vm._v("pks/d for ")]
+                                            ),
+                                            _vm._v(" "),
+                                            _c("p", [_vm._v("text")]),
+                                            _vm._v(" "),
+                                            _c(
+                                              "span",
+                                              { staticClass: "span_lable" },
+                                              [_vm._v("yrs")]
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2",
+                                      attrs: { sm: "12", md: "12" }
+                                    },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v("Additional Information")
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("p", [
+                                          _c("span", {
+                                            domProps: {
+                                              innerHTML: _vm._s(
+                                                _vm.getConsultationData
+                                                  .additionalInformation
+                                              )
+                                            }
+                                          })
+                                        ])
+                                      ])
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _vm.type != "Completed"
+                                    ? _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "12", md: "12" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [_vm._v("Comment")]),
+                                              _vm._v(" "),
+                                              _c("span", {
+                                                domProps: {
+                                                  innerHTML: _vm._s(
+                                                    _vm.getConsultationData
+                                                      .comment
+                                                  )
+                                                }
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    : _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "12", md: "12" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [_vm._v("Comment")]),
+                                              _vm._v(" "),
+                                              _c("textarea", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value: _vm.formData.comment,
+                                                    expression:
+                                                      "formData.comment"
+                                                  }
+                                                ],
+                                                staticClass: "form-control",
+                                                attrs: { rows: "3" },
+                                                domProps: {
+                                                  value: _vm.formData.comment
+                                                },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "comment",
+                                                      $event.target.value
+                                                    )
+                                                  }
+                                                }
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _vm.type == "Completed"
+                    ? _c("CCol", { staticClass: "p-2", attrs: { sm: "12" } }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "form-group mb-0 border-top pt-2 mt-3 text-right"
+                          },
+                          [
+                            _c(
+                              "CButton",
+                              {
+                                staticClass: "btn_custom",
+                                attrs: { size: "sm" },
+                                on: {
+                                  click: function($event) {
+                                    return _vm.submitFormData()
+                                  }
+                                }
+                              },
+                              [_vm._v("Submit")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CButton",
+                              {
+                                attrs: { size: "sm", color: "light" },
+                                on: {
+                                  click: function($event) {
+                                    return _vm.closeModal()
+                                  }
+                                }
+                              },
+                              [_vm._v("Close")]
+                            )
+                          ],
+                          1
+                        )
+                      ])
+                    : _vm._e()
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "row m-0 align-items-center paginationPanel" }, [
+        _vm.result.data && _vm.result.data.length > 0 && _vm.result.total > 0
+          ? _c("div", { staticClass: "col px-2" }, [
+              _vm._v(
+                "\n          Showing " +
+                  _vm._s(_vm.result.from) +
+                  " to " +
+                  _vm._s(_vm.result.to) +
+                  " of\n          " +
+                  _vm._s(_vm.result.total) +
+                  " Entries\n      "
+              )
+            ])
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.result.data &&
+        _vm.result.data.length > 0 &&
+        _vm.result.last_page > 1
+          ? _c(
+              "div",
+              { staticClass: "col-aut px-2" },
+              [
+                _c("paginate", {
+                  attrs: {
+                    value: _vm.page,
+                    "page-count": _vm.result.last_page,
+                    "page-range": 3,
+                    "margin-pages": 2,
+                    "click-handler": _vm.paginateHandle,
+                    "prev-text": "←",
+                    "next-text": "→",
+                    "container-class": "pagination",
+                    "page-class": "page-item"
+                  }
+                })
+              ],
+              1
+            )
+          : _vm._e()
+      ])
     ],
     1
   )

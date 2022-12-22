@@ -1,17 +1,17 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[50],{
 
-/***/ "../coreui/src/views/doctors/appointment_list.vue":
-/*!********************************************************!*\
-  !*** ../coreui/src/views/doctors/appointment_list.vue ***!
-  \********************************************************/
+/***/ "../coreui/src/views/booking/accepted_appointment.vue":
+/*!************************************************************!*\
+  !*** ../coreui/src/views/booking/accepted_appointment.vue ***!
+  \************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _appointment_list_vue_vue_type_template_id_26877bc3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appointment_list.vue?vue&type=template&id=26877bc3& */ "../coreui/src/views/doctors/appointment_list.vue?vue&type=template&id=26877bc3&");
-/* harmony import */ var _appointment_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./appointment_list.vue?vue&type=script&lang=js& */ "../coreui/src/views/doctors/appointment_list.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _appointment_list_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./appointment_list.vue?vue&type=style&index=0&lang=css& */ "../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _accepted_appointment_vue_vue_type_template_id_84b805f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./accepted_appointment.vue?vue&type=template&id=84b805f2& */ "../coreui/src/views/booking/accepted_appointment.vue?vue&type=template&id=84b805f2&");
+/* harmony import */ var _accepted_appointment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./accepted_appointment.vue?vue&type=script&lang=js& */ "../coreui/src/views/booking/accepted_appointment.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _accepted_appointment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./accepted_appointment.vue?vue&type=style&index=0&lang=css& */ "../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css&");
 /* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -22,9 +22,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _appointment_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _appointment_list_vue_vue_type_template_id_26877bc3___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _appointment_list_vue_vue_type_template_id_26877bc3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _accepted_appointment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _accepted_appointment_vue_vue_type_template_id_84b805f2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _accepted_appointment_vue_vue_type_template_id_84b805f2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -34,63 +34,63 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/doctors/appointment_list.vue"
+component.options.__file = "coreui/src/views/booking/accepted_appointment.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/doctors/appointment_list.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************!*\
-  !*** ../coreui/src/views/doctors/appointment_list.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************/
+/***/ "../coreui/src/views/booking/accepted_appointment.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************!*\
+  !*** ../coreui/src/views/booking/accepted_appointment.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./appointment_list.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/appointment_list.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./accepted_appointment.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/booking/accepted_appointment.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css&":
-/*!*****************************************************************************************!*\
-  !*** ../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css& ***!
-  \*****************************************************************************************/
+/***/ "../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************!*\
+  !*** ../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/style-loader!../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./appointment_list.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/style-loader!../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./accepted_appointment.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "../coreui/src/views/doctors/appointment_list.vue?vue&type=template&id=26877bc3&":
-/*!***************************************************************************************!*\
-  !*** ../coreui/src/views/doctors/appointment_list.vue?vue&type=template&id=26877bc3& ***!
-  \***************************************************************************************/
+/***/ "../coreui/src/views/booking/accepted_appointment.vue?vue&type=template&id=84b805f2&":
+/*!*******************************************************************************************!*\
+  !*** ../coreui/src/views/booking/accepted_appointment.vue?vue&type=template&id=84b805f2& ***!
+  \*******************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_template_id_26877bc3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./appointment_list.vue?vue&type=template&id=26877bc3& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/appointment_list.vue?vue&type=template&id=26877bc3&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_template_id_26877bc3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_template_id_84b805f2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./accepted_appointment.vue?vue&type=template&id=84b805f2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/booking/accepted_appointment.vue?vue&type=template&id=84b805f2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_template_id_84b805f2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_appointment_list_vue_vue_type_template_id_26877bc3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_accepted_appointment_vue_vue_type_template_id_84b805f2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/appointment_list.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/appointment_list.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/booking/accepted_appointment.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/booking/accepted_appointment.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -98,30 +98,6 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "../coreui/node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -253,10 +229,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -272,15 +248,15 @@ exports.push([module.i, "\n.doctor-img img {\n    width: 130px;\n}\n.doctor_list
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css&":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./appointment_list.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/appointment_list.vue?vue&type=style&index=0&lang=css&");
+var content = __webpack_require__(/*! !../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./accepted_appointment.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/booking/accepted_appointment.vue?vue&type=style&index=0&lang=css&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -302,10 +278,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/appointment_list.vue?vue&type=template&id=26877bc3&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/appointment_list.vue?vue&type=template&id=26877bc3& ***!
-  \*********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/booking/accepted_appointment.vue?vue&type=template&id=84b805f2&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/booking/accepted_appointment.vue?vue&type=template&id=84b805f2& ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -330,7 +306,11 @@ var render = function() {
               {
                 staticClass: "d-flex justify-content-between align-items-center"
               },
-              [_c("h5", { staticClass: "mb-0" }, [_vm._v("New Appointments")])]
+              [
+                _c("h5", { staticClass: "mb-0" }, [
+                  _vm._v("Ongoing Appointments")
+                ])
+              ]
             )
           ])
         ],
@@ -341,22 +321,6 @@ var render = function() {
         "CRow",
         { staticClass: "m-0" },
         [
-          _c("CCol", { staticClass: "p-2", attrs: { md: "2" } }, [
-            _c("div", { staticClass: "form-group" }, [
-              _c("select", { staticClass: "form-control" }, [
-                _c("option", [_vm._v("All")]),
-                _vm._v(" "),
-                _c("option", [_vm._v("Pending")]),
-                _vm._v(" "),
-                _c("option", [_vm._v("Accepted")]),
-                _vm._v(" "),
-                _c("option", [_vm._v("Completed")]),
-                _vm._v(" "),
-                _c("option", [_vm._v("Rejected")])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
           _c(
             "CCol",
             { staticClass: "px-2 pb-2", attrs: { md: "12" } },
@@ -469,8 +433,8 @@ var render = function() {
                                 [
                                   _c(
                                     "CBadge",
-                                    { attrs: { color: "warning" } },
-                                    [_vm._v("Pending")]
+                                    { attrs: { color: "success" } },
+                                    [_vm._v("Accepted")]
                                   )
                                 ],
                                 1
@@ -500,55 +464,7 @@ var render = function() {
                                             attrs: { icon: "eye", size: "0.8" }
                                           }),
                                           _vm._v(
-                                            "View\n                                    "
-                                          )
-                                        ],
-                                        1
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CButton",
-                                        {
-                                          staticClass:
-                                            "btn-outline-success d-flex align-items-center",
-                                          attrs: {
-                                            size: "sm",
-                                            color: "",
-                                            to: "accepted_appointment"
-                                          }
-                                        },
-                                        [
-                                          _c("vue-fontawesome", {
-                                            staticClass: "mr-1",
-                                            attrs: {
-                                              icon: "check",
-                                              size: "0.8"
-                                            }
-                                          }),
-                                          _vm._v(
-                                            "Accept\n                                 "
-                                          )
-                                        ],
-                                        1
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CButton",
-                                        {
-                                          staticClass:
-                                            "btn-outline-danger d-flex align-items-center",
-                                          attrs: { size: "sm", color: "" }
-                                        },
-                                        [
-                                          _c("vue-fontawesome", {
-                                            staticClass: "mr-1",
-                                            attrs: {
-                                              icon: "times",
-                                              size: "0.8"
-                                            }
-                                          }),
-                                          _vm._v(
-                                            "Reject\n                                 "
+                                            "View\n                               "
                                           )
                                         ],
                                         1
@@ -579,7 +495,7 @@ var render = function() {
                                 ]
                               ),
                               _vm._v(" "),
-                              _c("td", [_vm._v("2")]),
+                              _c("td", [_vm._v("1")]),
                               _vm._v(" "),
                               _c("td", [_vm._v("22-07-2021")]),
                               _vm._v(" "),
@@ -597,8 +513,8 @@ var render = function() {
                                 [
                                   _c(
                                     "CBadge",
-                                    { attrs: { color: "warning" } },
-                                    [_vm._v("Pending")]
+                                    { attrs: { color: "success" } },
+                                    [_vm._v("Accepted")]
                                   )
                                 ],
                                 1
@@ -616,11 +532,7 @@ var render = function() {
                                         {
                                           staticClass:
                                             "btn-outline-info d-flex align-items-center",
-                                          attrs: {
-                                            size: "sm",
-                                            color: "",
-                                            to: "p_view"
-                                          }
+                                          attrs: { size: "sm", color: "" }
                                         },
                                         [
                                           _c("vue-fontawesome", {
@@ -628,51 +540,7 @@ var render = function() {
                                             attrs: { icon: "eye", size: "0.8" }
                                           }),
                                           _vm._v(
-                                            "View\n                                    "
-                                          )
-                                        ],
-                                        1
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CButton",
-                                        {
-                                          staticClass:
-                                            "btn-outline-success d-flex align-items-center",
-                                          attrs: { size: "sm", color: "" }
-                                        },
-                                        [
-                                          _c("vue-fontawesome", {
-                                            staticClass: "mr-1",
-                                            attrs: {
-                                              icon: "check",
-                                              size: "0.8"
-                                            }
-                                          }),
-                                          _vm._v(
-                                            "Accept\n                                 "
-                                          )
-                                        ],
-                                        1
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CButton",
-                                        {
-                                          staticClass:
-                                            "btn-outline-danger d-flex align-items-center",
-                                          attrs: { size: "sm", color: "" }
-                                        },
-                                        [
-                                          _c("vue-fontawesome", {
-                                            staticClass: "mr-1",
-                                            attrs: {
-                                              icon: "times",
-                                              size: "0.8"
-                                            }
-                                          }),
-                                          _vm._v(
-                                            "Reject\n                                 "
+                                            "View\n                               "
                                           )
                                         ],
                                         1
@@ -703,7 +571,7 @@ var render = function() {
                                 ]
                               ),
                               _vm._v(" "),
-                              _c("td", [_vm._v("3")]),
+                              _c("td", [_vm._v("1")]),
                               _vm._v(" "),
                               _c("td", [_vm._v("22-07-2021")]),
                               _vm._v(" "),
@@ -721,8 +589,8 @@ var render = function() {
                                 [
                                   _c(
                                     "CBadge",
-                                    { attrs: { color: "warning" } },
-                                    [_vm._v("Pending")]
+                                    { attrs: { color: "success" } },
+                                    [_vm._v("Accepted")]
                                   )
                                 ],
                                 1
@@ -740,11 +608,7 @@ var render = function() {
                                         {
                                           staticClass:
                                             "btn-outline-info d-flex align-items-center",
-                                          attrs: {
-                                            size: "sm",
-                                            color: "",
-                                            to: "p_view"
-                                          }
+                                          attrs: { size: "sm", color: "" }
                                         },
                                         [
                                           _c("vue-fontawesome", {
@@ -752,51 +616,7 @@ var render = function() {
                                             attrs: { icon: "eye", size: "0.8" }
                                           }),
                                           _vm._v(
-                                            "View\n                                    "
-                                          )
-                                        ],
-                                        1
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CButton",
-                                        {
-                                          staticClass:
-                                            "btn-outline-success d-flex align-items-center",
-                                          attrs: { size: "sm", color: "" }
-                                        },
-                                        [
-                                          _c("vue-fontawesome", {
-                                            staticClass: "mr-1",
-                                            attrs: {
-                                              icon: "check",
-                                              size: "0.8"
-                                            }
-                                          }),
-                                          _vm._v(
-                                            "Accept\n                                 "
-                                          )
-                                        ],
-                                        1
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CButton",
-                                        {
-                                          staticClass:
-                                            "btn-outline-danger d-flex align-items-center",
-                                          attrs: { size: "sm", color: "" }
-                                        },
-                                        [
-                                          _c("vue-fontawesome", {
-                                            staticClass: "mr-1",
-                                            attrs: {
-                                              icon: "times",
-                                              size: "0.8"
-                                            }
-                                          }),
-                                          _vm._v(
-                                            "Reject\n                                 "
+                                            "View\n                               "
                                           )
                                         ],
                                         1

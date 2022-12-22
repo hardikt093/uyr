@@ -96,17 +96,17 @@ module.exports = {
 
 /***/ }),
 
-/***/ "../coreui/src/views/frontend/contact.vue":
-/*!************************************************!*\
-  !*** ../coreui/src/views/frontend/contact.vue ***!
-  \************************************************/
+/***/ "../coreui/src/views/frontend/career.vue":
+/*!***********************************************!*\
+  !*** ../coreui/src/views/frontend/career.vue ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _contact_vue_vue_type_template_id_5c6b0f2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./contact.vue?vue&type=template&id=5c6b0f2d& */ "../coreui/src/views/frontend/contact.vue?vue&type=template&id=5c6b0f2d&");
-/* harmony import */ var _contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact.vue?vue&type=script&lang=js& */ "../coreui/src/views/frontend/contact.vue?vue&type=script&lang=js&");
+/* harmony import */ var _career_vue_vue_type_template_id_5035bffe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./career.vue?vue&type=template&id=5035bffe& */ "../coreui/src/views/frontend/career.vue?vue&type=template&id=5035bffe&");
+/* harmony import */ var _career_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./career.vue?vue&type=script&lang=js& */ "../coreui/src/views/frontend/career.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -116,9 +116,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _contact_vue_vue_type_template_id_5c6b0f2d___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _contact_vue_vue_type_template_id_5c6b0f2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _career_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _career_vue_vue_type_template_id_5035bffe___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _career_vue_vue_type_template_id_5035bffe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -128,47 +128,47 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/frontend/contact.vue"
+component.options.__file = "coreui/src/views/frontend/career.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/frontend/contact.vue?vue&type=script&lang=js&":
-/*!*************************************************************************!*\
-  !*** ../coreui/src/views/frontend/contact.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************/
+/***/ "../coreui/src/views/frontend/career.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ../coreui/src/views/frontend/career.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./contact.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/frontend/contact.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_career_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./career.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/frontend/career.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_career_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/frontend/contact.vue?vue&type=template&id=5c6b0f2d&":
-/*!*******************************************************************************!*\
-  !*** ../coreui/src/views/frontend/contact.vue?vue&type=template&id=5c6b0f2d& ***!
-  \*******************************************************************************/
+/***/ "../coreui/src/views/frontend/career.vue?vue&type=template&id=5035bffe&":
+/*!******************************************************************************!*\
+  !*** ../coreui/src/views/frontend/career.vue?vue&type=template&id=5035bffe& ***!
+  \******************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_5c6b0f2d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./contact.vue?vue&type=template&id=5c6b0f2d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/frontend/contact.vue?vue&type=template&id=5c6b0f2d&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_5c6b0f2d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_career_vue_vue_type_template_id_5035bffe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./career.vue?vue&type=template&id=5035bffe& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/frontend/career.vue?vue&type=template&id=5035bffe&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_career_vue_vue_type_template_id_5035bffe___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_contact_vue_vue_type_template_id_5c6b0f2d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_career_vue_vue_type_template_id_5035bffe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/frontend/contact.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/frontend/contact.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/frontend/career.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/frontend/career.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -288,6 +288,65 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -303,12 +362,15 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_toast_notification__WEBPACK_I
       formModal: false,
       formModal1: false,
       id: 0,
-      contactUsForm: new vform__WEBPACK_IMPORTED_MODULE_1__["default"]({
+      resume: [],
+      careerForm: new vform__WEBPACK_IMPORTED_MODULE_1__["default"]({
         firstName: '',
         lastName: '',
         email: '',
         phone: '',
-        message: ''
+        age: '',
+        gender: '',
+        address: ''
       })
     };
   },
@@ -316,28 +378,20 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_toast_notification__WEBPACK_I
     Uheader: _header__WEBPACK_IMPORTED_MODULE_2__["default"],
     Ufooter: _footer__WEBPACK_IMPORTED_MODULE_3__["default"]
   },
-  created: function created() {
-    this.id = this.$route.params.id; // this.ContactUsList();
-
-    this.homePageData();
-  },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapGetters"])("Front/HomePage", ["result", "returnData"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapActions"])("Front/HomePage", ["gethomePageData", "submitContactUsForm"]), {
-    homePageData: function homePageData() {
-      this.gethomePageData().then(function () {//console.log(this.result)
-      });
-    },
+  created: function created() {},
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapGetters"])("Front/HomePage", ["returnData"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapActions"])("Front/HomePage", ["submitCareerForm"]), {
     onlyNumric: function onlyNumric(evt) {
       return _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7___default.a.onlyNumric(evt);
     },
     acceptNumber: function acceptNumber() {
-      var x = this.contactUsForm.phone.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
-      this.contactUsForm.phone = !x[2] ? x[1] : '' + x[1] + '-' + x[2] + (x[3] ? '-' + x[3] : '');
+      var x = this.careerForm.phone.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+      this.careerForm.phone = !x[2] ? x[1] : '' + x[1] + '-' + x[2] + (x[3] ? '-' + x[3] : '');
     },
     submitFormData: function submitFormData() {
       var _this = this;
 
-      if (this.contactUsForm.lastName == '' || this.contactUsForm.lastName == '' || this.contactUsForm.email == '' || this.contactUsForm.phone == '' || this.contactUsForm.message == '') {
+      if (this.careerForm.lastName == '' || this.careerForm.lastName == '' || this.careerForm.email == '' || this.careerForm.phone == '' || this.careerForm.address == '') {
         vue__WEBPACK_IMPORTED_MODULE_0___default.a.$toast.open({
           message: "Please Insert All Data!",
           type: 'error',
@@ -345,34 +399,48 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_toast_notification__WEBPACK_I
           dismissible: true
         });
       } else {
-        this.submitContactUsForm(this.contactUsForm).then(function () {
+        var newData = new FormData();
+        newData.append('file', this.resume);
+        newData.append('formData', JSON.stringify(this.careerForm));
+        this.submitCareerForm({
+          newData: newData
+        }).then(function () {
           if (_this.returnData.status == 'success') {
             vue__WEBPACK_IMPORTED_MODULE_0___default.a.$toast.open({
               message: _this.returnData.message,
               type: _this.returnData.status
             });
-            _this.contactUsForm = new vform__WEBPACK_IMPORTED_MODULE_1__["default"]({
+            _this.careerForm = new vform__WEBPACK_IMPORTED_MODULE_1__["default"]({
               firstName: '',
               lastName: '',
               email: '',
               phone: '',
-              message: ''
+              age: '',
+              gender: '',
+              address: ''
             });
           }
         })["catch"](function (error) {
           window.scrollTo(0, 0);
         });
       }
+    },
+    onImageChange: function onImageChange(e) {
+      this.resume = e.target.files[0]; // var reader = new FileReader();
+      //    reader.onload = (e) => {
+      //          this.imageDoc = e.target.result;
+      //    }
+      // reader.readAsDataURL(this.resume);
     }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/frontend/contact.vue?vue&type=template&id=5c6b0f2d&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/frontend/contact.vue?vue&type=template&id=5c6b0f2d& ***!
-  \*************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/frontend/career.vue?vue&type=template&id=5035bffe&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/frontend/career.vue?vue&type=template&id=5035bffe& ***!
+  \************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -399,7 +467,7 @@ var render = function() {
                   _c(
                     "div",
                     { staticClass: "col-md-12 sec-title colored text-center" },
-                    [_c("h2", [_vm._v("Contact Us")])]
+                    [_c("h2", [_vm._v("Careers")])]
                   )
                 ])
               ])
@@ -407,342 +475,421 @@ var render = function() {
             _vm._v(" "),
             _c("div", { staticClass: "ptb_60 pt-2" }, [
               _c("div", { staticClass: "container" }, [
-                _c("div", { staticClass: "row" }, [
-                  _c("div", { staticClass: "col-md-5" }, [
-                    _c(
-                      "div",
-                      { staticClass: "contact_details" },
-                      [
-                        _c("h2", [_vm._v("Get In Touch")]),
-                        _vm._v(" "),
-                        _vm._l(_vm.result.contact, function(row, index) {
-                          return _vm.result.contact
-                            ? _c("ul", { key: index, staticClass: "mb-0" }, [
-                                _c("li", [
-                                  _c("span", [
-                                    _c("i", {
-                                      staticClass: "fa fa-map-marker",
-                                      attrs: { "aria-hidden": "true" }
+                _c("div", { staticClass: "career_section" }, [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-10 mx-auto" }, [
+                      _c("div", { staticClass: "career_form" }, [
+                        _c("form", [
+                          _c("div", { staticClass: "form_all" }, [
+                            _c("div", { staticClass: "form_heading" }, [
+                              _c("h2", [_vm._v("Personal/General Info")])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "form_info" }, [
+                              _c("div", { staticClass: "row" }, [
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group col-md-6" },
+                                  [
+                                    _c("label", [
+                                      _vm._v("First Name"),
+                                      _c("span", [_vm._v("*")])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.careerForm.firstName,
+                                          expression: "careerForm.firstName"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "text", name: "" },
+                                      domProps: {
+                                        value: _vm.careerForm.firstName
+                                      },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.careerForm,
+                                            "firstName",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
                                     })
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("p", [_vm._v(_vm._s(row.address))])
-                                ]),
+                                  ]
+                                ),
                                 _vm._v(" "),
-                                _c("li", [
-                                  _c("span", [
-                                    _c("i", {
-                                      staticClass: "fa fa-phone",
-                                      attrs: { "aria-hidden": "true" }
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group col-md-6" },
+                                  [
+                                    _c("label", [
+                                      _vm._v("Last Name"),
+                                      _c("span", [_vm._v("*")])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.careerForm.lastName,
+                                          expression: "careerForm.lastName"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "text", name: "" },
+                                      domProps: {
+                                        value: _vm.careerForm.lastName
+                                      },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.careerForm,
+                                            "lastName",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
                                     })
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("p", [
-                                    _c("a", [_vm._v(_vm._s(row.contactno))])
-                                  ])
-                                ]),
+                                  ]
+                                ),
                                 _vm._v(" "),
-                                _c("li", [
-                                  _c("span", [
-                                    _c("i", {
-                                      staticClass: "fa fa-envelope",
-                                      attrs: { "aria-hidden": "true" }
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group col-md-6" },
+                                  [
+                                    _c("label", [
+                                      _vm._v("Email"),
+                                      _c("span", [_vm._v("*")])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.careerForm.email,
+                                          expression: "careerForm.email"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "email", name: "" },
+                                      domProps: { value: _vm.careerForm.email },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.careerForm,
+                                            "email",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
                                     })
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("p", [
-                                    _c("a", [_vm._v(_vm._s(row.email))])
-                                  ])
-                                ]),
+                                  ]
+                                ),
                                 _vm._v(" "),
-                                _c("hr")
-                              ])
-                            : _vm._e()
-                        }),
-                        _vm._v(" "),
-                        _c("ul", { staticClass: "mb-0" }, [
-                          _c("li", { staticClass: "social" }, [
-                            _vm.result &&
-                            _vm.result.socialLinksData &&
-                            _vm.result.socialLinksData.instagram
-                              ? _c(
-                                  "a",
-                                  {
-                                    attrs: {
-                                      href:
-                                        _vm.result.socialLinksData.instagram,
-                                      target: "_blank"
-                                    }
-                                  },
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group col-md-6" },
                                   [
-                                    _c("i", {
-                                      staticClass: "fa fa-instagram",
-                                      attrs: { "aria-hidden": "true" }
+                                    _c("label", [
+                                      _vm._v("Phone No."),
+                                      _c("span", [_vm._v("*")])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.careerForm.phone,
+                                          expression: "careerForm.phone"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: {
+                                        type: "tel",
+                                        name: "",
+                                        maxlength: "12"
+                                      },
+                                      domProps: { value: _vm.careerForm.phone },
+                                      on: {
+                                        blur: _vm.acceptNumber,
+                                        input: [
+                                          function($event) {
+                                            if ($event.target.composing) {
+                                              return
+                                            }
+                                            _vm.$set(
+                                              _vm.careerForm,
+                                              "phone",
+                                              $event.target.value
+                                            )
+                                          },
+                                          _vm.acceptNumber
+                                        ],
+                                        keypress: function($event) {
+                                          return _vm.onlyNumric($event)
+                                        }
+                                      }
                                     })
                                   ]
-                                )
-                              : _vm._e(),
-                            _vm._v(" "),
-                            _vm.result &&
-                            _vm.result.socialLinksData &&
-                            _vm.result.socialLinksData.twitter
-                              ? _c(
-                                  "a",
-                                  {
-                                    attrs: {
-                                      href: _vm.result.socialLinksData.twitter,
-                                      target: "_blank"
-                                    }
-                                  },
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group col-md-6" },
                                   [
-                                    _c("i", {
-                                      staticClass: "fa fa-twitter",
-                                      attrs: { "aria-hidden": "true" }
+                                    _c("label", [
+                                      _vm._v("Age"),
+                                      _c("span", [_vm._v("*")])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.careerForm.age,
+                                          expression: "careerForm.age"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "number", name: "" },
+                                      domProps: { value: _vm.careerForm.age },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.careerForm,
+                                            "age",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
                                     })
                                   ]
-                                )
-                              : _vm._e(),
-                            _vm._v(" "),
-                            _vm.result &&
-                            _vm.result.socialLinksData &&
-                            _vm.result.socialLinksData.facebook
-                              ? _c(
-                                  "a",
-                                  {
-                                    attrs: {
-                                      href: _vm.result.socialLinksData.facebook,
-                                      target: "_blank"
-                                    }
-                                  },
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group col-md-6" },
                                   [
-                                    _c("i", {
-                                      staticClass: "fa fa-facebook",
-                                      attrs: { "aria-hidden": "true" }
-                                    })
-                                  ]
-                                )
-                              : _vm._e(),
-                            _vm._v(" "),
-                            _vm.result &&
-                            _vm.result.socialLinksData &&
-                            _vm.result.socialLinksData.linkedIn
-                              ? _c(
-                                  "a",
-                                  {
-                                    attrs: {
-                                      href: _vm.result.socialLinksData.linkedIn,
-                                      target: "_blank"
-                                    }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fa fa-linkedin-square",
-                                      attrs: { "aria-hidden": "true" }
-                                    })
-                                  ]
-                                )
-                              : _vm._e(),
-                            _vm._v(" "),
-                            _vm.result &&
-                            _vm.result.socialLinksData &&
-                            _vm.result.socialLinksData.youTube
-                              ? _c(
-                                  "a",
-                                  {
-                                    attrs: {
-                                      href: _vm.result.socialLinksData.youTube,
-                                      target: "_blank"
-                                    }
-                                  },
-                                  [
-                                    _c("i", {
-                                      staticClass: "fa fa-youtube-play",
-                                      attrs: { "aria-hidden": "true" }
-                                    })
-                                  ]
-                                )
-                              : _vm._e()
-                          ])
-                        ])
-                      ],
-                      2
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-md-7" }, [
-                    _c("div", { staticClass: "contact_form" }, [
-                      _c("form", [
-                        _c("div", { staticClass: "row" }, [
-                          _c("div", { staticClass: "col-md-6 form-group" }, [
-                            _c("label", [_vm._v("First Name")]),
-                            _vm._v(" "),
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.contactUsForm.firstName,
-                                  expression: "contactUsForm.firstName"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              attrs: { type: "text", name: "" },
-                              domProps: { value: _vm.contactUsForm.firstName },
-                              on: {
-                                input: function($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.$set(
-                                    _vm.contactUsForm,
-                                    "firstName",
-                                    $event.target.value
-                                  )
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "col-md-6 form-group" }, [
-                            _c("label", [_vm._v("Last Name")]),
-                            _vm._v(" "),
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.contactUsForm.lastName,
-                                  expression: "contactUsForm.lastName"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              attrs: { type: "text", name: "" },
-                              domProps: { value: _vm.contactUsForm.lastName },
-                              on: {
-                                input: function($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.$set(
-                                    _vm.contactUsForm,
-                                    "lastName",
-                                    $event.target.value
-                                  )
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "col-md-6 form-group" }, [
-                            _c("label", [_vm._v("Email ID")]),
-                            _vm._v(" "),
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.contactUsForm.email,
-                                  expression: "contactUsForm.email"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              attrs: { type: "email", name: "" },
-                              domProps: { value: _vm.contactUsForm.email },
-                              on: {
-                                input: function($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.$set(
-                                    _vm.contactUsForm,
-                                    "email",
-                                    $event.target.value
-                                  )
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "col-md-6 form-group" }, [
-                            _c("label", [_vm._v("Phone No,")]),
-                            _vm._v(" "),
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.contactUsForm.phone,
-                                  expression: "contactUsForm.phone"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              attrs: { type: "tel", name: "", maxlength: "12" },
-                              domProps: { value: _vm.contactUsForm.phone },
-                              on: {
-                                blur: _vm.acceptNumber,
-                                input: [
-                                  function($event) {
-                                    if ($event.target.composing) {
-                                      return
-                                    }
-                                    _vm.$set(
-                                      _vm.contactUsForm,
-                                      "phone",
-                                      $event.target.value
+                                    _c("label", [
+                                      _vm._v("Gender"),
+                                      _c("span", [_vm._v("*")])
+                                    ]),
+                                    _c("br"),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "custom-control custom-radio custom-control-inline"
+                                      },
+                                      [
+                                        _c("input", {
+                                          directives: [
+                                            {
+                                              name: "model",
+                                              rawName: "v-model",
+                                              value: _vm.careerForm.gender,
+                                              expression: "careerForm.gender"
+                                            }
+                                          ],
+                                          staticClass: "custom-control-input",
+                                          attrs: {
+                                            type: "radio",
+                                            id: "customRadioInline1",
+                                            name: "customRadioInline1",
+                                            value: "Male"
+                                          },
+                                          domProps: {
+                                            checked: _vm._q(
+                                              _vm.careerForm.gender,
+                                              "Male"
+                                            )
+                                          },
+                                          on: {
+                                            change: function($event) {
+                                              return _vm.$set(
+                                                _vm.careerForm,
+                                                "gender",
+                                                "Male"
+                                              )
+                                            }
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c(
+                                          "label",
+                                          {
+                                            staticClass: "custom-control-label",
+                                            attrs: { for: "customRadioInline1" }
+                                          },
+                                          [_vm._v("Male")]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "custom-control custom-radio custom-control-inline"
+                                      },
+                                      [
+                                        _c("input", {
+                                          directives: [
+                                            {
+                                              name: "model",
+                                              rawName: "v-model",
+                                              value: _vm.careerForm.gender,
+                                              expression: "careerForm.gender"
+                                            }
+                                          ],
+                                          staticClass: "custom-control-input",
+                                          attrs: {
+                                            type: "radio",
+                                            id: "customRadioInline2",
+                                            name: "customRadioInline1",
+                                            value: "Female"
+                                          },
+                                          domProps: {
+                                            checked: _vm._q(
+                                              _vm.careerForm.gender,
+                                              "Female"
+                                            )
+                                          },
+                                          on: {
+                                            change: function($event) {
+                                              return _vm.$set(
+                                                _vm.careerForm,
+                                                "gender",
+                                                "Female"
+                                              )
+                                            }
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _c(
+                                          "label",
+                                          {
+                                            staticClass: "custom-control-label",
+                                            attrs: { for: "customRadioInline2" }
+                                          },
+                                          [_vm._v("Female")]
+                                        )
+                                      ]
                                     )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group col-md-12" },
+                                  [
+                                    _c("label", [
+                                      _vm._v("Address"),
+                                      _c("span", [_vm._v("*")])
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("textarea", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.careerForm.address,
+                                          expression: "careerForm.address"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { placeholder: "" },
+                                      domProps: {
+                                        value: _vm.careerForm.address
+                                      },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.careerForm,
+                                            "address",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
+                                    })
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group col-md-6" },
+                                  [
+                                    _c("label", [
+                                      _vm._v("Upload Document"),
+                                      _c("span")
+                                    ]),
+                                    _c("br"),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      attrs: {
+                                        type: "file",
+                                        name: "uploddocuemnt"
+                                      },
+                                      on: { change: _vm.onImageChange }
+                                    })
+                                  ]
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "form_all" }, [
+                            _c("div", { staticClass: "form_info py-0" }, [
+                              _c("div", { staticClass: "row" }, [
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass:
+                                      "form-group col-md-12 text-right"
                                   },
-                                  _vm.acceptNumber
-                                ],
-                                keypress: function($event) {
-                                  return _vm.onlyNumric($event)
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "col-md-12 form-group" }, [
-                            _c("label", [_vm._v("Message")]),
-                            _vm._v(" "),
-                            _c("textarea", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.contactUsForm.message,
-                                  expression: "contactUsForm.message"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              domProps: { value: _vm.contactUsForm.message },
-                              on: {
-                                input: function($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.$set(
-                                    _vm.contactUsForm,
-                                    "message",
-                                    $event.target.value
-                                  )
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "col-md-12" }, [
-                            _c(
-                              "button",
-                              {
-                                staticClass: "submitbtn",
-                                attrs: { type: "button" },
-                                on: {
-                                  click: function($event) {
-                                    return _vm.submitFormData()
-                                  }
-                                }
-                              },
-                              [_vm._v("Submit")]
-                            )
+                                  [
+                                    _c(
+                                      "button",
+                                      {
+                                        staticClass: "submitbtn",
+                                        attrs: { type: "button" },
+                                        on: {
+                                          click: function($event) {
+                                            return _vm.submitFormData()
+                                          }
+                                        }
+                                      },
+                                      [_vm._v("Submit")]
+                                    )
+                                  ]
+                                )
+                              ])
+                            ])
                           ])
                         ])
                       ])

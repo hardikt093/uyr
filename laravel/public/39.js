@@ -18,19 +18,19 @@ var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPro
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/about_edit.vue":
-/*!*******************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/about_edit.vue ***!
-  \*******************************************************/
+/***/ "../coreui/src/views/emailSettings.vue":
+/*!*********************************************!*\
+  !*** ../coreui/src/views/emailSettings.vue ***!
+  \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _about_edit_vue_vue_type_template_id_0b6998ae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./about_edit.vue?vue&type=template&id=0b6998ae& */ "../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=template&id=0b6998ae&");
-/* harmony import */ var _about_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./about_edit.vue?vue&type=script&lang=js& */ "../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _about_edit_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about_edit.vue?vue&type=style&index=0&lang=css& */ "../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _emailSettings_vue_vue_type_template_id_319cc745___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./emailSettings.vue?vue&type=template&id=319cc745& */ "../coreui/src/views/emailSettings.vue?vue&type=template&id=319cc745&");
+/* harmony import */ var _emailSettings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./emailSettings.vue?vue&type=script&lang=js& */ "../coreui/src/views/emailSettings.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _emailSettings_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./emailSettings.vue?vue&type=style&index=0&lang=css& */ "../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -40,9 +40,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _about_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _about_edit_vue_vue_type_template_id_0b6998ae___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _about_edit_vue_vue_type_template_id_0b6998ae___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _emailSettings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _emailSettings_vue_vue_type_template_id_319cc745___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _emailSettings_vue_vue_type_template_id_319cc745___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -52,73 +52,72 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/mangeWebsite/about_edit.vue"
+component.options.__file = "coreui/src/views/emailSettings.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=script&lang=js&":
-/*!********************************************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************/
+/***/ "../coreui/src/views/emailSettings.vue?vue&type=script&lang=js&":
+/*!**********************************************************************!*\
+  !*** ../coreui/src/views/emailSettings.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./about_edit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./emailSettings.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/emailSettings.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css&":
-/*!****************************************************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css& ***!
-  \****************************************************************************************/
+/***/ "../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************!*\
+  !*** ../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/style-loader!../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./about_edit.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css&");
-/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../laravel/node_modules/style-loader!../../../laravel/node_modules/css-loader??ref--6-1!../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./emailSettings.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=template&id=0b6998ae&":
-/*!**************************************************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=template&id=0b6998ae& ***!
-  \**************************************************************************************/
+/***/ "../coreui/src/views/emailSettings.vue?vue&type=template&id=319cc745&":
+/*!****************************************************************************!*\
+  !*** ../coreui/src/views/emailSettings.vue?vue&type=template&id=319cc745& ***!
+  \****************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_template_id_0b6998ae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./about_edit.vue?vue&type=template&id=0b6998ae& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=template&id=0b6998ae&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_template_id_0b6998ae___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_template_id_319cc745___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./emailSettings.vue?vue&type=template&id=319cc745& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/emailSettings.vue?vue&type=template&id=319cc745&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_template_id_319cc745___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_about_edit_vue_vue_type_template_id_0b6998ae___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_emailSettings_vue_vue_type_template_id_319cc745___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/emailSettings.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/emailSettings.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "../coreui/node_modules/vue/dist/vue.common.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vform */ "../coreui/node_modules/vform/dist/vform.es.js");
-/* harmony import */ var vue2_editor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue2-editor */ "../coreui/node_modules/vue2-editor/dist/vue2-editor.esm.js");
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vuex */ "../coreui/node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "../coreui/node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "../coreui/node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vform */ "../coreui/node_modules/vform/dist/vform.es.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -192,109 +191,161 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  components: {
-    VueEditor: vue2_editor__WEBPACK_IMPORTED_MODULE_2__["VueEditor"]
-  },
+  components: {},
   data: function data() {
-    return _defineProperty({
-      id: '',
-      show: false,
-      showModal: true,
-      formData: new vform__WEBPACK_IMPORTED_MODULE_1__["default"]({
+    return {
+      id: 0,
+      keyword: "",
+      label: "Add",
+      formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
         id: '',
-        title: '',
-        description: '',
-        status: 1
-      }),
-      aboutus_picture: '',
-      imageDoc: []
-    }, "id", 0);
+        type: 'info',
+        smtpHost: '',
+        smtpUser: '',
+        smtpPassword: '',
+        smtpPort: '',
+        smtpDriver: '',
+        smtpEncryption: '',
+        smtpSendmail: '',
+        smtpPretend: '',
+        smtpFromAddress: '',
+        smtpFromName: ''
+      })
+    };
   },
   created: function created() {
+    this.page;
     this.getFormData();
   },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_3__["mapGetters"])("ManageWebsite/AboutUS", ["rolesResult", "returnData", "ajax_error", "editData"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_3__["mapActions"])("ManageWebsite/AboutUS", ["submitForm", "edit"]), {
-    onImageChange: function onImageChange(e) {
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("EmailSettings/Index", ["editData", "returnData", "ajax_error"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("EmailSettings/Index", ["edit", "submitForm"]), {
+    submitFormData: function submitFormData() {
       var _this = this;
 
-      this.aboutus_picture = e.target.files[0];
-      var reader = new FileReader();
+      // var formdata = '';
+      // if(type == 'info'){
+      //   formdata = this.formData;
+      // }else{
+      //   formdata = this.formSupport;;
+      // }
+      this.submitForm(this.formData).then(function () {
+        if (_this.returnData.status == "success") {
+          vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+            message: _this.returnData.message,
+            type: _this.returnData.status
+          });
 
-      reader.onload = function (e) {
-        _this.imageDoc = e.target.result;
-      };
-
-      reader.readAsDataURL(this.aboutus_picture);
+          _this.getFormData();
+        }
+      })["catch"](function (error) {
+        window.scrollTo(0, 0);
+      });
     },
     getFormData: function getFormData() {
       var _this2 = this;
 
-      this.edit(0).then(function () {
+      this.edit().then(function () {
         _this2.formData.keys().forEach(function (key) {
-          _this2.formData[key] = _this2.editData[key]; // this.id = this.editData.id;
-        });
-      }); //console.log(this.editData.id);
-    },
-    submitFormData: function submitFormData() {
-      var _this3 = this;
+          _this2.formData[key] = _this2.editData[key];
+        }); // if(this.editData.info && this.editData.info != ''){
+        //   this.formInfo = this.editData.info;
+        // }
+        // if(this.editData.support && this.editData.support != ''){
+        //   this.formSupport = this.editData.support;
+        // }
 
-      var newData = new FormData();
-      newData.append('file', this.aboutus_picture);
-      newData.append('formData', JSON.stringify(this.formData));
-      var id = this.formData.id;
-      this.submitForm({
-        newData: newData,
-        id: id
-      }).then(function () {
-        if (_this3.returnData.status == 'success') {
-          vue__WEBPACK_IMPORTED_MODULE_0___default.a.$toast.open({
-            message: _this3.returnData.message,
-            type: _this3.returnData.status,
-            position: 'bottom-left',
-            duration: 5000
-          });
-        }
-      })["catch"](function (error) {});
+      });
     }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../../laravel/node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../../laravel/node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "\n.slider-img{\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap;\n}\n.sliderimg {\n      width: 100%;\n      border: 2px solid #2c449e;\n      overflow: hidden;\n      margin-right: 16px;\n      height: 320px;\n}\n.sliderimg img {\n    width: 100%;\n    height: 100%;\n    -o-object-fit: cover;\n    object-fit: cover;\n}\n.slider-img .file {\n    position: relative;\n    margin: 10px 0\n}\n.slider-img .file input {\n    position: absolute;\n    opacity: 0;\n    right: 0;\n    top: 0;\n    cursor: pointer;\n    width: 100%;\n    height: 100%;\n}\n", ""]);
+exports.push([module.i, "\n.custome_select select:required:invalid {\n  color: gray !important;\n}\n.custome_select option[value=\"\"][disabled] {\n  display: none !important;\n}\n.custome_select option {\n  color: black !important;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./about_edit.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=style&index=0&lang=css&");
+var content = __webpack_require__(/*! !../../../laravel/node_modules/css-loader??ref--6-1!../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./emailSettings.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/emailSettings.vue?vue&type=style&index=0&lang=css&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -308,7 +359,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(/*! ../../../../laravel/node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+var update = __webpack_require__(/*! ../../../laravel/node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -316,10 +367,10 @@ if(false) {}
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=template&id=0b6998ae&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/about_edit.vue?vue&type=template&id=0b6998ae& ***!
-  \********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/emailSettings.vue?vue&type=template&id=319cc745&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/emailSettings.vue?vue&type=template&id=319cc745& ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -333,190 +384,377 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { staticClass: "master_sections" },
     [
       _c(
         "CRow",
         { staticClass: "m-0" },
         [
-          _c("CCol", { staticClass: "px-2 btn-sticky", attrs: { sm: "12" } }, [
+          _c("CCol", { staticClass: "p-2", attrs: { sm: "12" } }, [
             _c(
               "div",
               {
-                staticClass:
-                  "d-flex justify-content-between py-2 align-items-center"
+                staticClass: "d-flex justify-content-between align-items-center"
               },
               [
-                _c(
-                  "h5",
-                  { staticClass: "mb-0" },
-                  [
-                    _vm._v("About Us "),
-                    _c("vue-fontawesome", {
-                      staticClass: "px-1",
-                      attrs: { icon: "caret-right", size: "1" }
-                    }),
-                    _vm._v("Edit")
-                  ],
-                  1
-                ),
+                _c("h5", { staticClass: "mb-0" }, [_vm._v("Email Settings")]),
                 _vm._v(" "),
-                _c("div", {})
+                _c("div", { staticClass: "d-flex" })
               ]
             )
-          ]),
-          _vm._v(" "),
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "CRow",
+        { staticClass: "m-0" },
+        [
           _c(
             "CCol",
-            { staticClass: "p-2", attrs: { sm: "9" } },
+            { staticClass: "px-2 pb-2 mx-auto", attrs: { md: "9" } },
             [
               _c(
                 "CCard",
-                { staticClass: "mb-0" },
                 [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("div", [_c("strong", [_vm._v("About Us Details")])])
-                  ]),
-                  _vm._v(" "),
                   _c(
                     "CCardBody",
-                    { staticClass: "px-1 py-2" },
+                    { staticClass: "py-3 px-2" },
                     [
                       _c(
                         "CForm",
+                        { attrs: { method: "POST" } },
                         [
                           _c(
                             "CRow",
-                            { staticClass: "m-0" },
+                            { staticClass: "mx-0 mb-4" },
                             [
                               _c(
                                 "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "12", md: "12" }
-                                },
+                                { staticClass: "px-2", attrs: { sm: "12" } },
                                 [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("About Us Image")]),
-                                    _vm._v(" "),
-                                    _c(
-                                      "div",
-                                      { staticClass: "slider-img rounded p-1" },
-                                      [
-                                        _c(
-                                          "div",
-                                          { staticClass: "sliderimg w-50" },
-                                          [
-                                            _vm.editData.image &&
-                                            _vm.imageDoc == ""
-                                              ? _c("img", {
-                                                  attrs: {
-                                                    src:
-                                                      "uploads/aboutus/" +
-                                                      _vm.editData.id +
-                                                      "/" +
-                                                      _vm.editData.image
-                                                  }
-                                                })
-                                              : _vm.imageDoc &&
-                                                _vm.imageDoc != ""
-                                              ? _c("img", {
-                                                  staticClass: "img-fluid",
-                                                  attrs: { src: _vm.imageDoc }
-                                                })
-                                              : _c("img", {
-                                                  attrs: {
-                                                    src:
-                                                      "/images/dummy_banner.jpg"
-                                                  }
-                                                })
-                                          ]
-                                        ),
-                                        _vm._v(" "),
-                                        _c("div", { staticClass: "w-100" }, [
-                                          _c(
-                                            "button",
-                                            {
-                                              staticClass:
-                                                "file btn btn-sm upload_btn text-center"
-                                            },
-                                            [
-                                              _c("vue-fontawesome", {
-                                                staticClass: "px-1 mr-2",
-                                                attrs: {
-                                                  icon: "upload",
-                                                  size: "0.8"
-                                                }
-                                              }),
-                                              _vm._v(
-                                                "\n                              Upload Image\n                              "
-                                              ),
-                                              _c("input", {
-                                                attrs: {
-                                                  type: "file",
-                                                  name: "profile_picture"
-                                                },
-                                                on: {
-                                                  change: _vm.onImageChange
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          )
-                                        ])
-                                      ]
-                                    )
+                                  _c("h5", { staticClass: "mb-3" }, [
+                                    _vm._v("SMTP Info Email Settings")
                                   ])
                                 ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "CCol",
-                                { staticClass: "px-2", attrs: { md: "12" } },
+                                { staticClass: "px-2", attrs: { sm: "6" } },
                                 [
-                                  _c("CInput", {
-                                    attrs: {
-                                      label: "About Us Title",
-                                      placeholder: ""
-                                    },
-                                    model: {
-                                      value: _vm.formData.title,
-                                      callback: function($$v) {
-                                        _vm.$set(_vm.formData, "title", $$v)
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("SMTP HOST")]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.smtpHost,
+                                          expression: "formData.smtpHost"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "text", name: "" },
+                                      domProps: {
+                                        value: _vm.formData.smtpHost
                                       },
-                                      expression: "formData.title"
-                                    }
-                                  })
-                                ],
-                                1
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "smtpHost",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
+                                    })
+                                  ])
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
                                 "CCol",
-                                { staticClass: "px-2", attrs: { sm: "12" } },
+                                { staticClass: "px-2", attrs: { sm: "6" } },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("SMTP USER NAME")]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.smtpUser,
+                                          expression: "formData.smtpUser"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "text", name: "" },
+                                      domProps: {
+                                        value: _vm.formData.smtpUser
+                                      },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "smtpUser",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
+                                    })
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                { staticClass: "px-2", attrs: { sm: "6" } },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("SMTP PASSWORD")]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.smtpPassword,
+                                          expression: "formData.smtpPassword"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "text", name: "" },
+                                      domProps: {
+                                        value: _vm.formData.smtpPassword
+                                      },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "smtpPassword",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
+                                    })
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                { staticClass: "px-2", attrs: { sm: "6" } },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("SMTP PORT")]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.smtpPort,
+                                          expression: "formData.smtpPort"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "text", name: "" },
+                                      domProps: {
+                                        value: _vm.formData.smtpPort
+                                      },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "smtpPort",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
+                                    })
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                { staticClass: "px-2", attrs: { sm: "6" } },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("From Address")]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.smtpFromAddress,
+                                          expression: "formData.smtpFromAddress"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "text", name: "" },
+                                      domProps: {
+                                        value: _vm.formData.smtpFromAddress
+                                      },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "smtpFromAddress",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
+                                    })
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                { staticClass: "px-2", attrs: { sm: "6" } },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("From Name")]),
+                                    _vm._v(" "),
+                                    _c("input", {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.smtpFromName,
+                                          expression: "formData.smtpFromName"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      attrs: { type: "text", name: "" },
+                                      domProps: {
+                                        value: _vm.formData.smtpFromName
+                                      },
+                                      on: {
+                                        input: function($event) {
+                                          if ($event.target.composing) {
+                                            return
+                                          }
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "smtpFromName",
+                                            $event.target.value
+                                          )
+                                        }
+                                      }
+                                    })
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                { staticClass: "px-2", attrs: { sm: "6" } },
                                 [
                                   _c(
                                     "div",
-                                    { staticClass: "form-group" },
+                                    {
+                                      staticClass: "form-group custome_select"
+                                    },
                                     [
-                                      _c("label", [
-                                        _vm._v("About Us Description")
-                                      ]),
+                                      _c("label", [_vm._v("SMTP Security")]),
                                       _vm._v(" "),
-                                      _c("vue-editor", {
-                                        model: {
-                                          value: _vm.formData.description,
-                                          callback: function($$v) {
-                                            _vm.$set(
-                                              _vm.formData,
-                                              "description",
-                                              $$v
-                                            )
-                                          },
-                                          expression: "formData.description"
-                                        }
-                                      })
-                                    ],
-                                    1
+                                      _c(
+                                        "select",
+                                        {
+                                          directives: [
+                                            {
+                                              name: "model",
+                                              rawName: "v-model",
+                                              value:
+                                                _vm.formData.smtpEncryption,
+                                              expression:
+                                                "formData.smtpEncryption"
+                                            }
+                                          ],
+                                          staticClass: "form-control",
+                                          attrs: { required: "" },
+                                          on: {
+                                            change: function($event) {
+                                              var $$selectedVal = Array.prototype.filter
+                                                .call(
+                                                  $event.target.options,
+                                                  function(o) {
+                                                    return o.selected
+                                                  }
+                                                )
+                                                .map(function(o) {
+                                                  var val =
+                                                    "_value" in o
+                                                      ? o._value
+                                                      : o.value
+                                                  return val
+                                                })
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "smtpEncryption",
+                                                $event.target.multiple
+                                                  ? $$selectedVal
+                                                  : $$selectedVal[0]
+                                              )
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "option",
+                                            {
+                                              attrs: {
+                                                value: "",
+                                                disabled: "",
+                                                selected: "",
+                                                hidden: ""
+                                              }
+                                            },
+                                            [_vm._v("-Select Security Type-")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "option",
+                                            { attrs: { value: "none" } },
+                                            [_vm._v("None")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "option",
+                                            { attrs: { value: "ssl" } },
+                                            [_vm._v("SSL")]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "option",
+                                            { attrs: { value: "tls" } },
+                                            [_vm._v("TLS")]
+                                          )
+                                        ]
+                                      )
+                                    ]
                                   )
                                 ]
                               )
@@ -525,42 +763,30 @@ var render = function() {
                           )
                         ],
                         1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "CCol",
-            { staticClass: "p-2", attrs: { sm: "3" } },
-            [
-              _c(
-                "CCard",
-                [
-                  _c(
-                    "CCardBody",
-                    { staticClass: "p-2" },
-                    [
+                      ),
+                      _vm._v(" "),
                       _c(
-                        "CButton",
-                        {
-                          staticClass:
-                            "text-white mx-auto d-block w-75 p-2 mb-3",
-                          attrs: { size: "sm", color: "info" },
-                          on: { click: _vm.submitFormData }
-                        },
+                        "CRow",
+                        { staticClass: "mx-0 mt-3" },
                         [
-                          _c("vue-fontawesome", {
-                            staticClass: "mr-1",
-                            attrs: { icon: "upload", size: "0.8" }
-                          }),
-                          _vm._v("Publish")
+                          _c(
+                            "CCol",
+                            {
+                              staticClass: "px-2 text-center",
+                              attrs: { sm: "12" }
+                            },
+                            [
+                              _c(
+                                "CButton",
+                                {
+                                  staticClass: "btn_custom px-4",
+                                  on: { click: _vm.submitFormData }
+                                },
+                                [_vm._v("Update Settings")]
+                              )
+                            ],
+                            1
+                          )
                         ],
                         1
                       )

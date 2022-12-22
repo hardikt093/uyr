@@ -96,17 +96,17 @@ module.exports = {
 
 /***/ }),
 
-/***/ "../coreui/src/views/auth/userRegister.vue":
-/*!*************************************************!*\
-  !*** ../coreui/src/views/auth/userRegister.vue ***!
-  \*************************************************/
+/***/ "../coreui/src/views/auth/doctorRegister.vue":
+/*!***************************************************!*\
+  !*** ../coreui/src/views/auth/doctorRegister.vue ***!
+  \***************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _userRegister_vue_vue_type_template_id_51f6440a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./userRegister.vue?vue&type=template&id=51f6440a& */ "../coreui/src/views/auth/userRegister.vue?vue&type=template&id=51f6440a&");
-/* harmony import */ var _userRegister_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./userRegister.vue?vue&type=script&lang=js& */ "../coreui/src/views/auth/userRegister.vue?vue&type=script&lang=js&");
+/* harmony import */ var _doctorRegister_vue_vue_type_template_id_2a5fc40f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./doctorRegister.vue?vue&type=template&id=2a5fc40f& */ "../coreui/src/views/auth/doctorRegister.vue?vue&type=template&id=2a5fc40f&");
+/* harmony import */ var _doctorRegister_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./doctorRegister.vue?vue&type=script&lang=js& */ "../coreui/src/views/auth/doctorRegister.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -116,9 +116,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _userRegister_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _userRegister_vue_vue_type_template_id_51f6440a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _userRegister_vue_vue_type_template_id_51f6440a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _doctorRegister_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _doctorRegister_vue_vue_type_template_id_2a5fc40f___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _doctorRegister_vue_vue_type_template_id_2a5fc40f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -128,47 +128,47 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/auth/userRegister.vue"
+component.options.__file = "coreui/src/views/auth/doctorRegister.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/auth/userRegister.vue?vue&type=script&lang=js&":
-/*!**************************************************************************!*\
-  !*** ../coreui/src/views/auth/userRegister.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************/
+/***/ "../coreui/src/views/auth/doctorRegister.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ../coreui/src/views/auth/doctorRegister.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_userRegister_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./userRegister.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/auth/userRegister.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_userRegister_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorRegister_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./doctorRegister.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/auth/doctorRegister.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorRegister_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/auth/userRegister.vue?vue&type=template&id=51f6440a&":
-/*!********************************************************************************!*\
-  !*** ../coreui/src/views/auth/userRegister.vue?vue&type=template&id=51f6440a& ***!
-  \********************************************************************************/
+/***/ "../coreui/src/views/auth/doctorRegister.vue?vue&type=template&id=2a5fc40f&":
+/*!**********************************************************************************!*\
+  !*** ../coreui/src/views/auth/doctorRegister.vue?vue&type=template&id=2a5fc40f& ***!
+  \**********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_userRegister_vue_vue_type_template_id_51f6440a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./userRegister.vue?vue&type=template&id=51f6440a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/auth/userRegister.vue?vue&type=template&id=51f6440a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_userRegister_vue_vue_type_template_id_51f6440a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorRegister_vue_vue_type_template_id_2a5fc40f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./doctorRegister.vue?vue&type=template&id=2a5fc40f& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/auth/doctorRegister.vue?vue&type=template&id=2a5fc40f&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorRegister_vue_vue_type_template_id_2a5fc40f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_userRegister_vue_vue_type_template_id_51f6440a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorRegister_vue_vue_type_template_id_2a5fc40f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/auth/userRegister.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/auth/userRegister.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/auth/doctorRegister.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/auth/doctorRegister.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -182,12 +182,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../coreui/node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vuex */ "../coreui/node_modules/vuex/dist/vuex.esm.js");
-/* harmony import */ var vue_toast_notification__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-toast-notification */ "../coreui/node_modules/vue-toast-notification/dist/index.min.js");
-/* harmony import */ var vue_toast_notification__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(vue_toast_notification__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-toast-notification/dist/theme-sugar.css */ "../coreui/node_modules/vue-toast-notification/dist/theme-sugar.css");
-/* harmony import */ var vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../../global_helper/helpers.js */ "../coreui/src/global_helper/helpers.js");
-/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../global_helper/helpers.js */ "../coreui/src/global_helper/helpers.js");
+/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var vue_toast_notification__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-toast-notification */ "../coreui/node_modules/vue-toast-notification/dist/index.min.js");
+/* harmony import */ var vue_toast_notification__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(vue_toast_notification__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! vue-toast-notification/dist/theme-sugar.css */ "../coreui/node_modules/vue-toast-notification/dist/theme-sugar.css");
+/* harmony import */ var vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _frontend_header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../frontend/header */ "../coreui/src/views/frontend/header.vue");
 /* harmony import */ var _frontend_footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../frontend/footer */ "../coreui/src/views/frontend/footer.vue");
 
@@ -339,64 +339,16 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
 
 
 
-vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_toast_notification__WEBPACK_IMPORTED_MODULE_5___default.a);
 
 
 
+vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_toast_notification__WEBPACK_IMPORTED_MODULE_6___default.a);
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Regiter",
   data: function data() {
@@ -409,7 +361,7 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_toast_notification__WEBPACK_I
         password: "",
         password_confirmation: "",
         phone_number: "",
-        type: "user"
+        type: "doctor"
       }),
       status: "",
       message: "",
@@ -418,8 +370,7 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_toast_notification__WEBPACK_I
       otpSentFlag: false,
       Custloader: "none",
       position: "right top",
-      remember: false,
-      formError: ""
+      remember: false
     };
   },
   components: {
@@ -434,9 +385,9 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_toast_notification__WEBPACK_I
     }.bind(this), 20000);
   },
   computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapGetters"])("auth", ["returnData", "ajax_error", "userData"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapActions"])("auth", ["registerUser", "resetState", "fetchUser"]), {
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapActions"])("auth", ["registerDoctor", "resetState", "fetchUser"]), {
     onlyNumric: function onlyNumric(evt) {
-      return _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7___default.a.onlyNumric(evt);
+      return _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_5___default.a.onlyNumric(evt);
     },
     acceptNumber: function acceptNumber() {
       var x = this.form.phone_number.replace(/\D/g, "").match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
@@ -454,7 +405,7 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_toast_notification__WEBPACK_I
               case 0:
                 this.isbtnDisabled = true;
                 this.isSpinner = true;
-                this.registerUser(this.form).then(function () {
+                this.registerDoctor(this.form).then(function () {
                   if (_this.returnData.data.status == "success") {
                     vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
                       message: _this.returnData.data.message,
@@ -579,10 +530,10 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_toast_notification__WEBPACK_I
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/auth/userRegister.vue?vue&type=template&id=51f6440a&":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/auth/userRegister.vue?vue&type=template&id=51f6440a& ***!
-  \**************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/auth/doctorRegister.vue?vue&type=template&id=2a5fc40f&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/auth/doctorRegister.vue?vue&type=template&id=2a5fc40f& ***!
+  \****************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -630,13 +581,13 @@ var render = function() {
                       [
                         _c(
                           "CButton",
-                          { attrs: { to: "doctor_register", size: "sm" } },
+                          { attrs: { to: "register", size: "sm" } },
                           [
                             _c("vue-fontawesome", {
                               staticClass: "mr-2 my-0",
                               attrs: { icon: "user-md", size: "1.1" }
                             }),
-                            _vm._v("for Doctor")
+                            _vm._v("for user")
                           ],
                           1
                         )
@@ -699,7 +650,7 @@ var render = function() {
                             { staticClass: "register_form login_form" },
                             [
                               _c("div", { staticClass: "text-center" }, [
-                                _c("h2", [_vm._v("User Register")])
+                                _c("h2", [_vm._v("Doctor Register Form")])
                               ]),
                               _vm._v(" "),
                               _c(
@@ -770,13 +721,13 @@ var render = function() {
                                                       },
                                                       [
                                                         _vm._v(
-                                                          "\n                          " +
+                                                          "\n                        " +
                                                             _vm._s(
                                                               _vm.ajax_error
                                                                 .errors
                                                                 .first_name[0]
                                                             ) +
-                                                            "\n                        "
+                                                            "\n                      "
                                                         )
                                                       ]
                                                     )
@@ -828,13 +779,13 @@ var render = function() {
                                                       },
                                                       [
                                                         _vm._v(
-                                                          "\n                          " +
+                                                          "\n                        " +
                                                             _vm._s(
                                                               _vm.ajax_error
                                                                 .errors
                                                                 .last_name[0]
                                                             ) +
-                                                            "\n                        "
+                                                            "\n                      "
                                                         )
                                                       ]
                                                     )
@@ -886,12 +837,12 @@ var render = function() {
                                                       },
                                                       [
                                                         _vm._v(
-                                                          "\n                          " +
+                                                          "\n                        " +
                                                             _vm._s(
                                                               _vm.ajax_error
                                                                 .errors.email[0]
                                                             ) +
-                                                            "\n                        "
+                                                            "\n                      "
                                                         )
                                                       ]
                                                     )
@@ -956,13 +907,13 @@ var render = function() {
                                                       },
                                                       [
                                                         _vm._v(
-                                                          "\n                          " +
+                                                          "\n                        " +
                                                             _vm._s(
                                                               _vm.ajax_error
                                                                 .errors
                                                                 .phone_number[0]
                                                             ) +
-                                                            "\n                        "
+                                                            "\n                      "
                                                         )
                                                       ]
                                                     )
@@ -1015,13 +966,13 @@ var render = function() {
                                                       },
                                                       [
                                                         _vm._v(
-                                                          "\n                          " +
+                                                          "\n                        " +
                                                             _vm._s(
                                                               _vm.ajax_error
                                                                 .errors
                                                                 .password[0]
                                                             ) +
-                                                            "\n                        "
+                                                            "\n                      "
                                                         )
                                                       ]
                                                     )
@@ -1079,13 +1030,13 @@ var render = function() {
                                                       },
                                                       [
                                                         _vm._v(
-                                                          "\n                          " +
+                                                          "\n                        " +
                                                             _vm._s(
                                                               _vm.ajax_error
                                                                 .errors
                                                                 .password_confirmation[0]
                                                             ) +
-                                                            "\n                        "
+                                                            "\n                      "
                                                         )
                                                       ]
                                                     )

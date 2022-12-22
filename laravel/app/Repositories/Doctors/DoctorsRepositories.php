@@ -549,6 +549,10 @@ class DoctorsRepositories
         $what3wordsjson = isset($formData->what3wordsjson) ? $formData->what3wordsjson :'';
         $what3words = isset($formData->what3words) ? $formData->what3words : '';
 
+        $w3w_latitude = isset($formData->w3w_latitude) ? $formData->w3w_latitude : '';
+        $w3w_longitude = isset($formData->w3w_longitude) ? $formData->w3w_longitude : '';
+        $w3w_address = isset($formData->w3w_address) ? $formData->w3w_address : '';
+
         $insertUserArr = array(
             'first_name' => $first_name,
             'last_name' => $last_name,
@@ -635,13 +639,14 @@ class DoctorsRepositories
                     'state' => $state,
                     'latitude' => $latitude,
                     'longitude' => $longitude,
+                    'w3w_address' => $w3w_address,
+                    'w3w_latitude' => $w3w_latitude,
+                    'w3w_longitude' => $w3w_longitude,
                     'zip_code' => $zip_code,
                     'doctor_information_id' => $doctorInformationData->id,
                     'long_org' => abs($longitude),
                     'what3words'=>$what3words,
                     'what3wordsjson'=> json_encode($what3wordsjson),
-                    
-
                 );
                 $DoctorAddressData = $this->doctorAddress->create($insertDoctorAddressArr);
             }
@@ -703,6 +708,11 @@ class DoctorsRepositories
         $type = !empty($formData->type) ? $formData->type : 0;
         $date_of_registration = isset($formData->date_of_registration) ? $formData->date_of_registration : '';
         $willing_to_serve_as = isset($formData->willing_to_serve_as) ? $formData->willing_to_serve_as : '';
+
+        $w3w_latitude = isset($formData->w3w_latitude) ? $formData->w3w_latitude : '';
+        $w3w_longitude = isset($formData->w3w_longitude) ? $formData->w3w_longitude : '';
+        $w3w_address = isset($formData->w3w_address) ? $formData->w3w_address : '';
+
        
         $status = isset($formData->status) ? $formData->status : 0;
         $fees_amount = !empty($formData->fees_amount) ? $formData->fees_amount : 100;
@@ -794,14 +804,18 @@ class DoctorsRepositories
                     'long_org' => abs($longitude),
                     'what3words'=>$what3words,
                     'what3wordsjson'=> json_encode($what3wordsjson),
+
+                    'w3w_latitude'=>$w3w_latitude,
+                    'w3w_longitude'=>$w3w_longitude,
+                    'w3w_address'=>$w3w_address,
                 );
                 
              
              if(!empty($doctorAddressExitsData)) {
                 $DoctorAddressData = $this->doctorAddress->where('doctor_information_id', $doctor_information_id)->update($updateDoctorAddressArr);
+
              }else{
                  $DoctorAddressData = $this->doctorAddress->create($updateDoctorAddressArr);
-                 
              }
                 
                 $data['status'] = 'success';
@@ -1137,4 +1151,3 @@ class DoctorsRepositories
 
 
 }
-

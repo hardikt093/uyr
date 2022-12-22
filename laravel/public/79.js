@@ -78,17 +78,104 @@ module.exports = {
 
 /***/ }),
 
-/***/ "../coreui/src/views/doctors/edit.vue":
-/*!********************************************!*\
-  !*** ../coreui/src/views/doctors/edit.vue ***!
-  \********************************************/
+/***/ "../coreui/src/views/components/w3wMap.vue":
+/*!*************************************************!*\
+  !*** ../coreui/src/views/components/w3wMap.vue ***!
+  \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _edit_vue_vue_type_template_id_6d0d33e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./edit.vue?vue&type=template&id=6d0d33e2& */ "../coreui/src/views/doctors/edit.vue?vue&type=template&id=6d0d33e2&");
-/* harmony import */ var _edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./edit.vue?vue&type=script&lang=js& */ "../coreui/src/views/doctors/edit.vue?vue&type=script&lang=js&");
+/* harmony import */ var _w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./w3wMap.vue?vue&type=template&id=07f14a00& */ "../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00&");
+/* harmony import */ var _w3wMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./w3wMap.vue?vue&type=script&lang=js& */ "../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./w3wMap.vue?vue&type=style&index=0&lang=css& */ "../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _w3wMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "coreui/src/views/components/w3wMap.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./w3wMap.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************!*\
+  !*** ../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/style-loader!../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./w3wMap.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00&":
+/*!********************************************************************************!*\
+  !*** ../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00& ***!
+  \********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./w3wMap.vue?vue&type=template&id=07f14a00& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "../coreui/src/views/doctors/add.vue":
+/*!*******************************************!*\
+  !*** ../coreui/src/views/doctors/add.vue ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _add_vue_vue_type_template_id_6c5016ac___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add.vue?vue&type=template&id=6c5016ac& */ "../coreui/src/views/doctors/add.vue?vue&type=template&id=6c5016ac&");
+/* harmony import */ var _add_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./add.vue?vue&type=script&lang=js& */ "../coreui/src/views/doctors/add.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var vue_multiselect_dist_vue_multiselect_min_css_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css& */ "../coreui/node_modules/vue-multiselect/dist/vue-multiselect.min.css?vue&type=style&index=0&lang=css&");
 /* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -100,9 +187,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _edit_vue_vue_type_template_id_6d0d33e2___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _edit_vue_vue_type_template_id_6d0d33e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _add_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _add_vue_vue_type_template_id_6c5016ac___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _add_vue_vue_type_template_id_6c5016ac___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -112,47 +199,149 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/doctors/edit.vue"
+component.options.__file = "coreui/src/views/doctors/add.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/doctors/edit.vue?vue&type=script&lang=js&":
-/*!*********************************************************************!*\
-  !*** ../coreui/src/views/doctors/edit.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************/
+/***/ "../coreui/src/views/doctors/add.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ../coreui/src/views/doctors/add.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./edit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/edit.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_add_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./add.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/add.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_add_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/doctors/edit.vue?vue&type=template&id=6d0d33e2&":
-/*!***************************************************************************!*\
-  !*** ../coreui/src/views/doctors/edit.vue?vue&type=template&id=6d0d33e2& ***!
-  \***************************************************************************/
+/***/ "../coreui/src/views/doctors/add.vue?vue&type=template&id=6c5016ac&":
+/*!**************************************************************************!*\
+  !*** ../coreui/src/views/doctors/add.vue?vue&type=template&id=6c5016ac& ***!
+  \**************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_template_id_6d0d33e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./edit.vue?vue&type=template&id=6d0d33e2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/edit.vue?vue&type=template&id=6d0d33e2&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_template_id_6d0d33e2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_add_vue_vue_type_template_id_6c5016ac___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./add.vue?vue&type=template&id=6c5016ac& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/add.vue?vue&type=template&id=6c5016ac&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_add_vue_vue_type_template_id_6c5016ac___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_template_id_6d0d33e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_add_vue_vue_type_template_id_6c5016ac___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/edit.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/edit.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "../coreui/node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "Autosuggest",
+  props: {
+    autoSuggest: Boolean,
+    mapDiv: Boolean,
+    mapId: String,
+    w3words: String
+  },
+  data: function data() {
+    return {
+      words: null,
+      lat: null,
+      lng: null,
+      allData: null
+    };
+  },
+  watch: {
+    w3words: function w3words(val) {
+      console.log(val);
+    }
+  },
+  mounted: function mounted() {
+    this.$nextTick(function () {
+      var _this = this;
+
+      var w3wMap = document.getElementById(this.mapId);
+      w3wMap.addEventListener("selected_square",
+      /*#__PURE__*/
+      function () {
+        var _ref = _asyncToGenerator(
+        /*#__PURE__*/
+        _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(data) {
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+            while (1) {
+              switch (_context.prev = _context.next) {
+                case 0:
+                  // this.lat = await w3wMap.getLat();
+                  // this.lng = await w3wMap.getLng();
+                  // this.words = data.detail.words;
+                  // this.allData = data;
+                  _this.$emit('getmapdata', data.detail);
+
+                case 1:
+                case "end":
+                  return _context.stop();
+              }
+            }
+          }, _callee);
+        }));
+
+        return function (_x) {
+          return _ref.apply(this, arguments);
+        };
+      }());
+    });
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/add.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/add.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -164,8 +353,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vform */ "../coreui/node_modules/vform/dist/vform.es.js");
 /* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-multiselect */ "../coreui/node_modules/vue-multiselect/dist/vue-multiselect.min.js");
 /* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue_multiselect__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../global_helper/helpers.js */ "../coreui/src/global_helper/helpers.js");
-/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var vue_toast_notification__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-toast-notification */ "../coreui/node_modules/vue-toast-notification/dist/index.min.js");
+/* harmony import */ var vue_toast_notification__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_toast_notification__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-toast-notification/dist/theme-sugar.css */ "../coreui/node_modules/vue-toast-notification/dist/theme-sugar.css");
+/* harmony import */ var vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(vue_toast_notification_dist_theme_sugar_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var vue_input_tag__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-input-tag */ "../coreui/node_modules/vue-input-tag/dist/vueInputTag.common.js");
+/* harmony import */ var vue_input_tag__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(vue_input_tag__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../../global_helper/helpers.js */ "../coreui/src/global_helper/helpers.js");
+/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _components_w3wMap_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/w3wMap.vue */ "../coreui/src/views/components/w3wMap.vue");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -584,100 +780,70 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
 
+
+
+
+vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_toast_notification__WEBPACK_IMPORTED_MODULE_4___default.a);
+
+vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("input-tag", vue_input_tag__WEBPACK_IMPORTED_MODULE_6___default.a);
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    Multiselect: vue_multiselect__WEBPACK_IMPORTED_MODULE_3___default.a
+    Multiselect: vue_multiselect__WEBPACK_IMPORTED_MODULE_3___default.a,
+    w3wMap: _components_w3wMap_vue__WEBPACK_IMPORTED_MODULE_8__["default"]
   },
   data: function data() {
-    var _ref;
+    var _ref, _ref2;
 
-    return {
-      address: '',
+    return _ref2 = {
+      markers: [],
+      address: "",
       autocompleteOptions: {
-        componentRestrictions: {//country:  ['UK','IN'],
+        componentRestrictions: {// country:  ['UK','IN'],
         }
       },
       ADDRESS_COMPONENTS: {
-        subpremise: 'short_name',
-        street_number: 'short_name',
-        route: 'long_name',
-        locality: 'long_name',
-        administrative_area_level_1: 'long_name',
-        administrative_area_level_2: 'long_name',
-        sublocality_level_2: 'long_name',
-        sublocality_level_1: 'long_name',
-        area: 'long_name',
-        country: 'long_name',
-        postal_code: 'short_name'
+        subpremise: "short_name",
+        street_number: "short_name",
+        route: "long_name",
+        locality: "long_name",
+        administrative_area_level_1: "long_name",
+        administrative_area_level_2: "long_name",
+        sublocality_level_2: "long_name",
+        sublocality_level_1: "long_name",
+        area: "long_name",
+        country: "long_name",
+        postal_code: "short_name"
       },
       center: {
         lat: 0,
         lng: 0
-      },
-      currentPlace: null,
-      markers: [],
-      places: [],
-      formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]((_ref = {
-        id: "",
-        user_id: "",
-        first_name: '',
-        last_name: '',
-        user_name: '',
-        email: '',
-        phone_number: '',
-        age: '',
-        gender: '',
-        certificate_awarding_university: '',
-        speciality_diploma: '',
-        copy_of_registration: '',
-        medical_council_regn: '',
-        current_clinic_hospital: '',
-        medical_license_number: ''
-      }, _defineProperty(_ref, "medical_license_number", ''), _defineProperty(_ref, "registration_no", ''), _defineProperty(_ref, "experience", ''), _defineProperty(_ref, "willing_to_serve_as", '0'), _defineProperty(_ref, "brief_summary", ''), _defineProperty(_ref, "terms_and_conditions", ''), _defineProperty(_ref, "address", ''), _defineProperty(_ref, "address2", ''), _defineProperty(_ref, "area", ''), _defineProperty(_ref, "city", ''), _defineProperty(_ref, "country", ''), _defineProperty(_ref, "state", ''), _defineProperty(_ref, "zip_code", ''), _defineProperty(_ref, "date_of_registration", ''), _defineProperty(_ref, "type", ''), _defineProperty(_ref, "status", 0), _defineProperty(_ref, "dr_type", ""), _defineProperty(_ref, "latitude", ''), _defineProperty(_ref, "longitude", ''), _defineProperty(_ref, "type", ''), _defineProperty(_ref, "availability_time_from", ''), _defineProperty(_ref, "area_of_coverage", ''), _defineProperty(_ref, "fees_amount", ''), _defineProperty(_ref, "equipment", ''), _defineProperty(_ref, "what3wordsjson", ''), _defineProperty(_ref, "what3words", ''), _ref)),
-      uploadedDoc: '',
-      specialty: '',
-      registration: '',
-      profile_picture: '',
-      imageData: [],
-      docData: [],
-      dataDoc: [],
-      imageDoc: [],
-      equipmentArr: [],
-      options: '',
-      isActive: false
-    };
+      }
+    }, _defineProperty(_ref2, "markers", []), _defineProperty(_ref2, "places", []), _defineProperty(_ref2, "formData", new vform__WEBPACK_IMPORTED_MODULE_2__["default"]((_ref = {
+      first_name: "",
+      last_name: "",
+      user_name: "",
+      email: "",
+      phone_number: "",
+      password: "",
+      password_confirmation: "",
+      age: "",
+      gender: "",
+      certificate_awarding_university: "",
+      speciality_diploma: "",
+      medical_council_regn: "",
+      current_clinic_hospital: "",
+      medical_license_number: ""
+    }, _defineProperty(_ref, "medical_license_number", ""), _defineProperty(_ref, "registration_no", ""), _defineProperty(_ref, "experience", ""), _defineProperty(_ref, "willing_to_serve_as", ""), _defineProperty(_ref, "brief_summary", ""), _defineProperty(_ref, "terms_and_conditions", ""), _defineProperty(_ref, "address", ""), _defineProperty(_ref, "address2", ""), _defineProperty(_ref, "area", ""), _defineProperty(_ref, "city", ""), _defineProperty(_ref, "country", ""), _defineProperty(_ref, "state", ""), _defineProperty(_ref, "zip_code", ""), _defineProperty(_ref, "date_of_registration", ""), _defineProperty(_ref, "type", ""), _defineProperty(_ref, "status", 0), _defineProperty(_ref, "dr_type", ""), _defineProperty(_ref, "equipment", ""), _defineProperty(_ref, "availability_time_from", ""), _defineProperty(_ref, "area_of_coverage", ""), _defineProperty(_ref, "fees_amount", ""), _defineProperty(_ref, "what3wordsjson", ""), _defineProperty(_ref, "what3words", ""), _defineProperty(_ref, "w3w_address", ''), _ref))), _defineProperty(_ref2, "uploadedDoc", ""), _defineProperty(_ref2, "specialty", ""), _defineProperty(_ref2, "registration", ""), _defineProperty(_ref2, "profile_picture", ""), _defineProperty(_ref2, "imageData", []), _defineProperty(_ref2, "docData", []), _defineProperty(_ref2, "dataDoc", []), _defineProperty(_ref2, "imageDoc", []), _defineProperty(_ref2, "equipmentArr", []), _defineProperty(_ref2, "searchByEquipment", ""), _defineProperty(_ref2, "options", ""), _defineProperty(_ref2, "isActive", false), _defineProperty(_ref2, "what3wordresponse", ""), _ref2;
   },
   created: function created() {
     this.autocompleteOptions = {
-      componentRestrictions: {// country:  ['UK','IN']
+      componentRestrictions: {//country:  ['IN']
       }
     };
     this.ServiceList();
@@ -685,160 +851,167 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     this.AvailabilityList();
     this.getEquipmentList();
   },
-  mounted: function mounted() {
-    this.ajax_error.errors = [];
+  mounted: function mounted() {},
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Doctor/Index", ["returnData", "equipListResult", "ajax_error"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("auth", ["user"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/EquipmentsMaster", ["result"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/ServicesMaster", ["resultService"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/TypesMaster", ["resultType"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/AvailabilityMaster", ["resultAvailability"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Doctor/Index", ["submitForm", "getEquipmentList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/EquipmentsMaster", ["EquipmentList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/ServicesMaster", ["ServiceList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/TypesMaster", ["TypeList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/AvailabilityMaster", ["AvailabilityList"]), {
+    getMapData: function getMapData(response) {
+      if (response.country) this.formData.country = response.country;
+      if (response.words) this.formData.what3words = response.words;
+      this.formData.w3w_address = response.words;
 
-    if (this.$route.params.id != '') {
-      this.getDoctorFormData(this.$route.params.id);
-    }
-  },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Doctor/Index", ["returnData", "ajax_error", 'doctorResult', "equipListResult"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("auth", ["user"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/ServicesMaster", ["resultService"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/TypesMaster", ["resultType"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/AvailabilityMaster", ["resultAvailability"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Doctor/Index", ["submitDoctorUpdateForm", "getdoctorData", "getEquipmentList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/ServicesMaster", ["ServiceList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/TypesMaster", ["TypeList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/AvailabilityMaster", ["AvailabilityList"]), {
+      if (response.coordinates) {
+        if (response.coordinates.lat) this.formData.latitude = response.coordinates.lat;
+        if (response.coordinates.lng) this.formData.longitude = response.coordinates.lng;
+      }
+
+      if (response.nearestPlace) {
+        this.formData.area = response.nearestPlace;
+        this.formData.address = response.nearestPlace;
+        var city_state = response.nearestPlace.split(',');
+        this.formData.city = city_state[0];
+        this.formData.state = city_state[1];
+      }
+    },
     onlyNumric: function onlyNumric(evt) {
-      return _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_4___default.a.onlyNumric(evt);
+      return _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_7___default.a.onlyNumric(evt);
     },
     acceptNumber: function acceptNumber() {
-      var x = this.formData.phone_number.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
-      this.formData.phone_number = !x[2] ? x[1] : '' + x[1] + '-' + x[2] + (x[3] ? '-' + x[3] : '');
+      var x = this.formData.phone_number.replace(/\D/g, "").match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+      this.formData.phone_number = !x[2] ? x[1] : "" + x[1] + "-" + x[2] + (x[3] ? "-" + x[3] : "");
     },
     atChangeEquipment: function atChangeEquipment() {
-      if (this.equipmentArr.length >= 0) {
+      if (this.equipmentArr.length > 0) {
         var deptIds = [];
 
         for (var c = 0; c < this.equipmentArr.length; c++) {
           deptIds.push(this.equipmentArr[c].id);
         }
 
-        this.formData.equipment = deptIds.toString(); //  console.log(this.formData.equipment);
+        this.formData.equipment = deptIds.toString();
       }
     },
-    getDoctorFormData: function getDoctorFormData(id) {
-      var _this = this;
-
-      this.getdoctorData(id).then(function () {
-        _this.formData.keys().forEach(function (key) {
-          _this.formData[key] = _this.doctorResult[key];
-        });
-
-        _this.equipmentArr = _this.doctorResult.equipmentArr;
-        var lat = parseFloat(_this.doctorResult.latitude);
-        var lng = parseFloat(_this.doctorResult.longitude);
-        var marker = {
-          lat: lat,
-          lng: lng
-        };
-
-        _this.markers.push({
-          position: marker
-        });
-
-        _this.center = marker;
-      });
-    },
     cirtificatefile: function cirtificatefile(e) {
-      var _this2 = this;
+      var _this = this;
 
       this.uploadedDoc = e.target.files[0];
       var reader = new FileReader();
 
       reader.onload = function (e) {
-        _this2.imageData = e.target.result;
+        _this.imageData = e.target.result;
       };
 
       reader.readAsDataURL(this.uploadedDoc);
     },
     copyOfSpecialty: function copyOfSpecialty(e) {
-      var _this3 = this;
+      var _this2 = this;
 
       this.specialty = e.target.files[0];
       var reader = new FileReader();
 
       reader.onload = function (e) {
-        _this3.docData = e.target.result;
+        _this2.docData = e.target.result;
       };
 
       reader.readAsDataURL(this.specialty);
     },
     CopyOfRegistration: function CopyOfRegistration(e) {
-      var _this4 = this;
+      var _this3 = this;
 
       this.registration = e.target.files[0];
+      console.log(this.registration);
       var reader = new FileReader();
 
       reader.onload = function (e) {
-        _this4.dataDoc = e.target.result;
+        _this3.dataDoc = e.target.result;
       };
 
       reader.readAsDataURL(this.registration);
     },
     onImageChange: function onImageChange(e) {
-      var _this5 = this;
+      var _this4 = this;
 
       this.profile_picture = e.target.files[0];
       var reader = new FileReader();
 
       reader.onload = function (e) {
-        _this5.imageDoc = e.target.result;
+        _this4.imageDoc = e.target.result;
       };
 
       reader.readAsDataURL(this.profile_picture);
     },
+
+    /* onImageChange(e) 
+    {
+        this.profile = e.target.files[0];
+        var reader = new FileReader();
+        reader.onload = (e) => {
+            this.imageData = e.target.result;
+        }
+        $('#hideMainImageSpan').hide();
+        reader.readAsDataURL(this.profile);
+        this.newData.append('profile',this.profile);
+    },*/
     submitFormData: function submitFormData() {
-      var _this6 = this;
+      var _this5 = this;
 
       var newData = new FormData();
-      newData.append('cirtificatefile', this.uploadedDoc);
-      newData.append('specialtyfile', this.specialty);
-      newData.append('registrationfile', this.registration);
-      newData.append('profilefile', this.profile_picture);
+      newData.append("cirtificatefile", this.uploadedDoc);
+      newData.append("specialtyfile", this.specialty);
+      newData.append("registrationfile", this.registration);
+      newData.append("profilefile", this.profile_picture);
       this.isActive = true;
-      newData.append('formData', JSON.stringify(this.formData));
-      this.submitDoctorUpdateForm({
+      var id = "";
+      newData.append("formData", JSON.stringify(this.formData));
+      this.submitForm({
         newData: newData,
-        id: this.$route.params.id
+        id: id
       }).then(function () {
-        if (_this6.returnData.status == 'success') {
-          _this6.$router.push({
+        if (_this5.returnData.status == "success") {
+          _this5.$router.push({
             name: "doctor"
           });
 
-          _this6.isActive = false;
+          _this5.isActive = false;
           vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
-            message: _this6.returnData.message,
-            type: _this6.returnData.status
+            message: _this5.returnData.message,
+            type: _this5.returnData.status
           });
         }
       })["catch"](function (error) {
         window.scrollTo(0, 0);
-        _this6.isActive = false;
+        _this5.isActive = false;
       });
     },
-    //google data 
-    setPlaceautosuggest: function setPlaceautosuggest() {
-      var _this7 = this;
+    //google data
 
-      var autosuggest = '';
-      var what3var = '';
+    /* getAddressData: function (addressData, placeResultData, id) {
+       this.address = addressData;
+    }, */
+    setPlaceautosuggest: function setPlaceautosuggest() {
+      var _this6 = this;
+
+      var autosuggest = "";
+      var what3var = "";
       var autosuggest = document.getElementById("autosuggest");
       autosuggest.addEventListener("selected_suggestion", function (value) {
         what3var = value.detail.suggestion.words;
         what3words.api.convertToCoordinates(what3var).then(function (response) {
-          _this7.what3wordresponse = response;
-          _this7.formData.what3wordsjson = response;
-          if (response.country) _this7.formData.country = response.country;
-          if (response.words) _this7.formData.what3words = response.words;
+          _this6.what3wordresponse = response;
+          _this6.formData.what3wordsjson = response;
+          if (response.country) _this6.formData.country = response.country;
+          if (response.words) _this6.formData.what3words = response.words;
 
           if (response.coordinates) {
-            if (response.coordinates.lat) _this7.formData.latitude = response.coordinates.lat;
-            if (response.coordinates.lng) _this7.formData.longitude = response.coordinates.lng;
+            if (response.coordinates.lat) _this6.formData.latitude = response.coordinates.lat;
+            if (response.coordinates.lng) _this6.formData.longitude = response.coordinates.lng;
           }
 
           if (response.nearestPlace) {
-            _this7.formData.area = response.nearestPlace;
-            _this7.formData.address = response.nearestPlace;
-            var city_state = response.nearestPlace.split(',');
-            _this7.formData.city = city_state[0];
-            _this7.formData.state = city_state[1];
+            _this6.formData.area = response.nearestPlace;
+            _this6.formData.address = response.nearestPlace;
+            var city_state = response.nearestPlace.split(",");
+            _this6.formData.city = city_state[0];
+            _this6.formData.state = city_state[1];
           } // document.getElementById("response-screen").innerHTML = JSON.stringify(response);
 
         });
@@ -849,7 +1022,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       this.formData.full_address = singleValues;
       this.markers = [];
       this.currentPlace = place;
-      console.log(place);
       this.addMarker();
     },
     addMarker: function addMarker() {
@@ -876,7 +1048,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
         this.formData.address = this.currentPlace.formatted_address;
         var city,
-            state = '';
+            state = "";
         city = returnData.locality;
 
         if (city == undefined || city == null) {
@@ -885,7 +1057,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
         if (returnData.sublocality_level_2) this.formData.state = returnData.sublocality_level_2;else if (returnData.sublocality_level_1) this.formData.state = returnData.sublocality_level_1;else if (returnData.locality) this.formData.state = returnData.locality;
         if (returnData.route) this.formData.address2 = returnData.route;
-        if (returnData.sublocality_level_1) this.formData.area = returnData.sublocality_level_1;else this.formData.area = '';
+        if (returnData.sublocality_level_1) this.formData.area = returnData.sublocality_level_1;
         if (returnData.country) this.formData.country = returnData.country;
         if (returnData.administrative_area_level_1) this.formData.state = returnData.administrative_area_level_1;
         if (returnData.locality) this.formData.city = returnData.locality;
@@ -894,7 +1066,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         this.formData.longitude = this.currentPlace.geometry.location.lng(); //End
 
         this.currentPlace = null;
-        var location = this.formData.state + ', ' + this.formData.city;
+        var location = this.formData.state + ", " + this.formData.city;
       }
     },
     updateCoordinates: function updateCoordinates(location) {
@@ -906,26 +1078,27 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       this.formData.latitude = location.latLng.lat();
       this.formData.longitude = location.latLng.lng();
     },
+    // new changes
     getReverseGeocodingData: function getReverseGeocodingData(lat, lng) {
-      var _this8 = this;
+      var _this7 = this;
 
       var latlng = new google.maps.LatLng(lat, lng);
       var geocoder = new google.maps.Geocoder();
       geocoder.geocode({
-        'latLng': latlng
+        latLng: latlng
       }, function (results, status) {
         if (status !== google.maps.GeocoderStatus.OK) {}
 
         if (status == google.maps.GeocoderStatus.OK) {
           var address = results[0].formatted_address;
           console.log(results[0]);
-          _this8.formData.full_address = address;
-          _this8.markers = [];
-          _this8.currentPlace = results[0];
+          _this7.formData.full_address = address;
+          _this7.markers = [];
+          _this7.currentPlace = results[0];
 
-          _this8.addMarker();
+          _this7.addMarker();
 
-          _this8.formData.address = address;
+          _this7.formData.address = address;
         }
       });
     },
@@ -946,16 +1119,142 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     onGeoSuccess: function onGeoSuccess(position) {
       this.getReverseGeocodingData(position.coords.latitude, position.coords.longitude);
     },
-    onGeoError: function onGeoError(error) {}
+    onGeoError: function onGeoError(error) {},
+    validateEmail: function validateEmail() {
+      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.email)) {
+        this.msg["email"] = "Please enter a valid email address";
+      } else {
+        this.msg["email"] = "";
+      }
+    },
+    isLetter: function isLetter(e) {
+      var _char = String.fromCharCode(e.keyCode); // Get the character
+
+
+      if (/^[A-Za-z]+$/.test(_char)) return true; // Match with regex
+      else e.preventDefault(); // If not match, don't add to input text
+    }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/edit.vue?vue&type=template&id=6d0d33e2&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/edit.vue?vue&type=template&id=6d0d33e2& ***!
-  \*********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../laravel/node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n#map {\n  width: 100%;\n  height: 80vh;\n}\nhtml,\nbody {\n  padding: 0px;\n  margin: 0px;\n  height: 100%;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./w3wMap.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../laravel/node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "what3words-map",
+    {
+      attrs: {
+        current_location: "",
+        id: _vm.mapId,
+        api_key: "CVQHCR0K",
+        map_api_key: "AIzaSyAONdWlvzm8Jc8elwxfe4_hQwcjZDnAH38",
+        zoom: "8",
+        selected_zoom: "20",
+        search_control_position: "5",
+        zoom_control: "",
+        fullscreen_control: "",
+        fullscreen_control_position: "9",
+        current_location_control_position: "3",
+        disable_default_ui: "",
+        words: _vm.w3words
+      }
+    },
+    [
+      _c("div", {
+        style: !this.mapDiv && "display:none",
+        attrs: { slot: "map", id: "map" },
+        slot: "map"
+      }),
+      _vm._v(" "),
+      this.autoSuggest
+        ? _c(
+            "div",
+            { attrs: { slot: "search-control" }, slot: "search-control" },
+            [
+              _c("what3words-autosuggest", { attrs: { id: "what3words" } }, [
+                _c("input", { attrs: { type: "text" } })
+              ])
+            ],
+            1
+          )
+        : _vm._e()
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/add.vue?vue&type=template&id=6c5016ac&":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/add.vue?vue&type=template&id=6c5016ac& ***!
+  \********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1003,7 +1302,7 @@ var render = function() {
                           staticClass: "px-1",
                           attrs: { icon: "caret-right", size: "1" }
                         }),
-                        _vm._v("Update")
+                        _vm._v("Add")
                       ],
                       1
                     ),
@@ -1018,7 +1317,7 @@ var render = function() {
                             staticClass: "btn_custom",
                             attrs: { type: "submit", disabled: _vm.isActive }
                           },
-                          [_vm._v("Submit\n               ")]
+                          [_vm._v("Submit")]
                         ),
                         _vm._v(" "),
                         _c(
@@ -1088,20 +1387,7 @@ var render = function() {
                                           "div",
                                           { staticClass: "profileimg mx-auto" },
                                           [
-                                            _vm.doctorResult.profile_photo &&
-                                            _vm.imageDoc == ""
-                                              ? _c("img", {
-                                                  attrs: {
-                                                    src:
-                                                      "uploads/profile/" +
-                                                      _vm.doctorResult.id +
-                                                      "/" +
-                                                      _vm.doctorResult
-                                                        .profile_photo
-                                                  }
-                                                })
-                                              : _vm.imageDoc &&
-                                                _vm.imageDoc != ""
+                                            _vm.imageDoc && _vm.imageDoc != ""
                                               ? _c("img", {
                                                   staticClass: "img-fluid",
                                                   attrs: { src: _vm.imageDoc }
@@ -1131,7 +1417,7 @@ var render = function() {
                                             }
                                           }),
                                           _vm._v(
-                                            "\n                              Upload Photo\n                              "
+                                            "\n                       Upload Photo\n                       "
                                           ),
                                           _c("input", {
                                             attrs: {
@@ -1182,7 +1468,9 @@ var render = function() {
                                               ? "formError"
                                               : ""
                                           ],
-                                          attrs: { placeholder: "" },
+                                          attrs: {
+                                            placeholder: "Enter First Name"
+                                          },
                                           model: {
                                             value: _vm.formData.first_name,
                                             callback: function($$v) {
@@ -1236,7 +1524,9 @@ var render = function() {
                                               ? "formError"
                                               : ""
                                           ],
-                                          attrs: { placeholder: "" },
+                                          attrs: {
+                                            placeholder: "Enter last Name"
+                                          },
                                           model: {
                                             value: _vm.formData.last_name,
                                             callback: function($$v) {
@@ -1290,7 +1580,15 @@ var render = function() {
                                               ? "formError"
                                               : ""
                                           ],
-                                          attrs: { placeholder: "" },
+                                          attrs: {
+                                            type: "email",
+                                            placeholder: "Enter email"
+                                          },
+                                          on: {
+                                            blur: _vm.validateEmail,
+                                            input: _vm.validateEmail,
+                                            keypress: _vm.validateEmail
+                                          },
                                           model: {
                                             value: _vm.formData.email,
                                             callback: function($$v) {
@@ -1346,7 +1644,7 @@ var render = function() {
                                           ],
                                           attrs: {
                                             maxlength: "12",
-                                            placeholder: ""
+                                            placeholder: "Enter Phone No"
                                           },
                                           on: {
                                             blur: _vm.acceptNumber,
@@ -1394,7 +1692,7 @@ var render = function() {
                                       },
                                       [
                                         _c("label", [
-                                          _vm._v("Age"),
+                                          _vm._v("Password"),
                                           _c(
                                             "span",
                                             { staticClass: "text-danger" },
@@ -1403,7 +1701,123 @@ var render = function() {
                                         ]),
                                         _vm._v(" "),
                                         _c("CInput", {
-                                          attrs: { placeholder: "" },
+                                          class: [
+                                            _vm.ajax_error.errors.password
+                                              ? "formError"
+                                              : ""
+                                          ],
+                                          attrs: {
+                                            placeholder: "Enter Password",
+                                            type: "password"
+                                          },
+                                          model: {
+                                            value: _vm.formData.password,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "password",
+                                                $$v
+                                              )
+                                            },
+                                            expression: "formData.password"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.password
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .password[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-2",
+                                        attrs: { sm: "6", md: "4" }
+                                      },
+                                      [
+                                        _c("label", [
+                                          _vm._v("Confirm Password"),
+                                          _c(
+                                            "span",
+                                            { staticClass: "text-danger" },
+                                            [_vm._v("*")]
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("CInput", {
+                                          class: [
+                                            _vm.ajax_error.errors
+                                              .password_confirmation
+                                              ? "formError"
+                                              : ""
+                                          ],
+                                          attrs: {
+                                            placeholder:
+                                              "Enter Confirm Password",
+                                            type: "password"
+                                          },
+                                          model: {
+                                            value:
+                                              _vm.formData
+                                                .password_confirmation,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "password_confirmation",
+                                                $$v
+                                              )
+                                            },
+                                            expression:
+                                              "formData.password_confirmation"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors
+                                          .password_confirmation
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .password_confirmation[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-2",
+                                        attrs: { sm: "6", md: "4" }
+                                      },
+                                      [
+                                        _c("label", [_vm._v("Age")]),
+                                        _vm._v(" "),
+                                        _c("CInput", {
+                                          attrs: {
+                                            type: "number",
+                                            placeholder: "Enter Age"
+                                          },
                                           model: {
                                             value: _vm.formData.age,
                                             callback: function($$v) {
@@ -1619,39 +2033,24 @@ var render = function() {
                               },
                               [
                                 _c("label", [
-                                  _vm._v("Search Address"),
+                                  _vm._v("Search Location"),
                                   _c("span", { staticClass: "text-danger" }, [
                                     _vm._v("*")
                                   ])
                                 ]),
                                 _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "font-weight-bold text-danger",
-                                    attrs: { href: "javascript:void(0)" },
-                                    on: { click: _vm.getLocation }
-                                  },
-                                  [
-                                    _c("vue-fontawesome", {
-                                      staticClass: " ml-2",
-                                      attrs: { icon: "compass", size: "1" }
-                                    }),
-                                    _vm._v(
-                                      "\n                           Get Current location"
-                                    )
-                                  ],
-                                  1
-                                ),
-                                _vm._v(" "),
-                                _c("gmap-autocomplete", {
-                                  staticClass: "form-control",
+                                _c("w3wMap", {
                                   attrs: {
-                                    autocomplete: "off",
-                                    id: "google_autosearch_address",
-                                    options: _vm.autocompleteOptions
+                                    w3words: _vm.formData.w3w_address,
+                                    mapId: "w3wMap1",
+                                    autoSuggest: true,
+                                    mapDiv: false
                                   },
-                                  on: { place_changed: _vm.setPlace }
+                                  on: {
+                                    getmapdata: function($event) {
+                                      return _vm.getMapData($event)
+                                    }
+                                  }
                                 })
                               ],
                               1
@@ -1677,7 +2076,7 @@ var render = function() {
                                       ? "formError"
                                       : ""
                                   ],
-                                  attrs: { placeholder: "" },
+                                  attrs: { placeholder: "Enter Address" },
                                   model: {
                                     value: _vm.formData.address,
                                     callback: function($$v) {
@@ -1718,7 +2117,7 @@ var render = function() {
                                       ? "formError"
                                       : ""
                                   ],
-                                  attrs: { placeholder: "" },
+                                  attrs: { placeholder: "Enter City" },
                                   model: {
                                     value: _vm.formData.city,
                                     callback: function($$v) {
@@ -1759,7 +2158,7 @@ var render = function() {
                                       ? "formError"
                                       : ""
                                   ],
-                                  attrs: { placeholder: "" },
+                                  attrs: { placeholder: "Enter Country" },
                                   model: {
                                     value: _vm.formData.country,
                                     callback: function($$v) {
@@ -1790,7 +2189,7 @@ var render = function() {
                                 _c("label", [_vm._v("State")]),
                                 _vm._v(" "),
                                 _c("CInput", {
-                                  attrs: { placeholder: "" },
+                                  attrs: { placeholder: "Enter State" },
                                   model: {
                                     value: _vm.formData.state,
                                     callback: function($$v) {
@@ -1821,7 +2220,7 @@ var render = function() {
                                 _c("label", [_vm._v("Zip code ")]),
                                 _vm._v(" "),
                                 _c("CInput", {
-                                  attrs: { placeholder: "" },
+                                  attrs: { placeholder: "Enter Zip Code" },
                                   model: {
                                     value: _vm.formData.zip_code,
                                     callback: function($$v) {
@@ -1848,18 +2247,14 @@ var render = function() {
                               "CCol",
                               {
                                 staticClass: "px-2",
+                                staticStyle: { display: "none" },
                                 attrs: { sm: "6", md: "3" }
                               },
                               [
-                                _c("label", [
-                                  _vm._v("latitude"),
-                                  _c("span", { staticClass: "text-danger" }, [
-                                    _vm._v("*")
-                                  ])
-                                ]),
+                                _c("label", [_vm._v("latitude")]),
                                 _vm._v(" "),
                                 _c("CInput", {
-                                  attrs: { placeholder: "" },
+                                  attrs: { placeholder: "Enter latitude" },
                                   model: {
                                     value: _vm.formData.latitude,
                                     callback: function($$v) {
@@ -1886,18 +2281,14 @@ var render = function() {
                               "CCol",
                               {
                                 staticClass: "px-2",
+                                staticStyle: { display: "none" },
                                 attrs: { sm: "6", md: "3" }
                               },
                               [
-                                _c("label", [
-                                  _vm._v("longitude"),
-                                  _c("span", { staticClass: "text-danger" }, [
-                                    _vm._v("*")
-                                  ])
-                                ]),
+                                _c("label", [_vm._v("longitude")]),
                                 _vm._v(" "),
                                 _c("CInput", {
-                                  attrs: { placeholder: "" },
+                                  attrs: { placeholder: "Enter longitude" },
                                   model: {
                                     value: _vm.formData.longitude,
                                     callback: function($$v) {
@@ -1918,47 +2309,62 @@ var render = function() {
                                   : _vm._e()
                               ],
                               1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("w3w address"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "", readonly: "" },
+                                  model: {
+                                    value: _vm.formData.w3w_address,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "w3w_address", $$v)
+                                    },
+                                    expression: "formData.w3w_address"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.w3w_address
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.ajax_error.errors.w3w_address[0]
+                                        )
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
                             )
                           ],
                           1
                         ),
                         _vm._v(" "),
-                        _vm.markers.length > 0
-                          ? _c(
-                              "div",
-                              { staticClass: "col-md-12" },
-                              [
-                                _c(
-                                  "gmap-map",
-                                  {
-                                    staticStyle: {
-                                      width: "100%",
-                                      height: "400px"
-                                    },
-                                    attrs: { center: _vm.center, zoom: 25 }
-                                  },
-                                  _vm._l(_vm.markers, function(m, index) {
-                                    return _c("gmap-marker", {
-                                      key: index,
-                                      attrs: {
-                                        position: m.position,
-                                        draggable: true,
-                                        clickable: true
-                                      },
-                                      on: {
-                                        click: function($event) {
-                                          _vm.center = m.position
-                                        },
-                                        dragend: _vm.updateCoordinates
-                                      }
-                                    })
-                                  }),
-                                  1
-                                )
-                              ],
-                              1
-                            )
-                          : _vm._e()
+                        _c("w3wMap", {
+                          attrs: {
+                            mapId: "w3wMap2",
+                            w3words: _vm.formData.w3w_address,
+                            autoSuggest: false,
+                            mapDiv: true
+                          },
+                          on: {
+                            getmapdata: function($event) {
+                              return _vm.getMapData($event)
+                            }
+                          }
+                        })
                       ],
                       1
                     )
@@ -2074,114 +2480,44 @@ var render = function() {
                                     _vm._v("Certificate awarding University")
                                   ]),
                                   _vm._v(" "),
-                                  _c(
-                                    "div",
-                                    {
-                                      staticClass: "d-flex align-items-center"
-                                    },
-                                    [
+                                  _c("div", { staticClass: "file-upload" }, [
+                                    _c("div", { staticClass: "file-select" }, [
                                       _c(
                                         "div",
-                                        { staticClass: "file-upload w-100" },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "file-select" },
-                                            [
-                                              _c(
-                                                "div",
-                                                {
-                                                  staticClass:
-                                                    "file-select-button",
-                                                  attrs: { id: "fileName" }
-                                                },
-                                                [_vm._v("Choose File")]
-                                              ),
-                                              _vm._v(" "),
-                                              _vm.formData
-                                                .certificate_awarding_university &&
-                                              _vm.uploadedDoc == ""
-                                                ? _c(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "file-select-name",
-                                                      attrs: { id: "noFile" }
-                                                    },
-                                                    [
-                                                      _vm._v(
-                                                        _vm._s(
-                                                          _vm.formData
-                                                            .certificate_awarding_university
-                                                        )
-                                                      )
-                                                    ]
-                                                  )
-                                                : _vm.uploadedDoc.name
-                                                ? _c(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "file-select-name",
-                                                      attrs: { id: "noFile" }
-                                                    },
-                                                    [
-                                                      _vm._v(
-                                                        _vm._s(
-                                                          _vm.uploadedDoc.name
-                                                        )
-                                                      )
-                                                    ]
-                                                  )
-                                                : _c("div", {
-                                                    staticClass:
-                                                      "file-select-name",
-                                                    attrs: { id: "noFile" }
-                                                  }),
-                                              _vm._v(" "),
-                                              _c("input", {
-                                                attrs: {
-                                                  type: "file",
-                                                  name: "uploadedDoc"
-                                                },
-                                                on: {
-                                                  change: _vm.cirtificatefile
-                                                }
-                                              })
-                                            ]
-                                          )
-                                        ]
+                                        {
+                                          staticClass: "file-select-button",
+                                          attrs: { id: "fileName" }
+                                        },
+                                        [_vm._v("Choose File")]
                                       ),
                                       _vm._v(" "),
-                                      _vm.formData
-                                        .certificate_awarding_university
+                                      this.uploadedDoc
                                         ? _c(
-                                            "a",
+                                            "div",
                                             {
-                                              attrs: {
-                                                href:
-                                                  "uploads/doctor/" +
-                                                  _vm.formData.user_id +
-                                                  "/" +
-                                                  _vm.formData
-                                                    .certificate_awarding_university,
-                                                download: ""
-                                              }
+                                              staticClass: "file-select-name",
+                                              attrs: { id: "noFile" }
                                             },
                                             [
-                                              _c("vue-fontawesome", {
-                                                staticClass: "px-1 ml-2",
-                                                attrs: {
-                                                  icon: "download",
-                                                  size: "1.5"
-                                                }
-                                              })
-                                            ],
-                                            1
+                                              _vm._v(
+                                                _vm._s(this.uploadedDoc.name)
+                                              )
+                                            ]
                                           )
-                                        : _vm._e()
-                                    ]
-                                  ),
+                                        : _c("div", {
+                                            staticClass: "file-select-name",
+                                            attrs: { id: "noFile" }
+                                          }),
+                                      _vm._v(" "),
+                                      _c("input", {
+                                        attrs: {
+                                          type: "file",
+                                          name: "uploadedDoc"
+                                        },
+                                        on: { change: _vm.cirtificatefile }
+                                      })
+                                    ])
+                                  ]),
                                   _vm._v(" "),
                                   _vm.ajax_error.errors
                                     .certificate_awarding_university
@@ -2214,112 +2550,44 @@ var render = function() {
                                     _vm._v("Copy of specialty diploma")
                                   ]),
                                   _vm._v(" "),
-                                  _c(
-                                    "div",
-                                    {
-                                      staticClass: "d-flex align-items-center"
-                                    },
-                                    [
+                                  _c("div", { staticClass: "file-upload" }, [
+                                    _c("div", { staticClass: "file-select" }, [
                                       _c(
                                         "div",
-                                        { staticClass: "file-upload w-100" },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "file-select" },
-                                            [
-                                              _c(
-                                                "div",
-                                                {
-                                                  staticClass:
-                                                    "file-select-button",
-                                                  attrs: { id: "fileName" }
-                                                },
-                                                [_vm._v("Choose File")]
-                                              ),
-                                              _vm._v(" "),
-                                              _vm.formData.speciality_diploma &&
-                                              _vm.specialty == ""
-                                                ? _c(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "file-select-name",
-                                                      attrs: { id: "noFile" }
-                                                    },
-                                                    [
-                                                      _vm._v(
-                                                        _vm._s(
-                                                          _vm.formData
-                                                            .speciality_diploma
-                                                        )
-                                                      )
-                                                    ]
-                                                  )
-                                                : _vm.specialty.name
-                                                ? _c(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "file-select-name",
-                                                      attrs: { id: "noFile" }
-                                                    },
-                                                    [
-                                                      _vm._v(
-                                                        _vm._s(
-                                                          _vm.specialty.name
-                                                        )
-                                                      )
-                                                    ]
-                                                  )
-                                                : _c("div", {
-                                                    staticClass:
-                                                      "file-select-name",
-                                                    attrs: { id: "noFile" }
-                                                  }),
-                                              _vm._v(" "),
-                                              _c("input", {
-                                                attrs: {
-                                                  type: "file",
-                                                  name: "specialty"
-                                                },
-                                                on: {
-                                                  change: _vm.copyOfSpecialty
-                                                }
-                                              })
-                                            ]
-                                          )
-                                        ]
+                                        {
+                                          staticClass: "file-select-button",
+                                          attrs: { id: "fileName" }
+                                        },
+                                        [_vm._v("Choose File")]
                                       ),
                                       _vm._v(" "),
-                                      _vm.formData.speciality_diploma
+                                      this.specialty
                                         ? _c(
-                                            "a",
+                                            "div",
                                             {
-                                              attrs: {
-                                                href:
-                                                  "uploads/doctor/" +
-                                                  _vm.formData.user_id +
-                                                  "/" +
-                                                  _vm.formData
-                                                    .speciality_diploma,
-                                                download: ""
-                                              }
+                                              staticClass: "file-select-name",
+                                              attrs: { id: "noFile" }
                                             },
                                             [
-                                              _c("vue-fontawesome", {
-                                                staticClass: "px-1 ml-2",
-                                                attrs: {
-                                                  icon: "download",
-                                                  size: "1.5"
-                                                }
-                                              })
-                                            ],
-                                            1
+                                              _vm._v(
+                                                _vm._s(this.specialty.name)
+                                              )
+                                            ]
                                           )
-                                        : _vm._e()
-                                    ]
-                                  ),
+                                        : _c("div", {
+                                            staticClass: "file-select-name",
+                                            attrs: { id: "noFile" }
+                                          }),
+                                      _vm._v(" "),
+                                      _c("input", {
+                                        attrs: {
+                                          type: "file",
+                                          name: "specialty"
+                                        },
+                                        on: { change: _vm.copyOfSpecialty }
+                                      })
+                                    ])
+                                  ]),
                                   _vm._v(" "),
                                   _vm.ajax_error.errors.speciality_diploma
                                     ? _c(
@@ -2353,113 +2621,44 @@ var render = function() {
                                     )
                                   ]),
                                   _vm._v(" "),
-                                  _c(
-                                    "div",
-                                    {
-                                      staticClass: "d-flex align-items-center"
-                                    },
-                                    [
+                                  _c("div", { staticClass: "file-upload" }, [
+                                    _c("div", { staticClass: "file-select" }, [
                                       _c(
                                         "div",
-                                        { staticClass: "file-upload w-100" },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "file-select" },
-                                            [
-                                              _c(
-                                                "div",
-                                                {
-                                                  staticClass:
-                                                    "file-select-button",
-                                                  attrs: { id: "fileName" }
-                                                },
-                                                [_vm._v("Choose File")]
-                                              ),
-                                              _vm._v(" "),
-                                              _vm.formData
-                                                .copy_of_registration &&
-                                              _vm.registration == ""
-                                                ? _c(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "file-select-name",
-                                                      attrs: { id: "noFile" }
-                                                    },
-                                                    [
-                                                      _vm._v(
-                                                        _vm._s(
-                                                          _vm.formData
-                                                            .copy_of_registration
-                                                        )
-                                                      )
-                                                    ]
-                                                  )
-                                                : _vm.registration.name
-                                                ? _c(
-                                                    "div",
-                                                    {
-                                                      staticClass:
-                                                        "file-select-name",
-                                                      attrs: { id: "noFile" }
-                                                    },
-                                                    [
-                                                      _vm._v(
-                                                        _vm._s(
-                                                          _vm.registration.name
-                                                        )
-                                                      )
-                                                    ]
-                                                  )
-                                                : _c("div", {
-                                                    staticClass:
-                                                      "file-select-name",
-                                                    attrs: { id: "noFile" }
-                                                  }),
-                                              _vm._v(" "),
-                                              _c("input", {
-                                                attrs: {
-                                                  type: "file",
-                                                  name: "registration"
-                                                },
-                                                on: {
-                                                  change: _vm.CopyOfRegistration
-                                                }
-                                              })
-                                            ]
-                                          )
-                                        ]
+                                        {
+                                          staticClass: "file-select-button",
+                                          attrs: { id: "fileName" }
+                                        },
+                                        [_vm._v("Choose File")]
                                       ),
                                       _vm._v(" "),
-                                      _vm.formData.copy_of_registration
+                                      this.registration
                                         ? _c(
-                                            "a",
+                                            "div",
                                             {
-                                              attrs: {
-                                                href:
-                                                  "uploads/doctor/" +
-                                                  _vm.formData.user_id +
-                                                  "/" +
-                                                  _vm.formData
-                                                    .copy_of_registration,
-                                                download: ""
-                                              }
+                                              staticClass: "file-select-name",
+                                              attrs: { id: "noFile" }
                                             },
                                             [
-                                              _c("vue-fontawesome", {
-                                                staticClass: "px-1 ml-2",
-                                                attrs: {
-                                                  icon: "download",
-                                                  size: "1.5"
-                                                }
-                                              })
-                                            ],
-                                            1
+                                              _vm._v(
+                                                _vm._s(this.registration.name)
+                                              )
+                                            ]
                                           )
-                                        : _vm._e()
-                                    ]
-                                  ),
+                                        : _c("div", {
+                                            staticClass: "file-select-name",
+                                            attrs: { id: "noFile" }
+                                          }),
+                                      _vm._v(" "),
+                                      _c("input", {
+                                        attrs: {
+                                          type: "file",
+                                          name: "registration"
+                                        },
+                                        on: { change: _vm.CopyOfRegistration }
+                                      })
+                                    ])
+                                  ]),
                                   _vm._v(" "),
                                   _vm.ajax_error.errors.copy_of_registration
                                     ? _c(
@@ -2547,8 +2746,12 @@ var render = function() {
                                   },
                                   [
                                     _c("label", [
-                                      _vm._v("Date of registration"),
-                                      _c("span", [_vm._v("*")])
+                                      _vm._v("Date of registration "),
+                                      _c(
+                                        "span",
+                                        { staticClass: "text-danger" },
+                                        [_vm._v("*")]
+                                      )
                                     ]),
                                     _vm._v(" "),
                                     _c("input", {
@@ -2620,7 +2823,9 @@ var render = function() {
                                       ? "formError"
                                       : ""
                                   ],
-                                  attrs: { placeholder: "" },
+                                  attrs: {
+                                    placeholder: "Enter Registration No "
+                                  },
                                   model: {
                                     value: _vm.formData.registration_no,
                                     callback: function($$v) {
@@ -2669,8 +2874,7 @@ var render = function() {
                                       : ""
                                   ],
                                   attrs: {
-                                    placeholder: "Enter Your Work Experience",
-                                    type: "number"
+                                    placeholder: "Enter Years of experience"
                                   },
                                   model: {
                                     value: _vm.formData.experience,
@@ -2702,14 +2906,14 @@ var render = function() {
                               },
                               [
                                 _c("label", [
-                                  _vm._v("Current Clinic/hospital of work"),
-                                  _c("span", { staticClass: "text-danger" }, [
-                                    _vm._v("*")
-                                  ])
+                                  _vm._v("Current Clinic/hospital of work")
                                 ]),
                                 _vm._v(" "),
                                 _c("CInput", {
-                                  attrs: { placeholder: "" },
+                                  attrs: {
+                                    placeholder:
+                                      "Enter Current Clinic/hospital of work"
+                                  },
                                   model: {
                                     value: _vm.formData.current_clinic_hospital,
                                     callback: function($$v) {
@@ -2827,20 +3031,13 @@ var render = function() {
                                         }
                                       },
                                       _vm._l(_vm.resultService, function(
-                                        services,
+                                        service,
                                         index
                                       ) {
                                         return _c(
                                           "option",
-                                          {
-                                            key: index,
-                                            domProps: { value: services.id }
-                                          },
-                                          [
-                                            _vm._v(
-                                              _vm._s(services.service_name)
-                                            )
-                                          ]
+                                          { domProps: { value: service.id } },
+                                          [_vm._v(_vm._s(service.service_name))]
                                         )
                                       }),
                                       0
@@ -2873,7 +3070,10 @@ var render = function() {
                               },
                               [
                                 _c("CInput", {
-                                  attrs: { label: "Area of coverage:" },
+                                  attrs: {
+                                    label: "Area of coverage:",
+                                    placeholder: "Enter Area Of Coverage"
+                                  },
                                   model: {
                                     value: _vm.formData.area_of_coverage,
                                     callback: function($$v) {
@@ -2975,47 +3175,45 @@ var render = function() {
                                 attrs: { sm: "6", md: "4" }
                               },
                               [
-                                _c("div", { staticClass: "sub-filter" }, [
-                                  _c(
-                                    "div",
-                                    { staticClass: "form-group" },
-                                    [
-                                      _c("label", [
-                                        _vm._v(
-                                          "Select equipment available at your current clinic/hospital \n                           "
-                                        )
-                                      ]),
-                                      _vm._v(" "),
-                                      _vm.equipListResult
-                                        ? _c("multiselect", {
-                                            attrs: {
-                                              options: _vm.equipListResult,
-                                              multiple: true,
-                                              taggable: true,
-                                              "close-on-select": false,
-                                              "options-limit": 300,
-                                              label: "equipment_name",
-                                              "track-by": "equipment_name",
-                                              "preselect-first": false
-                                            },
-                                            on: {
-                                              input: function($event) {
-                                                return _vm.atChangeEquipment()
-                                              }
-                                            },
-                                            model: {
-                                              value: _vm.equipmentArr,
-                                              callback: function($$v) {
-                                                _vm.equipmentArr = $$v
-                                              },
-                                              expression: "equipmentArr"
+                                _c(
+                                  "div",
+                                  { staticClass: "form-group" },
+                                  [
+                                    _c("label", [
+                                      _vm._v(
+                                        "Select equipment available at your current clinic/hospital \n                     "
+                                      )
+                                    ]),
+                                    _vm._v(" "),
+                                    _vm.equipListResult
+                                      ? _c("multiselect", {
+                                          attrs: {
+                                            options: _vm.equipListResult,
+                                            multiple: true,
+                                            taggable: true,
+                                            "close-on-select": false,
+                                            "options-limit": 300,
+                                            label: "equipment_name",
+                                            "track-by": "equipment_name",
+                                            "preselect-first": false
+                                          },
+                                          on: {
+                                            input: function($event) {
+                                              return _vm.atChangeEquipment()
                                             }
-                                          })
-                                        : _vm._e()
-                                    ],
-                                    1
-                                  )
-                                ])
+                                          },
+                                          model: {
+                                            value: _vm.equipmentArr,
+                                            callback: function($$v) {
+                                              _vm.equipmentArr = $$v
+                                            },
+                                            expression: "equipmentArr"
+                                          }
+                                        })
+                                      : _vm._e()
+                                  ],
+                                  1
+                                )
                               ]
                             ),
                             _vm._v(" "),
@@ -3040,7 +3238,11 @@ var render = function() {
                                       }
                                     ],
                                     staticClass: "form-control",
-                                    attrs: { rows: "6" },
+                                    attrs: {
+                                      rows: "6",
+                                      placeholder:
+                                        "Enter Your Brief Summary Here"
+                                    },
                                     domProps: {
                                       value: _vm.formData.brief_summary
                                     },
@@ -3084,7 +3286,10 @@ var render = function() {
                                       }
                                     ],
                                     staticClass: "form-control",
-                                    attrs: { rows: "6" },
+                                    attrs: {
+                                      rows: "6",
+                                      placeholder: "Enter Terms & Condition"
+                                    },
                                     domProps: {
                                       value: _vm.formData.terms_and_conditions
                                     },

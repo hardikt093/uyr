@@ -87,17 +87,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/index.vue":
-/*!*********************************************!*\
-  !*** ../coreui/src/views/patient/index.vue ***!
-  \*********************************************/
+/***/ "../coreui/src/views/mediator/index.vue":
+/*!**********************************************!*\
+  !*** ../coreui/src/views/mediator/index.vue ***!
+  \**********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _index_vue_vue_type_template_id_fd1cc7a4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.vue?vue&type=template&id=fd1cc7a4& */ "../coreui/src/views/patient/index.vue?vue&type=template&id=fd1cc7a4&");
-/* harmony import */ var _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.vue?vue&type=script&lang=js& */ "../coreui/src/views/patient/index.vue?vue&type=script&lang=js&");
+/* harmony import */ var _index_vue_vue_type_template_id_2df5b080___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.vue?vue&type=template&id=2df5b080& */ "../coreui/src/views/mediator/index.vue?vue&type=template&id=2df5b080&");
+/* harmony import */ var _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.vue?vue&type=script&lang=js& */ "../coreui/src/views/mediator/index.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -108,8 +108,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _index_vue_vue_type_template_id_fd1cc7a4___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _index_vue_vue_type_template_id_fd1cc7a4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _index_vue_vue_type_template_id_2df5b080___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _index_vue_vue_type_template_id_2df5b080___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -119,38 +119,38 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/patient/index.vue"
+component.options.__file = "coreui/src/views/mediator/index.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/index.vue?vue&type=script&lang=js&":
-/*!**********************************************************************!*\
-  !*** ../coreui/src/views/patient/index.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************/
+/***/ "../coreui/src/views/mediator/index.vue?vue&type=script&lang=js&":
+/*!***********************************************************************!*\
+  !*** ../coreui/src/views/mediator/index.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/index.vue?vue&type=script&lang=js&");
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/index.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/index.vue?vue&type=template&id=fd1cc7a4&":
-/*!****************************************************************************!*\
-  !*** ../coreui/src/views/patient/index.vue?vue&type=template&id=fd1cc7a4& ***!
-  \****************************************************************************/
+/***/ "../coreui/src/views/mediator/index.vue?vue&type=template&id=2df5b080&":
+/*!*****************************************************************************!*\
+  !*** ../coreui/src/views/mediator/index.vue?vue&type=template&id=2df5b080& ***!
+  \*****************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_fd1cc7a4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=template&id=fd1cc7a4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/index.vue?vue&type=template&id=fd1cc7a4&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_fd1cc7a4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_2df5b080___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=template&id=2df5b080& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/index.vue?vue&type=template&id=2df5b080&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_2df5b080___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_fd1cc7a4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_2df5b080___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -223,10 +223,10 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('paginate', vuejs_paginate_
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/index.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/index.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/index.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mediator/index.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -333,29 +333,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -369,12 +346,9 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('paginate', vuejs_paginate_
   },
   data: function data() {
     return {
-      user_id: '',
       keyword: '',
       disabled: false,
-      position: 'right bottom',
-      modal_title: 'Add Patient',
-      tokenData: ''
+      position: 'right bottom'
     };
   },
   created: function created() {
@@ -392,18 +366,14 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('paginate', vuejs_paginate_
         return Number(page) || 1;
       } else {}
     }
-  }, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Patient/Index", ["result", "returnData"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Patient/Index", ["list", "deleteUser", "UpdateMultiAction"]), {
+  }, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Mediator/Index", ["result", "returnData"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("auth", ["user"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Mediator/Index", ["list", "deleteDoctor", "UpdateMultiAction"]), {
     paginateHandle: function paginateHandle(pageNum) {
       this.$router.push({
-        name: 'paginate_patient',
+        name: 'paginate_mediator',
         params: {
           page: pageNum
         }
-      });
-      this.list({
-        page: pageNum,
-        'keyword': this.keyword
       });
     },
     searchData: function searchData() {
@@ -411,7 +381,7 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('paginate', vuejs_paginate_
 
       if (this.keyword.length >= 3) {
         if (this.$route.params.page != 1) this.$router.push({
-          name: 'paginate_patient',
+          name: 'paginate_mediator',
           params: {
             page: page
           }
@@ -453,7 +423,8 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('paginate', vuejs_paginate_
               });
 
               _this.list({
-                page: _this.result.current_page
+                page: _this.result.current_page,
+                keyword: _this.keyword
               });
             }
           });
@@ -530,10 +501,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/index.vue?vue&type=template&id=fd1cc7a4&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/index.vue?vue&type=template&id=fd1cc7a4& ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/index.vue?vue&type=template&id=2df5b080&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mediator/index.vue?vue&type=template&id=2df5b080& ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -559,87 +530,86 @@ var render = function() {
                 staticClass: "d-flex justify-content-between align-items-center"
               },
               [
-                _c("h5", { staticClass: "mb-0" }, [_vm._v("Patient List")]),
+                _c("h5", { staticClass: "mb-0" }, [
+                  _vm._v("Mediator Doctors List")
+                ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "d-flex" }, [
-                  _c(
-                    "div",
-                    { staticClass: "search_box" },
-                    [
-                      _c("input", {
-                        directives: [
-                          {
-                            name: "model",
-                            rawName: "v-model",
-                            value: _vm.keyword,
-                            expression: "keyword"
-                          }
-                        ],
-                        staticClass: "form-control",
-                        attrs: {
-                          type: "search",
-                          placeholder: "Search...",
-                          name: ""
-                        },
-                        domProps: { value: _vm.keyword },
-                        on: {
-                          keyup: _vm.searchData,
-                          input: function($event) {
-                            if ($event.target.composing) {
-                              return
+                _c(
+                  "div",
+                  { staticClass: "d-flex" },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "search_box" },
+                      [
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.keyword,
+                              expression: "keyword"
                             }
-                            _vm.keyword = $event.target.value
+                          ],
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "search",
+                            placeholder: "Search...",
+                            name: ""
+                          },
+                          domProps: { value: _vm.keyword },
+                          on: {
+                            keyup: _vm.searchData,
+                            input: function($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.keyword = $event.target.value
+                            }
                           }
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c(
-                        "CButton",
-                        [
-                          _c("vue-fontawesome", {
-                            staticClass: "mr-1",
-                            attrs: { icon: "search", size: "0.9" }
-                          })
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _vm.result.data && _vm.result.data.length < 5
-                    ? _c(
-                        "span",
-                        [
-                          _c(
-                            "router-link",
-                            { attrs: { to: { name: "add_patient" } } },
-                            [
-                              _c(
-                                "CButton",
-                                {
-                                  staticClass: "btn_custom btn-flex",
-                                  attrs: { size: "sm" }
-                                },
-                                [
-                                  _c("vue-fontawesome", {
-                                    staticClass: "mr-1",
-                                    attrs: { icon: "plus", size: "0.8" }
-                                  }),
-                                  _vm._v(
-                                    "\n                       Add New patient \n                    "
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    : _vm._e()
-                ])
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "CButton",
+                          [
+                            _c("vue-fontawesome", {
+                              staticClass: "mr-1",
+                              attrs: { icon: "search", size: "0.9" }
+                            })
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "router-link",
+                      { attrs: { to: { name: "add_mediator" } } },
+                      [
+                        _c(
+                          "CButton",
+                          {
+                            staticClass: "btn_custom btn-flex",
+                            attrs: { size: "sm" }
+                          },
+                          [
+                            _c("vue-fontawesome", {
+                              staticClass: "mr-1",
+                              attrs: { icon: "plus", size: "0.8" }
+                            }),
+                            _vm._v(
+                              "\n                  Add Mediator Doctor\n               "
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
               ]
             )
           ])
@@ -647,205 +617,194 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c(
-        "CRow",
-        { staticClass: "m-0" },
-        [
-          _c(
-            "CCol",
-            { staticClass: "px-2", attrs: { sm: "12" } },
-            [
-              _c(
-                "CCard",
-                { staticClass: "mb-2" },
+      _vm.result.data && _vm.result.data.length > 0 && _vm.result.total > 0
+        ? _c(
+            "CRow",
+            { staticClass: "m-0" },
+            _vm._l(_vm.result.data, function(row, index) {
+              return _c(
+                "div",
+                { key: index, staticClass: "col-md-4 px-2" },
                 [
-                  _c("CCardBody", [
-                    _c(
-                      "table",
-                      { staticClass: "table table-striped table-hover" },
-                      [
-                        _c("thead", [
-                          _c("tr", [
-                            _c("th", [_vm._v("ID")]),
+                  _c("CCard", { staticClass: "doctor_card" }, [
+                    _c("div", { staticClass: "doctor_list_card" }, [
+                      _c("div", { staticClass: "doctor-img" }, [
+                        row.profile_photo
+                          ? _c("img", {
+                              attrs: {
+                                src:
+                                  "uploads/profile/" +
+                                  row.id +
+                                  "/" +
+                                  row.profile_photo
+                              }
+                            })
+                          : _c("img", {
+                              attrs: {
+                                src: "/uploads/profile/default-profile.png"
+                              }
+                            })
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "doctor_info" },
+                        [
+                          _c("p", [
+                            _c("strong", [_vm._v("Name:")]),
                             _vm._v(" "),
-                            _c("th", [_vm._v("Name")]),
-                            _vm._v(" "),
-                            _c("th", [_vm._v("Email")]),
-                            _vm._v(" "),
-                            _c("th", [_vm._v("Phone Number")]),
-                            _vm._v(" "),
-                            _c("th", [_vm._v("Status")]),
-                            _vm._v(" "),
-                            _c("th", { attrs: { width: "100px" } }, [
-                              _vm._v("Action")
+                            _c("span", [
+                              _vm._v(
+                                _vm._s(row.first_name) +
+                                  " " +
+                                  _vm._s(row.last_name)
+                              )
                             ])
-                          ])
-                        ]),
-                        _vm._v(" "),
-                        _vm.result.data &&
-                        _vm.result.data.length > 0 &&
-                        _vm.result.total > 0
-                          ? _c(
-                              "tbody",
-                              _vm._l(_vm.result.data, function(row, index) {
-                                return _c("tr", { key: index }, [
-                                  _c("td", [_vm._v(_vm._s(row.pId))]),
-                                  _vm._v(" "),
-                                  _c("td", [
-                                    _vm._v(
-                                      _vm._s(row.first_name) +
-                                        " " +
-                                        _vm._s(row.last_name)
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("td", [_vm._v(_vm._s(row.email))]),
-                                  _vm._v(" "),
-                                  _c("td", [_vm._v(_vm._s(row.phone_number))]),
-                                  _vm._v(" "),
-                                  row.status
-                                    ? _c("td", [_vm._v("In-Active")])
-                                    : _c("td", [_vm._v("Active")]),
-                                  _vm._v(" "),
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("strong", [_vm._v("Registered Date:")]),
+                            _vm._v(" "),
+                            _c("span", [
+                              _vm._v(_vm._s(row.date_of_registration))
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("strong", [_vm._v("Email-ID:")]),
+                            _vm._v(" "),
+                            _c("span", [_vm._v(_vm._s(row.email))])
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _c("strong", [_vm._v("Account Status:")]),
+                            _vm._v(" "),
+                            row.status == 0
+                              ? _c("span", { staticClass: "text-warning" }, [
+                                  _vm._v("Pending")
+                                ])
+                              : _vm._e(),
+                            _vm._v(" "),
+                            row.status == 1
+                              ? _c("span", { staticClass: "text-danger" }, [
+                                  _vm._v("Rejected")
+                                ])
+                              : _vm._e(),
+                            _vm._v(" "),
+                            row.status == 2
+                              ? _c("span", { staticClass: "text-success" }, [
+                                  _vm._v("Approved")
+                                ])
+                              : _vm._e()
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "router-link",
+                            {
+                              attrs: {
+                                to: {
+                                  name: "view_mediator",
+                                  params: { id: row.id }
+                                }
+                              }
+                            },
+                            [
+                              _c(
+                                "CButton",
+                                {
+                                  staticClass: "btn-outline-info",
+                                  attrs: { size: "sm", color: "" }
+                                },
+                                [
+                                  _c("vue-fontawesome", {
+                                    attrs: { icon: "eye", size: "0.8" }
+                                  })
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _vm.user &&
+                          (_vm.user.role_type == 1 || _vm.user.role_type == 2)
+                            ? _c(
+                                "router-link",
+                                {
+                                  attrs: {
+                                    to: {
+                                      name: "edit_mediator",
+                                      params: { id: row.id }
+                                    }
+                                  }
+                                },
+                                [
                                   _c(
-                                    "td",
+                                    "CButton",
+                                    {
+                                      staticClass: "btn-outline-success",
+                                      attrs: { size: "sm", color: "" }
+                                    },
                                     [
-                                      _c(
-                                        "CButtonGroup",
-                                        { attrs: { size: "sm" } },
-                                        [
-                                          _c(
-                                            "router-link",
-                                            {
-                                              attrs: {
-                                                to: {
-                                                  name: "view_patient",
-                                                  params: { id: row.patient_id }
-                                                }
-                                              }
-                                            },
-                                            [
-                                              _c(
-                                                "CButton",
-                                                {
-                                                  staticClass:
-                                                    "btn-outline-info",
-                                                  attrs: {
-                                                    size: "sm",
-                                                    color: ""
-                                                  }
-                                                },
-                                                [
-                                                  _c("vue-fontawesome", {
-                                                    attrs: {
-                                                      icon: "eye",
-                                                      size: "0.8"
-                                                    }
-                                                  })
-                                                ],
-                                                1
-                                              )
-                                            ],
-                                            1
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "router-link",
-                                            {
-                                              attrs: {
-                                                to: {
-                                                  name: "edit_patient",
-                                                  params: { id: row.patient_id }
-                                                }
-                                              }
-                                            },
-                                            [
-                                              _c(
-                                                "CButton",
-                                                {
-                                                  staticClass:
-                                                    "btn-outline-success",
-                                                  attrs: {
-                                                    size: "sm",
-                                                    color: ""
-                                                  }
-                                                },
-                                                [
-                                                  _c("vue-fontawesome", {
-                                                    attrs: {
-                                                      icon: "pencil",
-                                                      size: "0.8"
-                                                    }
-                                                  })
-                                                ],
-                                                1
-                                              )
-                                            ],
-                                            1
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "CButton",
-                                            {
-                                              staticClass: "btn-outline-danger",
-                                              attrs: { size: "sm", color: "" },
-                                              on: {
-                                                click: function($event) {
-                                                  return _vm.MultiAction(
-                                                    row.patient_id,
-                                                    "Delete"
-                                                  )
-                                                }
-                                              }
-                                            },
-                                            [
-                                              _c("vue-fontawesome", {
-                                                attrs: {
-                                                  icon: "trash",
-                                                  size: "0.8"
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          )
-                                        ],
-                                        1
-                                      )
+                                      _c("vue-fontawesome", {
+                                        attrs: { icon: "pencil", size: "0.8" }
+                                      })
                                     ],
                                     1
                                   )
-                                ])
-                              }),
-                              0
-                            )
-                          : _c("tbody", [
-                              _c("tr", [
-                                _c(
-                                  "td",
-                                  {
-                                    staticClass: "p-3",
-                                    attrs: { colspan: "8", align: "center" }
+                                ],
+                                1
+                              )
+                            : _vm._e(),
+                          _vm._v(" "),
+                          _vm.user &&
+                          (_vm.user.role_type == 1 || _vm.user.role_type == 2)
+                            ? _c(
+                                "CButton",
+                                {
+                                  staticClass: "btn-outline-danger",
+                                  attrs: {
+                                    size: "sm",
+                                    color: "",
+                                    title: "Doctor Delete"
                                   },
-                                  [
-                                    _c("h6", { staticClass: "m-0" }, [
-                                      _vm._v("Data Not Found !")
-                                    ])
-                                  ]
-                                )
-                              ])
-                            ])
-                      ]
-                    )
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.MultiAction(row.id, "Delete")
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("vue-fontawesome", {
+                                    attrs: { icon: "trash", size: "0.8" }
+                                  })
+                                ],
+                                1
+                              )
+                            : _vm._e()
+                        ],
+                        1
+                      )
+                    ])
                   ])
                 ],
                 1
               )
-            ],
-            1
+            }),
+            0
           )
-        ],
-        1
-      ),
+        : _c("CRow", { staticClass: "m-0" }, [
+            _c("tr", [
+              _c(
+                "td",
+                {
+                  staticClass: "p-3",
+                  attrs: { colspan: "8", align: "center" }
+                },
+                [_c("h6", { staticClass: "m-0" }, [_vm._v("Data Not Found !")])]
+              )
+            ])
+          ]),
       _vm._v(" "),
       _c("pagination", {
         attrs: { page: _vm.page, result: _vm.result },
