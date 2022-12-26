@@ -18,17 +18,17 @@ var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPro
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/suggestDoctor.vue":
-/*!*****************************************************!*\
-  !*** ../coreui/src/views/patient/suggestDoctor.vue ***!
-  \*****************************************************/
+/***/ "../coreui/src/views/patient/patientBooking.vue":
+/*!******************************************************!*\
+  !*** ../coreui/src/views/patient/patientBooking.vue ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _suggestDoctor_vue_vue_type_template_id_2179c89f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./suggestDoctor.vue?vue&type=template&id=2179c89f& */ "../coreui/src/views/patient/suggestDoctor.vue?vue&type=template&id=2179c89f&");
-/* harmony import */ var _suggestDoctor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./suggestDoctor.vue?vue&type=script&lang=js& */ "../coreui/src/views/patient/suggestDoctor.vue?vue&type=script&lang=js&");
+/* harmony import */ var _patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patientBooking.vue?vue&type=template&id=58c17e30& */ "../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30&");
+/* harmony import */ var _patientBooking_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./patientBooking.vue?vue&type=script&lang=js& */ "../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -38,9 +38,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _suggestDoctor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _suggestDoctor_vue_vue_type_template_id_2179c89f___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _suggestDoctor_vue_vue_type_template_id_2179c89f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _patientBooking_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -50,47 +50,47 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/patient/suggestDoctor.vue"
+component.options.__file = "coreui/src/views/patient/patientBooking.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/suggestDoctor.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ../coreui/src/views/patient/suggestDoctor.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
+/***/ "../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_suggestDoctor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./suggestDoctor.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/suggestDoctor.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_suggestDoctor_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./patientBooking.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/suggestDoctor.vue?vue&type=template&id=2179c89f&":
-/*!************************************************************************************!*\
-  !*** ../coreui/src/views/patient/suggestDoctor.vue?vue&type=template&id=2179c89f& ***!
-  \************************************************************************************/
+/***/ "../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30&":
+/*!*************************************************************************************!*\
+  !*** ../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30& ***!
+  \*************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_suggestDoctor_vue_vue_type_template_id_2179c89f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./suggestDoctor.vue?vue&type=template&id=2179c89f& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/suggestDoctor.vue?vue&type=template&id=2179c89f&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_suggestDoctor_vue_vue_type_template_id_2179c89f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./patientBooking.vue?vue&type=template&id=58c17e30& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_suggestDoctor_vue_vue_type_template_id_2179c89f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/suggestDoctor.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/suggestDoctor.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -356,93 +356,65 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
 
 
-vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('date-picker', vue_date_time_picker_js__WEBPACK_IMPORTED_MODULE_3___default.a);
+vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("date-picker", vue_date_time_picker_js__WEBPACK_IMPORTED_MODULE_3___default.a);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      date: '',
-      id: '',
-      datetime: '',
-      recommendation_file: '',
+      date: "",
+      id: "",
+      datetime: "",
+      recommendation_file: "",
       selectType: 1,
       formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
         type_specialist: 1,
-        date_of_suggest: '',
-        to_time: '',
-        from_time: '',
-        health_specialist: '',
+        date_of_suggest: "",
+        to_time: "00.00",
+        health_specialist: "",
         visit_type: 0,
-        medical_report_attachment: '',
-        reason: '',
+        medical_report_attachment: "",
+        reason: "",
         medical_history: [],
-        description: '',
-        medical_recommendation: 0,
-        patient_id: ''
-      })
+        description: "",
+        medical_recommendation: 1,
+        patient_id: "",
+        booking_type: "FindMySelf"
+      }),
+      masterType: [],
+      patientData: [],
+      doctor_id: "",
+      patient_id: ""
     };
   },
   components: {
     datePicker: vue_date_time_picker_js__WEBPACK_IMPORTED_MODULE_3___default.a
   },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Patient/Index", ["result", "returnData", "ajax_error"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/TypesMaster", ["resultType"])),
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Patient/Index", ["result", "returnData", "ajax_error", "patientList", "getFavDoctorResult"])),
   created: function created() {
-    if (this.$route.params.id != '') {
-      this.id = this.$route.params.id;
-      this.getPatientFormData(this.$route.params.id);
-      this.TypeList();
-    }
-  },
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Patient/Index", ["getPatientData", "submitSuggestDoctorForm"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/TypesMaster", ["TypeList"]), {
-    getPatientFormData: function getPatientFormData(id) {
-      var _this = this;
+    var _this = this;
 
-      this.getPatientData(id).then(function () {
-        _this.formData.patient_id = _this.result.patient_id;
+    if (this.$route.params.d_id && this.$route.params.p_id) {
+      this.doctor_id = this.$route.params.d_id;
+      this.patient_id = this.$route.params.p_id;
+      this.getFavDoctorData(this.doctor_id).then(function () {
+        _this.formData.type_specialist = _this.getFavDoctorResult.type;
+        _this.formData.patient_id = _this.patient_id;
+      });
+    }
+
+    this.get_PatientsList();
+  },
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Patient/Index", ["getPatientData", "submitBookingRequestForm", "getPatientsList", "getFavDoctorData"]), {
+    get_PatientsList: function get_PatientsList() {
+      var _this2 = this;
+
+      this.getPatientsList().then(function () {
+        _this2.patientData = _this2.patientList.patient;
+        _this2.masterType = _this2.patientList.masterType;
       });
     },
     recommendationfile: function recommendationfile(e) {
@@ -454,41 +426,66 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('date-picker', vue_date_tim
       reader.readAsDataURL(this.recommendation_file);
     },
     submitFormData: function submitFormData() {
-      var _this2 = this;
+      var _this3 = this;
 
-      var newData = new FormData();
-      newData.append('recommendationfile', this.recommendation_file);
-      this.isActive = true;
-      newData.append('formData', JSON.stringify(this.formData));
-      this.submitSuggestDoctorForm({
-        newData: newData,
-        id: this.$route.params.id
-      }).then(function () {
-        if (_this2.returnData.status == 'success') {
-          _this2.$router.push({
-            name: "patient"
-          });
+      if (this.formData.patient_id == "") {
+        vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+          message: "Please Select Patient!",
+          type: "error",
+          duration: 5000,
+          dismissible: true
+        });
+      } else {
+        var newData = new FormData();
+        newData.append("recommendationfile", this.recommendation_file);
+        this.isActive = true;
+        newData.append("formData", JSON.stringify(this.formData));
+        this.submitBookingRequestForm({
+          newData: newData
+        }).then(function () {
+          if (_this3.returnData.status == "success") {
+            if (_this3.doctor_id != "" && _this3.patient_id != "") {
+              _this3.$router.push({
+                name: "view_doctor_patient",
+                params: {
+                  id: _this3.doctor_id,
+                  doctor_suggest_id: _this3.returnData.id
+                }
+              });
+            } else {
+              _this3.$router.push({
+                name: "searchDoctor",
+                params: {
+                  id: _this3.returnData.id,
+                  p_id: _this3.formData.patient_id
+                }
+              });
+            }
 
-          _this2.isActive = false;
-          vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
-            message: _this2.returnData.message,
-            type: _this2.returnData.status
-          });
-        }
-      })["catch"](function (error) {
-        window.scrollTo(0, 0);
-        _this2.isActive = false;
-      });
+            _this3.isActive = false;
+            vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+              message: _this3.returnData.message,
+              type: _this3.returnData.status
+            });
+          }
+        })["catch"](function (error) {
+          window.scrollTo(0, 0);
+          _this3.isActive = false;
+        });
+      }
+    },
+    bookingTypeChange: function bookingTypeChange(event) {
+      this.formData.booking_type = event.target.value;
     }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/suggestDoctor.vue?vue&type=template&id=2179c89f&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/suggestDoctor.vue?vue&type=template&id=2179c89f& ***!
-  \******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30& ***!
+  \*******************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -531,12 +528,12 @@ var render = function() {
                       "h5",
                       { staticClass: "mb-0" },
                       [
-                        _vm._v("\n               Doctor \n               "),
+                        _vm._v("\n            Patient\n            "),
                         _c("vue-fontawesome", {
                           staticClass: "px-1",
                           attrs: { icon: "caret-right", size: "1" }
                         }),
-                        _vm._v("\n               Suggest\n            ")
+                        _vm._v("\n            Booking\n          ")
                       ],
                       1
                     ),
@@ -545,34 +542,23 @@ var render = function() {
                       "div",
                       {},
                       [
-                        _c(
-                          "CButton",
-                          {
-                            staticClass: "btn_custom",
-                            attrs: { size: "sm", type: "submit" }
-                          },
-                          [_vm._v("Submit")]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "router-link",
-                          {
-                            attrs: {
-                              to: {
-                                name: "view_patient",
-                                params: { id: _vm.id }
-                              }
-                            }
-                          },
-                          [
-                            _c(
+                        _vm.doctor_id == "" && _vm.patient_id == ""
+                          ? _c(
                               "CButton",
-                              { attrs: { size: "sm", color: "light" } },
-                              [_vm._v("Back")]
+                              {
+                                staticClass: "btn_custom",
+                                attrs: { type: "submit" }
+                              },
+                              [_vm._v("Next")]
                             )
-                          ],
-                          1
-                        )
+                          : _c(
+                              "CButton",
+                              {
+                                staticClass: "btn_custom",
+                                attrs: { type: "submit" }
+                              },
+                              [_vm._v("Book Appointment")]
+                            )
                       ],
                       1
                     )
@@ -590,13 +576,226 @@ var render = function() {
                   { staticClass: "mb-0" },
                   [
                     _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                      _c("div", [_c("strong", [_vm._v("Suggest Me Doctor")])])
+                      _c("div", [_c("strong", [_vm._v("Booking request:")])])
                     ]),
                     _vm._v(" "),
                     _c(
                       "CCardBody",
                       { staticClass: "px-1 py-2" },
                       [
+                        _c(
+                          "CRow",
+                          { staticClass: "m-0" },
+                          [
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                staticStyle: { display: "none" },
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [_vm._v("Type")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.booking_type,
+                                          expression: "formData.booking_type"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: [
+                                          function($event) {
+                                            var $$selectedVal = Array.prototype.filter
+                                              .call(
+                                                $event.target.options,
+                                                function(o) {
+                                                  return o.selected
+                                                }
+                                              )
+                                              .map(function(o) {
+                                                var val =
+                                                  "_value" in o
+                                                    ? o._value
+                                                    : o.value
+                                                return val
+                                              })
+                                            _vm.$set(
+                                              _vm.formData,
+                                              "booking_type",
+                                              $event.target.multiple
+                                                ? $$selectedVal
+                                                : $$selectedVal[0]
+                                            )
+                                          },
+                                          function($event) {
+                                            return _vm.bookingTypeChange($event)
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "FindMySelf" } },
+                                        [_vm._v("Find by myself")]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [_vm._v("Select Patient")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.patient_id,
+                                          expression: "formData.patient_id"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: function($event) {
+                                          var $$selectedVal = Array.prototype.filter
+                                            .call(
+                                              $event.target.options,
+                                              function(o) {
+                                                return o.selected
+                                              }
+                                            )
+                                            .map(function(o) {
+                                              var val =
+                                                "_value" in o
+                                                  ? o._value
+                                                  : o.value
+                                              return val
+                                            })
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "patient_id",
+                                            $event.target.multiple
+                                              ? $$selectedVal
+                                              : $$selectedVal[0]
+                                          )
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c("option", { attrs: { value: "" } }, [
+                                        _vm._v(" Select Patient")
+                                      ]),
+                                      _vm._v(" "),
+                                      _vm._l(_vm.patientData, function(
+                                        row,
+                                        index
+                                      ) {
+                                        return _c(
+                                          "option",
+                                          {
+                                            domProps: { value: row.patient_id }
+                                          },
+                                          [
+                                            _vm._v(
+                                              _vm._s(row.first_name) +
+                                                " " +
+                                                _vm._s(row.last_name)
+                                            )
+                                          ]
+                                        )
+                                      })
+                                    ],
+                                    2
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [_vm._v("Where to Visit")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.visit_type,
+                                          expression: "formData.visit_type"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: function($event) {
+                                          var $$selectedVal = Array.prototype.filter
+                                            .call(
+                                              $event.target.options,
+                                              function(o) {
+                                                return o.selected
+                                              }
+                                            )
+                                            .map(function(o) {
+                                              var val =
+                                                "_value" in o
+                                                  ? o._value
+                                                  : o.value
+                                              return val
+                                            })
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "visit_type",
+                                            $event.target.multiple
+                                              ? $$selectedVal
+                                              : $$selectedVal[0]
+                                          )
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c("option", { attrs: { value: "0" } }, [
+                                        _vm._v("Home Visit")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("option", { attrs: { value: "1" } }, [
+                                        _vm._v("Clinic Visit")
+                                      ])
+                                    ]
+                                  )
+                                ])
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
                         _c(
                           "CRow",
                           { staticClass: "m-0" },
@@ -651,7 +850,7 @@ var render = function() {
                                         }
                                       }
                                     },
-                                    _vm._l(_vm.resultType, function(
+                                    _vm._l(_vm.masterType, function(
                                       type,
                                       index
                                     ) {
@@ -670,556 +869,244 @@ var render = function() {
                             _c(
                               "CCol",
                               {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
-                              [
-                                _c(
-                                  "div",
-                                  { staticClass: "form-group" },
-                                  [
-                                    _c("label", [_vm._v("Select Date")]),
-                                    _vm._v(" "),
-                                    _c("date-picker", {
-                                      attrs: {
-                                        type: "date",
-                                        format: "DD/MM/YYYY",
-                                        min: "01/01/1980",
-                                        color: "#2c449e",
-                                        "auto-submit": true,
-                                        editable: true
-                                      },
-                                      model: {
-                                        value: _vm.formData.date_of_suggest,
-                                        callback: function($$v) {
-                                          _vm.$set(
-                                            _vm.formData,
-                                            "date_of_suggest",
-                                            $$v
-                                          )
-                                        },
-                                        expression: "formData.date_of_suggest"
-                                      }
-                                    }),
-                                    _vm._v(" "),
-                                    _vm.ajax_error.errors.date_of_suggest
-                                      ? _c(
-                                          "span",
-                                          { staticClass: "text-danger" },
-                                          [
-                                            _vm._v(
-                                              _vm._s(
-                                                _vm.ajax_error.errors
-                                                  .date_of_suggest[0]
-                                              )
-                                            )
-                                          ]
-                                        )
-                                      : _vm._e()
-                                  ],
-                                  1
-                                )
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
-                              [
-                                _c("div", { staticClass: "form-group" }, [
-                                  _c("label", [_vm._v("Select Time")]),
-                                  _vm._v(" "),
-                                  _c(
-                                    "div",
-                                    {
-                                      staticClass: "d-flex align-items-center"
-                                    },
-                                    [
-                                      _c("date-picker", {
-                                        attrs: {
-                                          type: "time",
-                                          format: "HH:mm",
-                                          editable: true,
-                                          jumpMinute: 30,
-                                          roundMinute: true,
-                                          color: "#2c449e"
-                                        },
-                                        model: {
-                                          value: _vm.formData.to_time,
-                                          callback: function($$v) {
-                                            _vm.$set(
-                                              _vm.formData,
-                                              "to_time",
-                                              $$v
-                                            )
-                                          },
-                                          expression: "formData.to_time"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _vm.ajax_error.errors.to_time
-                                        ? _c(
-                                            "span",
-                                            { staticClass: "text-danger" },
-                                            [
-                                              _vm._v(
-                                                _vm._s(
-                                                  _vm.ajax_error.errors
-                                                    .to_time[0]
-                                                )
-                                              )
-                                            ]
-                                          )
-                                        : _vm._e(),
-                                      _vm._v(" "),
-                                      _c("label", { staticClass: "mx-2" }, [
-                                        _vm._v("To")
-                                      ]),
-                                      _vm._v(" "),
-                                      _c("date-picker", {
-                                        attrs: {
-                                          type: "time",
-                                          format: "HH:mm",
-                                          editable: true,
-                                          color: "#2c449e",
-                                          jumpMinute: 30,
-                                          roundMinute: true
-                                        },
-                                        model: {
-                                          value: _vm.formData.from_time,
-                                          callback: function($$v) {
-                                            _vm.$set(
-                                              _vm.formData,
-                                              "from_time",
-                                              $$v
-                                            )
-                                          },
-                                          expression: "formData.from_time"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _vm.ajax_error.errors.from_time
-                                        ? _c(
-                                            "span",
-                                            { staticClass: "text-danger" },
-                                            [
-                                              _vm._v(
-                                                _vm._s(
-                                                  _vm.ajax_error.errors
-                                                    .from_time[0]
-                                                )
-                                              )
-                                            ]
-                                          )
-                                        : _vm._e()
-                                    ],
-                                    1
-                                  )
-                                ])
-                              ]
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "CCard",
-                  { staticClass: "mb-0" },
-                  [
-                    _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                      _c("div", [
-                        _c("strong", [_vm._v("Patient’s Personal Details:  ")])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "CCardBody",
-                      { staticClass: "px-1 py-2" },
-                      [
-                        _c(
-                          "CRow",
-                          { staticClass: "m-0" },
-                          [
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
-                              [
-                                _c("CInput", {
-                                  attrs: {
-                                    label: "First Name",
-                                    placeholder: "",
-                                    value: _vm.result.first_name,
-                                    disabled: ""
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: _vm.formData.type_specialist == 4,
+                                    expression: "formData.type_specialist == 4"
                                   }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              {
+                                ],
                                 staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
-                              [
-                                _c("CInput", {
-                                  attrs: {
-                                    label: "Last Name",
-                                    placeholder: "",
-                                    value: _vm.result.last_name,
-                                    disabled: ""
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
-                              [
-                                _c("CInput", {
-                                  attrs: {
-                                    label: "Contact No.*",
-                                    placeholder: "",
-                                    value: _vm.result.phone_number,
-                                    disabled: ""
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
-                              [
-                                _c("CInput", {
-                                  attrs: {
-                                    label: "Email*",
-                                    placeholder: "",
-                                    value: _vm.result.email,
-                                    disabled: ""
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
-                              [
-                                _c("CInput", {
-                                  attrs: {
-                                    label: "Age",
-                                    placeholder: "",
-                                    value: _vm.result.age,
-                                    disabled: ""
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
-                              [
-                                _c("CInput", {
-                                  attrs: {
-                                    label: "Gender",
-                                    placeholder: "",
-                                    value:
-                                      _vm.result.gender == 0
-                                        ? "Male"
-                                        : "Female",
-                                    disabled: ""
-                                  }
-                                })
-                              ],
-                              1
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              { staticClass: "px-2", attrs: { sm: "12" } },
-                              [
-                                _c("div", { staticClass: "form-group" }, [
-                                  _c("label", [_vm._v("Address")]),
-                                  _vm._v(" "),
-                                  _c("textarea", {
-                                    staticClass: "form-control",
-                                    attrs: { disabled: "" },
-                                    domProps: { value: _vm.result.address }
-                                  })
-                                ])
-                              ]
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "CCol",
-                          {
-                            directives: [
-                              {
-                                name: "show",
-                                rawName: "v-show",
-                                value: _vm.formData.type_specialist == 3,
-                                expression: "formData.type_specialist == 3"
-                              }
-                            ],
-                            staticClass: "px-2",
-                            attrs: { md: "4" }
-                          },
-                          [
-                            _c("div", { staticClass: "form-group" }, [
-                              _c("label", [
-                                _vm._v("Select required health specialist ")
-                              ]),
-                              _c("br"),
-                              _vm._v(" "),
-                              _c(
-                                "select",
-                                {
-                                  directives: [
-                                    {
-                                      name: "model",
-                                      rawName: "v-model",
-                                      value: _vm.formData.health_specialist,
-                                      expression: "formData.health_specialist"
-                                    }
-                                  ],
-                                  staticClass: "form-control",
-                                  on: {
-                                    change: function($event) {
-                                      var $$selectedVal = Array.prototype.filter
-                                        .call($event.target.options, function(
-                                          o
-                                        ) {
-                                          return o.selected
-                                        })
-                                        .map(function(o) {
-                                          var val =
-                                            "_value" in o ? o._value : o.value
-                                          return val
-                                        })
-                                      _vm.$set(
-                                        _vm.formData,
-                                        "health_specialist",
-                                        $event.target.multiple
-                                          ? $$selectedVal
-                                          : $$selectedVal[0]
-                                      )
-                                    }
-                                  }
-                                },
-                                [
-                                  _c(
-                                    "option",
-                                    {
-                                      attrs: { value: "Allergy and immunology" }
-                                    },
-                                    [_vm._v("Allergy and immunology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Anaesthesiology" } },
-                                    [_vm._v("Anaesthesiology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Dermatology" } },
-                                    [_vm._v("Dermatology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    {
-                                      attrs: { value: "Diagnostic radiology" }
-                                    },
-                                    [_vm._v("Diagnostic radiology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Emergency medicine" } },
-                                    [_vm._v("Emergency medicine")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Family medicine" } },
-                                    [_vm._v("Family medicine")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Internal medicine" } },
-                                    [_vm._v("Internal medicine")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Medical genetics" } },
-                                    [_vm._v("Medical genetics")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Neurology" } },
-                                    [_vm._v("Neurology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Nuclear medicine" } },
-                                    [_vm._v("Nuclear medicine")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    {
-                                      attrs: {
-                                        value: "Obstetrics and gynaecology"
-                                      }
-                                    },
-                                    [_vm._v("Obstetrics and gynaecology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Ophthalmology" } },
-                                    [_vm._v("Ophthalmology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Pathology" } },
-                                    [_vm._v("Pathology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Paediatrics" } },
-                                    [_vm._v("Paediatrics")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    {
-                                      attrs: {
-                                        value:
-                                          "Physical medicine and rehabilitation"
-                                      }
-                                    },
-                                    [
-                                      _vm._v(
-                                        "Physical medicine and rehabilitation"
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Preventive medicine" } },
-                                    [_vm._v("Preventive medicine")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Psychiatry" } },
-                                    [_vm._v("Psychiatry")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Radiation oncology" } },
-                                    [_vm._v("Radiation oncology")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Surgery" } },
-                                    [_vm._v("Surgery")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "option",
-                                    { attrs: { value: "Urology" } },
-                                    [_vm._v("Urology ")]
-                                  )
-                                ]
-                              )
-                            ])
-                          ]
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "CCard",
-                  { staticClass: "mb-0" },
-                  [
-                    _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                      _c("div", [
-                        _c("strong", [_vm._v("Reason for your request:")])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "CCardBody",
-                      { staticClass: "px-1 py-2" },
-                      [
-                        _c(
-                          "CRow",
-                          { staticClass: "m-0" },
-                          [
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "6" }
+                                attrs: { md: "4" }
                               },
                               [
                                 _c("div", { staticClass: "form-group" }, [
                                   _c("label", [
-                                    _vm._v(
-                                      "Medical recommendation to see specialist:"
-                                    )
+                                    _vm._v("Select required health specialist ")
+                                  ]),
+                                  _c("br"),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.health_specialist,
+                                          expression:
+                                            "formData.health_specialist"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: function($event) {
+                                          var $$selectedVal = Array.prototype.filter
+                                            .call(
+                                              $event.target.options,
+                                              function(o) {
+                                                return o.selected
+                                              }
+                                            )
+                                            .map(function(o) {
+                                              var val =
+                                                "_value" in o
+                                                  ? o._value
+                                                  : o.value
+                                              return val
+                                            })
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "health_specialist",
+                                            $event.target.multiple
+                                              ? $$selectedVal
+                                              : $$selectedVal[0]
+                                          )
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Allergy and immunology"
+                                          }
+                                        },
+                                        [_vm._v("Allergy and immunology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Anaesthesiology" } },
+                                        [_vm._v("Anaesthesiology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Dermatology" } },
+                                        [_vm._v("Dermatology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Diagnostic radiology"
+                                          }
+                                        },
+                                        [_vm._v("Diagnostic radiology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Emergency medicine" }
+                                        },
+                                        [_vm._v("Emergency medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Family medicine" } },
+                                        [_vm._v("Family medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Internal medicine" }
+                                        },
+                                        [_vm._v("Internal medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Medical genetics" }
+                                        },
+                                        [_vm._v("Medical genetics")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Neurology" } },
+                                        [_vm._v("Neurology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Nuclear medicine" }
+                                        },
+                                        [_vm._v("Nuclear medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Obstetrics and gynaecology"
+                                          }
+                                        },
+                                        [_vm._v("Obstetrics and gynaecology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Ophthalmology" } },
+                                        [_vm._v("Ophthalmology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Pathology" } },
+                                        [_vm._v("Pathology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Paediatrics" } },
+                                        [_vm._v("Paediatrics")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value:
+                                              "Physical medicine and rehabilitation"
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Physical medicine and rehabilitation"
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Preventive medicine"
+                                          }
+                                        },
+                                        [_vm._v("Preventive medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Psychiatry" } },
+                                        [_vm._v("Psychiatry")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Radiation oncology" }
+                                        },
+                                        [_vm._v("Radiation oncology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Surgery" } },
+                                        [_vm._v("Surgery")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Urology" } },
+                                        [_vm._v("Urology ")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Preventive cardiologists"
+                                          }
+                                        },
+                                        [_vm._v("Preventive cardiologists ")]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [
+                                    _vm._v("Add medical recommendation:")
                                   ]),
                                   _c("br"),
                                   _vm._v(" "),
@@ -1332,100 +1219,172 @@ var render = function() {
                                   )
                                 ])
                               ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "6", md: "4" }
-                              },
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _vm.formData.booking_type == "Suggest"
+                          ? _c(
+                              "CRow",
+                              { staticClass: "m-0" },
                               [
-                                _c("div", { staticClass: "form-group" }, [
-                                  _c("label", [_vm._v("Where to Visit")]),
-                                  _vm._v(" "),
-                                  _c(
-                                    "select",
-                                    {
-                                      directives: [
-                                        {
-                                          name: "model",
-                                          rawName: "v-model",
-                                          value: _vm.formData.visit_type,
-                                          expression: "formData.visit_type"
-                                        }
-                                      ],
-                                      staticClass: "form-control",
-                                      on: {
-                                        change: function($event) {
-                                          var $$selectedVal = Array.prototype.filter
-                                            .call(
-                                              $event.target.options,
-                                              function(o) {
-                                                return o.selected
-                                              }
+                                _c(
+                                  "CCol",
+                                  {
+                                    staticClass: "px-2",
+                                    attrs: { sm: "6", md: "4" }
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      { staticClass: "form-group" },
+                                      [
+                                        _c("label", [_vm._v("Select Date")]),
+                                        _vm._v(" "),
+                                        _c("date-picker", {
+                                          attrs: {
+                                            type: "date",
+                                            format: "DD/MM/YYYY",
+                                            min: "01/01/1980",
+                                            color: "#2c449e",
+                                            "auto-submit": true,
+                                            editable: true
+                                          },
+                                          model: {
+                                            value: _vm.formData.date_of_suggest,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "date_of_suggest",
+                                                $$v
+                                              )
+                                            },
+                                            expression:
+                                              "formData.date_of_suggest"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.date_of_suggest
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .date_of_suggest[0]
+                                                  )
+                                                )
+                                              ]
                                             )
-                                            .map(function(o) {
-                                              var val =
-                                                "_value" in o
-                                                  ? o._value
-                                                  : o.value
-                                              return val
-                                            })
-                                          _vm.$set(
-                                            _vm.formData,
-                                            "visit_type",
-                                            $event.target.multiple
-                                              ? $$selectedVal
-                                              : $$selectedVal[0]
-                                          )
-                                        }
-                                      }
-                                    },
-                                    [
-                                      _c("option", { attrs: { value: "0" } }, [
-                                        _vm._v("Home Visit")
+                                          : _vm._e()
+                                      ],
+                                      1
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "CCol",
+                                  {
+                                    staticClass: "px-2",
+                                    attrs: { sm: "6", md: "4" }
+                                  },
+                                  [
+                                    _c("div", { staticClass: "form-group" }, [
+                                      _c("label", [_vm._v("Select Time")]),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "d-flex align-items-center"
+                                        },
+                                        [
+                                          _c("date-picker", {
+                                            attrs: {
+                                              type: "time",
+                                              format: "HH:mm",
+                                              editable: true,
+                                              jumpMinute: 30,
+                                              roundMinute: true,
+                                              color: "#2c449e"
+                                            },
+                                            model: {
+                                              value: _vm.formData.to_time,
+                                              callback: function($$v) {
+                                                _vm.$set(
+                                                  _vm.formData,
+                                                  "to_time",
+                                                  $$v
+                                                )
+                                              },
+                                              expression: "formData.to_time"
+                                            }
+                                          }),
+                                          _vm._v(" "),
+                                          _vm.ajax_error.errors.to_time
+                                            ? _c(
+                                                "span",
+                                                { staticClass: "text-danger" },
+                                                [
+                                                  _vm._v(
+                                                    _vm._s(
+                                                      _vm.ajax_error.errors
+                                                        .to_time[0]
+                                                    )
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ],
+                                        1
+                                      )
+                                    ])
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _c(
+                          "CRow",
+                          { staticClass: "m-0" },
+                          [
+                            _vm.formData.medical_recommendation == 0
+                              ? _c(
+                                  "CCol",
+                                  {
+                                    staticClass: "px-2",
+                                    attrs: { sm: "6", md: "4" }
+                                  },
+                                  [
+                                    _c("div", { staticClass: "form-group" }, [
+                                      _c("label", [
+                                        _vm._v(
+                                          " Upload med report with recommendation if available"
+                                        )
                                       ]),
                                       _vm._v(" "),
-                                      _c("option", { attrs: { value: "1" } }, [
-                                        _vm._v("Clinic Visit")
-                                      ])
-                                    ]
-                                  )
-                                ])
-                              ]
-                            ),
+                                      _c("input", {
+                                        attrs: {
+                                          type: "file",
+                                          name: "recommendation_file"
+                                        },
+                                        on: { change: _vm.recommendationfile }
+                                      })
+                                    ])
+                                  ]
+                                )
+                              : _vm._e(),
                             _vm._v(" "),
                             _c(
                               "CCol",
                               {
                                 staticClass: "px-2",
-                                attrs: { sm: "6", md: "6" }
-                              },
-                              [
-                                _c("div", { staticClass: "form-group" }, [
-                                  _c("label", [
-                                    _vm._v(
-                                      " Upload med report with recommendation if available"
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("input", {
-                                    attrs: {
-                                      type: "file",
-                                      name: "recommendation_file"
-                                    },
-                                    on: { change: _vm.recommendationfile }
-                                  })
-                                ])
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "CCol",
-                              {
-                                staticClass: "px-2",
-                                attrs: { sm: "12", md: "12" }
+                                attrs: { sm: "6", md: "8" }
                               },
                               [
                                 _c("div", { staticClass: "form-group" }, [
@@ -1475,19 +1434,6 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "div",
-                  {
-                    directives: [
-                      {
-                        name: "show",
-                        rawName: "v-show",
-                        value:
-                          _vm.formData.type_specialist == 1 ||
-                          _vm.formData.type_specialist == 3,
-                        expression:
-                          "formData.type_specialist == 1 || formData.type_specialist == 3"
-                      }
-                    ]
-                  },
                   [
                     _c(
                       "CCard",
@@ -1524,105 +1470,10 @@ var render = function() {
                                       [
                                         _c("label", [
                                           _vm._v(
-                                            "Do you know if " +
-                                              _vm._s(_vm.result.first_name) +
-                                              " " +
-                                              _vm._s(_vm.result.last_name) +
-                                              " suffers from any of the following? "
+                                            " Do you know if the patient suffers from any of the following conditions?"
                                           )
                                         ]),
                                         _c("br"),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          {
-                                            staticClass:
-                                              "form-check form-check-inline"
-                                          },
-                                          [
-                                            _c("input", {
-                                              directives: [
-                                                {
-                                                  name: "model",
-                                                  rawName: "v-model",
-                                                  value:
-                                                    _vm.formData
-                                                      .medical_history,
-                                                  expression:
-                                                    "formData.medical_history"
-                                                }
-                                              ],
-                                              staticClass: "form-check-input",
-                                              attrs: {
-                                                type: "checkbox",
-                                                id: "inlineCheckbox1",
-                                                value: "Allergies"
-                                              },
-                                              domProps: {
-                                                checked: Array.isArray(
-                                                  _vm.formData.medical_history
-                                                )
-                                                  ? _vm._i(
-                                                      _vm.formData
-                                                        .medical_history,
-                                                      "Allergies"
-                                                    ) > -1
-                                                  : _vm.formData.medical_history
-                                              },
-                                              on: {
-                                                change: function($event) {
-                                                  var $$a =
-                                                      _vm.formData
-                                                        .medical_history,
-                                                    $$el = $event.target,
-                                                    $$c = $$el.checked
-                                                      ? true
-                                                      : false
-                                                  if (Array.isArray($$a)) {
-                                                    var $$v = "Allergies",
-                                                      $$i = _vm._i($$a, $$v)
-                                                    if ($$el.checked) {
-                                                      $$i < 0 &&
-                                                        _vm.$set(
-                                                          _vm.formData,
-                                                          "medical_history",
-                                                          $$a.concat([$$v])
-                                                        )
-                                                    } else {
-                                                      $$i > -1 &&
-                                                        _vm.$set(
-                                                          _vm.formData,
-                                                          "medical_history",
-                                                          $$a
-                                                            .slice(0, $$i)
-                                                            .concat(
-                                                              $$a.slice($$i + 1)
-                                                            )
-                                                        )
-                                                    }
-                                                  } else {
-                                                    _vm.$set(
-                                                      _vm.formData,
-                                                      "medical_history",
-                                                      $$c
-                                                    )
-                                                  }
-                                                }
-                                              }
-                                            }),
-                                            _vm._v(" "),
-                                            _c(
-                                              "label",
-                                              {
-                                                staticClass: "form-check-label",
-                                                attrs: {
-                                                  for: "inlineCheckbox1"
-                                                }
-                                              },
-                                              [_vm._v("Allergies")]
-                                            )
-                                          ]
-                                        ),
                                         _vm._v(" "),
                                         _c(
                                           "div",

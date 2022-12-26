@@ -18,17 +18,17 @@ var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPro
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/doctorsView.vue":
-/*!***************************************************!*\
-  !*** ../coreui/src/views/patient/doctorsView.vue ***!
-  \***************************************************/
+/***/ "../coreui/src/views/mediator/view.vue":
+/*!*********************************************!*\
+  !*** ../coreui/src/views/mediator/view.vue ***!
+  \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./doctorsView.vue?vue&type=template&id=38a1acd5& */ "../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&");
-/* harmony import */ var _doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./doctorsView.vue?vue&type=script&lang=js& */ "../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&");
+/* harmony import */ var _view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./view.vue?vue&type=template&id=ba45eab2& */ "../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2&");
+/* harmony import */ var _view_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./view.vue?vue&type=script&lang=js& */ "../coreui/src/views/mediator/view.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -38,9 +38,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _view_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -50,47 +50,47 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/patient/doctorsView.vue"
+component.options.__file = "coreui/src/views/mediator/view.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&":
-/*!****************************************************************************!*\
-  !*** ../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************/
+/***/ "../coreui/src/views/mediator/view.vue?vue&type=script&lang=js&":
+/*!**********************************************************************!*\
+  !*** ../coreui/src/views/mediator/view.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./doctorsView.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./view.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/view.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&":
-/*!**********************************************************************************!*\
-  !*** ../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5& ***!
-  \**********************************************************************************/
+/***/ "../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2&":
+/*!****************************************************************************!*\
+  !*** ../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2& ***!
+  \****************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./doctorsView.vue?vue&type=template&id=38a1acd5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./view.vue?vue&type=template&id=ba45eab2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/view.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mediator/view.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -421,42 +421,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -468,33 +432,26 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         lat: 0,
         lng: 0
       },
-      markers: [],
-      patient_id: '',
-      doctorData: [],
-      appointmentData: []
+      markers: []
     };
   },
   created: function created() {
     if (this.$route.params.id != '') {
       this.getDoctorFormData(this.$route.params.id);
     }
-
-    if (this.$route.params.patient_id != undefined) this.patient_id = this.$route.params.patient_id;
   },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Patient/Index", ["result"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Patient/Index", ["getdoctorData"]), {
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Mediator/Index", ["doctorResult"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Mediator/Index", ["getMediatorData"]), {
     getDoctorFormData: function getDoctorFormData(id) {
       var _this = this;
 
-      this.getdoctorData(id).then(function () {
-        _this.doctorData = _this.result.doctorData;
-        _this.appointmentData = _this.result.appointmentData;
-        var lat = parseFloat(_this.doctorData.latitude);
-        var lng = parseFloat(_this.doctorData.longitude);
+      this.getMediatorData(id).then(function () {
+        var lat = parseFloat(_this.doctorResult.latitude);
+        var lng = parseFloat(_this.doctorResult.longitude);
         var marker = {
           lat: lat,
           lng: lng
-        };
+        }; //console.log(marker);
 
         _this.markers.push({
           position: marker
@@ -508,10 +465,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5& ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2& ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -542,12 +499,11 @@ var render = function() {
                   "h5",
                   { staticClass: "mb-0" },
                   [
-                    _vm._v("Doctor "),
+                    _vm._v(" Mediator Doctor "),
                     _c("vue-fontawesome", {
                       staticClass: "px-1",
                       attrs: { icon: "caret-right", size: "1" }
-                    }),
-                    _vm._v("View")
+                    })
                   ],
                   1
                 ),
@@ -556,22 +512,9 @@ var render = function() {
                   "div",
                   {},
                   [
-                    _vm.appointmentData.status != "Accept"
-                      ? _c("span", { staticClass: "alert_doctor" }, [
-                          _vm._v("Your appointment has been under review!")
-                        ])
-                      : _vm._e(),
-                    _vm._v(" "),
                     _c(
                       "router-link",
-                      {
-                        attrs: {
-                          to: {
-                            name: "view_patient",
-                            params: { id: _vm.appointmentData.patient_id }
-                          }
-                        }
-                      },
+                      { attrs: { to: { name: "mediator" } } },
                       [
                         _c("CButton", { attrs: { color: "light" } }, [
                           _vm._v("Back")
@@ -588,7 +531,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "CCol",
-            { staticClass: "p-2", attrs: { sm: "9" } },
+            { staticClass: "p-2", attrs: { sm: "12" } },
             [
               _c(
                 "CCard",
@@ -620,38 +563,26 @@ var render = function() {
                                 },
                                 [
                                   _c("div", { staticClass: "form-group" }, [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "profile-img align-items-start"
-                                      },
-                                      [
-                                        _c(
-                                          "div",
-                                          { staticClass: "profileimg" },
-                                          [
-                                            _vm.doctorData.profile_photo
-                                              ? _c("img", {
-                                                  attrs: {
-                                                    src:
-                                                      "uploads/profile/" +
-                                                      _vm.doctorData.id +
-                                                      "/" +
-                                                      _vm.doctorData
-                                                        .profile_photo
-                                                  }
-                                                })
-                                              : _c("img", {
-                                                  attrs: {
-                                                    src:
-                                                      "/uploads/profile/default-profile.png"
-                                                  }
-                                                })
-                                          ]
-                                        )
-                                      ]
-                                    )
+                                    _c("div", { staticClass: "profile-img" }, [
+                                      _c("div", { staticClass: "profileimg" }, [
+                                        _vm.doctorResult.profile_photo
+                                          ? _c("img", {
+                                              attrs: {
+                                                src:
+                                                  "uploads/profile/" +
+                                                  _vm.doctorResult.id +
+                                                  "/" +
+                                                  _vm.doctorResult.profile_photo
+                                              }
+                                            })
+                                          : _c("img", {
+                                              attrs: {
+                                                src:
+                                                  "/uploads/profile/default-profile.png"
+                                              }
+                                            })
+                                      ])
+                                    ])
                                   ])
                                 ]
                               ),
@@ -685,7 +616,7 @@ var render = function() {
                                               _c("h6", [
                                                 _vm._v(
                                                   _vm._s(
-                                                    _vm.doctorData.first_name
+                                                    _vm.doctorResult.first_name
                                                   )
                                                 )
                                               ])
@@ -712,34 +643,7 @@ var render = function() {
                                               _c("h6", [
                                                 _vm._v(
                                                   _vm._s(
-                                                    _vm.doctorData.last_name
-                                                  )
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [
-                                                _vm._v("User Name")
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.doctorData.user_name
+                                                    _vm.doctorResult.last_name
                                                   )
                                                 )
                                               ])
@@ -763,7 +667,7 @@ var render = function() {
                                               _vm._v(" "),
                                               _c("h6", [
                                                 _vm._v(
-                                                  _vm._s(_vm.doctorData.email)
+                                                  _vm._s(_vm.doctorResult.email)
                                                 )
                                               ])
                                             ]
@@ -789,7 +693,8 @@ var render = function() {
                                               _c("h6", [
                                                 _vm._v(
                                                   _vm._s(
-                                                    _vm.doctorData.phone_number
+                                                    _vm.doctorResult
+                                                      .phone_number
                                                   )
                                                 )
                                               ])
@@ -813,7 +718,7 @@ var render = function() {
                                               _vm._v(" "),
                                               _c("h6", [
                                                 _vm._v(
-                                                  _vm._s(_vm.doctorData.age)
+                                                  _vm._s(_vm.doctorResult.age)
                                                 )
                                               ])
                                             ]
@@ -886,10 +791,29 @@ var render = function() {
                                 },
                                 [
                                   _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Select Address")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(_vm.doctorResult.full_address)
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
                                     _c("label", [_vm._v("Address")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.address))
+                                      _vm._v(_vm._s(_vm.doctorResult.address))
                                     ])
                                   ])
                                 ]
@@ -906,7 +830,7 @@ var render = function() {
                                     _c("label", [_vm._v("Address 2")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.address2))
+                                      _vm._v(_vm._s(_vm.doctorResult.address2))
                                     ])
                                   ])
                                 ]
@@ -923,7 +847,7 @@ var render = function() {
                                     _c("label", [_vm._v("Area")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.area))
+                                      _vm._v(_vm._s(_vm.doctorResult.area))
                                     ])
                                   ])
                                 ]
@@ -940,7 +864,7 @@ var render = function() {
                                     _c("label", [_vm._v("City")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.city))
+                                      _vm._v(_vm._s(_vm.doctorResult.city))
                                     ])
                                   ])
                                 ]
@@ -957,7 +881,7 @@ var render = function() {
                                     _c("label", [_vm._v("State")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.state))
+                                      _vm._v(_vm._s(_vm.doctorResult.state))
                                     ])
                                   ])
                                 ]
@@ -974,7 +898,7 @@ var render = function() {
                                     _c("label", [_vm._v("Country")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.country))
+                                      _vm._v(_vm._s(_vm.doctorResult.country))
                                     ])
                                   ])
                                 ]
@@ -991,7 +915,7 @@ var render = function() {
                                     _c("label", [_vm._v("Zip code")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.zip_code))
+                                      _vm._v(_vm._s(_vm.doctorResult.zip_code))
                                     ])
                                   ])
                                 ]
@@ -1008,7 +932,7 @@ var render = function() {
                                     _c("label", [_vm._v("latitude")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.latitude))
+                                      _vm._v(_vm._s(_vm.doctorResult.latitude))
                                     ])
                                   ])
                                 ]
@@ -1025,7 +949,7 @@ var render = function() {
                                     _c("label", [_vm._v("longitude")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.longitude))
+                                      _vm._v(_vm._s(_vm.doctorResult.longitude))
                                     ])
                                   ])
                                 ]
@@ -1100,13 +1024,13 @@ var render = function() {
                                     _c("label", [_vm._v("Type")]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.type))
+                                      _vm._v(_vm._s(_vm.doctorResult.type))
                                     ])
                                   ])
                                 ]
                               ),
                               _vm._v(" "),
-                              _vm.doctorData.certificate_awarding_university
+                              _vm.doctorResult.certificate_awarding_university
                                 ? _c(
                                     "CCol",
                                     {
@@ -1131,9 +1055,9 @@ var render = function() {
                                                 attrs: {
                                                   href:
                                                     "uploads/doctor/" +
-                                                    _vm.doctorData.user_id +
+                                                    _vm.doctorResult.user_id +
                                                     "/" +
-                                                    _vm.doctorData
+                                                    _vm.doctorResult
                                                       .certificate_awarding_university,
                                                   download: ""
                                                 }
@@ -1153,7 +1077,7 @@ var render = function() {
                                   )
                                 : _vm._e(),
                               _vm._v(" "),
-                              _vm.doctorData.speciality_diploma
+                              _vm.doctorResult.speciality_diploma
                                 ? _c(
                                     "CCol",
                                     {
@@ -1176,9 +1100,9 @@ var render = function() {
                                                 attrs: {
                                                   href:
                                                     "uploads/doctor/" +
-                                                    _vm.doctorData.user_id +
+                                                    _vm.doctorResult.user_id +
                                                     "/" +
-                                                    _vm.doctorData
+                                                    _vm.doctorResult
                                                       .speciality_diploma,
                                                   download: ""
                                                 }
@@ -1198,7 +1122,7 @@ var render = function() {
                                   )
                                 : _vm._e(),
                               _vm._v(" "),
-                              _vm.doctorData.copy_of_registration
+                              _vm.doctorResult.copy_of_registration
                                 ? _c(
                                     "CCol",
                                     {
@@ -1223,9 +1147,9 @@ var render = function() {
                                                 attrs: {
                                                   href:
                                                     "uploads/doctor/" +
-                                                    _vm.doctorData.user_id +
+                                                    _vm.doctorResult.user_id +
                                                     "/" +
-                                                    _vm.doctorData
+                                                    _vm.doctorResult
                                                       .copy_of_registration,
                                                   download: ""
                                                 }
@@ -1260,7 +1184,8 @@ var render = function() {
                                     _c("h6", [
                                       _vm._v(
                                         _vm._s(
-                                          _vm.doctorData.medical_license_number
+                                          _vm.doctorResult
+                                            .medical_license_number
                                         )
                                       )
                                     ])
@@ -1283,7 +1208,7 @@ var render = function() {
                                     _c("h6", [
                                       _vm._v(
                                         _vm._s(
-                                          _vm.doctorData.date_of_registration
+                                          _vm.doctorResult.date_of_registration
                                         )
                                       )
                                     ])
@@ -1303,7 +1228,7 @@ var render = function() {
                                     _vm._v(" "),
                                     _c("h6", [
                                       _vm._v(
-                                        _vm._s(_vm.doctorData.registration_no)
+                                        _vm._s(_vm.doctorResult.registration_no)
                                       )
                                     ])
                                   ])
@@ -1323,7 +1248,9 @@ var render = function() {
                                     ]),
                                     _vm._v(" "),
                                     _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.experience))
+                                      _vm._v(
+                                        _vm._s(_vm.doctorResult.experience)
+                                      )
                                     ])
                                   ])
                                 ]
@@ -1343,7 +1270,10 @@ var render = function() {
                                     _vm._v(" "),
                                     _c("h6", [
                                       _vm._v(
-                                        _vm._s(_vm.doctorData.clinic_address)
+                                        _vm._s(
+                                          _vm.doctorResult
+                                            .current_clinic_hospital
+                                        )
                                       )
                                     ])
                                   ])
@@ -1364,7 +1294,10 @@ var render = function() {
                                     _vm._v(" "),
                                     _c("h6", [
                                       _vm._v(
-                                        _vm._s(_vm.doctorData.dr_availability)
+                                        _vm._s(
+                                          _vm.doctorResult
+                                            .availability_time_from
+                                        )
                                       )
                                     ])
                                   ])
@@ -1385,7 +1318,9 @@ var render = function() {
                                     _vm._v(" "),
                                     _c("h6", [
                                       _vm._v(
-                                        _vm._s(_vm.doctorData.service_provided)
+                                        _vm._s(
+                                          _vm.doctorResult.service_provided
+                                        )
                                       )
                                     ])
                                   ])
@@ -1399,22 +1334,35 @@ var render = function() {
                                   attrs: { sm: "6", md: "4" }
                                 },
                                 [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Equipment list")]),
-                                    _vm._v(" "),
-                                    _c(
-                                      "ul",
-                                      {
-                                        staticClass:
-                                          "d-flex justify-content-around m-0 p-0"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                            \n                              A   \n                            "
-                                        )
-                                      ]
-                                    )
-                                  ])
+                                  _c(
+                                    "div",
+                                    { staticClass: "form-group" },
+                                    [
+                                      _c("label", [_vm._v("Equipment list")]),
+                                      _vm._v(" "),
+                                      _vm._l(
+                                        _vm.doctorResult.equipmentArr,
+                                        function(row, index) {
+                                          return _c(
+                                            "ul",
+                                            {
+                                              key: index,
+                                              staticClass:
+                                                "d-flex justify-content-around m-0 p-0"
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n                              " +
+                                                  _vm._s(row.equipment_name) +
+                                                  "\n                            "
+                                              )
+                                            ]
+                                          )
+                                        }
+                                      )
+                                    ],
+                                    2
+                                  )
                                 ]
                               ),
                               _vm._v(" "),
@@ -1432,7 +1380,9 @@ var render = function() {
                                     _vm._v(" "),
                                     _c("h6", [
                                       _vm._v(
-                                        _vm._s(_vm.doctorData.willing_to_serve)
+                                        _vm._s(
+                                          _vm.doctorResult.willing_to_serve
+                                        )
                                       )
                                     ])
                                   ])
@@ -1451,7 +1401,9 @@ var render = function() {
                                     _vm._v(" "),
                                     _c("h6", [
                                       _vm._v(
-                                        _vm._s(_vm.doctorData.area_of_coverage)
+                                        _vm._s(
+                                          _vm.doctorResult.area_of_coverage
+                                        )
                                       )
                                     ])
                                   ])
@@ -1472,7 +1424,9 @@ var render = function() {
                                     _c("h6", [
                                       _vm._v(
                                         "\n                              " +
-                                          _vm._s(_vm.doctorData.brief_summary) +
+                                          _vm._s(
+                                            _vm.doctorResult.brief_summary
+                                          ) +
                                           "     \n                           "
                                       )
                                     ])
@@ -1495,7 +1449,8 @@ var render = function() {
                                       _vm._v(
                                         "\n                              " +
                                           _vm._s(
-                                            _vm.doctorData.terms_and_conditions
+                                            _vm.doctorResult
+                                              .terms_and_conditions
                                           ) +
                                           "\n                           "
                                       )
@@ -1509,96 +1464,6 @@ var render = function() {
                         ],
                         1
                       )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "CCol",
-            { attrs: { sm: "3" } },
-            [
-              _c(
-                "CCard",
-                { staticClass: "doctor_inf_card time_slot_card" },
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("h6", { staticClass: "mb-0" }, [
-                      _vm._v("Available Time")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "p-2" },
-                    [
-                      _c("div", { staticClass: "booking-summary" }, [
-                        _c("div", { staticClass: "booking-item-wrap" }, [
-                          _c("ul", { staticClass: "booking-date" }, [
-                            _c("li", [
-                              _vm._v("Date "),
-                              _c("span", [
-                                _vm._v(
-                                  _vm._s(_vm.appointmentData.appointment_date)
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _vm._v("Time "),
-                              _c("span", [
-                                _vm._v(
-                                  _vm._s(_vm.appointmentData.appointment_time)
-                                )
-                              ])
-                            ])
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _vm.appointmentData.status == "Accept"
-                        ? _c(
-                            "router-link",
-                            {
-                              attrs: {
-                                to: {
-                                  name: "appointment_checkout",
-                                  params: {
-                                    user_name: _vm.appointmentData.user_name,
-                                    appointment_id: _vm.appointmentData.id
-                                  }
-                                }
-                              }
-                            },
-                            [
-                              _c(
-                                "CButton",
-                                {
-                                  staticClass:
-                                    "btn_custom mx-auto d-block w-75 p-2 mb-3",
-                                  attrs: { size: "sm" }
-                                },
-                                [
-                                  _c("vue-fontawesome", {
-                                    staticClass: "mr-1",
-                                    attrs: {
-                                      icon: "calendar-check-o",
-                                      size: "0.8"
-                                    }
-                                  }),
-                                  _vm._v("Book Appointment\n               ")
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        : _vm._e()
                     ],
                     1
                   )

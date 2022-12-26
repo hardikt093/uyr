@@ -78,6 +78,93 @@ module.exports = {
 
 /***/ }),
 
+/***/ "../coreui/src/views/components/w3wMap.vue":
+/*!*************************************************!*\
+  !*** ../coreui/src/views/components/w3wMap.vue ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./w3wMap.vue?vue&type=template&id=07f14a00& */ "../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00&");
+/* harmony import */ var _w3wMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./w3wMap.vue?vue&type=script&lang=js& */ "../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./w3wMap.vue?vue&type=style&index=0&lang=css& */ "../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _w3wMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "coreui/src/views/components/w3wMap.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./w3wMap.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************!*\
+  !*** ../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/style-loader!../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./w3wMap.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _laravel_node_modules_style_loader_index_js_laravel_node_modules_css_loader_index_js_ref_6_1_laravel_node_modules_vue_loader_lib_loaders_stylePostLoader_js_laravel_node_modules_postcss_loader_src_index_js_ref_6_2_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+/***/ }),
+
+/***/ "../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00&":
+/*!********************************************************************************!*\
+  !*** ../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00& ***!
+  \********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./w3wMap.vue?vue&type=template&id=07f14a00& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_w3wMap_vue_vue_type_template_id_07f14a00___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "../coreui/src/views/settings/update_doctor.vue":
 /*!******************************************************!*\
   !*** ../coreui/src/views/settings/update_doctor.vue ***!
@@ -149,6 +236,82 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/w3wMap.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "Autosuggest",
+  props: {
+    autoSuggest: Boolean,
+    mapDiv: Boolean,
+    mapId: String,
+    w3words: String,
+    lat: String,
+    lng: String
+  },
+  data: function data() {
+    return {// words: null,
+      // lat: null,
+      // lng: null,
+      // allData: null,
+    };
+  },
+  methods: {},
+  watch: {},
+  mounted: function mounted() {
+    this.$nextTick(function () {
+      var _this = this;
+
+      var w3wMap = document.getElementById(this.mapId);
+      w3wMap.addEventListener("selected_square", function (data) {
+        // this.lat = await w3wMap.getLat();
+        // this.lng = await w3wMap.getLng();
+        _this.$emit('getmapdata', data.detail);
+      });
+    });
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/settings/update_doctor.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/settings/update_doctor.vue?vue&type=script&lang=js& ***!
@@ -166,6 +329,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_multiselect__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue_multiselect__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../global_helper/helpers.js */ "../coreui/src/global_helper/helpers.js");
 /* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_w3wMap_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/w3wMap.vue */ "../coreui/src/views/components/w3wMap.vue");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -539,6 +703,18 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 
@@ -547,7 +723,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    Multiselect: vue_multiselect__WEBPACK_IMPORTED_MODULE_3___default.a
+    Multiselect: vue_multiselect__WEBPACK_IMPORTED_MODULE_3___default.a,
+    w3wMap: _components_w3wMap_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
   },
   data: function data() {
     var _ref;
@@ -594,7 +771,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         medical_council_regn: "",
         current_clinic_hospital: "",
         medical_license_number: ""
-      }, _defineProperty(_ref, "medical_license_number", ""), _defineProperty(_ref, "registration_no", ""), _defineProperty(_ref, "experience", ""), _defineProperty(_ref, "willing_to_serve_as", "0"), _defineProperty(_ref, "brief_summary", ""), _defineProperty(_ref, "terms_and_conditions", ""), _defineProperty(_ref, "address", ""), _defineProperty(_ref, "address2", ""), _defineProperty(_ref, "area", ""), _defineProperty(_ref, "city", ""), _defineProperty(_ref, "country", ""), _defineProperty(_ref, "state", ""), _defineProperty(_ref, "zip_code", ""), _defineProperty(_ref, "date_of_registration", ""), _defineProperty(_ref, "type", ""), _defineProperty(_ref, "status", 0), _defineProperty(_ref, "latitude", ""), _defineProperty(_ref, "longitude", ""), _defineProperty(_ref, "type", ""), _defineProperty(_ref, "availability_time_from", ""), _defineProperty(_ref, "equipment", ""), _ref)),
+      }, _defineProperty(_ref, "medical_license_number", ""), _defineProperty(_ref, "registration_no", ""), _defineProperty(_ref, "experience", ""), _defineProperty(_ref, "willing_to_serve_as", "0"), _defineProperty(_ref, "brief_summary", ""), _defineProperty(_ref, "terms_and_conditions", ""), _defineProperty(_ref, "address", ""), _defineProperty(_ref, "address2", ""), _defineProperty(_ref, "area", ""), _defineProperty(_ref, "city", ""), _defineProperty(_ref, "country", ""), _defineProperty(_ref, "state", ""), _defineProperty(_ref, "zip_code", ""), _defineProperty(_ref, "date_of_registration", ""), _defineProperty(_ref, "type", ""), _defineProperty(_ref, "status", 0), _defineProperty(_ref, "latitude", ""), _defineProperty(_ref, "longitude", ""), _defineProperty(_ref, "type", ""), _defineProperty(_ref, "availability_time_from", ""), _defineProperty(_ref, "equipment", ""), _defineProperty(_ref, "w3w_address", ''), _ref)),
       uploadedDoc: "",
       specialty: "",
       registration: "",
@@ -625,6 +802,24 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   },
   computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Doctor/Index", ["returnData", "ajax_error", "doctorResult", "equipListResult"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("auth", ["user"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/ServicesMaster", ["resultService"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/TypesMaster", ["resultType"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/AvailabilityMaster", ["resultAvailability"])),
   methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Doctor/Index", ["submitDoctorUpdateForm", "getDoctorProfile", "getEquipmentList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/ServicesMaster", ["ServiceList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/TypesMaster", ["TypeList"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/AvailabilityMaster", ["AvailabilityList"]), {
+    getMapData: function getMapData(response) {
+      if (response.country) this.formData.country = response.country;
+      if (response.words) this.formData.what3words = response.words;
+      this.formData.w3w_address = response.words;
+
+      if (response.coordinates) {
+        if (response.coordinates.lat) this.formData.latitude = response.coordinates.lat;
+        if (response.coordinates.lng) this.formData.longitude = response.coordinates.lng;
+      }
+
+      if (response.nearestPlace) {
+        this.formData.area = response.nearestPlace;
+        this.formData.address = response.nearestPlace;
+        var city_state = response.nearestPlace.split(',');
+        this.formData.city = city_state[0];
+        this.formData.state = city_state[1];
+      }
+    },
     onlyNumric: function onlyNumric(evt) {
       return _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_4___default.a.onlyNumric(evt);
     },
@@ -812,6 +1007,135 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     }
   })
 });
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../laravel/node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n#map {\n  width: 100%;\n  height: 80vh;\n}\nhtml,\nbody {\n  padding: 0px;\n  margin: 0px;\n  height: 100%;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../laravel/node_modules/css-loader??ref--6-1!../../../../laravel/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../laravel/node_modules/postcss-loader/src??ref--6-2!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./w3wMap.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../laravel/node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00&":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/components/w3wMap.vue?vue&type=template&id=07f14a00& ***!
+  \**************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "what3words-map",
+    {
+      attrs: {
+        current_location: !_vm.w3words ? true : false,
+        current_location_control_position: "2",
+        id: _vm.mapId,
+        api_key: "CVQHCR0K",
+        map_api_key: "AIzaSyAONdWlvzm8Jc8elwxfe4_hQwcjZDnAH38",
+        zoom: "8",
+        selected_zoom: "20",
+        search_control_position: "5",
+        zoom_control: "",
+        fullscreen_control: "",
+        fullscreen_control_position: "9",
+        words: _vm.w3words,
+        street_view_control: "false",
+        map_type_control_position: "1"
+      }
+    },
+    [
+      _c("div", {
+        style: !this.mapDiv && "display:none",
+        attrs: { slot: "map", id: "map" },
+        slot: "map"
+      }),
+      _vm._v(" "),
+      this.autoSuggest
+        ? _c(
+            "div",
+            { attrs: { slot: "search-control" }, slot: "search-control" },
+            [
+              _c("what3words-autosuggest", { attrs: { id: "what3words" } }, [
+                _c("input", { attrs: { type: "text" } })
+              ]),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  attrs: {
+                    href:
+                      "https://www.google.com/maps/dir/?api=1&destination=" +
+                      _vm.lat +
+                      "," +
+                      _vm.lng,
+                    target: "_blank",
+                    rel: "noopener noreferrer"
+                  }
+                },
+                [_vm._v("Google Maps")]
+              )
+            ],
+            1
+          )
+        : _vm._e()
+    ]
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
 
 /***/ }),
 
@@ -1492,14 +1816,20 @@ var render = function() {
                                   ])
                                 ]),
                                 _vm._v(" "),
-                                _c("gmap-autocomplete", {
-                                  staticClass: "form-control",
+                                _c("w3wMap", {
                                   attrs: {
-                                    autocomplete: "off",
-                                    id: "google_autosearch_address",
-                                    options: _vm.autocompleteOptions
+                                    lat: _vm.formData.latitude,
+                                    lng: _vm.formData.longitude,
+                                    w3words: _vm.formData.w3w_address,
+                                    mapId: "w3wMap1",
+                                    autoSuggest: true,
+                                    mapDiv: false
                                   },
-                                  on: { place_changed: _vm.setPlace }
+                                  on: {
+                                    getmapdata: function($event) {
+                                      return _vm.getMapData($event)
+                                    }
+                                  }
                                 })
                               ],
                               1
@@ -1737,11 +2067,11 @@ var render = function() {
                                 _c("CInput", {
                                   attrs: { placeholder: "" },
                                   model: {
-                                    value: _vm.formData.latitude,
+                                    value: _vm.formData.longitude,
                                     callback: function($$v) {
-                                      _vm.$set(_vm.formData, "latitude", $$v)
+                                      _vm.$set(_vm.formData, "longitude", $$v)
                                     },
-                                    expression: "formData.latitude"
+                                    expression: "formData.longitude"
                                   }
                                 }),
                                 _vm._v(" "),
@@ -1756,47 +2086,64 @@ var render = function() {
                                   : _vm._e()
                               ],
                               1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("w3w address"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "", readonly: "" },
+                                  model: {
+                                    value: _vm.formData.w3w_address,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "w3w_address", $$v)
+                                    },
+                                    expression: "formData.w3w_address"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.w3w_address
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.ajax_error.errors.w3w_address[0]
+                                        )
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
                             )
                           ],
                           1
                         ),
                         _vm._v(" "),
-                        _vm.markers.length > 0
-                          ? _c(
-                              "div",
-                              { staticClass: "col-md-12" },
-                              [
-                                _c(
-                                  "gmap-map",
-                                  {
-                                    staticStyle: {
-                                      width: "100%",
-                                      height: "400px"
-                                    },
-                                    attrs: { center: _vm.center, zoom: 17 }
-                                  },
-                                  _vm._l(_vm.markers, function(m, index) {
-                                    return _c("gmap-marker", {
-                                      key: index,
-                                      attrs: {
-                                        position: m.position,
-                                        draggable: true,
-                                        clickable: true
-                                      },
-                                      on: {
-                                        click: function($event) {
-                                          _vm.center = m.position
-                                        },
-                                        dragend: _vm.updateCoordinates
-                                      }
-                                    })
-                                  }),
-                                  1
-                                )
-                              ],
-                              1
-                            )
-                          : _vm._e()
+                        _c("w3wMap", {
+                          attrs: {
+                            lat: _vm.formData.latitude,
+                            lng: _vm.formData.longitude,
+                            mapId: "w3wMap2",
+                            w3words: _vm.formData.w3w_address,
+                            autoSuggest: false,
+                            mapDiv: true
+                          },
+                          on: {
+                            getmapdata: function($event) {
+                              return _vm.getMapData($event)
+                            }
+                          }
+                        })
                       ],
                       1
                     )

@@ -110,7 +110,9 @@
                 <CCol sm="6" md="3" class="px-2">
                   <label>Select Address<span class="text-danger">*</span></label>
 
-                  <gmap-autocomplete class="form-control" autocomplete="off" id="google_autosearch_address" @place_changed="setPlace" :options="autocompleteOptions"> </gmap-autocomplete>
+                  <w3wMap :lat="formData.latitude" :lng="formData.longitude" :w3words="formData.w3w_address" mapId="w3wMap1" :autoSuggest="true" :mapDiv="false" @getmapdata="getMapData($event)"/>
+
+                  <!-- <gmap-autocomplete class="form-control" autocomplete="off" id="google_autosearch_address" @place_changed="setPlace" :options="autocompleteOptions"> </gmap-autocomplete> -->
                 </CCol>
                 <CCol sm="6" md="3" class="px-2">
                   <label>Address<span class="text-danger">*</span></label>
@@ -158,16 +160,25 @@
 
                 <CCol sm="6" md="3" class="px-2">
                   <label>longitude</label>
-                  <CInput placeholder="" v-model="formData.latitude" />
+                  <CInput placeholder="" v-model="formData.longitude" />
                   <span class="text-danger" v-if="ajax_error.errors.longitude">{{ ajax_error.errors.longitude[0] }}</span>
                 </CCol>
+
+                <CCol sm="6" md="3" class="px-2" >
+                          <label>w3w address<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.w3w_address" readonly/>
+                            <span class="text-danger" v-if="ajax_error.errors.w3w_address">{{ ajax_error.errors.w3w_address[0] }}</span>
+                        </CCol>
+                        
               </CRow>
 
-              <div class="col-md-12" v-if="markers.length>0">
+              <w3wMap :lat="formData.latitude" :lng="formData.longitude" mapId="w3wMap2" :w3words="formData.w3w_address" :autoSuggest="false" :mapDiv="true" @getmapdata="getMapData($event)"/>
+
+              <!-- <div class="col-md-12" v-if="markers.length>0">
                 <gmap-map :center="center" :zoom="17" style="width: 100%; height: 400px;">
                   <gmap-marker :key="index" v-for="(m, index) in markers" :position="m.position" @click="center=m.position" @dragend="updateCoordinates" :draggable="true" :clickable="true"></gmap-marker>
                 </gmap-map>
-              </div>
+              </div> -->
             </CCardBody>
           </CCard>
 
@@ -372,10 +383,12 @@
   import Form from "vform";
   import Multiselect from 'vue-multiselect'
   import commonHelper from "./../../global_helper/helpers.js";
+  import w3wMap from "../components/w3wMap.vue";
 
   export default {
     components: {      
-      Multiselect
+      Multiselect,
+      w3wMap
     },
     data() {
       return {
@@ -441,6 +454,7 @@
           type: "",
           availability_time_from: "",
           equipment: "",
+          w3w_address: ''
         }),
         uploadedDoc: "",
         specialty: "",
@@ -487,6 +501,31 @@
       ...mapActions("Masters/ServicesMaster", ["ServiceList"]),
       ...mapActions("Masters/TypesMaster", ["TypeList"]),
       ...mapActions("Masters/AvailabilityMaster", ["AvailabilityList"]),
+
+      getMapData(response) {
+            
+            if(response.country)
+               this.formData.country       = response.country;
+
+               if(response.words)
+               this.formData.what3words    = response.words;
+               this.formData.w3w_address = response.words;
+               if(response.coordinates) {
+                  if(response.coordinates.lat)
+                  this.formData.latitude  = response.coordinates.lat;
+                  if(response.coordinates.lng)
+                  this.formData.longitude = response.coordinates.lng;
+               }
+               
+               if(response.nearestPlace){
+                  this.formData.area          = response.nearestPlace;
+                  this.formData.address       = response.nearestPlace;
+                  var city_state = response.nearestPlace.split(',');
+                  this.formData.city  = city_state[0];
+                  this.formData.state = city_state[1];
+               }
+          },
+          
 
       onlyNumric(evt) {
         return commonHelper.onlyNumric(evt);

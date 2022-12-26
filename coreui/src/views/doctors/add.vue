@@ -117,7 +117,7 @@
                 <CCol sm="6" md="3" class="px-2">
                   <label>Search Location<span class="text-danger">*</span></label>
 
-                  <w3wMap :w3words="formData.w3w_address" mapId="w3wMap1" :autoSuggest="true" :mapDiv="false" @getmapdata="getMapData($event)"/>
+                  <w3wMap :lat="formData.latitude" :lng="formData.longitude" :w3words="formData.w3w_address" mapId="w3wMap1" :autoSuggest="true" :mapDiv="false" @getmapdata="getMapData($event)"/>
 
                   <!-- <a @click="getLocation" href="javascript:void(0)" class="font-weight-bold text-danger">
                     <vue-fontawesome icon="compass" class="ml-2" size="1"></vue-fontawesome>
@@ -190,7 +190,7 @@
 
               </CRow>
 
-              <w3wMap mapId="w3wMap2" :w3words="formData.w3w_address" :autoSuggest="false" :mapDiv="true" @getmapdata="getMapData($event)"/>
+              <w3wMap :lat="formData.latitude" :lng="formData.longitude" mapId="w3wMap2" :w3words="formData.w3w_address" :autoSuggest="false" :mapDiv="true" @getmapdata="getMapData($event)"/>
 
               <!-- <div class="col-md-12" v-if="markers.length>0">
                 <gmap-map :center="center" :zoom="25" style="width: 100%; height: 400px;">
