@@ -87,17 +87,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "../coreui/src/views/masters/master_availability.vue":
-/*!***********************************************************!*\
-  !*** ../coreui/src/views/masters/master_availability.vue ***!
-  \***********************************************************/
+/***/ "../coreui/src/views/masters/master_types.vue":
+/*!****************************************************!*\
+  !*** ../coreui/src/views/masters/master_types.vue ***!
+  \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _master_availability_vue_vue_type_template_id_5e24d0c0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./master_availability.vue?vue&type=template&id=5e24d0c0& */ "../coreui/src/views/masters/master_availability.vue?vue&type=template&id=5e24d0c0&");
-/* harmony import */ var _master_availability_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./master_availability.vue?vue&type=script&lang=js& */ "../coreui/src/views/masters/master_availability.vue?vue&type=script&lang=js&");
+/* harmony import */ var _master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./master_types.vue?vue&type=template&id=25f4c4e4& */ "../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4&");
+/* harmony import */ var _master_types_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./master_types.vue?vue&type=script&lang=js& */ "../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -107,9 +107,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _master_availability_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _master_availability_vue_vue_type_template_id_5e24d0c0___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _master_availability_vue_vue_type_template_id_5e24d0c0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _master_types_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -119,38 +119,38 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/masters/master_availability.vue"
+component.options.__file = "coreui/src/views/masters/master_types.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/masters/master_availability.vue?vue&type=script&lang=js&":
-/*!************************************************************************************!*\
-  !*** ../coreui/src/views/masters/master_availability.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************/
+/***/ "../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_availability_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./master_availability.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_availability.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_availability_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./master_types.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/masters/master_availability.vue?vue&type=template&id=5e24d0c0&":
-/*!******************************************************************************************!*\
-  !*** ../coreui/src/views/masters/master_availability.vue?vue&type=template&id=5e24d0c0& ***!
-  \******************************************************************************************/
+/***/ "../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4&":
+/*!***********************************************************************************!*\
+  !*** ../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4& ***!
+  \***********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_availability_vue_vue_type_template_id_5e24d0c0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./master_availability.vue?vue&type=template&id=5e24d0c0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_availability.vue?vue&type=template&id=5e24d0c0&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_availability_vue_vue_type_template_id_5e24d0c0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./master_types.vue?vue&type=template&id=25f4c4e4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_availability_vue_vue_type_template_id_5e24d0c0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_master_types_vue_vue_type_template_id_25f4c4e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -223,10 +223,10 @@ vue__WEBPACK_IMPORTED_MODULE_1___default.a.component('paginate', vuejs_paginate_
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_availability.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/masters/master_availability.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/masters/master_types.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -353,30 +353,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -394,15 +370,13 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       label: 'Add',
       formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
         id: "",
-        time_from: '',
-        time_to: '',
-        isactive: 1
+        type_name: '',
+        isactive: ''
       })
     };
   },
   created: function created() {
-    this.page;
-    this.getDateTime();
+    this.page; //this.EquipmentList();
   },
   computed: _objectSpread({
     page: function page() {
@@ -416,16 +390,16 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
         return Number(page) || 1;
       } else {}
     }
-  }, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/AvailabilityMaster", ["result", "editData", "returnData", "ajax_error", "resultDateTime"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/AvailabilityMaster", ["list", "edit", "submitForm", "UpdateMultiAction", "getDateTime"]), {
+  }, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Masters/TypesMaster", ["result", "editData", "returnData", "ajax_error"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Masters/TypesMaster", ["list", "edit", "submitForm", "UpdateMultiAction"]), {
     paginateHandle: function paginateHandle(pageNum) {
-      time_from;
+      type_name;
       this.list({
         page: pageNum,
         'keyword': this.keyword
       });
       this.$router.push({
-        name: 'paginate_availability',
+        name: 'paginate_types',
         params: {
           page: page
         }
@@ -467,9 +441,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     submitFormData: function submitFormData() {
       var _this2 = this;
 
-      if (this.formData.time_from == '') {
+      if (this.formData.type_name == '') {
         vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
-          message: "Please Insert Availability Time From!",
+          message: "Please Insert Types name!",
           type: 'error',
           duration: 5000,
           dismissible: true
@@ -488,10 +462,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
             }); //this.$router.push({name:"master_services"});
 
 
-            _this2.label = 'Add';
-            _this2.formData.time_from = '';
-            _this2.formData.time_to = '';
-            _this2.formData.isactive = 1;
+            _this2.resetForm();
           }
         })["catch"](function (error) {
           window.scrollTo(0, 0);
@@ -510,12 +481,25 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       });
       this.ajax_error.errors = [];
     },
+    resetForm: function resetForm() {
+      this.keyword = "";
+      this.label = 'Add';
+      this.user_id = '';
+      this.list({
+        page: this.result.current_page
+      });
+      this.formData = new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
+        id: "",
+        type_name: '',
+        isactive: ""
+      });
+    },
     searchData: function searchData() {
       var page = 1;
 
       if (this.keyword.length >= 3) {
         if (this.$route.params.page != 1) this.$router.push({
-          name: 'availability',
+          name: 'types',
           params: {
             page: page
           }
@@ -601,10 +585,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_availability.vue?vue&type=template&id=5e24d0c0&":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/masters/master_availability.vue?vue&type=template&id=5e24d0c0& ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/masters/master_types.vue?vue&type=template&id=25f4c4e4& ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -634,9 +618,7 @@ var render = function() {
                     "d-flex justify-content-between align-items-center py-2"
                 },
                 [
-                  _c("h5", { staticClass: "mb-0" }, [_vm._v("Availability")]),
-                  _vm._v(" "),
-                  _c("data"),
+                  _c("h5", { staticClass: "mb-0" }, [_vm._v("Types")]),
                   _vm._v(" "),
                   _c(
                     "div",
@@ -698,13 +680,15 @@ var render = function() {
                             _c("tr", [
                               _c("th", [_vm._v("ID")]),
                               _vm._v(" "),
-                              _c("th", [_vm._v("Availability Time From")]),
+                              _c("th", [_vm._v("Type Name")]),
                               _vm._v(" "),
-                              _c("th", [_vm._v("Availability Time To")]),
+                              _c("th", { staticClass: "text-center" }, [
+                                _vm._v("Status")
+                              ]),
                               _vm._v(" "),
-                              _c("th", [_vm._v("Status")]),
-                              _vm._v(" "),
-                              _c("th", [_vm._v("Action")])
+                              _c("th", { attrs: { width: "30" } }, [
+                                _vm._v("Action")
+                              ])
                             ])
                           ]),
                           _vm._v(" "),
@@ -713,31 +697,34 @@ var render = function() {
                           _vm.result.total > 0
                             ? _c(
                                 "tbody",
-                                [
-                                  _vm._l(_vm.result.data, function(row, index) {
-                                    return _vm.result.data
-                                      ? _c(
-                                          "tr",
-                                          {
-                                            key: "row" + index,
-                                            staticClass: "mb-2 card-shadow"
-                                          },
-                                          [
-                                            _c("td", [
-                                              _vm._v(
-                                                _vm._s(_vm.result.from + index)
-                                              )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("td", [
-                                              _vm._v(_vm._s(row.time_from))
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("td", [
-                                              _vm._v(_vm._s(row.time_to))
-                                            ]),
-                                            _vm._v(" "),
-                                            _c("td", [
+                                _vm._l(_vm.result.data, function(row, index) {
+                                  return _vm.result.data
+                                    ? _c(
+                                        "tr",
+                                        {
+                                          key: "row" + index,
+                                          staticClass: "mb-2 card-shadow"
+                                        },
+                                        [
+                                          _c("td", [
+                                            _vm._v(
+                                              _vm._s(_vm.result.from + index)
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          row.type_name
+                                            ? _c("td", [
+                                                _vm._v(_vm._s(row.type_name))
+                                              ])
+                                            : _c("td"),
+                                          _vm._v(" "),
+                                          _c(
+                                            "td",
+                                            {
+                                              staticClass: "text-center",
+                                              attrs: { align: "center" }
+                                            },
+                                            [
                                               row.isactive == 1
                                                 ? _c(
                                                     "div",
@@ -755,139 +742,117 @@ var render = function() {
                                                     },
                                                     [_vm._v("Inactive")]
                                                   )
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "td",
-                                              [
-                                                _c(
-                                                  "CButtonGroup",
-                                                  { attrs: { size: "sm" } },
-                                                  [
-                                                    _c(
-                                                      "CButton",
-                                                      {
-                                                        directives: [
-                                                          {
-                                                            name: "c-tooltip",
-                                                            rawName:
-                                                              "v-c-tooltip.hover",
-                                                            value: {
-                                                              content: "Edit"
-                                                            },
-                                                            expression:
-                                                              "{content: `Edit`}",
-                                                            modifiers: {
-                                                              hover: true
-                                                            }
-                                                          }
-                                                        ],
-                                                        staticClass:
-                                                          "btn-outline-warning",
-                                                        attrs: {
-                                                          size: "sm",
-                                                          color: ""
-                                                        },
-                                                        on: {
-                                                          click: function(
-                                                            $event
-                                                          ) {
-                                                            return _vm.getFormData(
-                                                              row.id
-                                                            )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "td",
+                                            [
+                                              _c(
+                                                "CButtonGroup",
+                                                { attrs: { size: "sm" } },
+                                                [
+                                                  _c(
+                                                    "CButton",
+                                                    {
+                                                      directives: [
+                                                        {
+                                                          name: "c-tooltip",
+                                                          rawName:
+                                                            "v-c-tooltip.hover",
+                                                          value: {
+                                                            content: "Edit"
+                                                          },
+                                                          expression:
+                                                            "{content: `Edit`}",
+                                                          modifiers: {
+                                                            hover: true
                                                           }
                                                         }
-                                                      },
-                                                      [
-                                                        _c("vue-fontawesome", {
-                                                          attrs: {
-                                                            icon: "pencil",
-                                                            size: "0.8"
-                                                          }
-                                                        })
                                                       ],
-                                                      1
-                                                    ),
-                                                    _vm._v(" "),
-                                                    _c(
-                                                      "CButton",
-                                                      {
-                                                        directives: [
-                                                          {
-                                                            name: "c-tooltip",
-                                                            rawName:
-                                                              "v-c-tooltip.hover",
-                                                            value: {
-                                                              content: "Remove"
-                                                            },
-                                                            expression:
-                                                              "{content: `Remove`}",
-                                                            modifiers: {
-                                                              hover: true
-                                                            }
-                                                          }
-                                                        ],
-                                                        staticClass:
-                                                          "btn-outline-danger",
+                                                      staticClass:
+                                                        "btn-outline-warning",
+                                                      attrs: {
+                                                        size: "sm",
+                                                        color: ""
+                                                      },
+                                                      on: {
+                                                        click: function(
+                                                          $event
+                                                        ) {
+                                                          return _vm.getFormData(
+                                                            row.id
+                                                          )
+                                                        }
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("vue-fontawesome", {
                                                         attrs: {
-                                                          size: "sm",
-                                                          color: ""
-                                                        },
-                                                        on: {
-                                                          click: function(
-                                                            $event
-                                                          ) {
-                                                            return _vm.MultiAction(
-                                                              row.id,
-                                                              "Delete"
-                                                            )
+                                                          icon: "pencil",
+                                                          size: "0.8"
+                                                        }
+                                                      })
+                                                    ],
+                                                    1
+                                                  ),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "CButton",
+                                                    {
+                                                      directives: [
+                                                        {
+                                                          name: "c-tooltip",
+                                                          rawName:
+                                                            "v-c-tooltip.hover",
+                                                          value: {
+                                                            content: "Remove"
+                                                          },
+                                                          expression:
+                                                            "{content: `Remove`}",
+                                                          modifiers: {
+                                                            hover: true
                                                           }
                                                         }
-                                                      },
-                                                      [
-                                                        _c("vue-fontawesome", {
-                                                          attrs: {
-                                                            icon: "trash",
-                                                            size: "0.8"
-                                                          }
-                                                        })
                                                       ],
-                                                      1
-                                                    )
-                                                  ],
-                                                  1
-                                                )
-                                              ],
-                                              1
-                                            )
-                                          ]
-                                        )
-                                      : _vm._e()
-                                  }),
-                                  _vm._v(" "),
-                                  _vm.result.data == ""
-                                    ? _c("tr", [
-                                        _c(
-                                          "td",
-                                          {
-                                            staticClass: "p-3",
-                                            attrs: {
-                                              colspan: "14",
-                                              align: "center"
-                                            }
-                                          },
-                                          [
-                                            _c("h6", { staticClass: "mb-0" }, [
-                                              _c("strong", [
-                                                _vm._v("No data found!")
-                                              ])
-                                            ])
-                                          ]
-                                        )
-                                      ])
+                                                      staticClass:
+                                                        "btn-outline-danger",
+                                                      attrs: {
+                                                        size: "sm",
+                                                        color: ""
+                                                      },
+                                                      on: {
+                                                        click: function(
+                                                          $event
+                                                        ) {
+                                                          return _vm.MultiAction(
+                                                            row.id,
+                                                            "Delete"
+                                                          )
+                                                        }
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("vue-fontawesome", {
+                                                        attrs: {
+                                                          icon: "trash",
+                                                          size: "0.8"
+                                                        }
+                                                      })
+                                                    ],
+                                                    1
+                                                  )
+                                                ],
+                                                1
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ]
+                                      )
                                     : _vm._e()
-                                ],
-                                2
+                                }),
+                                0
                               )
                             : _c("tbody", [
                                 _c("tr", [
@@ -951,7 +916,7 @@ var render = function() {
                 [
                   _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
                     _c("h6", { staticClass: "mb-0" }, [
-                      _vm._v(_vm._s(_vm.label) + " Availability")
+                      _vm._v(_vm._s(_vm.label) + " Types")
                     ])
                   ]),
                   _vm._v(" "),
@@ -960,125 +925,38 @@ var render = function() {
                     { staticClass: "p-2" },
                     [
                       _c("CForm", { attrs: { method: "POST" } }, [
-                        _c("div", { staticClass: "form-group" }, [
-                          _c("label", [
-                            _vm._v("Availability Time From"),
-                            _c("span", { staticClass: "text-danger" }, [
-                              _vm._v("*")
-                            ])
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "select",
-                            {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.formData.time_from,
-                                  expression: "formData.time_from"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              on: {
-                                change: function($event) {
-                                  var $$selectedVal = Array.prototype.filter
-                                    .call($event.target.options, function(o) {
-                                      return o.selected
-                                    })
-                                    .map(function(o) {
-                                      var val =
-                                        "_value" in o ? o._value : o.value
-                                      return val
-                                    })
-                                  _vm.$set(
-                                    _vm.formData,
-                                    "time_from",
-                                    $event.target.multiple
-                                      ? $$selectedVal
-                                      : $$selectedVal[0]
-                                  )
-                                }
+                        _c(
+                          "div",
+                          { staticClass: "form-group" },
+                          [
+                            _c("label", [
+                              _vm._v("Types Name"),
+                              _c("span", { staticClass: "text-danger" }, [
+                                _vm._v("*")
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("CInput", {
+                              attrs: { placeholder: "" },
+                              model: {
+                                value: _vm.formData.type_name,
+                                callback: function($$v) {
+                                  _vm.$set(_vm.formData, "type_name", $$v)
+                                },
+                                expression: "formData.type_name"
                               }
-                            },
-                            _vm._l(_vm.resultDateTime.datetimeArr, function(
-                              availability,
-                              index
-                            ) {
-                              return _c("option", [
-                                _vm._v(_vm._s(availability) + " ")
-                              ])
                             }),
-                            0
-                          ),
-                          _vm._v(" "),
-                          _vm.ajax_error.errors.time_from
-                            ? _c("small", { staticClass: "text-danger" }, [
-                                _vm._v(
-                                  _vm._s(_vm.ajax_error.errors.time_from[0])
-                                )
-                              ])
-                            : _vm._e()
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "form-group" }, [
-                          _c("label", [
-                            _vm._v("Availability Time To"),
-                            _c("span", { staticClass: "text-danger" }, [
-                              _vm._v("*")
-                            ])
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "select",
-                            {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.formData.time_to,
-                                  expression: "formData.time_to"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              on: {
-                                change: function($event) {
-                                  var $$selectedVal = Array.prototype.filter
-                                    .call($event.target.options, function(o) {
-                                      return o.selected
-                                    })
-                                    .map(function(o) {
-                                      var val =
-                                        "_value" in o ? o._value : o.value
-                                      return val
-                                    })
-                                  _vm.$set(
-                                    _vm.formData,
-                                    "time_to",
-                                    $event.target.multiple
-                                      ? $$selectedVal
-                                      : $$selectedVal[0]
+                            _vm._v(" "),
+                            _vm.ajax_error.errors.type_name
+                              ? _c("small", { staticClass: "text-danger" }, [
+                                  _vm._v(
+                                    _vm._s(_vm.ajax_error.errors.type_name[0])
                                   )
-                                }
-                              }
-                            },
-                            _vm._l(_vm.resultDateTime.datetimeArr, function(
-                              availability,
-                              index
-                            ) {
-                              return _c("option", [
-                                _vm._v(_vm._s(availability) + " ")
-                              ])
-                            }),
-                            0
-                          ),
-                          _vm._v(" "),
-                          _vm.ajax_error.errors.time_to
-                            ? _c("small", { staticClass: "text-danger" }, [
-                                _vm._v(_vm._s(_vm.ajax_error.errors.time_to[0]))
-                              ])
-                            : _vm._e()
-                        ]),
+                                ])
+                              : _vm._e()
+                          ],
+                          1
+                        ),
                         _vm._v(" "),
                         _c("div", { staticClass: "form-group" }, [
                           _c("label", [_vm._v("Status ")]),

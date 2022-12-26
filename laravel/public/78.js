@@ -18,17 +18,17 @@ var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPro
 
 /***/ }),
 
-/***/ "../coreui/src/views/roles/addRole.vue":
-/*!*********************************************!*\
-  !*** ../coreui/src/views/roles/addRole.vue ***!
-  \*********************************************/
+/***/ "../coreui/src/views/users/changePassword.vue":
+/*!****************************************************!*\
+  !*** ../coreui/src/views/users/changePassword.vue ***!
+  \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _addRole_vue_vue_type_template_id_4423106a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addRole.vue?vue&type=template&id=4423106a& */ "../coreui/src/views/roles/addRole.vue?vue&type=template&id=4423106a&");
-/* harmony import */ var _addRole_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addRole.vue?vue&type=script&lang=js& */ "../coreui/src/views/roles/addRole.vue?vue&type=script&lang=js&");
+/* harmony import */ var _changePassword_vue_vue_type_template_id_70d30248___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./changePassword.vue?vue&type=template&id=70d30248& */ "../coreui/src/views/users/changePassword.vue?vue&type=template&id=70d30248&");
+/* harmony import */ var _changePassword_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./changePassword.vue?vue&type=script&lang=js& */ "../coreui/src/views/users/changePassword.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -38,9 +38,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _addRole_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _addRole_vue_vue_type_template_id_4423106a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _addRole_vue_vue_type_template_id_4423106a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _changePassword_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _changePassword_vue_vue_type_template_id_70d30248___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _changePassword_vue_vue_type_template_id_70d30248___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -50,47 +50,47 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/roles/addRole.vue"
+component.options.__file = "coreui/src/views/users/changePassword.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/roles/addRole.vue?vue&type=script&lang=js&":
-/*!**********************************************************************!*\
-  !*** ../coreui/src/views/roles/addRole.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************/
+/***/ "../coreui/src/views/users/changePassword.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ../coreui/src/views/users/changePassword.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addRole_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./addRole.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/roles/addRole.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addRole_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_changePassword_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./changePassword.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/users/changePassword.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_changePassword_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/roles/addRole.vue?vue&type=template&id=4423106a&":
-/*!****************************************************************************!*\
-  !*** ../coreui/src/views/roles/addRole.vue?vue&type=template&id=4423106a& ***!
-  \****************************************************************************/
+/***/ "../coreui/src/views/users/changePassword.vue?vue&type=template&id=70d30248&":
+/*!***********************************************************************************!*\
+  !*** ../coreui/src/views/users/changePassword.vue?vue&type=template&id=70d30248& ***!
+  \***********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addRole_vue_vue_type_template_id_4423106a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./addRole.vue?vue&type=template&id=4423106a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/roles/addRole.vue?vue&type=template&id=4423106a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addRole_vue_vue_type_template_id_4423106a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_changePassword_vue_vue_type_template_id_70d30248___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./changePassword.vue?vue&type=template&id=70d30248& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/users/changePassword.vue?vue&type=template&id=70d30248&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_changePassword_vue_vue_type_template_id_70d30248___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addRole_vue_vue_type_template_id_4423106a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_changePassword_vue_vue_type_template_id_70d30248___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/roles/addRole.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/roles/addRole.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/users/changePassword.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/users/changePassword.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -143,36 +143,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -181,84 +151,42 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   data: function data() {
     return {
       formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
-        name: "",
-        slug: "",
-        parent_id: "",
-        is_parent: '0'
-      })
+        old_password: '',
+        password: '',
+        password_confirmation: '',
+        role_type: ''
+      }),
+      message: '',
+      status: ''
     };
   },
-  created: function created() {
-    this.setMenus({
-      id: 0
-    });
-    this.resetform();
-  },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Roles/Index", ["item", "result", 'returnData', "menuTabs", "ajax_error"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Roles/Index", ["storeData", "setMenus", "checkAllData", "checkData", "setFormStates"]), {
-    submitForm: function submitForm() {
+  created: function created() {},
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Users/Index", ["returnData", "ajax_error"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Users/Index", ["changePassword"]), {
+    submitFormData: function submitFormData() {
       var _this = this;
 
-      console.log('here');
-      this.storeData().then(function () {
-        console.log('heredd');
-
-        _this.$router.push({
-          name: "roles"
-        });
-
-        window.scrollTo(0, 0);
+      this.changePassword({
+        'id': this.$route.params.id,
+        'formData': this.formData
+      }).then(function () {
+        if (_this.returnData.status) {
+          _this.message = _this.returnData.message;
+          _this.status = _this.returnData.status;
+        }
       })["catch"](function (error) {
         window.scrollTo(0, 0);
       });
-    },
-    checkAll: function checkAll(e) {
-      var pid = e.target.getAttribute("pid");
-
-      if (e.target.checked) {
-        this.checkAllData({
-          pid: pid,
-          temp: 1
-        });
-      } else {
-        this.checkAllData({
-          pid: pid,
-          temp: 0
-        });
-      }
-    },
-    updatePermissions: function updatePermissions(e) {
-      var pid = e.target.getAttribute("pid");
-      var cid = e.target.getAttribute("cid");
-
-      if (e.target.checked) {
-        this.checkData({
-          pid: pid,
-          cid: cid,
-          temp: 1
-        });
-      } else {
-        this.checkData({
-          pid: pid,
-          cid: cid,
-          temp: 1
-        });
-      }
-    },
-    updateStates: function updateStates(e) {
-      var fieldSet = e.target.getAttribute("name");
-      var fieldValue = e.target.value;
-      this.setFormStates(_defineProperty({}, fieldSet, fieldValue));
     }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/roles/addRole.vue?vue&type=template&id=4423106a&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/roles/addRole.vue?vue&type=template&id=4423106a& ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/users/changePassword.vue?vue&type=template&id=70d30248&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/users/changePassword.vue?vue&type=template&id=70d30248& ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -277,105 +205,66 @@ var render = function() {
         "CRow",
         { staticClass: "m-0" },
         [
-          _c("CCol", { staticClass: "p-2", attrs: { sm: "12" } }, [
-            _c(
-              "div",
-              {
-                staticClass: "d-flex justify-content-between align-items-center"
-              },
-              [
-                _c(
-                  "h5",
-                  { staticClass: "mb-0" },
-                  [
-                    _vm._v("Role "),
-                    _c("vue-fontawesome", {
-                      staticClass: "px-1",
-                      attrs: { icon: "caret-right", size: "1" }
-                    }),
-                    _vm._v("Add")
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  [
-                    _c(
-                      "CButton",
-                      {
-                        staticClass: "btn_custom",
-                        attrs: { size: "sm" },
-                        on: { click: _vm.submitForm }
-                      },
-                      [_vm._v("Submit")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "router-link",
-                      { attrs: { to: { name: "roles" } } },
-                      [
-                        _c(
-                          "CButton",
-                          { attrs: { size: "sm", color: "light" } },
-                          [_vm._v("Back")]
-                        )
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
-              ]
-            )
-          ]),
+          _c(
+            "CCol",
+            { staticClass: "p-2 text-right", attrs: { md: "12" } },
+            [
+              _c(
+                "CButton",
+                {
+                  staticClass: "btn_custom",
+                  attrs: { size: "sm" },
+                  on: { click: _vm.submitFormData }
+                },
+                [_vm._v("Submit")]
+              ),
+              _vm._v(" "),
+              _c(
+                "router-link",
+                { attrs: { to: { name: "users" } } },
+                [
+                  _c("CButton", { attrs: { size: "sm", color: "light" } }, [
+                    _vm._v("Back")
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
           _c(
             "CCol",
-            { staticClass: "px-2", attrs: { sm: "12" } },
+            { staticClass: "p-2", attrs: { sm: "6" } },
             [
               _c(
                 "CCard",
                 [
                   _c("CCardHeader", { staticClass: "p-2 bg_themes" }, [
-                    _c("strong", [_vm._v("Add Role")])
+                    _c("strong", [_vm._v("Change Password")])
                   ]),
                   _vm._v(" "),
                   _c(
                     "CCardBody",
+                    { staticClass: "py-2 px-1" },
                     [
                       _c(
                         "CForm",
                         { attrs: { method: "POST" } },
                         [
-                          _c(
-                            "CRow",
-                            { staticClass: "m-0 mt-2" },
-                            [
-                              _c(
-                                "CCol",
+                          _vm.message != ""
+                            ? _c(
+                                "CAlert",
                                 {
-                                  staticClass: "form-group px-2",
-                                  attrs: { sm: "6", lg: "4", md: "6" }
+                                  attrs: {
+                                    show: "",
+                                    color: _vm.status,
+                                    closeButton: ""
+                                  }
                                 },
-                                [
-                                  _c("label", [_vm._v("Role Name")]),
-                                  _vm._v(" "),
-                                  _c("input", {
-                                    staticClass: "form-control",
-                                    attrs: {
-                                      type: "text",
-                                      placeholder: "Enter Role Name",
-                                      name: "title"
-                                    },
-                                    domProps: { value: _vm.item.title },
-                                    on: { input: _vm.updateStates }
-                                  })
-                                ]
+                                [_vm._v(_vm._s(_vm.message))]
                               )
-                            ],
-                            1
-                          ),
+                            : _vm._e(),
                           _vm._v(" "),
                           _c(
                             "CRow",
@@ -384,187 +273,135 @@ var render = function() {
                               _c(
                                 "CCol",
                                 {
-                                  staticClass: "px-2 pb-2",
-                                  attrs: { sm: "12" }
+                                  staticClass: "form-group px-1",
+                                  attrs: { sm: "12", lg: "8", md: "12" }
                                 },
                                 [
-                                  _c(
-                                    "label",
-                                    { staticClass: "font-weight-bold" },
-                                    [_vm._v("Permissions")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("hr", { staticClass: "mt-0" }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "table",
-                                    {
-                                      staticClass:
-                                        "table table-striped table-hover table-bordered bg-gray-100 permission-padding"
+                                  _c("CInput", {
+                                    staticClass: "mb-0",
+                                    attrs: {
+                                      label: "Old Password",
+                                      type: "password",
+                                      placeholder: "Enter Old password",
+                                      autocomplete: "current-password"
                                     },
-                                    [
-                                      _c(
-                                        "thead",
-                                        { staticClass: "bg-gray-600" },
+                                    model: {
+                                      value: _vm.formData.old_password,
+                                      callback: function($$v) {
+                                        _vm.$set(
+                                          _vm.formData,
+                                          "old_password",
+                                          $$v
+                                        )
+                                      },
+                                      expression: "formData.old_password"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _vm.ajax_error.errors.password
+                                    ? _c(
+                                        "small",
+                                        { staticClass: "text-danger" },
                                         [
-                                          _c(
-                                            "tr",
-                                            {
-                                              staticClass:
-                                                "text-center border-white"
-                                            },
-                                            [
-                                              _c(
-                                                "th",
-                                                {
-                                                  staticClass:
-                                                    "text-left w-25 align-middle",
-                                                  attrs: { scope: "col" }
-                                                },
-                                                [_vm._v("Menu Name")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "th",
-                                                {
-                                                  staticClass: "align-middle",
-                                                  attrs: { scope: "col" }
-                                                },
-                                                [_vm._v("Select All")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "th",
-                                                {
-                                                  staticClass: "align-middle",
-                                                  attrs: { scope: "col" }
-                                                },
-                                                [_vm._v("List Page")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "th",
-                                                {
-                                                  staticClass: "align-middle",
-                                                  attrs: { scope: "col" }
-                                                },
-                                                [_vm._v("Add")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "th",
-                                                {
-                                                  staticClass: "align-middle",
-                                                  attrs: { scope: "col" }
-                                                },
-                                                [_vm._v("Update")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "th",
-                                                {
-                                                  staticClass: "align-middle",
-                                                  attrs: { scope: "col" }
-                                                },
-                                                [_vm._v("Delete")]
-                                              ),
-                                              _vm._v(" "),
-                                              _c(
-                                                "th",
-                                                {
-                                                  staticClass: "align-middle",
-                                                  attrs: { scope: "col" }
-                                                },
-                                                [_vm._v("Change Password")]
-                                              )
-                                            ]
+                                          _vm._v(
+                                            _vm._s(
+                                              _vm.ajax_error.errors
+                                                .old_password[0]
+                                            )
                                           )
                                         ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "tbody",
-                                        {
-                                          staticClass:
-                                            "bg-gray-100 text-dark border-white"
-                                        },
-                                        _vm._l(_vm.menuTabs.data, function(
-                                          row,
-                                          index
-                                        ) {
-                                          return _c(
-                                            "tr",
-                                            {
-                                              staticClass:
-                                                "text-center border-white"
-                                            },
-                                            [
-                                              _c(
-                                                "td",
-                                                {
-                                                  staticClass:
-                                                    "text-left font-weight-bold",
-                                                  attrs: { scope: "row" }
-                                                },
-                                                [
-                                                  _vm._v(
-                                                    _vm._s(row.parent.name)
-                                                  )
-                                                ]
-                                              ),
-                                              _vm._v(" "),
-                                              _c("td", [
-                                                _c("input", {
-                                                  attrs: {
-                                                    type: "checkbox",
-                                                    id: "chk" + row.parent.slug,
-                                                    name: "permission[]",
-                                                    pid: index
-                                                  },
-                                                  domProps: {
-                                                    value: row.parent.id,
-                                                    checked:
-                                                      row.parent.temp == 1
-                                                  },
-                                                  on: { change: _vm.checkAll }
-                                                })
-                                              ]),
-                                              _vm._v(" "),
-                                              _vm._l(row.child, function(
-                                                key,
-                                                index1
-                                              ) {
-                                                return row.child.length > 0
-                                                  ? _c("td", [
-                                                      _c("input", {
-                                                        attrs: {
-                                                          type: "checkbox",
-                                                          id: "chk" + key.slug,
-                                                          name: "permission[]",
-                                                          pid: index,
-                                                          cid: index1
-                                                        },
-                                                        domProps: {
-                                                          value: key.id,
-                                                          checked: key.temp == 1
-                                                        },
-                                                        on: {
-                                                          change:
-                                                            _vm.updatePermissions
-                                                        }
-                                                      })
-                                                    ])
-                                                  : _vm._e()
-                                              })
-                                            ],
-                                            2
-                                          )
-                                        }),
-                                        0
                                       )
-                                    ]
-                                  )
-                                ]
+                                    : _vm._e()
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "form-group px-1",
+                                  attrs: { sm: "12", lg: "8", md: "12" }
+                                },
+                                [
+                                  _c("CInput", {
+                                    staticClass: "mb-0",
+                                    attrs: {
+                                      label: "New Password",
+                                      type: "password",
+                                      placeholder: "Enter New password",
+                                      autocomplete: "current-password"
+                                    },
+                                    model: {
+                                      value: _vm.formData.password,
+                                      callback: function($$v) {
+                                        _vm.$set(_vm.formData, "password", $$v)
+                                      },
+                                      expression: "formData.password"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _vm.ajax_error.errors.password
+                                    ? _c(
+                                        "small",
+                                        { staticClass: "text-danger" },
+                                        [
+                                          _vm._v(
+                                            _vm._s(
+                                              _vm.ajax_error.errors.password[0]
+                                            )
+                                          )
+                                        ]
+                                      )
+                                    : _vm._e()
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "form-group px-1",
+                                  attrs: { sm: "12", lg: "8", md: "12" }
+                                },
+                                [
+                                  _c("CInput", {
+                                    staticClass: "mb-0",
+                                    attrs: {
+                                      label: "Confirm Password",
+                                      type: "password",
+                                      placeholder: "Confirm password",
+                                      autocomplete: "current-password"
+                                    },
+                                    model: {
+                                      value: _vm.formData.password_confirmation,
+                                      callback: function($$v) {
+                                        _vm.$set(
+                                          _vm.formData,
+                                          "password_confirmation",
+                                          $$v
+                                        )
+                                      },
+                                      expression:
+                                        "formData.password_confirmation"
+                                    }
+                                  }),
+                                  _vm._v(" "),
+                                  _vm.ajax_error.errors.password_confirmation
+                                    ? _c(
+                                        "small",
+                                        { staticClass: "text-danger" },
+                                        [
+                                          _vm._v(
+                                            _vm._s(
+                                              _vm.ajax_error.errors
+                                                .password_confirmation[0]
+                                            )
+                                          )
+                                        ]
+                                      )
+                                    : _vm._e()
+                                ],
+                                1
                               )
                             ],
                             1

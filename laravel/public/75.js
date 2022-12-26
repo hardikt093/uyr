@@ -18,17 +18,17 @@ var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPro
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/doctorsView.vue":
-/*!***************************************************!*\
-  !*** ../coreui/src/views/patient/doctorsView.vue ***!
-  \***************************************************/
+/***/ "../coreui/src/views/patient/patientBooking.vue":
+/*!******************************************************!*\
+  !*** ../coreui/src/views/patient/patientBooking.vue ***!
+  \******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./doctorsView.vue?vue&type=template&id=38a1acd5& */ "../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&");
-/* harmony import */ var _doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./doctorsView.vue?vue&type=script&lang=js& */ "../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&");
+/* harmony import */ var _patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./patientBooking.vue?vue&type=template&id=58c17e30& */ "../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30&");
+/* harmony import */ var _patientBooking_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./patientBooking.vue?vue&type=script&lang=js& */ "../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -38,9 +38,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _patientBooking_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -50,47 +50,47 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/patient/doctorsView.vue"
+component.options.__file = "coreui/src/views/patient/patientBooking.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&":
-/*!****************************************************************************!*\
-  !*** ../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************/
+/***/ "../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** ../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./doctorsView.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./patientBooking.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&":
-/*!**********************************************************************************!*\
-  !*** ../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5& ***!
-  \**********************************************************************************/
+/***/ "../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30&":
+/*!*************************************************************************************!*\
+  !*** ../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30& ***!
+  \*************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./doctorsView.vue?vue&type=template&id=38a1acd5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./patientBooking.vue?vue&type=template&id=58c17e30& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_patientBooking_vue_vue_type_template_id_58c17e30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/patientBooking.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -100,6 +100,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "../coreui/node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vform */ "../coreui/node_modules/vform/dist/vform.es.js");
+/* harmony import */ var vue_date_time_picker_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-date-time-picker-js */ "../coreui/node_modules/vue-date-time-picker-js/dist/vue-date-time-picker-js.js");
+/* harmony import */ var vue_date_time_picker_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue_date_time_picker_js__WEBPACK_IMPORTED_MODULE_3__);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -354,164 +356,136 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
 
+
+vue__WEBPACK_IMPORTED_MODULE_1___default.a.component("date-picker", vue_date_time_picker_js__WEBPACK_IMPORTED_MODULE_3___default.a);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      center: {
-        lat: 0,
-        lng: 0
-      },
-      markers: [],
-      patient_id: '',
-      doctorData: [],
-      appointmentData: []
+      date: "",
+      id: "",
+      datetime: "",
+      recommendation_file: "",
+      selectType: 1,
+      formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
+        type_specialist: 1,
+        date_of_suggest: "",
+        to_time: "00.00",
+        health_specialist: "",
+        visit_type: 0,
+        medical_report_attachment: "",
+        reason: "",
+        medical_history: [],
+        description: "",
+        medical_recommendation: 1,
+        patient_id: "",
+        booking_type: "FindMySelf"
+      }),
+      masterType: [],
+      patientData: [],
+      doctor_id: "",
+      patient_id: ""
     };
   },
+  components: {
+    datePicker: vue_date_time_picker_js__WEBPACK_IMPORTED_MODULE_3___default.a
+  },
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Patient/Index", ["result", "returnData", "ajax_error", "patientList", "getFavDoctorResult"])),
   created: function created() {
-    if (this.$route.params.id != '') {
-      this.getDoctorFormData(this.$route.params.id);
+    var _this = this;
+
+    if (this.$route.params.d_id && this.$route.params.p_id) {
+      this.doctor_id = this.$route.params.d_id;
+      this.patient_id = this.$route.params.p_id;
+      this.getFavDoctorData(this.doctor_id).then(function () {
+        _this.formData.type_specialist = _this.getFavDoctorResult.type;
+        _this.formData.patient_id = _this.patient_id;
+      });
     }
 
-    if (this.$route.params.patient_id != undefined) this.patient_id = this.$route.params.patient_id;
+    this.get_PatientsList();
   },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Patient/Index", ["result"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Patient/Index", ["getdoctorData"]), {
-    getDoctorFormData: function getDoctorFormData(id) {
-      var _this = this;
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Patient/Index", ["getPatientData", "submitBookingRequestForm", "getPatientsList", "getFavDoctorData"]), {
+    get_PatientsList: function get_PatientsList() {
+      var _this2 = this;
 
-      this.getdoctorData(id).then(function () {
-        _this.doctorData = _this.result.doctorData;
-        _this.appointmentData = _this.result.appointmentData;
-        var lat = parseFloat(_this.doctorData.latitude);
-        var lng = parseFloat(_this.doctorData.longitude);
-        var marker = {
-          lat: lat,
-          lng: lng
-        };
-
-        _this.markers.push({
-          position: marker
-        });
-
-        _this.center = marker;
+      this.getPatientsList().then(function () {
+        _this2.patientData = _this2.patientList.patient;
+        _this2.masterType = _this2.patientList.masterType;
       });
+    },
+    recommendationfile: function recommendationfile(e) {
+      this.recommendation_file = e.target.files[0];
+      var reader = new FileReader();
+
+      reader.onload = function (e) {};
+
+      reader.readAsDataURL(this.recommendation_file);
+    },
+    submitFormData: function submitFormData() {
+      var _this3 = this;
+
+      if (this.formData.patient_id == "") {
+        vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+          message: "Please Select Patient!",
+          type: "error",
+          duration: 5000,
+          dismissible: true
+        });
+      } else {
+        var newData = new FormData();
+        newData.append("recommendationfile", this.recommendation_file);
+        this.isActive = true;
+        newData.append("formData", JSON.stringify(this.formData));
+        this.submitBookingRequestForm({
+          newData: newData
+        }).then(function () {
+          if (_this3.returnData.status == "success") {
+            if (_this3.doctor_id != "" && _this3.patient_id != "") {
+              _this3.$router.push({
+                name: "view_doctor_patient",
+                params: {
+                  id: _this3.doctor_id,
+                  doctor_suggest_id: _this3.returnData.id
+                }
+              });
+            } else {
+              _this3.$router.push({
+                name: "searchDoctor",
+                params: {
+                  id: _this3.returnData.id,
+                  p_id: _this3.formData.patient_id
+                }
+              });
+            }
+
+            _this3.isActive = false;
+            vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+              message: _this3.returnData.message,
+              type: _this3.returnData.status
+            });
+          }
+        })["catch"](function (error) {
+          window.scrollTo(0, 0);
+          _this3.isActive = false;
+        });
+      }
+    },
+    bookingTypeChange: function bookingTypeChange(event) {
+      this.formData.booking_type = event.target.value;
     }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5& ***!
-  \****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/patientBooking.vue?vue&type=template&id=58c17e30& ***!
+  \*******************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -526,1091 +500,2603 @@ var render = function() {
   return _c(
     "div",
     [
-      _c(
-        "CRow",
-        { staticClass: "m-0" },
-        [
-          _c("CCol", { staticClass: "px-2 btn-sticky", attrs: { sm: "12" } }, [
+      _c("CRow", { staticClass: "m-0" }, [
+        _c(
+          "form",
+          {
+            staticClass: "validate-form",
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.submitFormData.apply(null, arguments)
+              }
+            }
+          },
+          [
             _c(
-              "div",
-              {
-                staticClass:
-                  "d-flex justify-content-between py-2 align-items-center"
-              },
+              "CCol",
+              { staticClass: "px-2 btn-sticky", attrs: { sm: "12" } },
               [
                 _c(
-                  "h5",
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between py-2 align-items-center"
+                  },
+                  [
+                    _c(
+                      "h5",
+                      { staticClass: "mb-0" },
+                      [
+                        _vm._v("\n            Patient\n            "),
+                        _c("vue-fontawesome", {
+                          staticClass: "px-1",
+                          attrs: { icon: "caret-right", size: "1" }
+                        }),
+                        _vm._v("\n            Booking\n          ")
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {},
+                      [
+                        _vm.doctor_id == "" && _vm.patient_id == ""
+                          ? _c(
+                              "CButton",
+                              {
+                                staticClass: "btn_custom",
+                                attrs: { type: "submit" }
+                              },
+                              [_vm._v("Next")]
+                            )
+                          : _c(
+                              "CButton",
+                              {
+                                staticClass: "btn_custom",
+                                attrs: { type: "submit" }
+                              },
+                              [_vm._v("Book Appointment")]
+                            )
+                      ],
+                      1
+                    )
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "CCol",
+              { staticClass: "p-2", attrs: { sm: "9" } },
+              [
+                _c(
+                  "CCard",
                   { staticClass: "mb-0" },
                   [
-                    _vm._v("Doctor "),
-                    _c("vue-fontawesome", {
-                      staticClass: "px-1",
-                      attrs: { icon: "caret-right", size: "1" }
-                    }),
-                    _vm._v("View")
+                    _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
+                      _c("div", [_c("strong", [_vm._v("Booking request:")])])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "CCardBody",
+                      { staticClass: "px-1 py-2" },
+                      [
+                        _c(
+                          "CRow",
+                          { staticClass: "m-0" },
+                          [
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                staticStyle: { display: "none" },
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [_vm._v("Type")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.booking_type,
+                                          expression: "formData.booking_type"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: [
+                                          function($event) {
+                                            var $$selectedVal = Array.prototype.filter
+                                              .call(
+                                                $event.target.options,
+                                                function(o) {
+                                                  return o.selected
+                                                }
+                                              )
+                                              .map(function(o) {
+                                                var val =
+                                                  "_value" in o
+                                                    ? o._value
+                                                    : o.value
+                                                return val
+                                              })
+                                            _vm.$set(
+                                              _vm.formData,
+                                              "booking_type",
+                                              $event.target.multiple
+                                                ? $$selectedVal
+                                                : $$selectedVal[0]
+                                            )
+                                          },
+                                          function($event) {
+                                            return _vm.bookingTypeChange($event)
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "FindMySelf" } },
+                                        [_vm._v("Find by myself")]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [_vm._v("Select Patient")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.patient_id,
+                                          expression: "formData.patient_id"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: function($event) {
+                                          var $$selectedVal = Array.prototype.filter
+                                            .call(
+                                              $event.target.options,
+                                              function(o) {
+                                                return o.selected
+                                              }
+                                            )
+                                            .map(function(o) {
+                                              var val =
+                                                "_value" in o
+                                                  ? o._value
+                                                  : o.value
+                                              return val
+                                            })
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "patient_id",
+                                            $event.target.multiple
+                                              ? $$selectedVal
+                                              : $$selectedVal[0]
+                                          )
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c("option", { attrs: { value: "" } }, [
+                                        _vm._v(" Select Patient")
+                                      ]),
+                                      _vm._v(" "),
+                                      _vm._l(_vm.patientData, function(
+                                        row,
+                                        index
+                                      ) {
+                                        return _c(
+                                          "option",
+                                          {
+                                            domProps: { value: row.patient_id }
+                                          },
+                                          [
+                                            _vm._v(
+                                              _vm._s(row.first_name) +
+                                                " " +
+                                                _vm._s(row.last_name)
+                                            )
+                                          ]
+                                        )
+                                      })
+                                    ],
+                                    2
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [_vm._v("Where to Visit")]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.visit_type,
+                                          expression: "formData.visit_type"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: function($event) {
+                                          var $$selectedVal = Array.prototype.filter
+                                            .call(
+                                              $event.target.options,
+                                              function(o) {
+                                                return o.selected
+                                              }
+                                            )
+                                            .map(function(o) {
+                                              var val =
+                                                "_value" in o
+                                                  ? o._value
+                                                  : o.value
+                                              return val
+                                            })
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "visit_type",
+                                            $event.target.multiple
+                                              ? $$selectedVal
+                                              : $$selectedVal[0]
+                                          )
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c("option", { attrs: { value: "0" } }, [
+                                        _vm._v("Home Visit")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("option", { attrs: { value: "1" } }, [
+                                        _vm._v("Clinic Visit")
+                                      ])
+                                    ]
+                                  )
+                                ])
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "CRow",
+                          { staticClass: "m-0" },
+                          [
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [
+                                    _vm._v("Select Type of Specialist")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.type_specialist,
+                                          expression: "formData.type_specialist"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: function($event) {
+                                          var $$selectedVal = Array.prototype.filter
+                                            .call(
+                                              $event.target.options,
+                                              function(o) {
+                                                return o.selected
+                                              }
+                                            )
+                                            .map(function(o) {
+                                              var val =
+                                                "_value" in o
+                                                  ? o._value
+                                                  : o.value
+                                              return val
+                                            })
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "type_specialist",
+                                            $event.target.multiple
+                                              ? $$selectedVal
+                                              : $$selectedVal[0]
+                                          )
+                                        }
+                                      }
+                                    },
+                                    _vm._l(_vm.masterType, function(
+                                      type,
+                                      index
+                                    ) {
+                                      return _c(
+                                        "option",
+                                        { domProps: { value: type.id } },
+                                        [_vm._v(_vm._s(type.type_name))]
+                                      )
+                                    }),
+                                    0
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                directives: [
+                                  {
+                                    name: "show",
+                                    rawName: "v-show",
+                                    value: _vm.formData.type_specialist == 4,
+                                    expression: "formData.type_specialist == 4"
+                                  }
+                                ],
+                                staticClass: "px-2",
+                                attrs: { md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [
+                                    _vm._v("Select required health specialist ")
+                                  ]),
+                                  _c("br"),
+                                  _vm._v(" "),
+                                  _c(
+                                    "select",
+                                    {
+                                      directives: [
+                                        {
+                                          name: "model",
+                                          rawName: "v-model",
+                                          value: _vm.formData.health_specialist,
+                                          expression:
+                                            "formData.health_specialist"
+                                        }
+                                      ],
+                                      staticClass: "form-control",
+                                      on: {
+                                        change: function($event) {
+                                          var $$selectedVal = Array.prototype.filter
+                                            .call(
+                                              $event.target.options,
+                                              function(o) {
+                                                return o.selected
+                                              }
+                                            )
+                                            .map(function(o) {
+                                              var val =
+                                                "_value" in o
+                                                  ? o._value
+                                                  : o.value
+                                              return val
+                                            })
+                                          _vm.$set(
+                                            _vm.formData,
+                                            "health_specialist",
+                                            $event.target.multiple
+                                              ? $$selectedVal
+                                              : $$selectedVal[0]
+                                          )
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Allergy and immunology"
+                                          }
+                                        },
+                                        [_vm._v("Allergy and immunology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Anaesthesiology" } },
+                                        [_vm._v("Anaesthesiology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Dermatology" } },
+                                        [_vm._v("Dermatology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Diagnostic radiology"
+                                          }
+                                        },
+                                        [_vm._v("Diagnostic radiology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Emergency medicine" }
+                                        },
+                                        [_vm._v("Emergency medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Family medicine" } },
+                                        [_vm._v("Family medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Internal medicine" }
+                                        },
+                                        [_vm._v("Internal medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Medical genetics" }
+                                        },
+                                        [_vm._v("Medical genetics")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Neurology" } },
+                                        [_vm._v("Neurology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Nuclear medicine" }
+                                        },
+                                        [_vm._v("Nuclear medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Obstetrics and gynaecology"
+                                          }
+                                        },
+                                        [_vm._v("Obstetrics and gynaecology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Ophthalmology" } },
+                                        [_vm._v("Ophthalmology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Pathology" } },
+                                        [_vm._v("Pathology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Paediatrics" } },
+                                        [_vm._v("Paediatrics")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value:
+                                              "Physical medicine and rehabilitation"
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            "Physical medicine and rehabilitation"
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Preventive medicine"
+                                          }
+                                        },
+                                        [_vm._v("Preventive medicine")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Psychiatry" } },
+                                        [_vm._v("Psychiatry")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: { value: "Radiation oncology" }
+                                        },
+                                        [_vm._v("Radiation oncology")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Surgery" } },
+                                        [_vm._v("Surgery")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        { attrs: { value: "Urology" } },
+                                        [_vm._v("Urology ")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "option",
+                                        {
+                                          attrs: {
+                                            value: "Preventive cardiologists"
+                                          }
+                                        },
+                                        [_vm._v("Preventive cardiologists ")]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "4" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [
+                                    _vm._v("Add medical recommendation:")
+                                  ]),
+                                  _c("br"),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "custom-control custom-radio custom-control-inline"
+                                    },
+                                    [
+                                      _c("input", {
+                                        directives: [
+                                          {
+                                            name: "model",
+                                            rawName: "v-model",
+                                            value:
+                                              _vm.formData
+                                                .medical_recommendation,
+                                            expression:
+                                              "formData.medical_recommendation"
+                                          }
+                                        ],
+                                        staticClass: "custom-control-input",
+                                        attrs: {
+                                          type: "radio",
+                                          value: "0",
+                                          id: "customRadioInlines1",
+                                          name: "customRadioInlines1"
+                                        },
+                                        domProps: {
+                                          checked: _vm._q(
+                                            _vm.formData.medical_recommendation,
+                                            "0"
+                                          )
+                                        },
+                                        on: {
+                                          change: function($event) {
+                                            return _vm.$set(
+                                              _vm.formData,
+                                              "medical_recommendation",
+                                              "0"
+                                            )
+                                          }
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass: "custom-control-label",
+                                          attrs: { for: "customRadioInlines1" }
+                                        },
+                                        [_vm._v("Yes")]
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "custom-control custom-radio custom-control-inline"
+                                    },
+                                    [
+                                      _c("input", {
+                                        directives: [
+                                          {
+                                            name: "model",
+                                            rawName: "v-model",
+                                            value:
+                                              _vm.formData
+                                                .medical_recommendation,
+                                            expression:
+                                              "formData.medical_recommendation"
+                                          }
+                                        ],
+                                        staticClass: "custom-control-input",
+                                        attrs: {
+                                          type: "radio",
+                                          value: "1",
+                                          id: "customRadioInlines2",
+                                          name: "customRadioInlines1"
+                                        },
+                                        domProps: {
+                                          checked: _vm._q(
+                                            _vm.formData.medical_recommendation,
+                                            "1"
+                                          )
+                                        },
+                                        on: {
+                                          change: function($event) {
+                                            return _vm.$set(
+                                              _vm.formData,
+                                              "medical_recommendation",
+                                              "1"
+                                            )
+                                          }
+                                        }
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "label",
+                                        {
+                                          staticClass: "custom-control-label",
+                                          attrs: { for: "customRadioInlines2" }
+                                        },
+                                        [_vm._v("No")]
+                                      )
+                                    ]
+                                  )
+                                ])
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _vm.formData.booking_type == "Suggest"
+                          ? _c(
+                              "CRow",
+                              { staticClass: "m-0" },
+                              [
+                                _c(
+                                  "CCol",
+                                  {
+                                    staticClass: "px-2",
+                                    attrs: { sm: "6", md: "4" }
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      { staticClass: "form-group" },
+                                      [
+                                        _c("label", [_vm._v("Select Date")]),
+                                        _vm._v(" "),
+                                        _c("date-picker", {
+                                          attrs: {
+                                            type: "date",
+                                            format: "DD/MM/YYYY",
+                                            min: "01/01/1980",
+                                            color: "#2c449e",
+                                            "auto-submit": true,
+                                            editable: true
+                                          },
+                                          model: {
+                                            value: _vm.formData.date_of_suggest,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "date_of_suggest",
+                                                $$v
+                                              )
+                                            },
+                                            expression:
+                                              "formData.date_of_suggest"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.date_of_suggest
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .date_of_suggest[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ],
+                                      1
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "CCol",
+                                  {
+                                    staticClass: "px-2",
+                                    attrs: { sm: "6", md: "4" }
+                                  },
+                                  [
+                                    _c("div", { staticClass: "form-group" }, [
+                                      _c("label", [_vm._v("Select Time")]),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "d-flex align-items-center"
+                                        },
+                                        [
+                                          _c("date-picker", {
+                                            attrs: {
+                                              type: "time",
+                                              format: "HH:mm",
+                                              editable: true,
+                                              jumpMinute: 30,
+                                              roundMinute: true,
+                                              color: "#2c449e"
+                                            },
+                                            model: {
+                                              value: _vm.formData.to_time,
+                                              callback: function($$v) {
+                                                _vm.$set(
+                                                  _vm.formData,
+                                                  "to_time",
+                                                  $$v
+                                                )
+                                              },
+                                              expression: "formData.to_time"
+                                            }
+                                          }),
+                                          _vm._v(" "),
+                                          _vm.ajax_error.errors.to_time
+                                            ? _c(
+                                                "span",
+                                                { staticClass: "text-danger" },
+                                                [
+                                                  _vm._v(
+                                                    _vm._s(
+                                                      _vm.ajax_error.errors
+                                                        .to_time[0]
+                                                    )
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ],
+                                        1
+                                      )
+                                    ])
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          : _vm._e(),
+                        _vm._v(" "),
+                        _c(
+                          "CRow",
+                          { staticClass: "m-0" },
+                          [
+                            _vm.formData.medical_recommendation == 0
+                              ? _c(
+                                  "CCol",
+                                  {
+                                    staticClass: "px-2",
+                                    attrs: { sm: "6", md: "4" }
+                                  },
+                                  [
+                                    _c("div", { staticClass: "form-group" }, [
+                                      _c("label", [
+                                        _vm._v(
+                                          " Upload med report with recommendation if available"
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("input", {
+                                        attrs: {
+                                          type: "file",
+                                          name: "recommendation_file"
+                                        },
+                                        on: { change: _vm.recommendationfile }
+                                      })
+                                    ])
+                                  ]
+                                )
+                              : _vm._e(),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "8" }
+                              },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [
+                                    _vm._v(
+                                      " Enter details for other reason here"
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("textarea", {
+                                    directives: [
+                                      {
+                                        name: "model",
+                                        rawName: "v-model",
+                                        value: _vm.formData.reason,
+                                        expression: "formData.reason"
+                                      }
+                                    ],
+                                    staticClass: "form-control",
+                                    attrs: { rows: "3" },
+                                    domProps: { value: _vm.formData.reason },
+                                    on: {
+                                      input: function($event) {
+                                        if ($event.target.composing) {
+                                          return
+                                        }
+                                        _vm.$set(
+                                          _vm.formData,
+                                          "reason",
+                                          $event.target.value
+                                        )
+                                      }
+                                    }
+                                  })
+                                ])
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
                   ],
                   1
                 ),
                 _vm._v(" "),
                 _c(
                   "div",
-                  {},
                   [
-                    _vm.appointmentData.status != "Accept"
-                      ? _c("span", { staticClass: "alert_doctor" }, [
-                          _vm._v("Your appointment has been under review!")
-                        ])
-                      : _vm._e(),
-                    _vm._v(" "),
                     _c(
-                      "router-link",
-                      {
-                        attrs: {
-                          to: {
-                            name: "view_patient",
-                            params: { id: _vm.appointmentData.patient_id }
-                          }
-                        }
-                      },
+                      "CCard",
+                      { staticClass: "mb-0" },
                       [
-                        _c("CButton", { attrs: { color: "light" } }, [
-                          _vm._v("Back")
-                        ])
+                        _c(
+                          "CCardHeader",
+                          { staticClass: "p-2 px-3 bg_themes" },
+                          [
+                            _c("div", [
+                              _c("strong", [_vm._v("Medical History")])
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "CCardBody",
+                          { staticClass: "px-1 py-2" },
+                          [
+                            _c(
+                              "CRow",
+                              { staticClass: "m-0" },
+                              [
+                                _c(
+                                  "CCol",
+                                  {
+                                    staticClass: "px-2",
+                                    attrs: { sm: "12", md: "12" }
+                                  },
+                                  [
+                                    _c(
+                                      "div",
+                                      { staticClass: "form-group medi_his" },
+                                      [
+                                        _c("label", [
+                                          _vm._v(
+                                            " Do you know if the patient suffers from any of the following conditions?"
+                                          )
+                                        ]),
+                                        _c("br"),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox2",
+                                                value: "Thyroid Problems"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Thyroid Problems"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v =
+                                                        "Thyroid Problems",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox2"
+                                                }
+                                              },
+                                              [_vm._v("Thyroid Problems")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox3",
+                                                value: "Headaches"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Headaches"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Headaches",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox3"
+                                                }
+                                              },
+                                              [_vm._v("Headaches")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox4",
+                                                value: "High/Low Blood Pressure"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "High/Low Blood Pressure"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v =
+                                                        "High/Low Blood Pressure",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox4"
+                                                }
+                                              },
+                                              [
+                                                _vm._v(
+                                                  "High/Low Blood Pressure"
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox5",
+                                                value: "Heart Condition"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Heart Condition"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Heart Condition",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox5"
+                                                }
+                                              },
+                                              [_vm._v("Heart Condition")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox7",
+                                                value: "Varicose Veins"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Varicose Veins"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Varicose Veins",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox7"
+                                                }
+                                              },
+                                              [_vm._v("Varicose Veins")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox8",
+                                                value: "Eczema/Psoriasis"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Eczema/Psoriasis"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v =
+                                                        "Eczema/Psoriasis",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox8"
+                                                }
+                                              },
+                                              [_vm._v("Eczema/Psoriasis")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox9",
+                                                value: "Cancer"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Cancer"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Cancer",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox9"
+                                                }
+                                              },
+                                              [_vm._v("Cancer")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox10",
+                                                value: "IBS/Bowel Problems"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "IBS/Bowel Problems"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v =
+                                                        "IBS/Bowel Problems",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox10"
+                                                }
+                                              },
+                                              [_vm._v("IBS/Bowel Problems")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox11",
+                                                value: "Arthritis/Rheumatism"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Arthritis/Rheumatism"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v =
+                                                        "Arthritis/Rheumatism",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox11"
+                                                }
+                                              },
+                                              [_vm._v("Arthritis/Rheumatism")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox12",
+                                                value: "Epilepsy"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Epilepsy"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Epilepsy",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox12"
+                                                }
+                                              },
+                                              [_vm._v("Epilepsy")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox13",
+                                                value: "Claustrophobia"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Claustrophobia"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Claustrophobia",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox13"
+                                                }
+                                              },
+                                              [_vm._v("Claustrophobia")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox14",
+                                                value: "Asthma/Lung Problems"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Asthma/Lung Problems"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v =
+                                                        "Asthma/Lung Problems",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox14"
+                                                }
+                                              },
+                                              [_vm._v("Asthma/Lung Problems ")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox15",
+                                                value: "Back Problems"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Back Problems"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Back Problems",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox15"
+                                                }
+                                              },
+                                              [_vm._v("Back Problems ")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox16",
+                                                value: "Fungal Infection"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Fungal Infection"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v =
+                                                        "Fungal Infection",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox16"
+                                                }
+                                              },
+                                              [_vm._v("Fungal Infection ")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox17",
+                                                value: "Diabetes"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Diabetes"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Diabetes",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox17"
+                                                }
+                                              },
+                                              [_vm._v("Diabetes ")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox18",
+                                                value: "Muscular Pain"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Muscular Pain"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Muscular Pain",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox18"
+                                                }
+                                              },
+                                              [_vm._v("Muscular Pain")]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "form-check form-check-inline"
+                                          },
+                                          [
+                                            _c("input", {
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.formData
+                                                      .medical_history,
+                                                  expression:
+                                                    "formData.medical_history"
+                                                }
+                                              ],
+                                              staticClass: "form-check-input",
+                                              attrs: {
+                                                type: "checkbox",
+                                                id: "inlineCheckbox19",
+                                                value: "Other"
+                                              },
+                                              domProps: {
+                                                checked: Array.isArray(
+                                                  _vm.formData.medical_history
+                                                )
+                                                  ? _vm._i(
+                                                      _vm.formData
+                                                        .medical_history,
+                                                      "Other"
+                                                    ) > -1
+                                                  : _vm.formData.medical_history
+                                              },
+                                              on: {
+                                                change: function($event) {
+                                                  var $$a =
+                                                      _vm.formData
+                                                        .medical_history,
+                                                    $$el = $event.target,
+                                                    $$c = $$el.checked
+                                                      ? true
+                                                      : false
+                                                  if (Array.isArray($$a)) {
+                                                    var $$v = "Other",
+                                                      $$i = _vm._i($$a, $$v)
+                                                    if ($$el.checked) {
+                                                      $$i < 0 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a.concat([$$v])
+                                                        )
+                                                    } else {
+                                                      $$i > -1 &&
+                                                        _vm.$set(
+                                                          _vm.formData,
+                                                          "medical_history",
+                                                          $$a
+                                                            .slice(0, $$i)
+                                                            .concat(
+                                                              $$a.slice($$i + 1)
+                                                            )
+                                                        )
+                                                    }
+                                                  } else {
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "medical_history",
+                                                      $$c
+                                                    )
+                                                  }
+                                                }
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _c(
+                                              "label",
+                                              {
+                                                staticClass: "form-check-label",
+                                                attrs: {
+                                                  for: "inlineCheckbox19"
+                                                }
+                                              },
+                                              [_vm._v("Other")]
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "CCol",
+                                  { staticClass: "px-2", attrs: { md: "12" } },
+                                  [
+                                    _c("div", { staticClass: "form-group" }, [
+                                      _c("label", [
+                                        _vm._v(
+                                          " If you have ticked any of the above, please give details:"
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("textarea", {
+                                        directives: [
+                                          {
+                                            name: "model",
+                                            rawName: "v-model",
+                                            value: _vm.formData.description,
+                                            expression: "formData.description"
+                                          }
+                                        ],
+                                        staticClass: "form-control",
+                                        attrs: { rows: "3" },
+                                        domProps: {
+                                          value: _vm.formData.description
+                                        },
+                                        on: {
+                                          input: function($event) {
+                                            if ($event.target.composing) {
+                                              return
+                                            }
+                                            _vm.$set(
+                                              _vm.formData,
+                                              "description",
+                                              $event.target.value
+                                            )
+                                          }
+                                        }
+                                      })
+                                    ])
+                                  ]
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
                       ],
                       1
                     )
                   ],
                   1
                 )
-              ]
+              ],
+              1
             )
-          ]),
-          _vm._v(" "),
-          _c(
-            "CCol",
-            { staticClass: "p-2", attrs: { sm: "9" } },
-            [
-              _c(
-                "CCard",
-                { staticClass: "mb-0" },
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("div", [
-                      _c("strong", [_vm._v("Personal / General Info")])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "px-1 py-2 view_page" },
-                    [
-                      _c(
-                        "CForm",
-                        { attrs: { method: "POST" } },
-                        [
-                          _c(
-                            "CRow",
-                            { staticClass: "m-0" },
-                            [
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-1",
-                                  attrs: { sm: "12", md: "2" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "profile-img align-items-start"
-                                      },
-                                      [
-                                        _c(
-                                          "div",
-                                          { staticClass: "profileimg" },
-                                          [
-                                            _vm.doctorData.profile_photo
-                                              ? _c("img", {
-                                                  attrs: {
-                                                    src:
-                                                      "uploads/profile/" +
-                                                      _vm.doctorData.id +
-                                                      "/" +
-                                                      _vm.doctorData
-                                                        .profile_photo
-                                                  }
-                                                })
-                                              : _c("img", {
-                                                  attrs: {
-                                                    src:
-                                                      "/uploads/profile/default-profile.png"
-                                                  }
-                                                })
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "12", md: "10" }
-                                },
-                                [
-                                  _c(
-                                    "CRow",
-                                    { staticClass: "m-0" },
-                                    [
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [
-                                                _vm._v("First Name")
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.doctorData.first_name
-                                                  )
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [
-                                                _vm._v("Last Name")
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.doctorData.last_name
-                                                  )
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [
-                                                _vm._v("User Name")
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.doctorData.user_name
-                                                  )
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [_vm._v("Email")]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(_vm.doctorData.email)
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [
-                                                _vm._v("Phone No.")
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.doctorData.phone_number
-                                                  )
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [_vm._v("Age")]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(_vm.doctorData.age)
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [_vm._v("Gender")]),
-                                              _vm._v(" "),
-                                              _c("h6", [_vm._v("Male")])
-                                            ]
-                                          )
-                                        ]
-                                      )
-                                    ],
-                                    1
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "CCard",
-                { staticClass: "mb-0" },
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("div", [_c("strong", [_vm._v("Location")])])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "px-1 py-2 view_page" },
-                    [
-                      _c(
-                        "CForm",
-                        { attrs: { method: "POST" } },
-                        [
-                          _c(
-                            "CRow",
-                            { staticClass: "m-0" },
-                            [
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Address")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.address))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Address 2")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.address2))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Area")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.area))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("City")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.city))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("State")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.state))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Country")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.country))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Zip code")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.zip_code))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("latitude")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.latitude))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("longitude")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.longitude))
-                                    ])
-                                  ])
-                                ]
-                              )
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "gmap-map",
-                    {
-                      staticStyle: { width: "100%", height: "300px" },
-                      attrs: {
-                        center: _vm.center,
-                        zoom: 17,
-                        "data-fullscreen": "true"
-                      }
-                    },
-                    _vm._l(_vm.markers, function(m, index) {
-                      return _c("gmap-marker", {
-                        key: index,
-                        attrs: { position: m.position },
-                        on: {
-                          click: function($event) {
-                            _vm.center = m.position
-                          }
-                        }
-                      })
-                    }),
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "CCard",
-                { staticClass: "mb-0" },
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("div", [
-                      _c("strong", [_vm._v("ID and Licensing Credentials")])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "px-1 py-2 view_page" },
-                    [
-                      _c(
-                        "CForm",
-                        { attrs: { method: "POST" } },
-                        [
-                          _c(
-                            "CRow",
-                            { staticClass: "m-0" },
-                            [
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Type")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.type))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _vm.doctorData.certificate_awarding_university
-                                ? _c(
-                                    "CCol",
-                                    {
-                                      staticClass: "px-2",
-                                      attrs: { sm: "6", md: "4" }
-                                    },
-                                    [
-                                      _c("div", { staticClass: "form-group" }, [
-                                        _c("label", [
-                                          _vm._v(
-                                            "Certificate awarding University"
-                                          )
-                                        ]),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          { staticClass: "attch-button" },
-                                          [
-                                            _c(
-                                              "a",
-                                              {
-                                                attrs: {
-                                                  href:
-                                                    "uploads/doctor/" +
-                                                    _vm.doctorData.user_id +
-                                                    "/" +
-                                                    _vm.doctorData
-                                                      .certificate_awarding_university,
-                                                  download: ""
-                                                }
-                                              },
-                                              [
-                                                _vm._v(" Download "),
-                                                _c("CIcon", {
-                                                  attrs: { name: "cil-file" }
-                                                })
-                                              ],
-                                              1
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ]
-                                  )
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.doctorData.speciality_diploma
-                                ? _c(
-                                    "CCol",
-                                    {
-                                      staticClass: "px-2",
-                                      attrs: { sm: "6", md: "4" }
-                                    },
-                                    [
-                                      _c("div", { staticClass: "form-group" }, [
-                                        _c("label", [
-                                          _vm._v("Copy of specialty diploma")
-                                        ]),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          { staticClass: "attch-button" },
-                                          [
-                                            _c(
-                                              "a",
-                                              {
-                                                attrs: {
-                                                  href:
-                                                    "uploads/doctor/" +
-                                                    _vm.doctorData.user_id +
-                                                    "/" +
-                                                    _vm.doctorData
-                                                      .speciality_diploma,
-                                                  download: ""
-                                                }
-                                              },
-                                              [
-                                                _vm._v(" Download "),
-                                                _c("CIcon", {
-                                                  attrs: { name: "cil-file" }
-                                                })
-                                              ],
-                                              1
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ]
-                                  )
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.doctorData.copy_of_registration
-                                ? _c(
-                                    "CCol",
-                                    {
-                                      staticClass: "px-2",
-                                      attrs: { sm: "6", md: "4" }
-                                    },
-                                    [
-                                      _c("div", { staticClass: "form-group" }, [
-                                        _c("label", [
-                                          _vm._v(
-                                            "Copy of registration in the doctor’s council (Medical council)"
-                                          )
-                                        ]),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          { staticClass: "attch-button" },
-                                          [
-                                            _c(
-                                              "a",
-                                              {
-                                                attrs: {
-                                                  href:
-                                                    "uploads/doctor/" +
-                                                    _vm.doctorData.user_id +
-                                                    "/" +
-                                                    _vm.doctorData
-                                                      .copy_of_registration,
-                                                  download: ""
-                                                }
-                                              },
-                                              [
-                                                _vm._v(" Download "),
-                                                _c("CIcon", {
-                                                  attrs: { name: "cil-file" }
-                                                })
-                                              ],
-                                              1
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ]
-                                  )
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Medical License Number")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorData.medical_license_number
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Date of Registration")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorData.date_of_registration
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Registration No.")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorData.registration_no)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Years of Experience")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorData.experience))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Current Clinic/hospital of work")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorData.clinic_address)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Radius of Dr's availability")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorData.dr_availability)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Service(s) provided")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorData.service_provided)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Equipment list")]),
-                                    _vm._v(" "),
-                                    _c(
-                                      "ul",
-                                      {
-                                        staticClass:
-                                          "d-flex justify-content-around m-0 p-0"
-                                      },
-                                      [
-                                        _vm._v(
-                                          "\n                            \n                              A   \n                            "
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Willing to serve as")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorData.willing_to_serve)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Area of Coverage")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorData.area_of_coverage)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                { staticClass: "px-2", attrs: { sm: "12" } },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v(
-                                        "Brief summary about yourself (150 words)"
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        "\n                              " +
-                                          _vm._s(_vm.doctorData.brief_summary) +
-                                          "     \n                           "
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                { staticClass: "px-2", attrs: { sm: "12" } },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v(
-                                        "Terms and condition (policy and procedure of working together)"
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        "\n                              " +
-                                          _vm._s(
-                                            _vm.doctorData.terms_and_conditions
-                                          ) +
-                                          "\n                           "
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              )
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "CCol",
-            { attrs: { sm: "3" } },
-            [
-              _c(
-                "CCard",
-                { staticClass: "doctor_inf_card time_slot_card" },
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("h6", { staticClass: "mb-0" }, [
-                      _vm._v("Available Time")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "p-2" },
-                    [
-                      _c("div", { staticClass: "booking-summary" }, [
-                        _c("div", { staticClass: "booking-item-wrap" }, [
-                          _c("ul", { staticClass: "booking-date" }, [
-                            _c("li", [
-                              _vm._v("Date "),
-                              _c("span", [
-                                _vm._v(
-                                  _vm._s(_vm.appointmentData.appointment_date)
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
-                            _c("li", [
-                              _vm._v("Time "),
-                              _c("span", [
-                                _vm._v(
-                                  _vm._s(_vm.appointmentData.appointment_time)
-                                )
-                              ])
-                            ])
-                          ])
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _vm.appointmentData.status == "Accept"
-                        ? _c(
-                            "router-link",
-                            {
-                              attrs: {
-                                to: {
-                                  name: "appointment_checkout",
-                                  params: {
-                                    user_name: _vm.appointmentData.user_name,
-                                    appointment_id: _vm.appointmentData.id
-                                  }
-                                }
-                              }
-                            },
-                            [
-                              _c(
-                                "CButton",
-                                {
-                                  staticClass:
-                                    "btn_custom mx-auto d-block w-75 p-2 mb-3",
-                                  attrs: { size: "sm" }
-                                },
-                                [
-                                  _c("vue-fontawesome", {
-                                    staticClass: "mr-1",
-                                    attrs: {
-                                      icon: "calendar-check-o",
-                                      size: "0.8"
-                                    }
-                                  }),
-                                  _vm._v("Book Appointment\n               ")
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        : _vm._e()
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+          ],
+          1
+        )
+      ])
     ],
     1
   )

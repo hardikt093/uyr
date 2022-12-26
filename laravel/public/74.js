@@ -18,17 +18,17 @@ var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPro
 
 /***/ }),
 
-/***/ "../coreui/src/views/mediator/view.vue":
-/*!*********************************************!*\
-  !*** ../coreui/src/views/mediator/view.vue ***!
-  \*********************************************/
+/***/ "../coreui/src/views/patient/edit.vue":
+/*!********************************************!*\
+  !*** ../coreui/src/views/patient/edit.vue ***!
+  \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./view.vue?vue&type=template&id=ba45eab2& */ "../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2&");
-/* harmony import */ var _view_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./view.vue?vue&type=script&lang=js& */ "../coreui/src/views/mediator/view.vue?vue&type=script&lang=js&");
+/* harmony import */ var _edit_vue_vue_type_template_id_f3a16d44___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./edit.vue?vue&type=template&id=f3a16d44& */ "../coreui/src/views/patient/edit.vue?vue&type=template&id=f3a16d44&");
+/* harmony import */ var _edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./edit.vue?vue&type=script&lang=js& */ "../coreui/src/views/patient/edit.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -38,9 +38,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _view_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _edit_vue_vue_type_template_id_f3a16d44___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _edit_vue_vue_type_template_id_f3a16d44___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -50,47 +50,47 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/mediator/view.vue"
+component.options.__file = "coreui/src/views/patient/edit.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/mediator/view.vue?vue&type=script&lang=js&":
-/*!**********************************************************************!*\
-  !*** ../coreui/src/views/mediator/view.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************/
+/***/ "../coreui/src/views/patient/edit.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ../coreui/src/views/patient/edit.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./view.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/view.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./edit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/edit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2&":
-/*!****************************************************************************!*\
-  !*** ../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2& ***!
-  \****************************************************************************/
+/***/ "../coreui/src/views/patient/edit.vue?vue&type=template&id=f3a16d44&":
+/*!***************************************************************************!*\
+  !*** ../coreui/src/views/patient/edit.vue?vue&type=template&id=f3a16d44& ***!
+  \***************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./view.vue?vue&type=template&id=ba45eab2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_template_id_f3a16d44___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./edit.vue?vue&type=template&id=f3a16d44& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/edit.vue?vue&type=template&id=f3a16d44&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_template_id_f3a16d44___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_view_vue_vue_type_template_id_ba45eab2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_edit_vue_vue_type_template_id_f3a16d44___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/view.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mediator/view.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/edit.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/edit.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -100,6 +100,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "../coreui/node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vform */ "../coreui/node_modules/vform/dist/vform.es.js");
+/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../global_helper/helpers.js */ "../coreui/src/global_helper/helpers.js");
+/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_w3wMap_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/w3wMap.vue */ "../coreui/src/views/components/w3wMap.vue");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -391,84 +394,296 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    w3wMap: _components_w3wMap_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
+  },
   data: function data() {
     return {
+      user_id: '',
+      lable: 'Add',
+      address: '',
+      autocompleteOptions: {
+        componentRestrictions: {// country:  'UK',
+        }
+      },
+      ADDRESS_COMPONENTS: {
+        subpremise: 'short_name',
+        street_number: 'short_name',
+        route: 'long_name',
+        locality: 'long_name',
+        administrative_area_level_1: 'long_name',
+        administrative_area_level_2: 'long_name',
+        sublocality_level_2: 'long_name',
+        sublocality_level_1: 'long_name',
+        area: 'long_name',
+        country: 'long_name',
+        postal_code: 'short_name'
+      },
       center: {
         lat: 0,
         lng: 0
       },
-      markers: []
+      markers: [],
+      places: [],
+      formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
+        id: '',
+        first_name: '',
+        last_name: '',
+        email: '',
+        phone_number: '',
+        password: '',
+        password_confirmation: '',
+        gender: '',
+        address: '',
+        address2: '',
+        area: '',
+        city: '',
+        country: '',
+        state: '',
+        zip_code: '',
+        symptoms: '',
+        medical_history: '',
+        date_of_birth: '',
+        full_address: '',
+        status: '',
+        blood_group: '',
+        age: '',
+        nickname: '',
+        w3w_address: '',
+        latitude: '',
+        longitude: ''
+      }),
+      profile_picture: '',
+      imageDoc: [],
+      isActive: false
     };
   },
   created: function created() {
-    if (this.$route.params.id != '') {
-      this.getDoctorFormData(this.$route.params.id);
+    this.autocompleteOptions = {
+      componentRestrictions: {// country:  'UK'
+      }
+    };
+  },
+  mounted: function mounted() {
+    this.ajax_error.errors = [];
+
+    if (this.$route.params.id != '' && this.$route.params.id != undefined) {
+      this.getFormData(this.$route.params.id);
     }
   },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Mediator/Index", ["doctorResult"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Mediator/Index", ["getMediatorData"]), {
-    getDoctorFormData: function getDoctorFormData(id) {
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Patient/Index", ["returnData", "ajax_error", "editData"]), {}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("auth", ["user"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Patient/Index", ["submitPatientsUpdateForm", "edit"]), {
+    getMapData: function getMapData(response) {
+      if (response.country) this.formData.country = response.country;
+      if (response.words) this.formData.what3words = response.words;
+      this.formData.w3w_address = response.words;
+
+      if (response.coordinates) {
+        if (response.coordinates.lat) this.formData.latitude = response.coordinates.lat;
+        if (response.coordinates.lng) this.formData.longitude = response.coordinates.lng;
+      }
+
+      if (response.nearestPlace) {
+        this.formData.area = response.nearestPlace;
+        this.formData.address = response.nearestPlace;
+        var city_state = response.nearestPlace.split(',');
+        this.formData.city = city_state[0];
+        this.formData.state = city_state[1];
+      }
+    },
+    onlyNumric: function onlyNumric(evt) {
+      return _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_3___default.a.onlyNumric(evt);
+    },
+    acceptNumber: function acceptNumber() {
+      var x = this.formData.phone_number.replace(/\D/g, "").match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+      this.formData.phone_number = !x[2] ? x[1] : "" + x[1] + "-" + x[2] + (x[3] ? "-" + x[3] : "");
+    },
+    getFormData: function getFormData(id) {
       var _this = this;
 
-      this.getMediatorData(id).then(function () {
-        var lat = parseFloat(_this.doctorResult.latitude);
-        var lng = parseFloat(_this.doctorResult.longitude);
+      this.user_id = id;
+      this.lable = 'Edit';
+      this.edit(id).then(function () {
+        _this.formData.keys().forEach(function (key) {
+          _this.formData[key] = _this.editData[key];
+        });
+
+        var lat = parseFloat(_this.editData.latitude);
+        var lng = parseFloat(_this.editData.longitude);
         var marker = {
           lat: lat,
           lng: lng
-        }; //console.log(marker);
+        };
 
         _this.markers.push({
           position: marker
         });
 
         _this.center = marker;
+        _this.formData.latitude = lat;
+        _this.formData.longitude = lng;
       });
-    }
+      this.ajax_error.errors = [];
+    },
+    onImageChange: function onImageChange(e) {
+      var _this2 = this;
+
+      this.profile_picture = e.target.files[0];
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        _this2.imageDoc = e.target.result;
+      };
+
+      reader.readAsDataURL(this.profile_picture);
+    },
+    submitFormData: function submitFormData() {
+      var _this3 = this;
+
+      var newData = new FormData();
+      newData.append('profilefile', this.profile_picture);
+      this.isActive = true;
+      console.log(this.formData);
+      newData.append('formData', JSON.stringify(this.formData));
+      this.submitPatientsUpdateForm({
+        newData: newData,
+        id: this.formData.id
+      }).then(function () {
+        if (_this3.returnData.status == 'success') {
+          _this3.$router.push({
+            name: "patient"
+          });
+
+          _this3.isActive = false;
+          vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+            message: _this3.returnData.message,
+            type: _this3.returnData.status
+          });
+        }
+      })["catch"](function (error) {
+        window.scrollTo(0, 0);
+        _this3.isActive = false;
+      });
+    },
+    //google data 
+    setPlace: function setPlace(place) {
+      var singleValues = $("#google_autosearch_address").val();
+      this.formData.full_address = singleValues;
+      this.markers = [];
+      this.currentPlace = place;
+      this.addMarker();
+    },
+    addMarker: function addMarker() {
+      if (this.currentPlace) {
+        var marker = {
+          lat: this.currentPlace.geometry.location.lat(),
+          lng: this.currentPlace.geometry.location.lng()
+        };
+        this.markers.push({
+          position: marker
+        });
+        this.places.push(this.currentPlace);
+        this.center = marker;
+        var returnData = {};
+
+        for (var i = 0; i < this.currentPlace.address_components.length; i++) {
+          var addressType = this.currentPlace.address_components[i].types[0];
+
+          if (this.ADDRESS_COMPONENTS[addressType]) {
+            var val = this.currentPlace.address_components[i][this.ADDRESS_COMPONENTS[addressType]];
+            returnData[addressType] = val;
+          }
+        }
+
+        this.formData.address = this.currentPlace.formatted_address;
+        var city,
+            state = '';
+        city = returnData.locality;
+
+        if (city == undefined || city == null) {
+          city = returnData.administrative_area_level_1;
+        }
+
+        if (returnData.sublocality_level_2) this.formData.state = returnData.sublocality_level_2;else if (returnData.sublocality_level_1) this.formData.state = returnData.sublocality_level_1;else if (returnData.locality) this.formData.state = returnData.locality;
+        if (returnData.route) this.formData.address2 = returnData.route;
+        if (returnData.sublocality_level_1) this.formData.area = returnData.sublocality_level_1;
+        if (returnData.country) this.formData.country = returnData.country;
+        if (returnData.administrative_area_level_1) this.formData.state = returnData.administrative_area_level_1;
+        if (returnData.locality) this.formData.city = returnData.locality;
+        if (returnData.postal_code) this.formData.zip_code = returnData.postal_code;
+        this.formData.latitude = this.currentPlace.geometry.location.lat();
+        this.formData.longitude = this.currentPlace.geometry.location.lng(); //End
+
+        this.currentPlace = null;
+        var location = this.formData.state + ', ' + this.formData.city;
+      }
+    },
+    updateCoordinates: function updateCoordinates(location) {
+      this.center = {
+        lat: location.latLng.lat(),
+        lng: location.latLng.lng()
+      };
+      this.getReverseGeocodingData(location.latLng.lat(), location.latLng.lng());
+      this.formData.latitude = location.latLng.lat();
+      this.formData.longitude = location.latLng.lng();
+    },
+    getReverseGeocodingData: function getReverseGeocodingData(lat, lng) {
+      var _this4 = this;
+
+      var latlng = new google.maps.LatLng(lat, lng);
+      var geocoder = new google.maps.Geocoder();
+      geocoder.geocode({
+        'latLng': latlng
+      }, function (results, status) {
+        if (status !== google.maps.GeocoderStatus.OK) {}
+
+        if (status == google.maps.GeocoderStatus.OK) {
+          var address = results[0].formatted_address;
+          console.log(results[0]);
+          _this4.formData.full_address = address;
+          _this4.markers = [];
+          _this4.currentPlace = results[0];
+
+          _this4.addMarker();
+
+          _this4.formData.address = address;
+        }
+      });
+    },
+    getLocation: function getLocation() {
+      var options = {
+        enableHighAccuracy: true,
+        timeout: 5000,
+        maximumAge: 0
+      };
+      var geolocation = navigator.geolocation;
+
+      if (geolocation) {
+        geolocation.getCurrentPosition(this.onGeoSuccess, this.onGeoError, options);
+      } else {
+        console.log("Geolocation is not supported by this browser.");
+      }
+    },
+    onGeoSuccess: function onGeoSuccess(position) {
+      this.getReverseGeocodingData(position.coords.latitude, position.coords.longitude);
+    },
+    onGeoError: function onGeoError(error) {}
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mediator/view.vue?vue&type=template&id=ba45eab2& ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/edit.vue?vue&type=template&id=f3a16d44&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/edit.vue?vue&type=template&id=f3a16d44& ***!
+  \*********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -483,999 +698,1197 @@ var render = function() {
   return _c(
     "div",
     [
-      _c(
-        "CRow",
-        { staticClass: "m-0" },
-        [
-          _c("CCol", { staticClass: "px-2 btn-sticky", attrs: { sm: "12" } }, [
+      _c("CRow", { staticClass: "m-0" }, [
+        _c(
+          "form",
+          {
+            staticClass: "validate-form",
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.submitFormData.apply(null, arguments)
+              }
+            }
+          },
+          [
             _c(
-              "div",
-              {
-                staticClass:
-                  "d-flex justify-content-between py-2 align-items-center"
-              },
+              "CCol",
+              { staticClass: "px-2 btn-sticky", attrs: { sm: "12" } },
               [
                 _c(
-                  "h5",
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between py-2 align-items-center"
+                  },
+                  [
+                    _c(
+                      "h5",
+                      { staticClass: "mb-0" },
+                      [
+                        _vm._v("Patient "),
+                        _c("vue-fontawesome", {
+                          staticClass: "px-1",
+                          attrs: { icon: "caret-right", size: "1" }
+                        }),
+                        _vm._v(_vm._s(this.lable))
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {},
+                      [
+                        _c(
+                          "CButton",
+                          {
+                            staticClass: "btn_custom",
+                            attrs: {
+                              size: "sm",
+                              type: "submit",
+                              disabled: _vm.isActive
+                            }
+                          },
+                          [_vm._v("Submit")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "router-link",
+                          { attrs: { to: { name: "patient" } } },
+                          [
+                            _c(
+                              "CButton",
+                              { attrs: { size: "sm", color: "light" } },
+                              [_vm._v("Back")]
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "CCol",
+              { staticClass: "p-2", attrs: { sm: "12" } },
+              [
+                _c(
+                  "CCard",
                   { staticClass: "mb-0" },
                   [
-                    _vm._v(" Mediator Doctor "),
-                    _c("vue-fontawesome", {
-                      staticClass: "px-1",
-                      attrs: { icon: "caret-right", size: "1" }
-                    })
+                    _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
+                      _c("div", [
+                        _c("strong", [_vm._v("Personal / General Info")])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "CCardBody",
+                      { staticClass: "px-1 py-2" },
+                      [
+                        _c(
+                          "CRow",
+                          { staticClass: "m-0" },
+                          [
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "12", md: "12" }
+                              },
+                              [
+                                _c(
+                                  "CRow",
+                                  { staticClass: "m-0" },
+                                  [
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-2",
+                                        attrs: { sm: "6", md: "4" }
+                                      },
+                                      [
+                                        _c("label", [
+                                          _vm._v("First Name "),
+                                          _c(
+                                            "span",
+                                            { staticClass: "text-danger" },
+                                            [_vm._v("*")]
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("CInput", {
+                                          attrs: { placeholder: "" },
+                                          model: {
+                                            value: _vm.formData.first_name,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "first_name",
+                                                $$v
+                                              )
+                                            },
+                                            expression: "formData.first_name"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.first_name
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .first_name[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-2",
+                                        attrs: { sm: "6", md: "4" }
+                                      },
+                                      [
+                                        _c("label", [
+                                          _vm._v("Last Name "),
+                                          _c(
+                                            "span",
+                                            { staticClass: "text-danger" },
+                                            [_vm._v("*")]
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("CInput", {
+                                          attrs: { placeholder: "" },
+                                          model: {
+                                            value: _vm.formData.last_name,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "last_name",
+                                                $$v
+                                              )
+                                            },
+                                            expression: "formData.last_name"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.last_name
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .last_name[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-2",
+                                        attrs: { sm: "6", md: "4" }
+                                      },
+                                      [
+                                        _c("label", [
+                                          _vm._v("Also Known as (Name)"),
+                                          _c("span", {
+                                            staticClass: "text-danger"
+                                          })
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("CInput", {
+                                          attrs: {
+                                            placeholder: "Also Known as (Name)"
+                                          },
+                                          model: {
+                                            value: _vm.formData.nickname,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "nickname",
+                                                $$v
+                                              )
+                                            },
+                                            expression: "formData.nickname"
+                                          }
+                                        })
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-2",
+                                        attrs: { sm: "6", md: "4" }
+                                      },
+                                      [
+                                        _c("label", [
+                                          _vm._v("Email"),
+                                          _c(
+                                            "span",
+                                            { staticClass: "text-danger" },
+                                            [_vm._v("*")]
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("CInput", {
+                                          attrs: { placeholder: "" },
+                                          model: {
+                                            value: _vm.formData.email,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "email",
+                                                $$v
+                                              )
+                                            },
+                                            expression: "formData.email"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.email
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .email[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-1",
+                                        attrs: { sm: "3", md: "2" }
+                                      },
+                                      [
+                                        _c("label", [
+                                          _vm._v("Phone No"),
+                                          _c(
+                                            "span",
+                                            { staticClass: "text-danger" },
+                                            [_vm._v("*")]
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("CInput", {
+                                          attrs: {
+                                            maxlength: "12",
+                                            placeholder: ""
+                                          },
+                                          on: {
+                                            blur: _vm.acceptNumber,
+                                            input: _vm.acceptNumber,
+                                            keypress: function($event) {
+                                              return _vm.onlyNumric($event)
+                                            }
+                                          },
+                                          model: {
+                                            value: _vm.formData.phone_number,
+                                            callback: function($$v) {
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "phone_number",
+                                                $$v
+                                              )
+                                            },
+                                            expression: "formData.phone_number"
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.phone_number
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .phone_number[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ],
+                                      1
+                                    ),
+                                    _vm._v(" "),
+                                    _vm.user_id == ""
+                                      ? _c(
+                                          "CCol",
+                                          {
+                                            staticClass: "px-2",
+                                            attrs: { sm: "6", md: "4" }
+                                          },
+                                          [
+                                            _c("label", [
+                                              _vm._v("Password"),
+                                              _c(
+                                                "span",
+                                                { staticClass: "text-danger" },
+                                                [_vm._v("*")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("CInput", {
+                                              attrs: {
+                                                placeholder: "",
+                                                type: "password"
+                                              },
+                                              model: {
+                                                value: _vm.formData.password,
+                                                callback: function($$v) {
+                                                  _vm.$set(
+                                                    _vm.formData,
+                                                    "password",
+                                                    $$v
+                                                  )
+                                                },
+                                                expression: "formData.password"
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _vm.ajax_error.errors.password
+                                              ? _c(
+                                                  "span",
+                                                  {
+                                                    staticClass: "text-danger"
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      _vm._s(
+                                                        _vm.ajax_error.errors
+                                                          .password[0]
+                                                      )
+                                                    )
+                                                  ]
+                                                )
+                                              : _vm._e()
+                                          ],
+                                          1
+                                        )
+                                      : _vm._e(),
+                                    _vm._v(" "),
+                                    _vm.user_id == ""
+                                      ? _c(
+                                          "CCol",
+                                          {
+                                            staticClass: "px-2",
+                                            attrs: { sm: "6", md: "4" }
+                                          },
+                                          [
+                                            _c("label", [
+                                              _vm._v("Confirm Password"),
+                                              _c(
+                                                "span",
+                                                { staticClass: "text-danger" },
+                                                [_vm._v("*")]
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("CInput", {
+                                              attrs: {
+                                                placeholder: "",
+                                                type: "password"
+                                              },
+                                              model: {
+                                                value:
+                                                  _vm.formData
+                                                    .password_confirmation,
+                                                callback: function($$v) {
+                                                  _vm.$set(
+                                                    _vm.formData,
+                                                    "password_confirmation",
+                                                    $$v
+                                                  )
+                                                },
+                                                expression:
+                                                  "formData.password_confirmation"
+                                              }
+                                            }),
+                                            _vm._v(" "),
+                                            _vm.ajax_error.errors
+                                              .password_confirmation
+                                              ? _c(
+                                                  "span",
+                                                  {
+                                                    staticClass: "text-danger"
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      _vm._s(
+                                                        _vm.ajax_error.errors
+                                                          .password_confirmation[0]
+                                                      )
+                                                    )
+                                                  ]
+                                                )
+                                              : _vm._e()
+                                          ],
+                                          1
+                                        )
+                                      : _vm._e(),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-1",
+                                        attrs: { sm: "3", md: "2" }
+                                      },
+                                      [
+                                        _c("label", [
+                                          _vm._v("Date of Birth "),
+                                          _c(
+                                            "span",
+                                            { staticClass: "text-danger" },
+                                            [_vm._v("*")]
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("input", {
+                                          directives: [
+                                            {
+                                              name: "model",
+                                              rawName: "v-model",
+                                              value: _vm.formData.date_of_birth,
+                                              expression:
+                                                "formData.date_of_birth"
+                                            }
+                                          ],
+                                          staticClass: "form-control",
+                                          attrs: { type: "date", name: "" },
+                                          domProps: {
+                                            value: _vm.formData.date_of_birth
+                                          },
+                                          on: {
+                                            input: function($event) {
+                                              if ($event.target.composing) {
+                                                return
+                                              }
+                                              _vm.$set(
+                                                _vm.formData,
+                                                "date_of_birth",
+                                                $event.target.value
+                                              )
+                                            }
+                                          }
+                                        }),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.date_of_birth
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .date_of_birth[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-1",
+                                        attrs: { sm: "3", md: "2" }
+                                      },
+                                      [
+                                        _c("label", [_vm._v("Select Status ")]),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "form-group" },
+                                          [
+                                            _c(
+                                              "select",
+                                              {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value: _vm.formData.status,
+                                                    expression:
+                                                      "formData.status"
+                                                  }
+                                                ],
+                                                staticClass: "form-control",
+                                                on: {
+                                                  change: function($event) {
+                                                    var $$selectedVal = Array.prototype.filter
+                                                      .call(
+                                                        $event.target.options,
+                                                        function(o) {
+                                                          return o.selected
+                                                        }
+                                                      )
+                                                      .map(function(o) {
+                                                        var val =
+                                                          "_value" in o
+                                                            ? o._value
+                                                            : o.value
+                                                        return val
+                                                      })
+                                                    _vm.$set(
+                                                      _vm.formData,
+                                                      "status",
+                                                      $event.target.multiple
+                                                        ? $$selectedVal
+                                                        : $$selectedVal[0]
+                                                    )
+                                                  }
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "option",
+                                                  { attrs: { value: "0" } },
+                                                  [_vm._v("Active ")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "option",
+                                                  { attrs: { value: "1" } },
+                                                  [_vm._v("IN-Active")]
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "CCol",
+                                      {
+                                        staticClass: "px-2",
+                                        attrs: { sm: "6", md: "3" }
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "form-group" },
+                                          [
+                                            _c("label", [
+                                              _vm._v("Gender"),
+                                              _c("span", [_vm._v("*")])
+                                            ]),
+                                            _c("br"),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "custom-control custom-radio custom-control-inline"
+                                              },
+                                              [
+                                                _c("input", {
+                                                  directives: [
+                                                    {
+                                                      name: "model",
+                                                      rawName: "v-model",
+                                                      value:
+                                                        _vm.formData.gender,
+                                                      expression:
+                                                        "formData.gender"
+                                                    }
+                                                  ],
+                                                  staticClass:
+                                                    "custom-control-input",
+                                                  attrs: {
+                                                    type: "radio",
+                                                    value: "0",
+                                                    id: "customRadioInline1",
+                                                    name: "gender"
+                                                  },
+                                                  domProps: {
+                                                    checked: _vm._q(
+                                                      _vm.formData.gender,
+                                                      "0"
+                                                    )
+                                                  },
+                                                  on: {
+                                                    change: function($event) {
+                                                      return _vm.$set(
+                                                        _vm.formData,
+                                                        "gender",
+                                                        "0"
+                                                      )
+                                                    }
+                                                  }
+                                                }),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "custom-control-label",
+                                                    attrs: {
+                                                      for: "customRadioInline1"
+                                                    }
+                                                  },
+                                                  [_vm._v("Male")]
+                                                )
+                                              ]
+                                            ),
+                                            _vm._v(" "),
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "custom-control custom-radio custom-control-inline"
+                                              },
+                                              [
+                                                _c("input", {
+                                                  directives: [
+                                                    {
+                                                      name: "model",
+                                                      rawName: "v-model",
+                                                      value:
+                                                        _vm.formData.gender,
+                                                      expression:
+                                                        "formData.gender"
+                                                    }
+                                                  ],
+                                                  staticClass:
+                                                    "custom-control-input",
+                                                  attrs: {
+                                                    type: "radio",
+                                                    value: "1",
+                                                    name: "gender",
+                                                    id: "customRadioInline2"
+                                                  },
+                                                  domProps: {
+                                                    checked: _vm._q(
+                                                      _vm.formData.gender,
+                                                      "1"
+                                                    )
+                                                  },
+                                                  on: {
+                                                    change: function($event) {
+                                                      return _vm.$set(
+                                                        _vm.formData,
+                                                        "gender",
+                                                        "1"
+                                                      )
+                                                    }
+                                                  }
+                                                }),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "label",
+                                                  {
+                                                    staticClass:
+                                                      "custom-control-label",
+                                                    attrs: {
+                                                      for: "customRadioInline2"
+                                                    }
+                                                  },
+                                                  [_vm._v("Female")]
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _vm.ajax_error.errors.gender
+                                          ? _c(
+                                              "span",
+                                              { staticClass: "text-danger" },
+                                              [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.ajax_error.errors
+                                                      .gender[0]
+                                                  )
+                                                )
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      ]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
                   ],
                   1
                 ),
                 _vm._v(" "),
                 _c(
-                  "div",
-                  {},
+                  "CCard",
+                  { staticClass: "mb-0" },
                   [
+                    _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
+                      _c("div", [_c("strong", [_vm._v("Location")])])
+                    ]),
+                    _vm._v(" "),
                     _c(
-                      "router-link",
-                      { attrs: { to: { name: "mediator" } } },
+                      "CCardBody",
+                      { staticClass: "px-1 py-2" },
                       [
-                        _c("CButton", { attrs: { color: "light" } }, [
-                          _vm._v("Back")
-                        ])
+                        _c(
+                          "CRow",
+                          { staticClass: "m-0" },
+                          [
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("Select Address"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("w3wMap", {
+                                  attrs: {
+                                    lat: _vm.formData.latitude,
+                                    lng: _vm.formData.longitude,
+                                    w3words: _vm.formData.w3w_address,
+                                    mapId: "w3wMap1",
+                                    autoSuggest: true,
+                                    mapDiv: false
+                                  },
+                                  on: {
+                                    getmapdata: function($event) {
+                                      return _vm.getMapData($event)
+                                    }
+                                  }
+                                })
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "6" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("Address"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "" },
+                                  model: {
+                                    value: _vm.formData.address,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "address", $$v)
+                                    },
+                                    expression: "formData.address"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.address
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(_vm.ajax_error.errors.address[0])
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("City"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "" },
+                                  model: {
+                                    value: _vm.formData.city,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "city", $$v)
+                                    },
+                                    expression: "formData.city"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.city
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(_vm.ajax_error.errors.city[0])
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("Country"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "" },
+                                  model: {
+                                    value: _vm.formData.country,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "country", $$v)
+                                    },
+                                    expression: "formData.country"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.country
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(_vm.ajax_error.errors.country[0])
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("State"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "" },
+                                  model: {
+                                    value: _vm.formData.state,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "state", $$v)
+                                    },
+                                    expression: "formData.state"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.state
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(_vm.ajax_error.errors.state[0])
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("Zip code"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "" },
+                                  model: {
+                                    value: _vm.formData.zip_code,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "zip_code", $$v)
+                                    },
+                                    expression: "formData.zip_code"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.zip_code
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.ajax_error.errors.zip_code[0]
+                                        )
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [_vm._v("latitude")]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "" },
+                                  model: {
+                                    value: _vm.formData.latitude,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "latitude", $$v)
+                                    },
+                                    expression: "formData.latitude"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.latitude
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.ajax_error.errors.latitude[0]
+                                        )
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [_vm._v("longitude")]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "" },
+                                  model: {
+                                    value: _vm.formData.longitude,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "longitude", $$v)
+                                    },
+                                    expression: "formData.longitude"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.longitude
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.ajax_error.errors.longitude[0]
+                                        )
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "CCol",
+                              {
+                                staticClass: "px-2",
+                                attrs: { sm: "6", md: "3" }
+                              },
+                              [
+                                _c("label", [
+                                  _vm._v("w3w address"),
+                                  _c("span", { staticClass: "text-danger" }, [
+                                    _vm._v("*")
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("CInput", {
+                                  attrs: { placeholder: "", readonly: "" },
+                                  model: {
+                                    value: _vm.formData.w3w_address,
+                                    callback: function($$v) {
+                                      _vm.$set(_vm.formData, "w3w_address", $$v)
+                                    },
+                                    expression: "formData.w3w_address"
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _vm.ajax_error.errors.w3w_address
+                                  ? _c("span", { staticClass: "text-danger" }, [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.ajax_error.errors.w3w_address[0]
+                                        )
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c("w3wMap", {
+                          attrs: {
+                            lat: _vm.formData.latitude,
+                            lng: _vm.formData.longitude,
+                            mapId: "w3wMap2",
+                            w3words: _vm.formData.w3w_address,
+                            autoSuggest: false,
+                            mapDiv: true
+                          },
+                          on: {
+                            getmapdata: function($event) {
+                              return _vm.getMapData($event)
+                            }
+                          }
+                        })
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "CCard",
+                  { staticClass: "mb-0" },
+                  [
+                    _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
+                      _c("div", [_c("strong", [_vm._v("Patient History")])])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "CCardBody",
+                      { staticClass: "px-1 py-2" },
+                      [
+                        _c(
+                          "CRow",
+                          { staticClass: "m-0" },
+                          [
+                            _c(
+                              "CCol",
+                              { staticClass: "px-2", attrs: { sm: "12" } },
+                              [
+                                _c("div", { staticClass: "form-group" }, [
+                                  _c("label", [_vm._v("Medical History")]),
+                                  _vm._v(" "),
+                                  _c("textarea", {
+                                    directives: [
+                                      {
+                                        name: "model",
+                                        rawName: "v-model",
+                                        value: _vm.formData.medical_history,
+                                        expression: "formData.medical_history"
+                                      }
+                                    ],
+                                    staticClass: "form-control",
+                                    attrs: { rows: "6" },
+                                    domProps: {
+                                      value: _vm.formData.medical_history
+                                    },
+                                    on: {
+                                      input: function($event) {
+                                        if ($event.target.composing) {
+                                          return
+                                        }
+                                        _vm.$set(
+                                          _vm.formData,
+                                          "medical_history",
+                                          $event.target.value
+                                        )
+                                      }
+                                    }
+                                  })
+                                ])
+                              ]
+                            )
+                          ],
+                          1
+                        )
                       ],
                       1
                     )
                   ],
                   1
                 )
-              ]
+              ],
+              1
             )
-          ]),
-          _vm._v(" "),
-          _c(
-            "CCol",
-            { staticClass: "p-2", attrs: { sm: "12" } },
-            [
-              _c(
-                "CCard",
-                { staticClass: "mb-0" },
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("div", [
-                      _c("strong", [_vm._v("Personal / General Info")])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "px-1 py-2 view_page" },
-                    [
-                      _c(
-                        "CForm",
-                        { attrs: { method: "POST" } },
-                        [
-                          _c(
-                            "CRow",
-                            { staticClass: "m-0" },
-                            [
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-1",
-                                  attrs: { sm: "12", md: "2" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("div", { staticClass: "profile-img" }, [
-                                      _c("div", { staticClass: "profileimg" }, [
-                                        _vm.doctorResult.profile_photo
-                                          ? _c("img", {
-                                              attrs: {
-                                                src:
-                                                  "uploads/profile/" +
-                                                  _vm.doctorResult.id +
-                                                  "/" +
-                                                  _vm.doctorResult.profile_photo
-                                              }
-                                            })
-                                          : _c("img", {
-                                              attrs: {
-                                                src:
-                                                  "/uploads/profile/default-profile.png"
-                                              }
-                                            })
-                                      ])
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "12", md: "10" }
-                                },
-                                [
-                                  _c(
-                                    "CRow",
-                                    { staticClass: "m-0" },
-                                    [
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [
-                                                _vm._v("First Name")
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.doctorResult.first_name
-                                                  )
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [
-                                                _vm._v("Last Name")
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.doctorResult.last_name
-                                                  )
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [_vm._v("Email")]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(_vm.doctorResult.email)
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [
-                                                _vm._v("Phone No.")
-                                              ]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(
-                                                    _vm.doctorResult
-                                                      .phone_number
-                                                  )
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [_vm._v("Age")]),
-                                              _vm._v(" "),
-                                              _c("h6", [
-                                                _vm._v(
-                                                  _vm._s(_vm.doctorResult.age)
-                                                )
-                                              ])
-                                            ]
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "CCol",
-                                        {
-                                          staticClass: "px-2",
-                                          attrs: { sm: "6", md: "3" }
-                                        },
-                                        [
-                                          _c(
-                                            "div",
-                                            { staticClass: "form-group" },
-                                            [
-                                              _c("label", [_vm._v("Gender")]),
-                                              _vm._v(" "),
-                                              _c("h6", [_vm._v("Male")])
-                                            ]
-                                          )
-                                        ]
-                                      )
-                                    ],
-                                    1
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "CCard",
-                { staticClass: "mb-0" },
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("div", [_c("strong", [_vm._v("Location")])])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "px-1 py-2 view_page" },
-                    [
-                      _c(
-                        "CForm",
-                        { attrs: { method: "POST" } },
-                        [
-                          _c(
-                            "CRow",
-                            { staticClass: "m-0" },
-                            [
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Select Address")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorResult.full_address)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Address")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.address))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Address 2")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.address2))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Area")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.area))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("City")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.city))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("State")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.state))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Country")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.country))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Zip code")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.zip_code))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("latitude")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.latitude))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "3" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("longitude")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.longitude))
-                                    ])
-                                  ])
-                                ]
-                              )
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "gmap-map",
-                    {
-                      staticStyle: { width: "100%", height: "300px" },
-                      attrs: {
-                        center: _vm.center,
-                        zoom: 17,
-                        "data-fullscreen": "true"
-                      }
-                    },
-                    _vm._l(_vm.markers, function(m, index) {
-                      return _c("gmap-marker", {
-                        key: index,
-                        attrs: { position: m.position },
-                        on: {
-                          click: function($event) {
-                            _vm.center = m.position
-                          }
-                        }
-                      })
-                    }),
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "CCard",
-                { staticClass: "mb-0" },
-                [
-                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("div", [
-                      _c("strong", [_vm._v("ID and Licensing Credentials")])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "CCardBody",
-                    { staticClass: "px-1 py-2 view_page" },
-                    [
-                      _c(
-                        "CForm",
-                        { attrs: { method: "POST" } },
-                        [
-                          _c(
-                            "CRow",
-                            { staticClass: "m-0" },
-                            [
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Type")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(_vm._s(_vm.doctorResult.type))
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _vm.doctorResult.certificate_awarding_university
-                                ? _c(
-                                    "CCol",
-                                    {
-                                      staticClass: "px-2",
-                                      attrs: { sm: "6", md: "4" }
-                                    },
-                                    [
-                                      _c("div", { staticClass: "form-group" }, [
-                                        _c("label", [
-                                          _vm._v(
-                                            "Certificate awarding University"
-                                          )
-                                        ]),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          { staticClass: "attch-button" },
-                                          [
-                                            _c(
-                                              "a",
-                                              {
-                                                attrs: {
-                                                  href:
-                                                    "uploads/doctor/" +
-                                                    _vm.doctorResult.user_id +
-                                                    "/" +
-                                                    _vm.doctorResult
-                                                      .certificate_awarding_university,
-                                                  download: ""
-                                                }
-                                              },
-                                              [
-                                                _vm._v(" Download "),
-                                                _c("CIcon", {
-                                                  attrs: { name: "cil-file" }
-                                                })
-                                              ],
-                                              1
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ]
-                                  )
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.doctorResult.speciality_diploma
-                                ? _c(
-                                    "CCol",
-                                    {
-                                      staticClass: "px-2",
-                                      attrs: { sm: "6", md: "4" }
-                                    },
-                                    [
-                                      _c("div", { staticClass: "form-group" }, [
-                                        _c("label", [
-                                          _vm._v("Copy of specialty diploma")
-                                        ]),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          { staticClass: "attch-button" },
-                                          [
-                                            _c(
-                                              "a",
-                                              {
-                                                attrs: {
-                                                  href:
-                                                    "uploads/doctor/" +
-                                                    _vm.doctorResult.user_id +
-                                                    "/" +
-                                                    _vm.doctorResult
-                                                      .speciality_diploma,
-                                                  download: ""
-                                                }
-                                              },
-                                              [
-                                                _vm._v(" Download "),
-                                                _c("CIcon", {
-                                                  attrs: { name: "cil-file" }
-                                                })
-                                              ],
-                                              1
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ]
-                                  )
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.doctorResult.copy_of_registration
-                                ? _c(
-                                    "CCol",
-                                    {
-                                      staticClass: "px-2",
-                                      attrs: { sm: "6", md: "4" }
-                                    },
-                                    [
-                                      _c("div", { staticClass: "form-group" }, [
-                                        _c("label", [
-                                          _vm._v(
-                                            "Copy of registration in the doctor’s council (Medical council)"
-                                          )
-                                        ]),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          { staticClass: "attch-button" },
-                                          [
-                                            _c(
-                                              "a",
-                                              {
-                                                attrs: {
-                                                  href:
-                                                    "uploads/doctor/" +
-                                                    _vm.doctorResult.user_id +
-                                                    "/" +
-                                                    _vm.doctorResult
-                                                      .copy_of_registration,
-                                                  download: ""
-                                                }
-                                              },
-                                              [
-                                                _vm._v(" Download "),
-                                                _c("CIcon", {
-                                                  attrs: { name: "cil-file" }
-                                                })
-                                              ],
-                                              1
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ]
-                                  )
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Medical License Number")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorResult
-                                            .medical_license_number
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Date of Registration")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorResult.date_of_registration
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Registration No.")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorResult.registration_no)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Years of Experience")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(_vm.doctorResult.experience)
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Current Clinic/hospital of work")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorResult
-                                            .current_clinic_hospital
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Radius of Dr's availability")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorResult
-                                            .availability_time_from
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Service(s) provided")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorResult.service_provided
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c(
-                                    "div",
-                                    { staticClass: "form-group" },
-                                    [
-                                      _c("label", [_vm._v("Equipment list")]),
-                                      _vm._v(" "),
-                                      _vm._l(
-                                        _vm.doctorResult.equipmentArr,
-                                        function(row, index) {
-                                          return _c(
-                                            "ul",
-                                            {
-                                              key: index,
-                                              staticClass:
-                                                "d-flex justify-content-around m-0 p-0"
-                                            },
-                                            [
-                                              _vm._v(
-                                                "\n                              " +
-                                                  _vm._s(row.equipment_name) +
-                                                  "\n                            "
-                                              )
-                                            ]
-                                          )
-                                        }
-                                      )
-                                    ],
-                                    2
-                                  )
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v("Willing to serve as")
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorResult.willing_to_serve
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "px-2",
-                                  attrs: { sm: "6", md: "4" }
-                                },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [_vm._v("Area of Coverage")]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.doctorResult.area_of_coverage
-                                        )
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                { staticClass: "px-2", attrs: { sm: "12" } },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v(
-                                        "Brief summary about yourself (150 words)"
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        "\n                              " +
-                                          _vm._s(
-                                            _vm.doctorResult.brief_summary
-                                          ) +
-                                          "     \n                           "
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                { staticClass: "px-2", attrs: { sm: "12" } },
-                                [
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c("label", [
-                                      _vm._v(
-                                        "Terms and condition (policy and procedure of working together)"
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("h6", [
-                                      _vm._v(
-                                        "\n                              " +
-                                          _vm._s(
-                                            _vm.doctorResult
-                                              .terms_and_conditions
-                                          ) +
-                                          "\n                           "
-                                      )
-                                    ])
-                                  ])
-                                ]
-                              )
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      )
+          ],
+          1
+        )
+      ])
     ],
     1
   )

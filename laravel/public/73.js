@@ -18,17 +18,17 @@ var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPro
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/addfaq.vue":
+/***/ "../coreui/src/views/patient/doctorsView.vue":
 /*!***************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/addfaq.vue ***!
+  !*** ../coreui/src/views/patient/doctorsView.vue ***!
   \***************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _addfaq_vue_vue_type_template_id_0e8cb087___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addfaq.vue?vue&type=template&id=0e8cb087& */ "../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=template&id=0e8cb087&");
-/* harmony import */ var _addfaq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addfaq.vue?vue&type=script&lang=js& */ "../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=script&lang=js&");
+/* harmony import */ var _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./doctorsView.vue?vue&type=template&id=38a1acd5& */ "../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&");
+/* harmony import */ var _doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./doctorsView.vue?vue&type=script&lang=js& */ "../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -38,9 +38,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _addfaq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _addfaq_vue_vue_type_template_id_0e8cb087___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _addfaq_vue_vue_type_template_id_0e8cb087___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -50,46 +50,46 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/mangeWebsite/addfaq.vue"
+component.options.__file = "coreui/src/views/patient/doctorsView.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=script&lang=js&":
+/***/ "../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&":
 /*!****************************************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=script&lang=js& ***!
+  !*** ../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js& ***!
   \****************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addfaq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./addfaq.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addfaq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./doctorsView.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=template&id=0e8cb087&":
+/***/ "../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&":
 /*!**********************************************************************************!*\
-  !*** ../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=template&id=0e8cb087& ***!
+  !*** ../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5& ***!
   \**********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addfaq_vue_vue_type_template_id_0e8cb087___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./addfaq.vue?vue&type=template&id=0e8cb087& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=template&id=0e8cb087&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addfaq_vue_vue_type_template_id_0e8cb087___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./doctorsView.vue?vue&type=template&id=38a1acd5& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addfaq_vue_vue_type_template_id_0e8cb087___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_doctorsView_vue_vue_type_template_id_38a1acd5___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js&":
 /*!************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/doctorsView.vue?vue&type=script&lang=js& ***!
   \************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -166,6 +166,297 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -173,60 +464,53 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      id: '',
-      label: 'Add',
-      formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
-        id: "",
-        question: '',
-        answer: ''
-      })
+      center: {
+        lat: 0,
+        lng: 0
+      },
+      markers: [],
+      patient_id: '',
+      doctorData: [],
+      appointmentData: []
     };
   },
   created: function created() {
-    if (this.$route.params.id != '' && this.$route.params.id != undefined) {
-      this.getFormData(this.$route.params.id);
+    if (this.$route.params.id != '') {
+      this.getDoctorFormData(this.$route.params.id);
     }
+
+    if (this.$route.params.patient_id != undefined) this.patient_id = this.$route.params.patient_id;
   },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("ManageWebsite/FAQs", ["returnData", "ajax_error", "usersResult", "editData"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("ManageWebsite/FAQs", ["submitForm", "edit"]), {
-    submitFormData: function submitFormData() {
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Patient/Index", ["result"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Patient/Index", ["getdoctorData"]), {
+    getDoctorFormData: function getDoctorFormData(id) {
       var _this = this;
 
-      this.submitForm(this.formData).then(function () {
-        if (_this.returnData.status == 'success') {
-          vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
-            message: _this.returnData.message,
-            type: _this.returnData.status
-          });
+      this.getdoctorData(id).then(function () {
+        _this.doctorData = _this.result.doctorData;
+        _this.appointmentData = _this.result.appointmentData;
+        var lat = parseFloat(_this.doctorData.latitude);
+        var lng = parseFloat(_this.doctorData.longitude);
+        var marker = {
+          lat: lat,
+          lng: lng
+        };
 
-          _this.$router.push({
-            name: "faq"
-          });
-        }
-      })["catch"](function (error) {
-        window.scrollTo(0, 0);
-      });
-    },
-    getFormData: function getFormData(id) {
-      var _this2 = this;
-
-      this.user_id = id;
-      this.lable = 'Edit';
-      this.edit(id).then(function () {
-        _this2.formData.keys().forEach(function (key) {
-          _this2.formData[key] = _this2.editData[key];
+        _this.markers.push({
+          position: marker
         });
+
+        _this.center = marker;
       });
-      this.ajax_error.errors = [];
     }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=template&id=0e8cb087&":
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5&":
 /*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/mangeWebsite/addfaq.vue?vue&type=template&id=0e8cb087& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/patient/doctorsView.vue?vue&type=template&id=38a1acd5& ***!
   \****************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -258,12 +542,12 @@ var render = function() {
                   "h5",
                   { staticClass: "mb-0" },
                   [
-                    _vm._v("\n               FAQ \n               "),
+                    _vm._v("Doctor "),
                     _c("vue-fontawesome", {
-                      staticClass: "px-3",
-                      attrs: { icon: "caret-right", size: "3" }
+                      staticClass: "px-1",
+                      attrs: { icon: "caret-right", size: "1" }
                     }),
-                    _vm._v("\n               Add\n            ")
+                    _vm._v("View")
                   ],
                   1
                 ),
@@ -272,9 +556,22 @@ var render = function() {
                   "div",
                   {},
                   [
+                    _vm.appointmentData.status != "Accept"
+                      ? _c("span", { staticClass: "alert_doctor" }, [
+                          _vm._v("Your appointment has been under review!")
+                        ])
+                      : _vm._e(),
+                    _vm._v(" "),
                     _c(
                       "router-link",
-                      { attrs: { to: { name: "faq" } } },
+                      {
+                        attrs: {
+                          to: {
+                            name: "view_patient",
+                            params: { id: _vm.appointmentData.patient_id }
+                          }
+                        }
+                      },
                       [
                         _c("CButton", { attrs: { color: "light" } }, [
                           _vm._v("Back")
@@ -298,12 +595,14 @@ var render = function() {
                 { staticClass: "mb-0" },
                 [
                   _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
-                    _c("div", [_c("strong", [_vm._v("FAQ Details")])])
+                    _c("div", [
+                      _c("strong", [_vm._v("Personal / General Info")])
+                    ])
                   ]),
                   _vm._v(" "),
                   _c(
                     "CCardBody",
-                    { staticClass: "px-1 py-2" },
+                    { staticClass: "px-1 py-2 view_page" },
                     [
                       _c(
                         "CForm",
@@ -315,41 +614,848 @@ var render = function() {
                             [
                               _c(
                                 "CCol",
-                                { staticClass: "px-2", attrs: { md: "12" } },
+                                {
+                                  staticClass: "px-1",
+                                  attrs: { sm: "12", md: "2" }
+                                },
                                 [
-                                  _c("label", [
-                                    _vm._v("Question"),
-                                    _c("span", { staticClass: "text-danger" }, [
-                                      _vm._v("*")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("CInput", {
-                                    attrs: { placeholder: "" },
-                                    model: {
-                                      value: _vm.formData.question,
-                                      callback: function($$v) {
-                                        _vm.$set(_vm.formData, "question", $$v)
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "profile-img align-items-start"
                                       },
-                                      expression: "formData.question"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _vm.ajax_error.errors.question
-                                    ? _c(
-                                        "small",
-                                        { staticClass: "text-danger" },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "profileimg" },
+                                          [
+                                            _vm.doctorData.profile_photo
+                                              ? _c("img", {
+                                                  attrs: {
+                                                    src:
+                                                      "uploads/profile/" +
+                                                      _vm.doctorData.id +
+                                                      "/" +
+                                                      _vm.doctorData
+                                                        .profile_photo
+                                                  }
+                                                })
+                                              : _c("img", {
+                                                  attrs: {
+                                                    src:
+                                                      "/uploads/profile/default-profile.png"
+                                                  }
+                                                })
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "12", md: "10" }
+                                },
+                                [
+                                  _c(
+                                    "CRow",
+                                    { staticClass: "m-0" },
+                                    [
+                                      _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "6", md: "3" }
+                                        },
                                         [
-                                          _vm._v(
-                                            _vm._s(
-                                              _vm.ajax_error.errors.question[0]
-                                            )
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [
+                                                _vm._v("First Name")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("h6", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.doctorData.first_name
+                                                  )
+                                                )
+                                              ])
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "6", md: "3" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [
+                                                _vm._v("Last Name")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("h6", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.doctorData.last_name
+                                                  )
+                                                )
+                                              ])
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "6", md: "3" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [
+                                                _vm._v("User Name")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("h6", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.doctorData.user_name
+                                                  )
+                                                )
+                                              ])
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "6", md: "3" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [_vm._v("Email")]),
+                                              _vm._v(" "),
+                                              _c("h6", [
+                                                _vm._v(
+                                                  _vm._s(_vm.doctorData.email)
+                                                )
+                                              ])
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "6", md: "3" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [
+                                                _vm._v("Phone No.")
+                                              ]),
+                                              _vm._v(" "),
+                                              _c("h6", [
+                                                _vm._v(
+                                                  _vm._s(
+                                                    _vm.doctorData.phone_number
+                                                  )
+                                                )
+                                              ])
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "6", md: "3" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [_vm._v("Age")]),
+                                              _vm._v(" "),
+                                              _c("h6", [
+                                                _vm._v(
+                                                  _vm._s(_vm.doctorData.age)
+                                                )
+                                              ])
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "CCol",
+                                        {
+                                          staticClass: "px-2",
+                                          attrs: { sm: "6", md: "3" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "form-group" },
+                                            [
+                                              _c("label", [_vm._v("Gender")]),
+                                              _vm._v(" "),
+                                              _c("h6", [_vm._v("Male")])
+                                            ]
                                           )
                                         ]
                                       )
-                                    : _vm._e()
+                                    ],
+                                    1
+                                  )
                                 ],
                                 1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "CCard",
+                { staticClass: "mb-0" },
+                [
+                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
+                    _c("div", [_c("strong", [_vm._v("Location")])])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "CCardBody",
+                    { staticClass: "px-1 py-2 view_page" },
+                    [
+                      _c(
+                        "CForm",
+                        { attrs: { method: "POST" } },
+                        [
+                          _c(
+                            "CRow",
+                            { staticClass: "m-0" },
+                            [
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Address")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.address))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Address 2")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.address2))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Area")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.area))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("City")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.city))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("State")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.state))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Country")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.country))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Zip code")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.zip_code))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("latitude")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.latitude))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "3" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("longitude")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.longitude))
+                                    ])
+                                  ])
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "gmap-map",
+                    {
+                      staticStyle: { width: "100%", height: "300px" },
+                      attrs: {
+                        center: _vm.center,
+                        zoom: 17,
+                        "data-fullscreen": "true"
+                      }
+                    },
+                    _vm._l(_vm.markers, function(m, index) {
+                      return _c("gmap-marker", {
+                        key: index,
+                        attrs: { position: m.position },
+                        on: {
+                          click: function($event) {
+                            _vm.center = m.position
+                          }
+                        }
+                      })
+                    }),
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "CCard",
+                { staticClass: "mb-0" },
+                [
+                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
+                    _c("div", [
+                      _c("strong", [_vm._v("ID and Licensing Credentials")])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "CCardBody",
+                    { staticClass: "px-1 py-2 view_page" },
+                    [
+                      _c(
+                        "CForm",
+                        { attrs: { method: "POST" } },
+                        [
+                          _c(
+                            "CRow",
+                            { staticClass: "m-0" },
+                            [
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Type")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.type))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _vm.doctorData.certificate_awarding_university
+                                ? _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2",
+                                      attrs: { sm: "6", md: "4" }
+                                    },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v(
+                                            "Certificate awarding University"
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "attch-button" },
+                                          [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "uploads/doctor/" +
+                                                    _vm.doctorData.user_id +
+                                                    "/" +
+                                                    _vm.doctorData
+                                                      .certificate_awarding_university,
+                                                  download: ""
+                                                }
+                                              },
+                                              [
+                                                _vm._v(" Download "),
+                                                _c("CIcon", {
+                                                  attrs: { name: "cil-file" }
+                                                })
+                                              ],
+                                              1
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ]
+                                  )
+                                : _vm._e(),
+                              _vm._v(" "),
+                              _vm.doctorData.speciality_diploma
+                                ? _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2",
+                                      attrs: { sm: "6", md: "4" }
+                                    },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v("Copy of specialty diploma")
+                                        ]),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "attch-button" },
+                                          [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "uploads/doctor/" +
+                                                    _vm.doctorData.user_id +
+                                                    "/" +
+                                                    _vm.doctorData
+                                                      .speciality_diploma,
+                                                  download: ""
+                                                }
+                                              },
+                                              [
+                                                _vm._v(" Download "),
+                                                _c("CIcon", {
+                                                  attrs: { name: "cil-file" }
+                                                })
+                                              ],
+                                              1
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ]
+                                  )
+                                : _vm._e(),
+                              _vm._v(" "),
+                              _vm.doctorData.copy_of_registration
+                                ? _c(
+                                    "CCol",
+                                    {
+                                      staticClass: "px-2",
+                                      attrs: { sm: "6", md: "4" }
+                                    },
+                                    [
+                                      _c("div", { staticClass: "form-group" }, [
+                                        _c("label", [
+                                          _vm._v(
+                                            "Copy of registration in the doctor’s council (Medical council)"
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "attch-button" },
+                                          [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "uploads/doctor/" +
+                                                    _vm.doctorData.user_id +
+                                                    "/" +
+                                                    _vm.doctorData
+                                                      .copy_of_registration,
+                                                  download: ""
+                                                }
+                                              },
+                                              [
+                                                _vm._v(" Download "),
+                                                _c("CIcon", {
+                                                  attrs: { name: "cil-file" }
+                                                })
+                                              ],
+                                              1
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ]
+                                  )
+                                : _vm._e(),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [
+                                      _vm._v("Medical License Number")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.doctorData.medical_license_number
+                                        )
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [
+                                      _vm._v("Date of Registration")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.doctorData.date_of_registration
+                                        )
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Registration No.")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(_vm.doctorData.registration_no)
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [
+                                      _vm._v("Years of Experience")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(_vm._s(_vm.doctorData.experience))
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [
+                                      _vm._v("Current Clinic/hospital of work")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(_vm.doctorData.clinic_address)
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [
+                                      _vm._v("Radius of Dr's availability")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(_vm.doctorData.dr_availability)
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [
+                                      _vm._v("Service(s) provided")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(_vm.doctorData.service_provided)
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Equipment list")]),
+                                    _vm._v(" "),
+                                    _c(
+                                      "ul",
+                                      {
+                                        staticClass:
+                                          "d-flex justify-content-around m-0 p-0"
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                            \n                              A   \n                            "
+                                        )
+                                      ]
+                                    )
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [
+                                      _vm._v("Willing to serve as")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(_vm.doctorData.willing_to_serve)
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                {
+                                  staticClass: "px-2",
+                                  attrs: { sm: "6", md: "4" }
+                                },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [_vm._v("Area of Coverage")]),
+                                    _vm._v(" "),
+                                    _c("h6", [
+                                      _vm._v(
+                                        _vm._s(_vm.doctorData.area_of_coverage)
+                                      )
+                                    ])
+                                  ])
+                                ]
                               ),
                               _vm._v(" "),
                               _c(
@@ -358,53 +1464,42 @@ var render = function() {
                                 [
                                   _c("div", { staticClass: "form-group" }, [
                                     _c("label", [
-                                      _vm._v("Answer"),
-                                      _c(
-                                        "span",
-                                        { staticClass: "text-danger" },
-                                        [_vm._v("*")]
+                                      _vm._v(
+                                        "Brief summary about yourself (150 words)"
                                       )
                                     ]),
                                     _vm._v(" "),
-                                    _c("textarea", {
-                                      directives: [
-                                        {
-                                          name: "model",
-                                          rawName: "v-model",
-                                          value: _vm.formData.answer,
-                                          expression: "formData.answer"
-                                        }
-                                      ],
-                                      staticClass: "form-control",
-                                      attrs: { rows: "7" },
-                                      domProps: { value: _vm.formData.answer },
-                                      on: {
-                                        input: function($event) {
-                                          if ($event.target.composing) {
-                                            return
-                                          }
-                                          _vm.$set(
-                                            _vm.formData,
-                                            "answer",
-                                            $event.target.value
-                                          )
-                                        }
-                                      }
-                                    }),
+                                    _c("h6", [
+                                      _vm._v(
+                                        "\n                              " +
+                                          _vm._s(_vm.doctorData.brief_summary) +
+                                          "     \n                           "
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "CCol",
+                                { staticClass: "px-2", attrs: { sm: "12" } },
+                                [
+                                  _c("div", { staticClass: "form-group" }, [
+                                    _c("label", [
+                                      _vm._v(
+                                        "Terms and condition (policy and procedure of working together)"
+                                      )
+                                    ]),
                                     _vm._v(" "),
-                                    _vm.ajax_error.errors.answer
-                                      ? _c(
-                                          "small",
-                                          { staticClass: "text-danger" },
-                                          [
-                                            _vm._v(
-                                              _vm._s(
-                                                _vm.ajax_error.errors.answer[0]
-                                              )
-                                            )
-                                          ]
-                                        )
-                                      : _vm._e()
+                                    _c("h6", [
+                                      _vm._v(
+                                        "\n                              " +
+                                          _vm._s(
+                                            _vm.doctorData.terms_and_conditions
+                                          ) +
+                                          "\n                           "
+                                      )
+                                    ])
                                   ])
                                 ]
                               )
@@ -426,32 +1521,84 @@ var render = function() {
           _vm._v(" "),
           _c(
             "CCol",
-            { staticClass: "p-2", attrs: { sm: "3" } },
+            { attrs: { sm: "3" } },
             [
               _c(
                 "CCard",
+                { staticClass: "doctor_inf_card time_slot_card" },
                 [
+                  _c("CCardHeader", { staticClass: "p-2 px-3 bg_themes" }, [
+                    _c("h6", { staticClass: "mb-0" }, [
+                      _vm._v("Available Time")
+                    ])
+                  ]),
+                  _vm._v(" "),
                   _c(
                     "CCardBody",
                     { staticClass: "p-2" },
                     [
-                      _c(
-                        "CButton",
-                        {
-                          staticClass:
-                            "text-white mx-auto d-block w-75 p-2 mb-3",
-                          attrs: { size: "sm", color: "info" },
-                          on: { click: _vm.submitFormData }
-                        },
-                        [
-                          _c("vue-fontawesome", {
-                            staticClass: "mr-1",
-                            attrs: { icon: "upload", size: "0.8" }
-                          }),
-                          _vm._v("\n                  Submit \n               ")
-                        ],
-                        1
-                      )
+                      _c("div", { staticClass: "booking-summary" }, [
+                        _c("div", { staticClass: "booking-item-wrap" }, [
+                          _c("ul", { staticClass: "booking-date" }, [
+                            _c("li", [
+                              _vm._v("Date "),
+                              _c("span", [
+                                _vm._v(
+                                  _vm._s(_vm.appointmentData.appointment_date)
+                                )
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _vm._v("Time "),
+                              _c("span", [
+                                _vm._v(
+                                  _vm._s(_vm.appointmentData.appointment_time)
+                                )
+                              ])
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _vm.appointmentData.status == "Accept"
+                        ? _c(
+                            "router-link",
+                            {
+                              attrs: {
+                                to: {
+                                  name: "appointment_checkout",
+                                  params: {
+                                    user_name: _vm.appointmentData.user_name,
+                                    appointment_id: _vm.appointmentData.id
+                                  }
+                                }
+                              }
+                            },
+                            [
+                              _c(
+                                "CButton",
+                                {
+                                  staticClass:
+                                    "btn_custom mx-auto d-block w-75 p-2 mb-3",
+                                  attrs: { size: "sm" }
+                                },
+                                [
+                                  _c("vue-fontawesome", {
+                                    staticClass: "mr-1",
+                                    attrs: {
+                                      icon: "calendar-check-o",
+                                      size: "0.8"
+                                    }
+                                  }),
+                                  _vm._v("Book Appointment\n               ")
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        : _vm._e()
                     ],
                     1
                   )

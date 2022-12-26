@@ -18,95 +18,17 @@ var e=Object.defineProperty,t=Object.prototype.hasOwnProperty,s=Object.getOwnPro
 
 /***/ }),
 
-/***/ "../coreui/src/global_helper/helpers.js":
-/*!**********************************************!*\
-  !*** ../coreui/src/global_helper/helpers.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = {
-  //Get Slug
-  onlyNumric: function onlyNumric(evt) {
-    evt = evt ? evt : window.event;
-    var charCode = evt.which ? evt.which : evt.keyCode;
-
-    if (charCode > 31 && (charCode < 48 || charCode > 57) && charCode !== 46) {
-      evt.preventDefault();
-    } else {
-      return true;
-    }
-  },
-  hashkey: function hashkey() {
-    var randomstring = Math.random().toString(36).slice(-8);
-    return randomstring;
-  },
-  isMobile: function isMobile() {
-    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || width < 768) {
-      return true;
-    } else {
-      return false;
-    }
-  },
-  VueMetaData: function VueMetaData(metaData) {},
-  getPrice: function getPrice(val) {
-    if (val >= 10000000) {
-      val = (val / 10000000).toFixed(2);
-      var num1 = val.split('.');
-
-      if (num1[1] > 0) {
-        var val = val + ' Cr';
-      } else {
-        var val = num1[0] + ' Cr';
-      }
-    } else if (val >= 100000) {
-      var val = (val / 100000).toFixed(2);
-      var num1 = val.split('.');
-
-      if (num1[1] > 0) {
-        var val = val + ' Lacs';
-      } else {
-        var val = num1[0] + ' Lacs';
-      } //val = (val/100000).toFixed(2) + ' Lacs';
-
-    } else if (val >= 1000) {
-      var val = (val / 1000).toFixed(2);
-      var num1 = val.split('.');
-
-      if (num1[1] > 0) {
-        var val = val + ' K';
-      } else {
-        var val = num1[0] + ' K';
-      } //val = (val/1000).toFixed(2) + ' K';
-
-    }
-
-    return val;
-  },
-  isPhone: function isPhone(val) {
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-};
-
-/***/ }),
-
-/***/ "../coreui/src/views/users/addUser.vue":
-/*!*********************************************!*\
-  !*** ../coreui/src/views/users/addUser.vue ***!
-  \*********************************************/
+/***/ "../coreui/src/views/doctors/addPrescription.vue":
+/*!*******************************************************!*\
+  !*** ../coreui/src/views/doctors/addPrescription.vue ***!
+  \*******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _addUser_vue_vue_type_template_id_5978976b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addUser.vue?vue&type=template&id=5978976b& */ "../coreui/src/views/users/addUser.vue?vue&type=template&id=5978976b&");
-/* harmony import */ var _addUser_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addUser.vue?vue&type=script&lang=js& */ "../coreui/src/views/users/addUser.vue?vue&type=script&lang=js&");
+/* harmony import */ var _addPrescription_vue_vue_type_template_id_51c6e3e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addPrescription.vue?vue&type=template&id=51c6e3e6& */ "../coreui/src/views/doctors/addPrescription.vue?vue&type=template&id=51c6e3e6&");
+/* harmony import */ var _addPrescription_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./addPrescription.vue?vue&type=script&lang=js& */ "../coreui/src/views/doctors/addPrescription.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -116,9 +38,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _addUser_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _addUser_vue_vue_type_template_id_5978976b___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _addUser_vue_vue_type_template_id_5978976b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _addPrescription_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _addPrescription_vue_vue_type_template_id_51c6e3e6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _addPrescription_vue_vue_type_template_id_51c6e3e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -128,47 +50,47 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/users/addUser.vue"
+component.options.__file = "coreui/src/views/doctors/addPrescription.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/users/addUser.vue?vue&type=script&lang=js&":
-/*!**********************************************************************!*\
-  !*** ../coreui/src/views/users/addUser.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************/
+/***/ "../coreui/src/views/doctors/addPrescription.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ../coreui/src/views/doctors/addPrescription.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addUser_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./addUser.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/users/addUser.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addUser_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addPrescription_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./addPrescription.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/addPrescription.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addPrescription_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/users/addUser.vue?vue&type=template&id=5978976b&":
-/*!****************************************************************************!*\
-  !*** ../coreui/src/views/users/addUser.vue?vue&type=template&id=5978976b& ***!
-  \****************************************************************************/
+/***/ "../coreui/src/views/doctors/addPrescription.vue?vue&type=template&id=51c6e3e6&":
+/*!**************************************************************************************!*\
+  !*** ../coreui/src/views/doctors/addPrescription.vue?vue&type=template&id=51c6e3e6& ***!
+  \**************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addUser_vue_vue_type_template_id_5978976b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./addUser.vue?vue&type=template&id=5978976b& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/users/addUser.vue?vue&type=template&id=5978976b&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addUser_vue_vue_type_template_id_5978976b___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addPrescription_vue_vue_type_template_id_51c6e3e6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./addPrescription.vue?vue&type=template&id=51c6e3e6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/addPrescription.vue?vue&type=template&id=51c6e3e6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addPrescription_vue_vue_type_template_id_51c6e3e6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addUser_vue_vue_type_template_id_5978976b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_addPrescription_vue_vue_type_template_id_51c6e3e6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/users/addUser.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/users/addUser.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/addPrescription.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/addPrescription.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -178,8 +100,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "../coreui/node_modules/vue/dist/vue.common.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vform */ "../coreui/node_modules/vform/dist/vform.es.js");
-/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../global_helper/helpers.js */ "../coreui/src/global_helper/helpers.js");
-/* harmony import */ var _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! sweetalert2 */ "../coreui/node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_3__);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -280,7 +202,29 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -288,89 +232,90 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      user_id: '',
-      lable: 'Add',
-      formData: new vform__WEBPACK_IMPORTED_MODULE_2__["default"]({
-        id: "",
-        first_name: '',
-        last_name: '',
-        user_name: '',
-        email: '',
-        role_type: '',
-        phone_number: '',
-        status: 0
-      })
+      doctorPatientData: [],
+      appointment_id: "",
+      items: [{
+        title: '',
+        qty: '',
+        days: '',
+        morning: '',
+        afternoon: '',
+        evening: '',
+        night: ''
+      }]
     };
   },
   created: function created() {
-    this.getRoles();
-
     if (this.$route.params.id != '' && this.$route.params.id != undefined) {
-      this.getFormData(this.$route.params.id);
+      this.getPatientDoctorinfo(this.$route.params.id);
+      this.appointment_id = this.$route.params.id;
     }
   },
-  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Users/Index", ["rolesResult", "returnData", "ajax_error", "usersResult", "editData"])),
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Users/Index", ["getRoles", "submitForm", "edit"]), {
-    onlyNumric: function onlyNumric(evt) {
-      return _global_helper_helpers_js__WEBPACK_IMPORTED_MODULE_3___default.a.onlyNumric(evt);
-    },
-    acceptNumber: function acceptNumber() {
-      var x = this.formData.phone_number.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
-      this.formData.phone_number = !x[2] ? x[1] : '' + x[1] + '-' + x[2] + (x[3] ? '-' + x[3] : '');
-    },
-    submitFormData: function submitFormData() {
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapGetters"])("Doctor/Index", ["result", "returnData", "PatientDoctor"])),
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])("Doctor/Index", ["getPatientDoctorinfoAppointment", "submitPrescriptionForm"]), {
+    getPatientDoctorinfo: function getPatientDoctorinfo(id) {
       var _this = this;
 
-      this.submitForm(this.formData).then(function () {
-        if (_this.returnData.status == 'success') {
-          vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
-            message: _this.returnData.message,
-            type: _this.returnData.status
-          });
-
-          _this.$router.push({
-            name: "users"
-          });
-        }
-      })["catch"](function (error) {
-        window.scrollTo(0, 0);
+      this.getPatientDoctorinfoAppointment(id).then(function () {
+        _this.doctorPatientData = _this.PatientDoctor.doctorPatientData;
       });
     },
-    getFormData: function getFormData(id) {
+    addPrescription: function addPrescription() {
       var _this2 = this;
 
-      this.user_id = id;
-      this.lable = 'Edit';
-      this.edit(id).then(function () {
-        _this2.formData.keys().forEach(function (key) {
-          _this2.formData[key] = _this2.editData[key];
-        });
-      });
-      this.ajax_error.errors = [];
-    },
-    isLetter: function isLetter(e) {
-      var _char = String.fromCharCode(e.keyCode); // Get the character
+      if (this.items[0].title != '' && this.items[0].qty != '' && this.items[0].days != '') {
+        var newData = new FormData();
+        newData.append('formData', JSON.stringify(this.items));
+        this.submitPrescriptionForm({
+          newData: newData,
+          appointment_id: this.appointment_id
+        }).then(function () {
+          if (_this2.returnData.status == 'success') {
+            vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+              message: _this2.returnData.message,
+              type: _this2.returnData.status
+            });
 
-
-      if (/^[A-Za-z]+$/.test(_char)) return true; // Match with regex 
-      else e.preventDefault(); // If not match, don't add to input text
-    },
-    validateEmail: function validateEmail() {
-      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.email)) {
-        this.msg['email'] = 'Please enter a valid email address';
+            _this2.$router.push({
+              name: 'doctor_appointment_patient_view',
+              params: {
+                id: _this2.appointment_id
+              }
+            });
+          }
+        })["catch"](function (error) {});
       } else {
-        this.msg['email'] = '';
+        vue__WEBPACK_IMPORTED_MODULE_1___default.a.$toast.open({
+          message: "Please Update data!",
+          type: 'error',
+          duration: 5000,
+          dismissible: true
+        });
       }
+    },
+    addItem: function addItem() {
+      this.items.push({
+        title: '',
+        qty: '',
+        days: '',
+        morning: '',
+        afternoon: '',
+        evening: '',
+        night: ''
+      });
+    },
+    removeItem: function removeItem(index) {
+      this.items.splice(index, 1);
     }
   })
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/users/addUser.vue?vue&type=template&id=5978976b&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/users/addUser.vue?vue&type=template&id=5978976b& ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/doctors/addPrescription.vue?vue&type=template&id=51c6e3e6&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/doctors/addPrescription.vue?vue&type=template&id=51c6e3e6& ***!
+  \********************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -389,41 +334,52 @@ var render = function() {
         "CRow",
         { staticClass: "m-0" },
         [
-          _c("CCol", { staticClass: "p-2", attrs: { sm: "12" } }, [
+          _c("CCol", { staticClass: "px-2 btn-sticky", attrs: { sm: "12" } }, [
             _c(
               "div",
               {
-                staticClass: "d-flex justify-content-between align-items-center"
+                staticClass:
+                  "d-flex justify-content-between py-2 align-items-center"
               },
               [
                 _c(
                   "h5",
                   { staticClass: "mb-0" },
                   [
-                    _vm._v("User "),
+                    _vm._v("\n               Patient \n               "),
                     _c("vue-fontawesome", {
                       staticClass: "px-1",
                       attrs: { icon: "caret-right", size: "1" }
                     }),
-                    _vm._v(_vm._s(this.lable))
+                    _vm._v("\n               Add Prescription\n            ")
                   ],
                   1
                 ),
+                _vm._v(" "),
                 _c(
                   "div",
+                  {},
                   [
                     _c(
                       "CButton",
                       {
-                        staticClass: "btn_custom mr-1",
-                        on: { click: _vm.submitFormData }
+                        staticClass: "btn_custom",
+                        attrs: { size: "sm" },
+                        on: { click: _vm.addPrescription }
                       },
-                      [_vm._v("Submit")]
+                      [_vm._v("Save")]
                     ),
                     _vm._v(" "),
                     _c(
                       "router-link",
-                      { attrs: { to: { name: "users" } } },
+                      {
+                        attrs: {
+                          to: {
+                            name: "doctor_appointment_patient_view",
+                            params: { id: _vm.appointment_id }
+                          }
+                        }
+                      },
                       [
                         _c("CButton", { attrs: { color: "light" } }, [
                           _vm._v("Back")
@@ -440,300 +396,686 @@ var render = function() {
           _vm._v(" "),
           _c(
             "CCol",
-            { staticClass: "px-2", attrs: { sm: "8" } },
+            { staticClass: "px-2 mx-auto", attrs: { sm: "9" } },
             [
               _c(
                 "CCard",
                 [
-                  _c("CCardHeader", { staticClass: "p-2 bg_themes" }, [
-                    _c("strong", [_vm._v(_vm._s(this.lable) + " User")])
-                  ]),
-                  _vm._v(" "),
                   _c(
                     "CCardBody",
-                    { staticClass: "px-1 py-2" },
+                    { staticClass: "p-3" },
                     [
                       _c(
-                        "CForm",
-                        { attrs: { method: "POST" } },
+                        "CRow",
+                        { staticClass: "mx-0" },
                         [
                           _c(
-                            "CRow",
-                            { staticClass: "m-0" },
+                            "CCol",
+                            { staticClass: "px-2", attrs: { md: "6" } },
                             [
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "form-group px-1",
-                                  attrs: { sm: "6", lg: "6", md: "6" }
-                                },
-                                [
-                                  _c("CInput", {
-                                    staticClass: "mb-0",
-                                    class: [
-                                      _vm.ajax_error.errors.first_name
-                                        ? "formError"
-                                        : ""
-                                    ],
-                                    attrs: {
-                                      label: "First Name",
-                                      placeholder: "Enter first name"
-                                    },
-                                    on: {
-                                      keypress: function($event) {
-                                        return _vm.isLetter($event)
-                                      }
-                                    },
-                                    model: {
-                                      value: _vm.formData.first_name,
-                                      callback: function($$v) {
-                                        _vm.$set(
-                                          _vm.formData,
-                                          "first_name",
-                                          $$v
-                                        )
-                                      },
-                                      expression: "formData.first_name"
-                                    }
-                                  }),
+                              _c("div", { staticClass: "dr_infom" }, [
+                                _c("img", {
+                                  attrs: {
+                                    src: "images/uyr_logo.png",
+                                    width: "120px"
+                                  }
+                                })
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "CCol",
+                            {
+                              staticClass: "px-2 mt-3 text-right",
+                              attrs: { md: "6" }
+                            },
+                            [
+                              _c("div", { staticClass: "dr_infom" }, [
+                                _c("span", [
+                                  _vm._v(_vm._s(_vm.doctorPatientData.date))
+                                ]),
+                                _vm._v(" "),
+                                _c("span", [_vm._v("#INV001")])
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "CCol",
+                            { staticClass: "px-2 mt-3", attrs: { md: "6" } },
+                            [
+                              _c("div", { staticClass: "dr_infom" }, [
+                                _c("h4", [_vm._v("Docotor Info")]),
+                                _vm._v(" "),
+                                _c("span", [
+                                  _vm._v(
+                                    "Dr." +
+                                      _vm._s(_vm.doctorPatientData.doctorName)
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("span", [
+                                  _vm._v(
+                                    _vm._s(_vm.doctorPatientData.Speciality)
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("span", [
+                                  _vm._v(
+                                    _vm._s(_vm.doctorPatientData.doctorAddress)
+                                  )
+                                ])
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "CCol",
+                            {
+                              staticClass: "px-2 mt-3 text-right",
+                              attrs: { md: "6" }
+                            },
+                            [
+                              _c("div", { staticClass: "dr_infom" }, [
+                                _c("h4", [_vm._v("Patient Info")]),
+                                _vm._v(" "),
+                                _c("span", [
+                                  _vm._v(
+                                    _vm._s(_vm.doctorPatientData.patientName)
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("span", [
+                                  _vm._v(
+                                    _vm._s(_vm.doctorPatientData.patientAddress)
+                                  )
+                                ])
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "CCol",
+                            { staticClass: "px-2", attrs: { md: "12" } },
+                            [
+                              _c("div", { staticClass: "Prescription_table" }, [
+                                _c("table", { staticClass: "table" }, [
+                                  _c("thead", [
+                                    _c("tr", [
+                                      _c("th", [_vm._v("Name")]),
+                                      _vm._v(" "),
+                                      _c("th", { attrs: { width: "150" } }, [
+                                        _vm._v("Quantity")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("th", { attrs: { width: "150" } }, [
+                                        _vm._v("Days")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("th", [_vm._v("Time")]),
+                                      _vm._v(" "),
+                                      _c("th", [_vm._v("Action")])
+                                    ])
+                                  ]),
                                   _vm._v(" "),
-                                  _vm.ajax_error.errors.first_name
-                                    ? _c(
-                                        "small",
-                                        { staticClass: "text-danger" },
-                                        [
-                                          _vm._v(
-                                            _vm._s(
-                                              _vm.ajax_error.errors
-                                                .first_name[0]
-                                            )
-                                          )
-                                        ]
-                                      )
-                                    : _vm._e()
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "form-group px-1",
-                                  attrs: { sm: "6", lg: "6", md: "6" }
-                                },
-                                [
-                                  _c("CInput", {
-                                    staticClass: "mb-0",
-                                    class: [
-                                      _vm.ajax_error.errors.last_name
-                                        ? "formError"
-                                        : ""
-                                    ],
-                                    attrs: {
-                                      label: "Last Name",
-                                      placeholder: "Enter last name"
-                                    },
-                                    on: {
-                                      keypress: function($event) {
-                                        return _vm.isLetter($event)
-                                      }
-                                    },
-                                    model: {
-                                      value: _vm.formData.last_name,
-                                      callback: function($$v) {
-                                        _vm.$set(_vm.formData, "last_name", $$v)
-                                      },
-                                      expression: "formData.last_name"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _vm.ajax_error.errors.last_name
-                                    ? _c(
-                                        "small",
-                                        { staticClass: "text-danger" },
-                                        [
-                                          _vm._v(
-                                            _vm._s(
-                                              _vm.ajax_error.errors.last_name[0]
-                                            )
-                                          )
-                                        ]
-                                      )
-                                    : _vm._e()
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "form-group px-1",
-                                  attrs: { sm: "6", lg: "6", md: "6" }
-                                },
-                                [
-                                  _c("CInput", {
-                                    staticClass: "mb-0",
-                                    class: [
-                                      _vm.ajax_error.errors.phone_number
-                                        ? "formError"
-                                        : ""
-                                    ],
-                                    attrs: {
-                                      label: "Phone Number",
-                                      maxlength: "12",
-                                      placeholder: "Enter Number"
-                                    },
-                                    on: {
-                                      blur: _vm.acceptNumber,
-                                      input: _vm.acceptNumber,
-                                      keypress: function($event) {
-                                        return _vm.onlyNumric($event)
-                                      }
-                                    },
-                                    model: {
-                                      value: _vm.formData.phone_number,
-                                      callback: function($$v) {
-                                        _vm.$set(
-                                          _vm.formData,
-                                          "phone_number",
-                                          $$v
-                                        )
-                                      },
-                                      expression: "formData.phone_number"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _vm.ajax_error.errors.phone_number
-                                    ? _c(
-                                        "small",
-                                        { staticClass: "text-danger" },
-                                        [
-                                          _vm._v(
-                                            _vm._s(
-                                              _vm.ajax_error.errors
-                                                .phone_number[0]
-                                            )
-                                          )
-                                        ]
-                                      )
-                                    : _vm._e()
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "form-group px-1",
-                                  attrs: { sm: "6", lg: "6", md: "6" }
-                                },
-                                [
-                                  _c("label", [_vm._v("Select Status ")]),
-                                  _vm._v(" "),
-                                  _c("div", { staticClass: "form-group" }, [
-                                    _c(
-                                      "select",
-                                      {
-                                        directives: [
-                                          {
-                                            name: "model",
-                                            rawName: "v-model",
-                                            value: _vm.formData.status,
-                                            expression: "formData.status"
-                                          }
-                                        ],
-                                        staticClass: "form-control",
-                                        on: {
-                                          change: function($event) {
-                                            var $$selectedVal = Array.prototype.filter
-                                              .call(
-                                                $event.target.options,
-                                                function(o) {
-                                                  return o.selected
+                                  _c(
+                                    "tbody",
+                                    _vm._l(_vm.items, function(item, index) {
+                                      return _c("tr", [
+                                        _c("td", [
+                                          _c("input", {
+                                            directives: [
+                                              {
+                                                name: "model",
+                                                rawName: "v-model",
+                                                value: item.title,
+                                                expression: "item.title"
+                                              }
+                                            ],
+                                            staticClass: "form-control",
+                                            attrs: {
+                                              type: "text",
+                                              id: "title"
+                                            },
+                                            domProps: { value: item.title },
+                                            on: {
+                                              input: function($event) {
+                                                if ($event.target.composing) {
+                                                  return
                                                 }
+                                                _vm.$set(
+                                                  item,
+                                                  "title",
+                                                  $event.target.value
+                                                )
+                                              }
+                                            }
+                                          })
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("td", [
+                                          _c("input", {
+                                            directives: [
+                                              {
+                                                name: "model",
+                                                rawName: "v-model",
+                                                value: item.qty,
+                                                expression: "item.qty"
+                                              }
+                                            ],
+                                            staticClass: "form-control",
+                                            attrs: { type: "number" },
+                                            domProps: { value: item.qty },
+                                            on: {
+                                              input: function($event) {
+                                                if ($event.target.composing) {
+                                                  return
+                                                }
+                                                _vm.$set(
+                                                  item,
+                                                  "qty",
+                                                  $event.target.value
+                                                )
+                                              }
+                                            }
+                                          })
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("td", [
+                                          _c("input", {
+                                            directives: [
+                                              {
+                                                name: "model",
+                                                rawName: "v-model",
+                                                value: item.days,
+                                                expression: "item.days"
+                                              }
+                                            ],
+                                            staticClass: "form-control",
+                                            attrs: { type: "number" },
+                                            domProps: { value: item.days },
+                                            on: {
+                                              input: function($event) {
+                                                if ($event.target.composing) {
+                                                  return
+                                                }
+                                                _vm.$set(
+                                                  item,
+                                                  "days",
+                                                  $event.target.value
+                                                )
+                                              }
+                                            }
+                                          })
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("td", [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "d-flex align-items-center"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "Prescription_checkbox"
+                                                },
+                                                [
+                                                  _c("input", {
+                                                    directives: [
+                                                      {
+                                                        name: "model",
+                                                        rawName: "v-model",
+                                                        value: item.morning,
+                                                        expression:
+                                                          "item.morning"
+                                                      }
+                                                    ],
+                                                    attrs: {
+                                                      type: "checkbox",
+                                                      name: "morning",
+                                                      id: "morning" + index
+                                                    },
+                                                    domProps: {
+                                                      checked: Array.isArray(
+                                                        item.morning
+                                                      )
+                                                        ? _vm._i(
+                                                            item.morning,
+                                                            null
+                                                          ) > -1
+                                                        : item.morning
+                                                    },
+                                                    on: {
+                                                      change: function($event) {
+                                                        var $$a = item.morning,
+                                                          $$el = $event.target,
+                                                          $$c = $$el.checked
+                                                            ? true
+                                                            : false
+                                                        if (
+                                                          Array.isArray($$a)
+                                                        ) {
+                                                          var $$v = null,
+                                                            $$i = _vm._i(
+                                                              $$a,
+                                                              $$v
+                                                            )
+                                                          if ($$el.checked) {
+                                                            $$i < 0 &&
+                                                              _vm.$set(
+                                                                item,
+                                                                "morning",
+                                                                $$a.concat([
+                                                                  $$v
+                                                                ])
+                                                              )
+                                                          } else {
+                                                            $$i > -1 &&
+                                                              _vm.$set(
+                                                                item,
+                                                                "morning",
+                                                                $$a
+                                                                  .slice(0, $$i)
+                                                                  .concat(
+                                                                    $$a.slice(
+                                                                      $$i + 1
+                                                                    )
+                                                                  )
+                                                              )
+                                                          }
+                                                        } else {
+                                                          _vm.$set(
+                                                            item,
+                                                            "morning",
+                                                            $$c
+                                                          )
+                                                        }
+                                                      }
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "label",
+                                                    {
+                                                      attrs: {
+                                                        for: "morning" + index
+                                                      }
+                                                    },
+                                                    [_vm._v("Morning")]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "Prescription_checkbox"
+                                                },
+                                                [
+                                                  _c("input", {
+                                                    directives: [
+                                                      {
+                                                        name: "model",
+                                                        rawName: "v-model",
+                                                        value: item.afternoon,
+                                                        expression:
+                                                          "item.afternoon"
+                                                      }
+                                                    ],
+                                                    attrs: {
+                                                      type: "checkbox",
+                                                      name: "afternoon",
+                                                      id: "afternoon" + index
+                                                    },
+                                                    domProps: {
+                                                      checked: Array.isArray(
+                                                        item.afternoon
+                                                      )
+                                                        ? _vm._i(
+                                                            item.afternoon,
+                                                            null
+                                                          ) > -1
+                                                        : item.afternoon
+                                                    },
+                                                    on: {
+                                                      change: function($event) {
+                                                        var $$a =
+                                                            item.afternoon,
+                                                          $$el = $event.target,
+                                                          $$c = $$el.checked
+                                                            ? true
+                                                            : false
+                                                        if (
+                                                          Array.isArray($$a)
+                                                        ) {
+                                                          var $$v = null,
+                                                            $$i = _vm._i(
+                                                              $$a,
+                                                              $$v
+                                                            )
+                                                          if ($$el.checked) {
+                                                            $$i < 0 &&
+                                                              _vm.$set(
+                                                                item,
+                                                                "afternoon",
+                                                                $$a.concat([
+                                                                  $$v
+                                                                ])
+                                                              )
+                                                          } else {
+                                                            $$i > -1 &&
+                                                              _vm.$set(
+                                                                item,
+                                                                "afternoon",
+                                                                $$a
+                                                                  .slice(0, $$i)
+                                                                  .concat(
+                                                                    $$a.slice(
+                                                                      $$i + 1
+                                                                    )
+                                                                  )
+                                                              )
+                                                          }
+                                                        } else {
+                                                          _vm.$set(
+                                                            item,
+                                                            "afternoon",
+                                                            $$c
+                                                          )
+                                                        }
+                                                      }
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "label",
+                                                    {
+                                                      attrs: {
+                                                        for: "afternoon" + index
+                                                      }
+                                                    },
+                                                    [_vm._v("Afternoon")]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "Prescription_checkbox"
+                                                },
+                                                [
+                                                  _c("input", {
+                                                    directives: [
+                                                      {
+                                                        name: "model",
+                                                        rawName: "v-model",
+                                                        value: item.evening,
+                                                        expression:
+                                                          "item.evening"
+                                                      }
+                                                    ],
+                                                    attrs: {
+                                                      type: "checkbox",
+                                                      name: "evening",
+                                                      id: "evening" + index
+                                                    },
+                                                    domProps: {
+                                                      checked: Array.isArray(
+                                                        item.evening
+                                                      )
+                                                        ? _vm._i(
+                                                            item.evening,
+                                                            null
+                                                          ) > -1
+                                                        : item.evening
+                                                    },
+                                                    on: {
+                                                      change: function($event) {
+                                                        var $$a = item.evening,
+                                                          $$el = $event.target,
+                                                          $$c = $$el.checked
+                                                            ? true
+                                                            : false
+                                                        if (
+                                                          Array.isArray($$a)
+                                                        ) {
+                                                          var $$v = null,
+                                                            $$i = _vm._i(
+                                                              $$a,
+                                                              $$v
+                                                            )
+                                                          if ($$el.checked) {
+                                                            $$i < 0 &&
+                                                              _vm.$set(
+                                                                item,
+                                                                "evening",
+                                                                $$a.concat([
+                                                                  $$v
+                                                                ])
+                                                              )
+                                                          } else {
+                                                            $$i > -1 &&
+                                                              _vm.$set(
+                                                                item,
+                                                                "evening",
+                                                                $$a
+                                                                  .slice(0, $$i)
+                                                                  .concat(
+                                                                    $$a.slice(
+                                                                      $$i + 1
+                                                                    )
+                                                                  )
+                                                              )
+                                                          }
+                                                        } else {
+                                                          _vm.$set(
+                                                            item,
+                                                            "evening",
+                                                            $$c
+                                                          )
+                                                        }
+                                                      }
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "label",
+                                                    {
+                                                      attrs: {
+                                                        for: "evening" + index
+                                                      }
+                                                    },
+                                                    [_vm._v("Evening")]
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "Prescription_checkbox"
+                                                },
+                                                [
+                                                  _c("input", {
+                                                    directives: [
+                                                      {
+                                                        name: "model",
+                                                        rawName: "v-model",
+                                                        value: item.night,
+                                                        expression: "item.night"
+                                                      }
+                                                    ],
+                                                    attrs: {
+                                                      type: "checkbox",
+                                                      name: "night",
+                                                      id: "night" + index
+                                                    },
+                                                    domProps: {
+                                                      checked: Array.isArray(
+                                                        item.night
+                                                      )
+                                                        ? _vm._i(
+                                                            item.night,
+                                                            null
+                                                          ) > -1
+                                                        : item.night
+                                                    },
+                                                    on: {
+                                                      change: function($event) {
+                                                        var $$a = item.night,
+                                                          $$el = $event.target,
+                                                          $$c = $$el.checked
+                                                            ? true
+                                                            : false
+                                                        if (
+                                                          Array.isArray($$a)
+                                                        ) {
+                                                          var $$v = null,
+                                                            $$i = _vm._i(
+                                                              $$a,
+                                                              $$v
+                                                            )
+                                                          if ($$el.checked) {
+                                                            $$i < 0 &&
+                                                              _vm.$set(
+                                                                item,
+                                                                "night",
+                                                                $$a.concat([
+                                                                  $$v
+                                                                ])
+                                                              )
+                                                          } else {
+                                                            $$i > -1 &&
+                                                              _vm.$set(
+                                                                item,
+                                                                "night",
+                                                                $$a
+                                                                  .slice(0, $$i)
+                                                                  .concat(
+                                                                    $$a.slice(
+                                                                      $$i + 1
+                                                                    )
+                                                                  )
+                                                              )
+                                                          }
+                                                        } else {
+                                                          _vm.$set(
+                                                            item,
+                                                            "night",
+                                                            $$c
+                                                          )
+                                                        }
+                                                      }
+                                                    }
+                                                  }),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "label",
+                                                    {
+                                                      attrs: {
+                                                        for: "night" + index
+                                                      }
+                                                    },
+                                                    [_vm._v("Night")]
+                                                  )
+                                                ]
                                               )
-                                              .map(function(o) {
-                                                var val =
-                                                  "_value" in o
-                                                    ? o._value
-                                                    : o.value
-                                                return val
-                                              })
-                                            _vm.$set(
-                                              _vm.formData,
-                                              "status",
-                                              $event.target.multiple
-                                                ? $$selectedVal
-                                                : $$selectedVal[0]
-                                            )
-                                          }
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "option",
-                                          { attrs: { value: "0" } },
-                                          [_vm._v("Active ")]
-                                        ),
+                                            ]
+                                          )
+                                        ]),
                                         _vm._v(" "),
                                         _c(
-                                          "option",
-                                          { attrs: { value: "1" } },
-                                          [_vm._v("IN-Active")]
+                                          "td",
+                                          [
+                                            _vm.items.length - 1 <= index
+                                              ? _c(
+                                                  "a",
+                                                  {
+                                                    staticClass:
+                                                      "btn btn-success",
+                                                    class: {
+                                                      disabled:
+                                                        item.title.length ===
+                                                          0 ||
+                                                        item.qty.length == 0 ||
+                                                        item.days.length == 0
+                                                    },
+                                                    on: { click: _vm.addItem }
+                                                  },
+                                                  [_vm._v("Add More")]
+                                                )
+                                              : _vm._e(),
+                                            _vm._v(" "),
+                                            _vm.items.length - 1 >= index &&
+                                            _vm.items.length - 1 != index
+                                              ? _c(
+                                                  "CButton",
+                                                  {
+                                                    staticClass:
+                                                      "btn-outline-danger",
+                                                    attrs: {
+                                                      size: "sm",
+                                                      color: "",
+                                                      title: "Delete"
+                                                    },
+                                                    on: {
+                                                      click: function($event) {
+                                                        return _vm.removeItem(
+                                                          index
+                                                        )
+                                                      }
+                                                    }
+                                                  },
+                                                  [
+                                                    _c("vue-fontawesome", {
+                                                      attrs: {
+                                                        icon: "trash",
+                                                        size: "0.8"
+                                                      }
+                                                    })
+                                                  ],
+                                                  1
+                                                )
+                                              : _vm._e()
+                                          ],
+                                          1
                                         )
-                                      ]
-                                    )
-                                  ])
-                                ]
-                              ),
+                                      ])
+                                    }),
+                                    0
+                                  )
+                                ])
+                              ]),
                               _vm._v(" "),
-                              _c(
-                                "CCol",
-                                {
-                                  staticClass: "form-group px-1",
-                                  attrs: { sm: "6", lg: "6", md: "6" }
-                                },
-                                [
-                                  _c("CInput", {
-                                    staticClass: "mb-0",
-                                    class: [
-                                      _vm.ajax_error.errors.email
-                                        ? "formError"
-                                        : ""
-                                    ],
-                                    attrs: {
-                                      label: "Email Id",
-                                      type: "email",
-                                      placeholder: "Enter email id",
-                                      autocomplete: "email"
-                                    },
-                                    model: {
-                                      value: _vm.formData.email,
-                                      callback: function($$v) {
-                                        _vm.$set(_vm.formData, "email", $$v)
-                                      },
-                                      expression: "formData.email"
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _vm.ajax_error.errors.email
-                                    ? _c(
-                                        "small",
-                                        { staticClass: "text-danger" },
-                                        [
-                                          _vm._v(
-                                            _vm._s(
-                                              _vm.ajax_error.errors.email[0]
-                                            )
-                                          )
-                                        ]
-                                      )
-                                    : _vm._e()
-                                ],
-                                1
-                              )
-                            ],
-                            1
+                              _c("div", { staticClass: "doctor_signature" }, [
+                                _c("br"),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c("p", { staticClass: "mb-0" }, [
+                                  _vm._v(
+                                    "Dr. " +
+                                      _vm._s(_vm.doctorPatientData.doctorName)
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("span", [
+                                  _vm._v(
+                                    _vm._s(_vm.doctorPatientData.Speciality)
+                                  )
+                                ])
+                              ])
+                            ]
                           )
                         ],
                         1
@@ -746,149 +1088,7 @@ var render = function() {
               )
             ],
             1
-          ),
-          _vm._v(" "),
-          _vm.user_id == ""
-            ? _c(
-                "CCol",
-                { staticClass: "px-2", attrs: { sm: "4" } },
-                [
-                  _c(
-                    "CCard",
-                    [
-                      _c(
-                        "CCardBody",
-                        { staticClass: "p-2" },
-                        [
-                          _c(
-                            "CForm",
-                            { attrs: { method: "POST" } },
-                            [
-                              _c(
-                                "CRow",
-                                { staticClass: "m-0" },
-                                [
-                                  _c(
-                                    "CCol",
-                                    {
-                                      staticClass: "form-group px-0",
-                                      attrs: { sm: "12", lg: "12", md: "12" }
-                                    },
-                                    [
-                                      _c("CInput", {
-                                        staticClass: "mb-0",
-                                        class: [
-                                          _vm.ajax_error.errors.password
-                                            ? "formError"
-                                            : ""
-                                        ],
-                                        attrs: {
-                                          label: "Password",
-                                          type: "password",
-                                          placeholder: "Enter password",
-                                          autocomplete: "current-password"
-                                        },
-                                        model: {
-                                          value: _vm.formData.password,
-                                          callback: function($$v) {
-                                            _vm.$set(
-                                              _vm.formData,
-                                              "password",
-                                              $$v
-                                            )
-                                          },
-                                          expression: "formData.password"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _vm.ajax_error.errors.password
-                                        ? _c(
-                                            "small",
-                                            { staticClass: "text-danger" },
-                                            [
-                                              _vm._v(
-                                                _vm._s(
-                                                  _vm.ajax_error.errors
-                                                    .password[0]
-                                                )
-                                              )
-                                            ]
-                                          )
-                                        : _vm._e()
-                                    ],
-                                    1
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "CCol",
-                                    {
-                                      staticClass: "form-group px-0",
-                                      attrs: { sm: "12", lg: "12", md: "12" }
-                                    },
-                                    [
-                                      _c("CInput", {
-                                        staticClass: "mb-0",
-                                        class: [
-                                          _vm.ajax_error.errors
-                                            .password_confirmation
-                                            ? "formError"
-                                            : ""
-                                        ],
-                                        attrs: {
-                                          label: "Confirm Password",
-                                          type: "password",
-                                          placeholder: "Confirm password",
-                                          autocomplete: "current-password"
-                                        },
-                                        model: {
-                                          value:
-                                            _vm.formData.password_confirmation,
-                                          callback: function($$v) {
-                                            _vm.$set(
-                                              _vm.formData,
-                                              "password_confirmation",
-                                              $$v
-                                            )
-                                          },
-                                          expression:
-                                            "formData.password_confirmation"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _vm.ajax_error.errors
-                                        .password_confirmation
-                                        ? _c(
-                                            "small",
-                                            { staticClass: "text-danger" },
-                                            [
-                                              _vm._v(
-                                                _vm._s(
-                                                  _vm.ajax_error.errors
-                                                    .password_confirmation[0]
-                                                )
-                                              )
-                                            ]
-                                          )
-                                        : _vm._e()
-                                    ],
-                                    1
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        ],
-                        1
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            : _vm._e()
+          )
         ],
         1
       )
