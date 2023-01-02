@@ -213,25 +213,25 @@
                         </CCol>
 
 
-                        <CCol sm="6" md="3" class="px-2" style="display: block;">
+                        <CCol sm="6" md="3" class="px-2" style="display: none;">
                           <label>latitude<span class="text-danger">*</span></label>
                            <CInput placeholder="" v-model="formData.latitude" />
                           <span class="text-danger" v-if="ajax_error.errors.latitude">{{ ajax_error.errors.latitude[0] }}</span>
                         </CCol>
 
-                        <CCol sm="6" md="3" class="px-2" style="display: block;">
+                        <CCol sm="6" md="3" class="px-2" style="display: none;">
                           <label>longitude<span class="text-danger">*</span></label>
                            <CInput placeholder="" v-model="formData.longitude" />
                             <span class="text-danger" v-if="ajax_error.errors.longitude">{{ ajax_error.errors.longitude[0] }}</span>
                         </CCol>
 
-                        <CCol sm="6" md="3" class="px-2" style="display: block;">
+                        <CCol sm="6" md="3" class="px-2" style="display: none;">
                           <label>w3w latitude<span class="text-danger">*</span></label>
                            <CInput placeholder="" v-model="formData.w3w_latitude" />
                             <span class="text-danger" v-if="ajax_error.errors.w3w_latitude">{{ ajax_error.errors.w3w_latitude[0] }}</span>
                         </CCol>
 
-                        <CCol sm="6" md="3" class="px-2" style="display: block;">
+                        <CCol sm="6" md="3" class="px-2" style="display: none;">
                           <label>w3w longitude<span class="text-danger">*</span></label>
                            <CInput placeholder="" v-model="formData.w3w_longitude" />
                             <span class="text-danger" v-if="ajax_error.errors.w3w_longitude">{{ ajax_error.errors.w3w_longitude[0] }}</span>

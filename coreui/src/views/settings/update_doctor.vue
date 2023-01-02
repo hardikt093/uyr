@@ -152,13 +152,13 @@
                   <span class="text-danger" v-if="ajax_error.errors.zip_code">{{ ajax_error.errors.zip_code[0] }}</span>
                 </CCol>
 
-                <CCol sm="6" md="3" class="px-2">
+                <CCol sm="6" md="3" class="px-2" style="display: none;">
                   <label>latitude</label>
                   <CInput placeholder="" v-model="formData.latitude" />
                   <span class="text-danger" v-if="ajax_error.errors.latitude">{{ ajax_error.errors.latitude[0] }}</span>
                 </CCol>
 
-                <CCol sm="6" md="3" class="px-2">
+                <CCol sm="6" md="3" class="px-2" style="display: none;">
                   <label>longitude</label>
                   <CInput placeholder="" v-model="formData.longitude" />
                   <span class="text-danger" v-if="ajax_error.errors.longitude">{{ ajax_error.errors.longitude[0] }}</span>
