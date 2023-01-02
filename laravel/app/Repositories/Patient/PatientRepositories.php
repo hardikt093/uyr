@@ -85,7 +85,7 @@ class PatientRepositories
         $data = $jsonArr = [];
         if (isset($id) && $id != '')
         {   
-             $result = $this->userModel ->select('*','patient.id as id','users.status','patient.id as patient_id','patient.longitude')
+             $result = $this->userModel ->select('*','patient.id as id','users.status','patient.id as patient_id','patient.longitude', 'patient.w3w_latitude', 'patient.w3w_longitude')
                                         ->Join('patient','users.id','=','patient.user_id')
                                         ->where('users.role_type',6)
                                         ->where('patient.id', $id)
@@ -244,7 +244,8 @@ class PatientRepositories
         $what3wordsjson = isset($formData->what3wordsjson) ? $formData->what3wordsjson : '';
         $nickname = isset($formData->nickname) ? $formData->nickname : '';
         $w3w_address = isset($formData->w3w_address) ? $formData->w3w_address : '';
-        
+        $w3w_latitude = isset($formData->w3w_latitude) ? $formData->w3w_latitude : '';
+        $w3w_longitude = isset($formData->w3w_longitude) ? $formData->w3w_longitude : '';
 
 
         $profile_photo = '';
@@ -297,9 +298,12 @@ class PatientRepositories
                 'what3wordsjson'=> json_encode($what3wordsjson),
                 'long_org' => abs($longitude),
                 'nickname'=>$nickname,
-                'w3w_address' => $w3w_address
+                'w3w_address' => $w3w_address,
+                'w3w_latitude' => $w3w_latitude,
+                'w3w_longitude' => $w3w_longitude
                 //'status'=> 0,
             );
+
 
            // dd($insertPatient);
              
@@ -344,7 +348,9 @@ class PatientRepositories
         $latitude = isset($formData->latitude) ? $formData->latitude : '';
         $longitude = isset($formData->longitude) ? $formData->longitude : '';
         $w3w_address = isset($formData->w3w_address) ? $formData->w3w_address : '';
-        
+        $w3w_longitude = isset($formData->w3w_longitude) ? $formData->w3w_longitude : '';
+        $w3w_latitude = isset($formData->w3w_latitude) ? $formData->w3w_latitude : '';
+
         $date_of_birth = isset($formData->date_of_birth) ? $formData->date_of_birth : '';
         $medical_history = isset($formData->medical_history) ? $formData->medical_history : '';
         $symptoms = isset($formData->symptoms) ? $formData->symptoms : '';
@@ -395,12 +401,13 @@ class PatientRepositories
             'long_org' => abs($longitude),
             'what3wordsjson'=> json_encode($what3wordsjson),
             'nickname'=>$nickname,
-            'w3w_address'=> $w3w_address
+            'w3w_address'=> $w3w_address,
+            'w3w_latitude'=> $w3w_latitude,
+            'w3w_longitude'=> $w3w_longitude
             
         );
         $patientData = $this->patient->where('id', $id)->update($updatePatient);
 
-        
         if ($patientData)
         {
             $data['status'] = 'success';

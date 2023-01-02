@@ -368,10 +368,18 @@ class AppointmentsRepositories
                     $data['data'][$key]['patient_id']        = $value['patient_id'];
                     $data['data'][$key]['dr_status']        = $value['dr_status'];
 
-                   $drAddress =  $this->doctorAddress->where('doctor_information_id',$value['doctor_information_id'])->value('address');
+                    $patient_cordinates =  $this->patient->where('id',$value['patient_id'])->select('longitude','latitude')->first();
+                    $doctor_id_cordinates =  $this->doctorAddress->where('doctor_information_id',$value['doctor_information_id'])->select('longitude','latitude')->first();
+                    
+                    $patient_cordinates_con = $patient_cordinates->latitude  . ',' . $patient_cordinates->longitude;
+                    $doctor_cordinates_con = $doctor_id_cordinates->latitude . ',' . $doctor_id_cordinates->longitude;
 
+$data['data'][$key]['direction_location']    = 'https://www.google.com/maps/dir/?api=1&origin='.$doctor_cordinates_con.'&destination='. $patient_cordinates_con;
 
-                     $data['data'][$key]['direction_location']    = 'https://www.google.co.in/maps/dir/'. $drAddress. ' / '.$value['full_address'];
+                //    $drAddress =  $this->doctorAddress->where('doctor_information_id',$value['doctor_information_id'])->value('address');
+                    //  $data['data'][$key]['direction_location']    = 'https://www.google.co.in/maps/dir/'. $drAddress. ' / '.$value['full_address'];
+
+                    // https://www.google.com/maps/dir/?api=1&origin=34.1030032,-118.41046840000001&destination=34.059808,-118.368152
 
                 }
             }

@@ -170,17 +170,29 @@
                   <span class="text-danger" v-if="ajax_error.errors.zip_code">{{ ajax_error.errors.zip_code[0] }}</span>
                 </CCol>
 
-                <CCol sm="6" md="3" class="px-2" style="display: none;">
-                  <label>latitude</label>
-                  <CInput placeholder="Enter latitude" v-model="formData.latitude" />
-                  <span class="text-danger" v-if="ajax_error.errors.latitude">{{ ajax_error.errors.latitude[0] }}</span>
-                </CCol>
+                <CCol sm="6" md="3" class="px-2" style="display: block;">
+                          <label>latitude<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.latitude" />
+                          <span class="text-danger" v-if="ajax_error.errors.latitude">{{ ajax_error.errors.latitude[0] }}</span>
+                        </CCol>
 
-                <CCol sm="6" md="3" class="px-2" style="display: none;">
-                  <label>longitude</label>
-                  <CInput placeholder="Enter longitude" v-model="formData.longitude" />
-                  <span class="text-danger" v-if="ajax_error.errors.longitude">{{ ajax_error.errors.longitude[0] }}</span>
-                </CCol>
+                        <CCol sm="6" md="3" class="px-2" style="display: block;">
+                          <label>longitude<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.longitude" />
+                            <span class="text-danger" v-if="ajax_error.errors.longitude">{{ ajax_error.errors.longitude[0] }}</span>
+                        </CCol>
+
+                        <CCol sm="6" md="3" class="px-2" style="display: block;">
+                          <label>w3w latitude<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.w3w_latitude" />
+                            <span class="text-danger" v-if="ajax_error.errors.w3w_latitude">{{ ajax_error.errors.w3w_latitude[0] }}</span>
+                        </CCol>
+
+                        <CCol sm="6" md="3" class="px-2" style="display: block;">
+                          <label>w3w longitude<span class="text-danger">*</span></label>
+                           <CInput placeholder="" v-model="formData.w3w_longitude" />
+                            <span class="text-danger" v-if="ajax_error.errors.w3w_longitude">{{ ajax_error.errors.w3w_longitude[0] }}</span>
+                        </CCol>
 
                 <CCol sm="6" md="3" class="px-2" >
                           <label>w3w address<span class="text-danger">*</span></label>
@@ -554,8 +566,10 @@
                if(response.coordinates) {
                   if(response.coordinates.lat)
                   this.formData.latitude  = response.coordinates.lat;
+                  this.formData.w3w_latitude = response.coordinates.lat;
                   if(response.coordinates.lng)
                   this.formData.longitude = response.coordinates.lng;
+                  this.formData.w3w_longitude = response.coordinates.lng;
                }
                
                if(response.nearestPlace){
